@@ -1,0 +1,34 @@
+project:
+  type: website
+
+website:
+  title: "HKD"
+  sidebar:
+    style: "docked"
+    search: true
+    contents: auto
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - about.qmd
+      - test_page.qmd
+      - blog_list.qmd
+
+
+format:
+  html:
+    # theme: cosmo
+    # theme: flatly
+    # theme: darkly
+    # theme: solar
+    # theme: lux
+    # theme: minty
+    theme:
+      light: flatly
+      dark: darkly
+    css: styles.css
+    toc: true
+
+
+
