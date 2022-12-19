@@ -3,7 +3,7 @@ title: "Hi!"
 about:
   id: home-about
   template: jolla
-  image: images/profile.jpg
+  image: images/profile_small.jpg
 #   image-width: 500%
   links:
     - icon: twitter
@@ -12,6 +12,9 @@ about:
     - icon: github
       text: Github
       href: https://github.com/hiteshkishoredas
+    - icon: envelope-fill
+      text: Mail
+      href: mailto:hitesh@mpa-garching.mpg.de
 
 sidebar: false
 
@@ -34,6 +37,11 @@ My broad research interest is **Computational Astrophysics**. To be more specifi
 
 :::
 
-## What should I add here? :/
+## What's on this website?
 
-Maybe the description of the tabs on the top?
+All the contents are arranged into different tabs on the top navigation bar.
+
+You can find the details of my academic research in the [**Research**](research.qmd) section.
+The [**Other projects**](other_projects.qmd) section contains my other short and quick projects that I found interesting.
+And [**Blogs**](blog_list.qmd) section is (or will be) home to all other thoughts that I just want blurt out.
+Finally, the [**About**](about.qmd) page is all about (you guessed it!) me. 😄

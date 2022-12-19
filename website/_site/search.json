@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "Hi!",
     "section": "",
-    "text": "I am a second year PhD student at Max Planck Institute for Astrophysics (MPA), Garching, which I joined under the International Max Planck School (IMPRS) on Astrophysics on Astrophysics at Ludwig Maximilians University (LMU) (LMU), Munich.\nI am part of Dr. Max Gronke’s Multiphase Gas Group at MPA, where I am studying the effects of magnetic fields and turbulence on multiphase astrohysical mediums.\nMy broad research interest is Computational Astrophysics. To be more specific, I work with (Magneto-)Hydrodynamic simulations to study the behaviour of Astrophysical mediums.\n \n  \n   \n  \n    \n     twitter\n  \n  \n    \n     Github"
+    "text": "I am a second year PhD student at Max Planck Institute for Astrophysics (MPA), Garching, which I joined under the International Max Planck School (IMPRS) on Astrophysics on Astrophysics at Ludwig Maximilians University (LMU) (LMU), Munich.\nI am part of Dr. Max Gronke’s Multiphase Gas Group at MPA, where I am studying the effects of magnetic fields and turbulence on multiphase astrohysical mediums.\nMy broad research interest is Computational Astrophysics. To be more specific, I work with (Magneto-)Hydrodynamic simulations to study the behaviour of Astrophysical mediums.\n \n  \n   \n  \n    \n     twitter\n  \n  \n    \n     Github\n  \n  \n    \n     Mail"
   },
   {
     "objectID": "about.html",
@@ -39,7 +39,7 @@
     "href": "about.html#education",
     "title": "Hitesh Kishore Das",
     "section": "Education",
-    "text": "Education\nMax Planck Institute for Astrophysics | Garching, Germany\nPhD in Astrophysics| Sept 2021 - Present\n\nIndian Institute of Science (IISc) | Bengaluru, India\nMSc. in Physics | Oct 2020 - Aug 2021\n\nIndian Institute of Science (IISc) | Bengaluru, India\nBSc. (Research) in Physics | Aug 2016 - Sept 2020"
+    "text": "Education\nMax Planck Institute for Astrophysics | Garching, Germany\nPhD in Astrophysics| Sept 2021 - Present\n\nIndian Institute of Science (IISc) | Bengaluru, India\nMSc. in Physics | Oct 2020 - Aug 2021\n\nIndian Institute of Science (IISc) | Bengaluru, India\nBSc. (Research) in Physics | Aug 2016 - Sept 2020\n\nFor more, my CV"
   },
   {
     "objectID": "about.html#experience",
@@ -82,5 +82,103 @@
     "title": "Hi!",
     "section": "What should I add here? :/",
     "text": "What should I add here? :/\nMaybe the description of the tabs on the top?"
+  },
+  {
+    "objectID": "index.html#whats-on-this-website",
+    "href": "index.html#whats-on-this-website",
+    "title": "Hi!",
+    "section": "What’s on this website?",
+    "text": "What’s on this website?\nAll the contents are arranged into different tabs on the top navigation bar.\nYou can find the details of my academic research in the Research section. The Other projects section contains my other short and quick projects that I found interesting. And Blogs section is (or will be) home to all other thoughts that I just want blurt out. Finally, the About page is all about (you guessed it!) me. 😄"
+  },
+  {
+    "objectID": "cv.html",
+    "href": "cv.html",
+    "title": "CV",
+    "section": "",
+    "text": "Enter my CV here…\nDirectly from the overleaf? :/\n%%%%%%%%%%%%%%%%% PREAMBLE %%%%%%%%%%%%%%%%%%%%%%%%%%%% %Change the font size of your document - 10pt, 12.1pt, etc."
+  },
+  {
+    "objectID": "cv/cv.html",
+    "href": "cv/cv.html",
+    "title": "Hitesh Kishore Das",
+    "section": "",
+    "text": "Link to the PDF version of my CV"
+  },
+  {
+    "objectID": "cv/cv.html#education",
+    "href": "cv/cv.html#education",
+    "title": "Hitesh Kishore Das",
+    "section": "Education",
+    "text": "Education\nPhD in Astrophysics} (Ongoing)\nInternational Max Planck Research School on Astrophysics (IMPRS)\nMax Planck Institute for Astrophysics (MPA), Garching, Germany\nLudwig Maximilians University (LMU), Munich, Germany\nDuration: 2021-Present\nMaster of Science}\nIndian Institute of Science (IISc), Bengaluru, India\nMajor: Physics\nDuration: 2020-2021\nBachelor of Science (Research)} Indian Institute of Science (IISc), Bengaluru, India\nMajor: Physics\nDuration: 2016-2020\nSenior Secondary (CBSE), 2016} Kendriya Vidyalaya No-4, Bhubaneswar, India\nStream: Science\nDate: 21/05/2016"
+  },
+  {
+    "objectID": "cv/cv.html#research-experience",
+    "href": "cv/cv.html#research-experience",
+    "title": "Hitesh Kishore Das",
+    "section": "Research Experience",
+    "text": "Research Experience\n\nThe dynamics of magnetized, multiphase gas in a turbulent environment\n[ 8 SEP 2021 - PRESENT ]\nWe are studying the different aspects of multiphase gas, like survival, morphology and growth, in a turbulent medium in presence of magnetic fields. We use idealised MHD simulations run using Athena ++ for this study.\nDoctoral Advisor: Dr. Max Gronke\nFormal supervisor: Prof. Volker Springel\nMax Planck Institute for Astrophysics, Garching\n\n\nRole of temperature and metallicity in the evolution of thermal instability\n[ 1 AUG 2019 - PRESENT ]\nIn this project we investigate the role of different parameters like metallicity and temperature in the growth of thermal instability. The project includes setting up and running simulation for study of thermal instabilities using PLUTO.\nThis work led to some important insights into evolution of large-scale isochoric clouds.\nThis project contributed towards my Bachelors thesis and led to a research paper in collaboration with Dr. Prakriti Pal Choudhury and Prof. Prateek Sharma.\nUnder supervision of: Assoc. Prof. Prateek Sharma\nCollaborator: Dr. Prakriti Pal Choudhury Physical Sciences, Indian Institute of Science, Bangalore\n\n\nComputational Studies of Systems of Self-driven Particles\n[ 8 MAY 2019 – 12 JUL 2019 ]\nThis project aimed at investigating the underlying physical origin of this “phase transition” via the development of appropriate computational models. The project goals included:\n- Molecular dynamics code development (in LAMMPS), adapting existing code in the research group\n- Reproduction of literature data\nUnder supervision of: Assoc. Prof. Massimo Pica Ciamarra\nSchool of Physical & Mathematical Sciences, Nanyang Technological University, Singapore\n\n\nElectrostatics of Spherical Topological Insulators\n[ 1 MAY 2018 – 30 JUN 2018 ]\nTheoretical derivation of electric and magnetic scalar potentials for different cases of electric and magnetic fields near a spherical Topological insulator.\nUnder supervision of: Assoc. Prof. Subroto Mukerjee\nPhysical Sciences, Indian Institute of Science, Bangalore\n\n\nAnalysis of data from CERN 2010 open data and simulation of top pair production\n[ 1 MAY 2017 – 31 JUL 2017 ]\nIt consisted of accessing CERN 2010 open data using CernVM and analysing the data using C++ and Python code incorporating ROOT to plot Dimuon spectra, Trimuon spectra and other related plots.\nHigh-energy particle physics event simulations of top pair production were done using Pythia 8.2 and Madgraph 5.\nUnder supervision of: Asst. Prof. Jyothsna Rani Komaragiri\nCentre for High Energy Physics, Indian Institute of Science, Bangalore"
+  },
+  {
+    "objectID": "cv/cv.html#education-test-text",
+    "href": "cv/cv.html#education-test-text",
+    "title": "Hitesh Kishore Das",
+    "section": "Education test text",
+    "text": "Education test text\nPhD in Astrophysics} (Ongoing)\nInternational Max Planck Research School on Astrophysics (IMPRS)\nMax Planck Institute for Astrophysics (MPA), Garching, Germany\nLudwig Maximilians University (LMU), Munich, Germany\nDuration: 2021-Present\nMaster of Science}\nIndian Institute of Science (IISc), Bengaluru, India\nMajor: Physics\nDuration: 2020-2021\nBachelor of Science (Research)} Indian Institute of Science (IISc), Bengaluru, India\nMajor: Physics\nDuration: 2016-2020\nSenior Secondary (CBSE), 2016} Kendriya Vidyalaya No-4, Bhubaneswar, India\nStream: Science\nDate: 21/05/2016"
+  },
+  {
+    "objectID": "cv/cv.html#publications",
+    "href": "cv/cv.html#publications",
+    "title": "Hitesh Kishore Das",
+    "section": "Publications",
+    "text": "Publications\n\n- Shatter or not: role of temperature and metallicity in the evolution of thermal instability\nHitesh Kishore Das, Prakriti Pal Choudhury, Prateek Sharma\nJournal: Monthly Notices of the Royal Astronomical Society, Volume 502, Issue 4, April 2021, Pages 4935–4952, doi.org/10.1093/mnras/stab382\narXiv: 2009.11317"
+  },
+  {
+    "objectID": "cv/cv.html#conferences-and-seminars",
+    "href": "cv/cv.html#conferences-and-seminars",
+    "title": "Hitesh Kishore Das",
+    "section": "Conferences and Seminars",
+    "text": "Conferences and Seminars\n\nLyman-X Day: ORIGINS workshop (October 5, 2022)\nAttended in-person at European Southern Observatory (ESO), Garching\nThe National Astronomy Meeting (NAM) 2022 (July 11-15, 2022)\nAttended virtually and submitted a poster for the parallel session “Non-equilibrium thermodynamics across scales: from the solar corona to the intracluster medium”.\nGas Flows around Galaxies: ORIGINS workshop (May 24, 2022)\nPresented my work in-person at MPA, Garching\nPresision Presidency Physics Summit (September 11-13, 2020)\nOrganized by Presidency University, Kolkata}\nPresented work done on Thermal Instability as a talk in the Undergraduate Symposium.\nOn the Origin, Nature, and Mixing of Multiphase Gas in Astrophysics KITP online conference (October 15-16, 2020)\nAttended the conference virtually\nIAP online Colloquium on Intracluster Medium/Circumgalactic medium (June 22-26, 2020)\nAttended the conference virtually"
+  },
+  {
+    "objectID": "cv/cv.html#extra-curricular-experience",
+    "href": "cv/cv.html#extra-curricular-experience",
+    "title": "Hitesh Kishore Das",
+    "section": "Extra-curricular Experience",
+    "text": "Extra-curricular Experience\n\n13th IMPRS Symposium\nWas involved in organising the 13th IMPRS Symposium as the Chair of the Local Organising Committee.\nUndergraduate Physics Club\nDelivered a talk on “Special Relativity and Minkowski Diagrams”.\nIndian Instiute of Science Open Day\nConstructed and demonstrated an experiment about Bernard cells, convection and convection cells in Sun. Also, demonstrated an experiment about Polarization of light.\nInstitute Fest - “Pravega”\nInvolved in planning and conducting events by Physics club for Pravega - 2016 and Pravega - 2017."
+  },
+  {
+    "objectID": "cv/cv.html#awards-and-fellowships",
+    "href": "cv/cv.html#awards-and-fellowships",
+    "title": "Hitesh Kishore Das",
+    "section": "Awards and Fellowships",
+    "text": "Awards and Fellowships\n\nKishore Vaigyanik Protsahan Yojana (KVPY) Fellowship}\nFunded by: Department of Science and Technology, Government of India\nStream: SX\nDuration: 2016-2021\nNational Cyber Olympiad 2014-15\nNational Rank: 1 (in 11th grade)\nOrganised by: Science Olympiad Foundation\nNational Standard Examination in Astronomy , 2015\nGot certificate for being in top 10% of the examination centre.\nOrganised by: Indian Association of Physics Teachers (IAPT)"
+  },
+  {
+    "objectID": "cv/cv.html#skills",
+    "href": "cv/cv.html#skills",
+    "title": "Hitesh Kishore Das",
+    "section": "Skills",
+    "text": "Skills\n\n\n\nC, C++\nAthena++\nLAMMPS\nMadgraph 5\nMathematica\nHigh Performance Computing\nLaTeX\n\nPython\nPLUTO\nROOT\nPythia 8.2\nSQL\nMatlab\nBash scripting"
+  },
+  {
+    "objectID": "cv/cv.html#standardised-tests",
+    "href": "cv/cv.html#standardised-tests",
+    "title": "Hitesh Kishore Das",
+    "section": "Standardised Tests",
+    "text": "Standardised Tests\n\n\n\n\n\n\n\n\nGRE General\n\nTotal : 330\n\n\nQuantitative: 169\nVerbal : 161\nAnalytical Writing: 4.0\n\n\n\nTOEFL-iBT\nTotal : 108\n\nReading : 29\nListerning: 30\nSpeaking : 24\nWriting : 25\n\n\n\nGRE Physics\nScore: 89%ile"
+  },
+  {
+    "objectID": "cv/cv.html#language-proficiency",
+    "href": "cv/cv.html#language-proficiency",
+    "title": "Hitesh Kishore Das",
+    "section": "Language proficiency",
+    "text": "Language proficiency\n\nEnglish (Proficient)\nHindi (Proficient)\nOdia (Native)\nGerman (Beginner A1)"
+  },
+  {
+    "objectID": "cv/cv.html#references",
+    "href": "cv/cv.html#references",
+    "title": "Hitesh Kishore Das",
+    "section": "References",
+    "text": "References\n\nDr. Max Gronke\nMax Planck Institute for Astrophysics, Garching, Germany\nEmail: maxbg@mpa-garching.mpg.de\nWebsite: max.lyman-alpha.com\n\n\nAssoc. Prof. Prateek Sharma\nPhysical Sciences\nIndian Institute of Science, Bangalore\nEmail: prateek@iisc.ac.in\nWebsite: www.physics.iisc.ernet.in/~prateek\n\n\nAssoc. Prof. Massimo Pica Ciamarra\nNanyang Associate Professor\nSchool of Physical & Mathematical Sciences\nNanyang Technological University, Singapore\nEmail: massimo@ntu.edu.sg\nWebsite: sites.google.com/site/ciamarragroup\n\n\nAssoc. Prof. Subroto Mukerjee\nPhysical Sciences\nIndian Institute of Science, Bangalore\nEmail: smukerjee@iisc.ac.in\nWebsite: physics.iisc.ernet.in/~smukerjee\n\n\nAsst. Prof. Jyothsna Rani Komaragiri\nCentre for High Energy Physics\nIndian Institute of Science, Bangalore\nEmail: jyothsna.komaragiri@gmail.com\nWebsite: chep.iisc.ac.in/Personnel/pages/jyothsna"
   }
 ]

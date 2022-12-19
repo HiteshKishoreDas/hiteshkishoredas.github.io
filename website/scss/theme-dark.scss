@@ -1,3 +1,8 @@
+/*-- scss:functions --*/
+@function colorToRGB ($color) {
+  @return "rgb(" + red($color) + ", " + green($color) + ", " + blue($color)+ ")";
+}
+
 /*-- scss:defaults --*/
 // Base document colors
 
@@ -22,6 +27,8 @@ div h3 { color: $body-color; }
 div h4 { color: $body-color; }
 div h5 { color: $body-color; }
 div h6 { color: $body-color; }
+
+div p strong { font-weight: bold }
 
 // Code blocks
 // $code-block-bg-alpha: -.8;

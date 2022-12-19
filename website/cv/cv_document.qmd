@@ -1,0 +1,289 @@
+---
+title: "" 
+sidebar: false
+
+format:
+    pdf:
+        documentclass: article #[a4paper,11pt,oneside]{article}
+        classoption: [a4paper,11pt,oneside]
+        geometry:
+            - left=10mm 
+            - right=10mm 
+            - bottom=5mm 
+            - top=5mm
+        keep-tex: true
+        # latex-output-dir: ../../cv
+
+
+---
+
+<!-- \usepackage{url}
+%\usepackage[utf8]{inputenc}
+%\usepackage{setspace}
+\usepackage{hyperref}
+\usepackage{graphicx}
+\usepackage[left=0.75in, right=1in, bottom=0.75in, top=0.5in]{geometry}
+
+\newcommand*{\Skype}{\href{skype:hiteshkishoredas?add}{hiteshkishoredas}} 
+\newcommand{\Absender}[1][\normalsize]{\Skype}  -->
+
+\textbf{\huge{Hitesh Kishore Das}}
+
+\hrulefill
+\normalsize
+
+\begin{center}
+\begin{tabular}{l l}
+ Max-Planck-Institut für Astrophysik    & \hspace{1in} \href{mailto:hitesh@mpa-garching.mpg.de}{hitesh@mpa-garching.mpg.de} \\
+ Karl-Schwarzschild-Str. 1     & \hspace{1in}  \href{mailto:hiteshkishored@gmail.com}{hiteshkishored@gmail.com}  \\
+ 85748 Garching, Germany       & \hspace{1in} Website : \href{https://hiteshkishoredas.github.io}{hiteshkishoredas.github.io} \\
+                            %   & \hspace{1in}  Skype   : hiteshkishoredas  \\
+                            %   & \hspace{1in}  Phone   : +49 1522 5675182 \\
+\end{tabular}
+\end{center}
+
+\vspace{1em}
+
+
+\noindent \begin{tabular}{@{} l l}
+%  \Large{Profile} & Fifth year undergraduate (Bachelors+Masters) majoring in Physics from \\
+%  	& Indian Institute of Science. Looking for post-graduate positions for research \\
+%  	&  in Astrophysics.\\
+%  	& \\
+ 
+ \Large{Education}  & \textbf{PhD in Astrophysics} (Ongoing) \\
+     & International Max Planck Research School on Astrophysics (IMPRS) \\
+     & Max Planck Institute for Astrophysics (MPA), Garching, Germany\\
+     & Ludwig Maximilians University (LMU), Munich, Germany\\
+     & Duration: 2021-Present\\  
+     & \textbf{Master of Science} \\
+     & Indian Institute of Science (IISc), Bengaluru, India\\
+     & Major: Physics \\
+     & Duration: 2020-2021\\
+     & \textbf{Bachelor of Science (Research)} \\
+ 	 & Indian Institute of Science (IISc), Bengaluru, India\\
+     & Major: Physics \\
+     & Duration: 2016-2020\\
+     & \textbf{Senior Secondary (CBSE), 2016} \\
+     & Kendriya Vidyalaya No-4, Bhubaneswar, India \\
+     & Stream: Science \\
+     & Date: 21/05/2016\\
+     & \\
+
+ \Large{Research}    & \textbf{The dynamics of magnetized, multiphase gas in a turbulent environment} \\
+     \Large{Experience} & \textbf{[}8 SEP 2021 - PRESENT\textbf{]} \\
+     & We are studying the different aspects of multiphase gas, like survival, morphology \\
+     & and growth, in  a turbulent medium in presence of magnetic fields. \\
+     & We use idealised MHD simulations run using Athena ++ for this study. \\
+     \vspace{2 mm}
+     & Doctoral Advisor: Max Gronke\\ 
+     % & Formal supervisor: Volker Springel\\
+     & Max Planck Institute for Astrophysics, Garching\\
+     & \\
+     & \textbf{Role of temperature and metallicity in the evolution of thermal} \\
+     & \textbf{instability} \textbf{[}1 AUG 2019 - PRESENT\textbf{]}  \\
+     & In this project we investigate the role of different parameters like metallicity \\
+     & and temperature in the growth of thermal instability. The project includes \\
+     & setting up and running simulation for study of thermal instabilities using PLUTO. \\
+     & This work led to some important insights into evolution of large-scale isochoric clouds. \\
+     &\\
+     & This project contributed towards my Bachelors thesis and led to a research paper\\
+     & in collaboration with Dr. Prakriti Pal Choudhury and Prof. Prateek Sharma.\\
+     \vspace{2 mm}
+     & Under supervision of: Assoc. Prof. Prateek Sharma\\
+     & Physical Sciences, Indian Institute of Science, Bangalore\\
+     & \\
+       
+    \end{tabular}
+
+\noindent \begin{tabular}{@{} l l}
+     & \textbf{Computational Studies of Systems of Self-driven Particles}\\
+     & \textbf{[}8 MAY 2019 – 12 JUL 2019\textbf{]}\\
+     & This project aimed at investigating the underlying physical origin of this ``phase \\
+     & transition'' via the development of appropriate computational models\\
+     & Project included:\\
+     & - Molecular dynamics code development (in LAMMPS), adapting existing code in\\
+     &  \hspace{1.5mm} the research group\\
+     & - Reproduction of literature data\\
+     & - Original investigation of the role of friction in the interparticle interaction \vspace{2 mm}\\
+     & Under supervision of: Assoc. Prof. Massimo Pica Ciamarra \\
+     & School of Physical \& Mathematical Sciences, Nanyang Technological University,\\
+     & Singapore \\
+     &\\
+    
+     & \textbf{Electrostatics of Spherical Topological Insulators} \\
+     & \textbf{[}1 MAY 2018 – 30 JUN 2018\textbf{]}\\
+     &  Theoretical derivation of electric and magnetic scalar potentials for different \\
+     & cases of electric and magnetic fields near a spherical Topological insulator.\\
+     & Presented the project at 3$^{rd}$ Annual Undergraduate Research showcase at IISc. \vspace{2 mm}\\
+     & Under supervision of: Assoc. Prof. Subroto Mukerjee \\
+     & Physical Sciences, Indian Institute of Science, Bangalore\\
+     & \\
+     & \textbf{Analysis of data from CERN 2010 open data and simulation of top pair}\\ 
+     & \textbf{production} \textbf{[}1 MAY 2017 – 31 JUL 2017\textbf{]} \\
+     & It consisted of accessing CERN 2010 open data using CernVM and analysing \\
+     & the data using C++ and Python code incorporating ROOT to plot Dimuon  \\
+     & spectra, Trimuon spectra and other related plots.\\
+     & High-energy particle physics event simulations of top pair production were\\
+     & done using Pythia 8.2 and Madgraph 5. \vspace{2 mm}\\
+     & Under supervision of: Asst. Prof. Jyothsna Rani Komaragiri \\
+     & Centre for High Energy Physics, Indian Institute of Science, Bangalore \\
+     & \\
+    %  & \textbf{Special Relativity (Reading Project)} \\
+    %  & \textbf{[}1 MAY 2017 – 31 JUL 2017\textbf{]} \\
+    %  &Study of Special Relativity from the book ``Special Relativity" by \\
+    %  & Robert Resnick. \vspace{1 mm}\\
+    %  & Under supervision of: Asst. Prof. Jyothsna Rani Komaragiri \\
+    %  & Centre for High Energy Physics, Indian Institute of Science, Bangalore \\
+    %  & \\
+    %  & \textbf{Elementary Particle Physics (Reading Project)} \\
+    %  & \textbf{[}1 MAY 2017 – 31 JUL 2017\textbf{]} \\
+    %  & Study of Elementary Particle Physics from the book ``Introduction to \\
+    %  & Elementary Particles" by David Griffith. \vspace{2 mm} \\ 
+    %  & Under supervision of: Asst. Prof. Jyothsna Rani Komaragiri \\
+    %  & Centre for High Energy Physics, Indian Institute of Science, Bangalore \\
+    %  & \\
+    % \end{tabular}
+
+% \noindent \begin{tabular}{@{} l l}
+ \Large{Publications} & \textbf{Shatter or not: role of temperature and metallicity in the evolution} \\
+     & \textbf{of thermal instability} \\
+     & Hitesh Kishore Das, Prakriti Pal Choudhury, Prateek Sharma\\
+     & arXiv: arxiv.org/abs/2009.11317 \\
+     & Journal: Under Review in Monthly Notices of the Royal Astronomical Society \\
+     & \\
+ 
+ \Large{Conferences} & \textbf{Lyman-X Day: ORIGINS workshop} (October 5, 2022)\\
+ \Large{and Seminars} & Attended in-person at European Southern Observatory (ESO), Garching \\ 
+ %
+ & \textbf{The National Astronomy Meeting (NAM) 2022} (July 11-15, 2022)\\
+ & Attended virtually and submitted a poster for the parallel session \\ 
+ & ``Non-equilibrium thermodynamics across scales: from the solar corona \\
+ & to the intracluster medium". \\
+ %
+ & \textbf{Gas Flows around Galaxies: ORIGINS workshop} (May 24, 2022)\\ 
+ & Presented my work in-person at MPA, Garching \\
+ %
+ & \textbf{Presision Presidency Physics Summit} \\
+ & \textbf{organized by Presidency University, Kolkata} (September 11-13, 2020)\\
+ & Presented work done on Thermal Instability as a talk in the Undergraduate \\
+ & Symposium\\
+ %
+ & \textbf{``On the Origin, Nature, and Mixing of Multiphase Gas in}\\
+ & \textbf{Astrophysics" KITP online conference} (October 15-16, 2020)\\
+ & Attended the conference virtually - \\
+ %
+ & \textbf{IAP online Colloquium on Intracluster Medium/Circumgalactic}\\
+ & \textbf{medium} (June 22-26, 2020)\\
+ & Attended the conference virtually \\
+ & \\
+ 
+ \end{tabular}
+
+\noindent \begin{tabular}{@{} l l}
+ 
+ \Large{Extra-} & \textbf{13th IMPRS Symposium} \\ 
+ \Large{curricular} & Was involved in organising the 13th IMPRS Symposium as the Chair of the \\
+ \Large{Experience} & Local Organising Committee. \\
+     & \textbf{Undergraduate Physics Club} \\
+     & Delivered a talk on ``Special Relativity and Minkowski Diagrams". \\
+     & \textbf{IISc Open Day}\\
+     & Constructed and demonstrated an experiment about Bernard cells, convection\\
+     & and convection cells in Sun\\
+     & Demonstrated an experiment about Polarization of light\\
+     & \textbf{Institute Fest - ``Pravega"} \\
+     & Involved in planning and conducting events by Physics club for\\ & Pravega - 2016 and Pravega - 2017. \\
+     & Event coordinator of ``Vacuum cannon" event in Pravega-2017 \\
+     & \\
+     
+
+ \Large{Awards and }    & \textbf{Kishore Vaigyanik Protsahan Yojana (KVPY) Fellowship} \\
+  \Large{Fellowships}  & Funded by: Department of Science and Technology, Government of India\\ 
+  	 & Stream: SX \\
+     & Duration: 2016-2021 \\
+     & \textbf{National Cyber Olympiad 2014-15} \\
+     & National Rank: 1 (in 11th standard) \\
+     & Organised by: Science Olympiad Foundation \\
+     & \textbf{National Standard Examination in Astronomy, 2015} \\
+     & Got certificate for being in top 10\% of the examination centre. \\
+     & Organised by: Indian Association of Physics Teachers (IAPT) \\
+     & \\
+\end{tabular}
+
+\noindent \begin{tabular}{@{} l l l}
+ 
+ \Large{Skills} \hspace{0.65in} & C, C++  & Python \\
+ & PLUTO & Athena++\\
+ & LAMMPS & ROOT\\
+ & Madgraph 5 & Pythia 8.2 \\
+ & \LaTeX &  SQL  \\
+ & Mathematica & Matlab \\
+ & High Performance Computing & Bash scripting\\
+ & \\
+ 
+%  \end{tabular}
+ 
+%  \Large{Standardised} & \textbf{GRE General}: Total: \textbf{330} & Quantitative: 169\\
+%  \Large{Tests}&& Verbal: 161\\
+%  && Analytical Writing: 4.0 \vspace{2mm}\\
+%  & \textbf{TOEFL-iBT}: Total: \textbf{108} & Reading: 29\\
+%  && Listening: 30\\
+%  && Speaking: 24\\
+%  && Writing: 25\\ 
+%  & \textbf{GRE Subject}: Score: \textbf{940 (89\%ile)}\\
+%  & \textbf{(Physics)} \\ 
+%  & \\
+
+% \noindent \begin{tabular}{@{} l l l}
+\Large{Languages}   & English (Proficient)\\
+& Hindi (Proficient) \\
+& Odia (Native) \\
+& German (Beginner) \\
+& \\
+
+\end{tabular}
+
+\noindent \begin{tabular}{@{} l l}
+ 
+ \Large{References} & Dr. Max Gronke\\
+ & Max Planck Institute for Astrophysics, Garching, Germany\\
+ & Email: maxbg@mpa-garching.mpg.de \\
+ & \href{http://max.lyman-alpha.com}{max.lyman-alpha.com}\\
+ & \\
+ 
+ & Assoc. Prof. Prateek Sharma\\
+ & Physical Sciences\\
+ & Indian Institute of Science, Bangalore\\
+ & Email: prateek@iisc.ac.in\\
+ & \href{http://www.physics.iisc.ernet.in/~prateek/}{www.physics.iisc.ernet.in/~prateek}\\
+ & \\
+ 
+ & Assoc. Prof. Massimo Pica Ciamarra\\
+ & Nanyang Associate Professor\\
+ & School of Physical \& Mathematical Sciences\\
+ & Nanyang Technological University, Singapore\\
+ & Email: massimo@ntu.edu.sg\\
+ & \href{https://sites.google.com/site/ciamarragroup/}{sites.google.com/site/ciamarragroup}\\
+ & \\
+ 
+ & Assoc. Prof. Subroto Mukerjee\\
+& Physical Sciences  \\
+& Indian Institute of Science, Bangalore\\
+& Email: smukerjee@iisc.ac.in\\
+& \href{http://physics.iisc.ernet.in/~smukerjee}{physics.iisc.ernet.in/~smukerjee}\\
+& \\
+ 
+ & Asst. Prof. Jyothsna Rani Komaragiri\\
+ &  Centre for High Energy Physics\\
+ & Indian Institute of Science, Bangalore\\
+ & Email: jyothsna.komaragiri@gmail.com\\
+ & \href{http://chep.iisc.ac.in/Personnel/pages/jyothsna}{chep.iisc.ac.in/Personnel/pages/jyothsna}\\
+ &\\
+
+\end{tabular}
+
+
+
+\clearpage
+\setlength\parindent{0cm}
+\pagenumbering{gobble} 

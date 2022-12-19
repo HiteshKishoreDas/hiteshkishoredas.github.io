@@ -1,0 +1,313 @@
+---
+title: "" 
+sidebar: false
+
+format:
+    html:
+        toc: true
+        toc-depth: 2
+        toc-location: left
+        html-math-method: katex
+    pdf:
+        documentclass: article #[a4paper,11pt,oneside]{article}
+        classoption: [a4paper,11pt,oneside]
+        geometry:
+            - left=20mm 
+            - right=20mm 
+            - bottom=20mm 
+            - top=20mm
+        keep-tex: true
+
+# \usepackage{url}
+# %\usepackage[utf8]{inputenc}
+# %\usepackage{setspace}
+# \usepackage{hyperref}
+# \usepackage{graphicx}
+# \usepackage[left=0.75in, right=1in, bottom=0.75in, top=0.5in]{geometry}
+
+# \newcommand*{\Skype}{\href{skype:hiteshkishoredas?add}{hiteshkishoredas}} 
+# \newcommand{\Absender}[1][\normalsize]{\Skype} 
+---
+
+::: {.content-visible when-format="html"}
+
+Link to the PDF version of my [CV](cv.pdf) 
+
+:::
+
+# Hitesh Kishore Das
+
+::: {.content-visible when-format="html"}
+__________________________________________________________
+:::
+::: {.content-visible when-format="pdf"}
+\hrule
+:::
+
+:::: {.columns}
+
+::: {.column width="40%"}
+Max-Planck-Institut für Astrophysik   
+Karl-Schwarzschild-Str. 1     
+85748 Garching, Germany
+:::
+
+::: {.column width="60%"}
+[hitesh@mpa-garching.mpg.de](mailto:hitesh@mpa-garching.mpg.de)    
+[hiteshkishored@gmail.com](mailto:hiteshkishored@gmail.com)    
+Website: [hiteshkishoredas.github.io](https://hiteshkishoredas.github.io)   
+Skype  : hiteshkishoredas     
+Phone  : +49 89 30000 - (2239) (MPA)   
+:::
+
+::::
+
+::: {.content-visible when-format="html"}
+__________________________________________________________
+:::
+::: {.content-visible when-format="pdf"}
+\hrule
+:::
+
+## Education
+
+ 
+**PhD in Astrophysics} (Ongoing)**   
+International Max Planck Research School on Astrophysics (IMPRS)   
+Max Planck Institute for Astrophysics (MPA), Garching, Germany    
+Ludwig Maximilians University (LMU), Munich, Germany  
+Duration: 2021-Present     
+
+**Master of Science}**    
+Indian Institute of Science (IISc), Bengaluru, India   
+Major: Physics    
+Duration: 2020-2021   
+
+**Bachelor of Science (Research)}** 
+Indian Institute of Science (IISc), Bengaluru, India  
+Major: Physics   
+Duration: 2016-2020   
+
+**Senior Secondary (CBSE), 2016}**
+Kendriya Vidyalaya No-4, Bhubaneswar, India    
+Stream: Science    
+Date: 21/05/2016   
+
+
+## Research Experience
+
+#### The dynamics of magnetized, multiphase gas in a turbulent environment   
+**[ 8 SEP 2021 - PRESENT ]**  
+We are studying the different aspects of multiphase gas, like survival, morphology and growth, in  a turbulent medium in presence of magnetic fields. We use idealised MHD simulations run using Athena ++ for this study.   
+
+Doctoral Advisor: Dr. Max Gronke     
+Formal supervisor: Prof. Volker Springel    
+Max Planck Institute for Astrophysics, Garching   
+
+
+#### Role of temperature and metallicity in the evolution of thermal instability    
+**[ 1 AUG 2019 - PRESENT ]**     
+In this project we investigate the role of different parameters like metallicity and temperature in the growth of thermal instability. The project includes setting up and running simulation for study of thermal instabilities using PLUTO.   
+This work led to some important insights into evolution of large-scale isochoric clouds.    
+
+This project contributed towards my Bachelors thesis and led to a research paper in collaboration with Dr. Prakriti Pal Choudhury and Prof. Prateek Sharma.   
+
+Under supervision of: Assoc. Prof. Prateek Sharma    
+Collaborator: Dr. Prakriti Pal Choudhury
+Physical Sciences, Indian Institute of Science, Bangalore   
+       
+
+#### Computational Studies of Systems of Self-driven Particles       
+**[ 8 MAY 2019 – 12 JUL 2019 ]**    
+This project aimed at investigating the underlying physical origin of this "phase transition" via the development of appropriate computational models. The project goals included:     
+- Molecular dynamics code development (in LAMMPS), adapting existing code in the research group    
+- Reproduction of literature data   
+
+Under supervision of: Assoc. Prof. Massimo Pica Ciamarra    
+School of Physical \& Mathematical Sciences, Nanyang Technological University, Singapore    
+
+
+#### Electrostatics of Spherical Topological Insulators     
+**[ 1 MAY 2018 – 30 JUN 2018 ]**   
+Theoretical derivation of electric and magnetic scalar potentials for different cases of electric and magnetic fields near a spherical Topological insulator.    
+
+Under supervision of: Assoc. Prof. Subroto Mukerjee    
+Physical Sciences, Indian Institute of Science, Bangalore   
+
+
+#### Analysis of data from CERN 2010 open data and simulation of top pair production
+**[ 1 MAY 2017 – 31 JUL 2017 ]**   
+It consisted of accessing CERN 2010 open data using CernVM and analysing the data using C++ and Python code incorporating ROOT to plot Dimuon spectra, Trimuon spectra and other related plots.   
+High-energy particle physics event simulations of top pair production were done using Pythia 8.2 and Madgraph 5.    
+
+Under supervision of: Asst. Prof. Jyothsna Rani Komaragiri   
+Centre for High Energy Physics, Indian Institute of Science, Bangalore    
+
+
+<!-- #### Special Relativity and Elementary Particle Physics (Reading Project)
+**[ 1 MAY 2017 – 31 JUL 2017 ]**    
+Study of Special Relativity from "Special Relativity" by Robert Resnick and Elementary Particle Physics from "Introduction to Elementary Particles" by David Griffith.     
+
+Under supervision of: Asst. Prof. Jyothsna Rani Komaragiri    
+Centre for High Energy Physics, Indian Institute of Science, Bangalore     -->
+
+
+
+
+## Publications
+
+##### - Shatter or not: role of temperature and metallicity in the evolution of thermal instability
+Hitesh Kishore Das, Prakriti Pal Choudhury, Prateek Sharma   
+**Journal**: Monthly Notices of the Royal Astronomical Society, Volume 502, Issue 4, April 2021, Pages 4935–4952, [doi.org/10.1093/mnras/stab382](https://doi.org/10.1093/mnras/stab382)    
+**arXiv**: [2009.11317](https://arxiv.org/abs/2009.11317) 
+ 
+
+
+
+## Conferences and Seminars
+ 
+- **Lyman-X Day: ORIGINS workshop** (October 5, 2022)     
+Attended in-person at European Southern Observatory (ESO), Garching     
+
+- **The National Astronomy Meeting (NAM) 2022** (July 11-15, 2022)     
+Attended virtually and submitted a poster for the parallel session "Non-equilibrium thermodynamics across scales: from the solar corona to the intracluster medium".   
+
+- **Gas Flows around Galaxies: ORIGINS workshop** (May 24, 2022)    
+Presented my work in-person at MPA, Garching     
+
+- **Presision Presidency Physics Summit** (September 11-13, 2020)   
+Organized by Presidency University, Kolkata}    
+Presented work done on Thermal Instability as a talk in the Undergraduate Symposium.
+
+- **On the Origin, Nature, and Mixing of Multiphase Gas in Astrophysics** KITP online conference (October 15-16, 2020)     
+Attended the conference virtually
+
+- **IAP online Colloquium on Intracluster Medium/Circumgalactic medium** (June 22-26, 2020)     
+Attended the conference virtually    
+
+
+## Extra-curricular Experience
+
+- **13th IMPRS Symposium**    
+Was involved in organising the 13th IMPRS Symposium as the Chair of the Local Organising Committee. 
+
+- **Undergraduate Physics Club**    
+Delivered a talk on "Special Relativity and Minkowski Diagrams".    
+
+- **Indian Instiute of Science Open Day**    
+Constructed and demonstrated an experiment about Bernard cells, convection and convection cells in Sun. Also, demonstrated an experiment about Polarization of light.
+
+- **Institute Fest - "Pravega"**     
+Involved in planning and conducting events by Physics club for Pravega - 2016 and Pravega - 2017.     
+<!-- Event coordinator for the "Vacuum cannon" event in Pravega-2017 -->
+     
+
+## Awards and Fellowships
+
+- **Kishore Vaigyanik Protsahan Yojana** (KVPY) Fellowship}    
+Funded by: Department of Science and Technology, Government of India    
+Stream: SX     
+Duration: 2016-2021     
+
+- **National Cyber Olympiad** 2014-15   
+National Rank: 1 (in 11th grade)     
+Organised by: Science Olympiad Foundation    
+
+- **National Standard Examination in Astronomy** , 2015    
+Got certificate for being in top 10\% of the examination centre.    
+Organised by: Indian Association of Physics Teachers (IAPT)    
+
+
+## Skills
+
+::: {.content-visible when-format="html"}
+
+:::: {.columns}
+::: {.column width="35%"}
+C, C++    
+Athena++    
+LAMMPS   
+Madgraph 5    
+Mathematica    
+High Performance Computing     
+LaTeX
+:::
+::: {.column width="50%"}
+Python    
+PLUTO    
+ROOT   
+Pythia 8.2    
+SQL   
+Matlab    
+Bash scripting    
+:::
+::::
+:::
+
+::: {.content-visible when-format="pdf"}
+C        , C++    
+Athena++ , PLUTO   
+LaTeX    , ROOT
+Python   , Bash scripting 
+Mathematica , Matlab    
+High Performance Computing     
+:::
+
+<!-- ## Standardised Tests 
+
++-----------------+---------------+---------------------------+
+| **GRE General** | - Total : 330 | - Quantitative: 169       |
+|                 |               | - Verbal      : 161       |
+|                 |               | - Analytical Writing: 4.0 |
++-----------------+---------------+---------------------------+
+| **TOEFL-iBT**   | Total : 108   | - Reading   : 29          |
+|                 |               | - Listerning: 30          |
+|                 |               | - Speaking  : 24          |
+|                 |               | - Writing   : 25          |
++-----------------+---------------+---------------------------+
+| **GRE Physics** | Score: 89%ile |                           |
+|                 |               |                           |
++-----------------+---------------+---------------------------+ -->
+
+
+
+## Language proficiency
+
+- English (Proficient)
+- Hindi (Proficient)
+- Odia (Native)
+- German (Beginner A1)
+
+{{< pagebreak >}}
+
+## References
+
+#### Dr. Max Gronke
+Max Planck Institute for Astrophysics, Garching, Germany    
+Email: maxbg@mpa-garching.mpg.de    
+Website: [max.lyman-alpha.com](http://max.lyman-alpha.com)   
+
+#### Assoc. Prof. Prateek Sharma
+Physical Sciences   
+Indian Institute of Science, Bangalore   
+Email: prateek@iisc.ac.in    
+Website: [www.physics.iisc.ernet.in/~prateek](http://www.physics.iisc.ernet.in/~prateek/)      
+
+#### Assoc. Prof. Massimo Pica Ciamarra
+Nanyang Associate Professor    
+School of Physical & Mathematical Sciences    
+Nanyang Technological University, Singapore    
+Email: massimo@ntu.edu.sg    
+Website: [sites.google.com/site/ciamarragroup](https://sites.google.com/site/ciamarragroup/)     
+
+#### Assoc. Prof. Subroto Mukerjee
+Physical Sciences      
+Indian Institute of Science, Bangalore    
+Email: smukerjee@iisc.ac.in    
+Website: [physics.iisc.ernet.in/~smukerjee](http://physics.iisc.ernet.in/~smukerjee)   
+ 
+#### Asst. Prof. Jyothsna Rani Komaragiri
+Centre for High Energy Physics    
+Indian Institute of Science, Bangalore  
+Email: jyothsna.komaragiri@gmail.com    
+Website: [chep.iisc.ac.in/Personnel/pages/jyothsna](http://chep.iisc.ac.in/Personnel/pages/jyothsna)     
