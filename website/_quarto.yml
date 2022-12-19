@@ -2,18 +2,58 @@ project:
   type: website
 
 website:
-  title: "HKD"
+  title: "Hitesh Kishore Das"
+
+  open-graph: true
+
+  reader-mode: true
+
+  page-footer:
+    left: "This work is licensed under [CC BY NC ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/)"
+    right: "Created using [Quarto](https://quarto.org/)"
+
+  page-navigation: true
+
+  search:
+    location: navbar
+    type: textbox
+
   sidebar:
     style: "docked"
     search: true
-    contents: auto
+    pinned: true
+    collapse-level: 1
+    tools:
+      - icon: twitter
+        href: https://twitter.com/hitesh_k_das
+      - icon: github
+        href: https://github.com/hiteshkishoredas
+    contents: 
+      - text: About
+        href: about.qmd
+      - section: Research
+        contents: research/*
+      - section: Other projects
+        contents: other_projects/*
+      - section: Blogs
+        contents: blogs/*
+
   navbar:
     left:
       - href: index.qmd
         text: Home
-      - about.qmd
-      - test_page.qmd
-      - blog_list.qmd
+
+      - href: research.qmd
+        text: Research
+        
+      - href: other_projects.qmd
+        text: Other Projects
+
+      - href: blog_list.qmd
+        text: Blogs
+
+      - href: about.qmd
+        text: About
 
 
 format:
@@ -25,8 +65,11 @@ format:
     # theme: lux
     # theme: minty
     theme:
-      light: flatly
-      dark: darkly
+      dark: [scss/theme-dark.scss, lux]
+      light: [scss/theme-light.scss, lux]
+    fontsize: 1.25vw
+    page-layout: full
+    max-width: 100%
     css: styles.css
     toc: true
 

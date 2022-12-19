@@ -1,7 +1,39 @@
 ---
-title: "Home"
+title: "Hi!"
+about:
+  id: home-about
+  template: jolla
+  image: images/profile.jpg
+#   image-width: 500%
+  links:
+    - icon: twitter
+      text: twitter
+      href: https://twitter.com/hitesh_k_das
+    - icon: github
+      text: Github
+      href: https://github.com/hiteshkishoredas
+
+sidebar: false
+
+# format: 
+#   html:
+#     margin-left: 0vw
+#     margin-right: 0vw
+#     # page-layout: article
 ---
 
-This is a Quarto website.
+:::{#home-about}
+<!-- :::{.column-body-outset-right} -->
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+
+I am a second year PhD student at [Max Planck Institute for Astrophysics](https://www.mpa-garching.mpg.de) (MPA), Garching, which I joined under the [International Max Planck School (IMPRS) on Astrophysics](https://www.imprs-astro.mpg.de/) on Astrophysics at [Ludwig Maximilians University (LMU)](https://www.lmu.de/en/) (LMU), Munich.
+
+I am part of [Dr. Max Gronke](http://max.lyman-alpha.com/)'s [Multiphase Gas Group](https://www.mpa-garching.mpg.de/1020167/multiphase-gas) at MPA, where I am studying the effects of magnetic fields and turbulence on multiphase astrohysical mediums.
+
+My broad research interest is **Computational Astrophysics**. To be more specific, I work with **(Magneto-)Hydrodynamic simulations** to study the behaviour of Astrophysical mediums.
+
+:::
+
+## What should I add here? :/
+
+Maybe the description of the tabs on the top?

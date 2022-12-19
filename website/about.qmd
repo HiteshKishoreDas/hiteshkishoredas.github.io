@@ -1,5 +1,59 @@
 ---
-title: "About"
+title: "Hitesh Kishore Das"
+subtitle: "ହିତେଶ କିଶୋର ଦାସ / हितेश किशोर दास" 
+about:
+  template: marquee
+  image: images/profile.jpg
+  image-width: 100%
+  links:
+    - icon: twitter
+      text: twitter
+      href: https://twitter.com/hitesh_k_das
+    - icon: github
+      text: Github
+      href: https://github.com/hiteshkishoredas
+
+sidebar: false
+
 ---
 
-About this site
+I am a second year PhD student at [Max Planck Institute for Astrophysics](https://www.mpa-garching.mpg.de) (MPA), Garching, which I joined under the [International Max Planck School (IMPRS) on Astrophysics](https://www.imprs-astro.mpg.de/) at [Ludwig Maximilians University](https://www.lmu.de/en/) (LMU), Munich.
+
+I am part of [Dr. Max Gronke](http://max.lyman-alpha.com/)'s [Multiphase Gas Group](https://www.mpa-garching.mpg.de/1020167/multiphase-gas) at MPA.
+
+My broad research interest is Computational Astrophysics. To be more specific, I work with (Magneto-)Hydrodynamic simulations to study the behaviour of Astrophysical mediums.
+
+## Education
+
+**Max Planck Institute for Astrophysics** | Garching, Germany
+
+PhD in Astrophysics| Sept 2021 - Present
+
+___________________________________________
+
+**Indian Institute of Science** (IISc) | Bengaluru, India 
+
+MSc. in Physics | Oct 2020 - Aug 2021
+
+___________________________________________
+
+
+**Indian Institute of Science** (IISc) | Bengaluru, India 
+
+BSc. (Research) in Physics | Aug 2016 - Sept 2020
+
+
+## Background
+
+I am natively from the state of [Odisha](https://en.wikipedia.org/wiki/Odisha) (ଓଡିଶା)) in India. During my early years, I travelled around a bit inside India with my parents as they got posted at different places. But soon, we settled at Odisha's capital city, [Bhubaneswar](https://en.wikipedia.org/wiki/Bhubaneswar), where I spent most of my schooling days till my 12th grade.
+
+I spent the next 5 years, 2016-2021, in another Indian state, [Karnataka's](https://en.wikipedia.org/wiki/Karnataka) capital, [Bengaluru](https://en.wikipedia.org/wiki/Bangalore) for my Bachelors and Masters of Science degrees in Physics, at [Indian Institute of Science](https://iisc.ac.in/). 
+
+After that, I came to [Munich](https://en.wikipedia.org/wiki/Munich) in [Bavaria](https://en.wikipedia.org/wiki/Bavaria), Germany for my Doctoral Studies at [Max Planck Institute for Astrophysics](https://www.mpa-garching.mpg.de/) in nearby town of [Garching](https://en.wikipedia.org/wiki/Garching).
+
+
+<!-- ## Experience
+
+Wengo Analytics | Head Data Scientist | April 2018 - present
+
+GeoScynce | Chief Analyst | Spet 2012 - April 2018 -->

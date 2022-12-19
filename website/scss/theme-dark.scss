@@ -1,0 +1,31 @@
+/*-- scss:defaults --*/
+// Base document colors
+
+$body-color: white;
+
+$body-bg: #000000;
+// $body-bg: #181818;
+
+$input-bg: #000000;
+
+// $link-color: #75AADB;
+$link-color: #b7ff60e0;
+
+// $navbar-bg: #a5ff371a;
+$navbar-bg: #1d2711d8;
+$navbar-fg: $body-color;
+$navbar-hl: #c6ff80a4;
+
+div h1 { color: $body-color; }
+div h2 { color: $body-color; }
+div h3 { color: $body-color; }
+div h4 { color: $body-color; }
+div h5 { color: $body-color; }
+div h6 { color: $body-color; }
+
+// Code blocks
+// $code-block-bg-alpha: -.8;
+
+// div h1, h2, h3, h4, h5, h6 {
+//   color: $body-color;
+// }

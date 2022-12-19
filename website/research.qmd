@@ -1,0 +1,11 @@
+---
+title: "Research"
+sidebar: true
+---
+
+
+## [Thermal Instability](research/thermal_instability.qmd)
+A few lines about the Thermal Instability project
+
+## [Multiphase gas in Magnetised, Turbulent medium](research/mhd_multiphase.qmd)
+A few lines about the MPA project

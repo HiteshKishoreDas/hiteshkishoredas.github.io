@@ -2,16 +2,16 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Home",
+    "title": "Hi!",
     "section": "",
-    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
+    "text": "I am a second year PhD student at Max Planck Institute for Astrophysics (MPA), Garching, which I joined under the International Max Planck School (IMPRS) on Astrophysics on Astrophysics at Ludwig Maximilians University (LMU) (LMU), Munich.\nI am part of Dr. Max Gronke’s Multiphase Gas Group at MPA, where I am studying the effects of magnetic fields and turbulence on multiphase astrohysical mediums.\nMy broad research interest is Computational Astrophysics. To be more specific, I work with (Magneto-)Hydrodynamic simulations to study the behaviour of Astrophysical mediums.\n \n  \n   \n  \n    \n     twitter\n  \n  \n    \n     Github"
   },
   {
     "objectID": "about.html",
     "href": "about.html",
-    "title": "About",
+    "title": "Hitesh Kishore Das",
     "section": "",
-    "text": "About this site"
+    "text": "I am a second year PhD student at Max Planck Institute for Astrophysics (MPA), Garching, which I joined under the International Max Planck School (IMPRS) on Astrophysics at Ludwig Maximilians University (LMU), Munich.\nI am part of Dr. Max Gronke’s Multiphase Gas Group at MPA.\nMy broad research interest is Computational Astrophysics. To be more specific, I work with (Magneto-)Hydrodynamic simulations to study the behaviour of Astrophysical mediums."
   },
   {
     "objectID": "test_page.html",
@@ -33,5 +33,54 @@
     "title": "Test page",
     "section": "",
     "text": "About this site"
+  },
+  {
+    "objectID": "about.html#education",
+    "href": "about.html#education",
+    "title": "Hitesh Kishore Das",
+    "section": "Education",
+    "text": "Education\nMax Planck Institute for Astrophysics | Garching, Germany\nPhD in Astrophysics| Sept 2021 - Present\n\nIndian Institute of Science (IISc) | Bengaluru, India\nMSc. in Physics | Oct 2020 - Aug 2021\n\nIndian Institute of Science (IISc) | Bengaluru, India\nBSc. (Research) in Physics | Aug 2016 - Sept 2020"
+  },
+  {
+    "objectID": "about.html#experience",
+    "href": "about.html#experience",
+    "title": "Hitesh Kishore Das",
+    "section": "Experience",
+    "text": "Experience\nWengo Analytics | Head Data Scientist | April 2018 - present\nGeoScynce | Chief Analyst | Spet 2012 - April 2018"
+  },
+  {
+    "objectID": "about.html#background",
+    "href": "about.html#background",
+    "title": "Hitesh Kishore Das",
+    "section": "Background",
+    "text": "Background\nI am natively from the state of Odisha (ଓଡିଶା)) in India. During my early years, I travelled around a bit inside India with my parents as they got posted at different places. But soon, we settled at Odisha’s capital city, Bhubaneswar, where I spent most of my schooling days till my 12th grade.\nI spent the next 5 years, 2016-2021, in another Indian state, Karnataka’s capital, Bengaluru for my Bachelors and Masters of Science degrees in Physics, at Indian Institute of Science.\nAfter that, I came to Munich in Bavaria, Germany for my Doctoral Studies at Max Planck Institute for Astrophysics in nearby town of Garching."
+  },
+  {
+    "objectID": "research.html",
+    "href": "research.html",
+    "title": "Research",
+    "section": "",
+    "text": "A few lines about the Thermal Instability project"
+  },
+  {
+    "objectID": "research.html#multiphase-gas-in-magnetised-turbulent-medium",
+    "href": "research.html#multiphase-gas-in-magnetised-turbulent-medium",
+    "title": "Research",
+    "section": "Multiphase gas in Magnetised, Turbulent medium",
+    "text": "Multiphase gas in Magnetised, Turbulent medium\nA few lines about the MPA project"
+  },
+  {
+    "objectID": "other_projects.html",
+    "href": "other_projects.html",
+    "title": "Research",
+    "section": "",
+    "text": "A few lines about the deprojection side-project"
+  },
+  {
+    "objectID": "index.html#what-should-i-add-here",
+    "href": "index.html#what-should-i-add-here",
+    "title": "Hi!",
+    "section": "What should I add here? :/",
+    "text": "What should I add here? :/\nMaybe the description of the tabs on the top?"
   }
 ]

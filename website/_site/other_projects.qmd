@@ -1,0 +1,8 @@
+---
+title: "Research"
+sidebar: true
+---
+
+
+## [Deprojection](other_projects/deprojection.qmd)
+A few lines about the deprojection side-project
