@@ -7,7 +7,7 @@ about:
 #   image-width: 500%
   links:
     - icon: twitter
-      text: twitter
+      text: Twitter
       href: https://twitter.com/hitesh_k_das
     - icon: github
       text: Github
