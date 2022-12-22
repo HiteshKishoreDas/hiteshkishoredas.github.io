@@ -1,4 +1,9 @@
 ---
-title: "Thermal Instability"
+title: "Thermal Instability in 1D"
 # sidebar: false
 ---
+
+Such empty, much wow!    
+
+An in-depth description for this project is coming soon.    
+Keep an eye on this space. :)   

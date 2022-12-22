@@ -35,13 +35,17 @@ I am part of [Dr. Max Gronke](http://max.lyman-alpha.com/)'s [Multiphase Gas Gro
 
 My broad research interest is **Computational Astrophysics**. To be more specific, I work with **(Magneto-)Hydrodynamic simulations** to study the behaviour of Astrophysical mediums.
 
+___________________________________________________________
+
+For more about my academic history, check out my [Curriculum Vitae](cv/cv.qmd).
+
 :::
 
 ## What's on this website?
 
 All the contents are arranged into different tabs on the top navigation bar.
 
-You can find the details of my academic research in the [**Research**](research.qmd) section.
-The [**Other projects**](other_projects.qmd) section contains my other short and quick projects that I found interesting.
-And [**Blogs**](blog_list.qmd) section is (or will be) home to all other thoughts that I just want blurt out.
+You can find the details of my academic research in the [**Research**](research.qmd) section.    
+The [**Other Stuff**](other_stuff.qmd) section contains my other short and quick projects, my other hobbies or anything I find interesting and would like to share.   
+<!-- And [**Blogs**](blog_list.qmd) section is (or will be) home to all other thoughts that I just want blurt out. -->
 Finally, the [**About**](about.qmd) page is all about (you guessed it!) me. 😄

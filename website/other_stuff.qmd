@@ -1,0 +1,16 @@
+---
+title: "Other Stuff"
+sidebar: true
+---
+
+## [NOISE](https://github.com/HiteshKishoreDas/NOISE)
+This is <u>**N**</u>-body simulati<u>**o**</u>n using Part<u>**i**</u>cle-Me<u>**s**</u>h M<u>**e**</u>thod aka **NOISE**, following the tradition of great astrophysical abbreviations.   
+As the name suggests, this is N-body simulation code, written in Python, that uses the Particle-Mesh method for calculating the gravitational forces.   
+This was part of course project for a Computational Physics course at IISc, during my Bachelors.    
+You can find the documentation [here](https://hiteshkishoredas.github.io/NOISE/Documentation_v0.1.pdf).
+
+## [Deprojection](https://hiteshkishoredas.github.io/Deprojection/deprojection_dark.html)
+This was a super short dive-in into deprojection.
+On the sky we can only see a 2D projection of something 3D. In absence of any extra information, one has to retrieve the 3D distribution from this 2D projections, and that is called **Deprojecting**.   
+Here's I have tried my hands at doing a very simple deprojection from a projection of a known 3D distribution.     
+You can get to the light-themed version of the page [here](https://hiteshkishoredas.github.io/Deprojection/deprojection_light.html).

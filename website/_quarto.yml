@@ -33,10 +33,12 @@ website:
         href: about.qmd
       - section: Research
         contents: research/*
-      - section: Other projects
-        contents: other_projects/*
-      - section: Blogs
-        contents: blogs/*
+      - text: Other stuff
+        href: other_stuff.qmd
+      # - section: Other Stuff
+      #   contents: other_stuff/*
+      # - section: Blogs
+      #   contents: blogs/*
 
   navbar:
     left:
@@ -46,11 +48,11 @@ website:
       - href: research.qmd
         text: Research
         
-      - href: other_projects.qmd
-        text: Other Projects
+      - href: other_stuff.qmd
+        text: Other Stuff
 
-      - href: blog_list.qmd
-        text: Blogs
+      # - href: blog_list.qmd
+      #   text: Blogs
 
       - href: about.qmd
         text: About
@@ -73,6 +75,3 @@ format:
     max-width: 100%
     css: styles.css
     toc: true
-
-
-

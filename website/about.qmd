@@ -12,6 +12,9 @@ about:
     - icon: github
       text: Github
       href: https://github.com/hiteshkishoredas
+    - icon: envelope-fill
+      text: Mail
+      href: mailto:hitesh@mpa-garching.mpg.de
 
 sidebar: false
 
@@ -23,6 +26,8 @@ I am part of [Dr. Max Gronke](http://max.lyman-alpha.com/)'s [Multiphase Gas Gro
 
 My broad research interest is Computational Astrophysics. To be more specific, I work with (Magneto-)Hydrodynamic simulations to study the behaviour of Astrophysical mediums.
 
+If you want to reach me, feel free to write me at [hitesh@mpa-garching.mpg.de](mailto:hitesh@mpa-garching.mpg.de)
+
 ## Education
 
 **Max Planck Institute for Astrophysics** | Garching, Germany
@@ -33,18 +38,11 @@ ___________________________________________
 
 **Indian Institute of Science** (IISc) | Bengaluru, India 
 
-MSc. in Physics | Oct 2020 - Aug 2021
+BSc. and MSc. in Physics | Aug 2016 - Aug 2021
 
 ___________________________________________
 
-
-**Indian Institute of Science** (IISc) | Bengaluru, India 
-
-BSc. (Research) in Physics | Aug 2016 - Sept 2020
-
-___________________________________________
-
-For more, my [CV](cv/cv.qmd)
+For more about my academic history, check out my [Curriculum Vitae](cv/cv.qmd).
 
 ## Background
 
@@ -55,8 +53,8 @@ I spent the next 5 years, 2016-2021, in another Indian state, [Karnataka's](http
 After that, I came to [Munich](https://en.wikipedia.org/wiki/Munich) in [Bavaria](https://en.wikipedia.org/wiki/Bavaria), Germany for my Doctoral Studies at [Max Planck Institute for Astrophysics](https://www.mpa-garching.mpg.de/) in nearby town of [Garching](https://en.wikipedia.org/wiki/Garching).
 
 
-<!-- ## Experience
+## What else?
 
-Wengo Analytics | Head Data Scientist | April 2018 - present
-
-GeoScynce | Chief Analyst | Spet 2012 - April 2018 -->
+When I'm not blowing or stirring gas in a simulated box, I have a couple of hobbies that engage with. My hobbies include **Bouldering**, **hiking** on weekends at the nearby Bavarian Alps and playing **Guitar**.    
+I also spend some of my free-time on **side-projects** which I might find interesting (this including adding content to this website).     
+You can find more about these in the [Other Stuff](other_stuff.qmd) section of the website.

@@ -245,12 +245,10 @@ Bash scripting
 :::
 
 ::: {.content-visible when-format="pdf"}
-C        , C++    
-Athena++ , PLUTO   
-LaTeX    , ROOT
-Python   , Bash scripting 
-Mathematica , Matlab    
-High Performance Computing     
+**Compiled languages**: C , C++    
+**Hydrodynamic Simulation**: Athena++ , PLUTO   
+**Interpreted languages**: Python   , Matlab, Mathematica    
+**Others**: LaTeX, ROOT, Bash scripting, High Performance Computing     
 :::
 
 <!-- ## Standardised Tests 

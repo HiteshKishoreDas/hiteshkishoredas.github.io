@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Hitesh Kishore Das - Research</title>
+<title>Hitesh Kishore Das - Other Stuff</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -59,11 +59,12 @@ ul.task-list li input[type="checkbox"] {
     "search-submit-button-title": "Submit"
   }
 }</script>
+<style>html{ scroll-behavior: smooth; }</style>
 
 
 <link rel="stylesheet" href="styles.css">
-<meta property="og:title" content="Hitesh Kishore Das - Research">
-<meta property="og:description" content="A few lines about the deprojection side-project">
+<meta property="og:title" content="Hitesh Kishore Das - Other Stuff">
+<meta property="og:description" content="This is N-body simulation using Particle-Mesh Method aka NOISE, following the tradition of great astrophysical abbreviations.">
 <meta property="og:site-name" content="Hitesh Kishore Das">
 </head>
 
@@ -92,15 +93,15 @@ ul.task-list li input[type="checkbox"] {
  <span class="menu-text">Research</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./other_projects.html" aria-current="page">
- <span class="menu-text">Other Projects</span></a>
+    <a class="nav-link" href="./other_stuff.qmd">
+ <span class="menu-text">Other Stuff</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./blog_list.html">
  <span class="menu-text">Blogs</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./about.html">
+    <a class="nav-link active" href="./about.html" aria-current="page">
  <span class="menu-text">About</span></a>
   </li>  
 </ul>
@@ -118,7 +119,7 @@ ul.task-list li input[type="checkbox"] {
     </nav>
   <nav class="quarto-secondary-nav" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
     <div class="container-fluid d-flex justify-content-between">
-      <h1 class="quarto-secondary-nav-title">Research</h1>
+      <h1 class="quarto-secondary-nav-title">Other Stuff</h1>
       <button type="button" class="quarto-btn-toggle btn" aria-label="Show secondary navigation">
         <i class="bi bi-chevron-right"></i>
       </button>
@@ -214,7 +215,8 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#deprojection" id="toc-deprojection" class="nav-link active" data-scroll-target="#deprojection">Deprojection</a></li>
+  <li><a href="#noise" id="toc-noise" class="nav-link active" data-scroll-target="#noise">NOISE</a></li>
+  <li><a href="#deprojection" id="toc-deprojection" class="nav-link" data-scroll-target="#deprojection">Deprojection</a></li>
   </ul>
 </nav>
     </div>
@@ -223,7 +225,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title d-none d-lg-block">Research</h1>
+<h1 class="title d-none d-lg-block">Other Stuff</h1>
 </div>
 
 
@@ -238,9 +240,18 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
+<section id="noise" class="level2">
+<h2 class="anchored" data-anchor-id="noise"><a href="https://github.com/HiteshKishoreDas/NOISE">NOISE</a></h2>
+<p>This is <u><strong>N</strong></u>-body simulati<u><strong>o</strong></u>n using Part<u><strong>i</strong></u>cle-Me<u><strong>s</strong></u>h M<u><strong>e</strong></u>thod aka <strong>NOISE</strong>, following the tradition of great astrophysical abbreviations.<br>
+As the name suggests, this is N-body simulation code, written in Python, that uses the Particle-Mesh method for calculating the gravitational forces.<br>
+This was part of course project for a Computational Physics course at IISc, during my Bachelors.<br>
+You can find the documentation <a href="https://hiteshkishoredas.github.io/NOISE/Documentation_v0.1.pdf">here</a>.</p>
+</section>
 <section id="deprojection" class="level2">
-<h2 class="anchored" data-anchor-id="deprojection"><a href="./other_projects/deprojection.html">Deprojection</a></h2>
-<p>A few lines about the deprojection side-project</p>
+<h2 class="anchored" data-anchor-id="deprojection"><a href="https://hiteshkishoredas.github.io/Deprojection/deprojection_dark.html">Deprojection</a></h2>
+<p>This was a super short dive-in into deprojection. On the sky we can only see a 2D projection of something 3D. In absence of any extra information, one has to retrieve the 3D distribution from this 2D projections, and that is called <strong>Deprojecting</strong>.<br>
+Here’s I have tried my hands at doing a very simple deprojection from a projection of a known 3D distribution.<br>
+You can get to the light-themed version of the page <a href="https://hiteshkishoredas.github.io/Deprojection/deprojection_light.html">here</a>.</p>
 
 
 </section>
@@ -504,4 +515,5 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 
 
 
+<script src="site_libs/quarto-html/zenscroll-min.js"></script>
 </body></html>
