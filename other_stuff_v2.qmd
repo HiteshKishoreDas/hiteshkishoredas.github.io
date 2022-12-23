@@ -1,0 +1,9 @@
+---
+title: "Other Stuff"
+sidebar: true
+
+listing:
+  - id: gallery
+    template: gallery/gallery.ejs
+    contents: gallery/other_stuff.yml
+---

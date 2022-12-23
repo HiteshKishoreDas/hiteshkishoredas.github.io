@@ -6,5 +6,9 @@
       "/blogs/test_page_copy.html",
       "/blogs/test_page_copy_copy.html"
     ]
+  },
+  {
+    "listing": "/other_stuff_v2.html",
+    "items": []
   }
 ]

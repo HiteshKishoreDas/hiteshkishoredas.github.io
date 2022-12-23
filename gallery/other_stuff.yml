@@ -1,0 +1,13 @@
+
+- category: Categories
+  description: |
+    What would you like to explore first?
+  tiles:
+    - title: Science
+      # subtitle: for web publishing
+      href: other_stuff/science.qmd
+      thumbnail: images/science.png
+    - title: Hiking
+      # subtitle: for high quality print
+      href: other_stuff/hiking.qmd
+      thumbnail: images/hiking.jpg

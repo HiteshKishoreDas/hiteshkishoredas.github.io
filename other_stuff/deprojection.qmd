@@ -1,4 +1,0 @@
----
-title: "Deprojection"
-sidebar: true
----
