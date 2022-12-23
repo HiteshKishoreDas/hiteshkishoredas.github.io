@@ -1,1 +1,1 @@
-Sitemap: https://github.com/HiteshKishoreDas/quarto_website/sitemap.xml
+Sitemap: https://github.com/HiteshKishoreDas/hiteshkishoredas.github.io/sitemap.xml
