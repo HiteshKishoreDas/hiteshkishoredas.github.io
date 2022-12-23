@@ -112,6 +112,34 @@
     "text": "Such empty, much wow!\nAn in-depth description for this project is coming soon.\nKeep an eye on this space. :)"
   },
   {
+    "objectID": "other_stuff/science.html",
+    "href": "other_stuff/science.html",
+    "title": "Science",
+    "section": "",
+    "text": "This is N-body simulation using Particle-Mesh Method aka NOISE, following the tradition of great astrophysical abbreviations.\nAs the name suggests, this is N-body simulation code, written in Python, that uses the Particle-Mesh method for calculating the gravitational forces.\nThis was part of course project for a Computational Physics course at IISc, during my Bachelors.\nYou can find the documentation here."
+  },
+  {
+    "objectID": "other_stuff/science.html#deprojection",
+    "href": "other_stuff/science.html#deprojection",
+    "title": "Science",
+    "section": "Deprojection",
+    "text": "Deprojection\nThis was a super short dive-in into deprojection. On the sky we can only see a 2D projection of something 3D. In absence of any extra information, one has to retrieve the 3D distribution from this 2D projections, and that is called Deprojecting.\nHere’s I have tried my hands at doing a very simple deprojection from a projection of a known 3D distribution.\nYou can get to the light-themed version of the page here."
+  },
+  {
+    "objectID": "other_stuff/hiking.html",
+    "href": "other_stuff/hiking.html",
+    "title": "Hiking",
+    "section": "",
+    "text": "Pictures from the hikes coming soon! :)"
+  },
+  {
+    "objectID": "other_stuff_v2.html",
+    "href": "other_stuff_v2.html",
+    "title": "Other Stuff",
+    "section": "",
+    "text": "Categories\nWhat would you like to explore first?\n\n\n  \n    \n      \n        Science \n      \n    \n    \n      \n    \n  \n  \n    \n      \n        Hiking \n      \n    \n    \n      \n    \n  \n\n\nNo matching items"
+  },
+  {
     "objectID": "research.html",
     "href": "research.html",
     "title": "Research",
