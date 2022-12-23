@@ -116,14 +116,14 @@
     "href": "research.html",
     "title": "Research",
     "section": "",
-    "text": "Thermal instability (TI) is a process that can lead to multiphasa gas in Astrophysical mediums. In this project, that was part of my Bachelors thesis, we studied the linear and non-linear evolution of TI in 1D.\nWe looked at the dependence of this evolution on metallicity variation and the temperature, with some very interesting results.\nThis project lead to a paper which has been published on MNRAS, Volume 502, Issue 4, April 2021. The online version is available here. It is also available on arXiv at 2009.11317."
+    "text": "Magnetic fields and turbulence are ubiquitous, with many observational evidences towards there presence in multiple systems. This poses a dilemma for multiphase gas, which is also observed across wide scales, from solar to cluster environemnts. It has been shown that with radiative cooling, turbulence helps mixing of the different phases which can help in the survival of multiphase gas.\nBut, that is evidence from Radiative Turbulent Mixing Layer (TRMLs) simulations that mixing is suppressed in presence of magnetic fields. This can pose issue for the survival of multiphase gas. A concise summary of this dilemma is shown in meme below 😄. In this project, we attempt to solve this dilemma using a series of (magneto-)hydrodynamic simulations.\nThis project is part of my PhD thesis at Max Planck Institute of Astrophysics, Garching.\n\n\n\n \n\n\n\n\n\nThe Multiphase gas dilemma"
   },
   {
-    "objectID": "research.html#multiphase-gas-in-magnetised-turbulent-medium",
-    "href": "research.html#multiphase-gas-in-magnetised-turbulent-medium",
+    "objectID": "research.html#thermal-instability-in-1d",
+    "href": "research.html#thermal-instability-in-1d",
     "title": "Research",
-    "section": "Multiphase gas in Magnetised, Turbulent medium",
-    "text": "Multiphase gas in Magnetised, Turbulent medium\nMagnetic fields and turbulence are ubiquitous, with many observational evidences towards there presence in multiple systems. This poses a dilemma for multiphase gas, which is also observed across wide scales, from solar to cluster environemnts. It has been shown that with radiative cooling, turbulence helps mixing of the different phases which can help in the survival of multiphase gas.\nBut, that is evidence from Radiative Turbulent Mixing Layer (TRMLs) simulations that mixing is suppressed in presence of magnetic fields. This can pose issue for the survival of multiphase gas. A concise summary of this dilemma is shown in meme below 😄. In this project, we attempt to solve this dilemma using a series of (magneto-)hydrodynamic simulations.\nThis project is part of my PhD thesis at Max Planck Institute of Astrophysics, Garching.\n\n\n\n \n\n\n\n\n\nThe Multiphase gas dilemma"
+    "section": "Thermal Instability in 1D",
+    "text": "Thermal Instability in 1D\nThermal instability (TI) is a process that can lead to multiphasa gas in Astrophysical mediums. In this project, that was part of my Bachelors thesis, we studied the linear and non-linear evolution of TI in 1D.\nWe looked at the dependence of this evolution on metallicity variation and the temperature, with some very interesting results.\nThis project lead to a paper which has been published on MNRAS, Volume 502, Issue 4, April 2021. The online version is available here. It is also available on arXiv at 2009.11317."
   },
   {
     "objectID": "other_stuff.html",
