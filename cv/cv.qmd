@@ -53,8 +53,8 @@ Karl-Schwarzschild-Str. 1
 :::
 
 ::: {.column width="60%"}
-[hitesh@mpa-garching.mpg.de](mailto:hitesh@mpa-garching.mpg.de)    
-[hiteshkishored@gmail.com](mailto:hiteshkishored@gmail.com)    
+[hitesh[AT]mpa-garching.mpg.de](mailto:hitesh@mpa-garching.mpg.de)    
+[hiteshkishored[AT]gmail.com](mailto:hiteshkishored@gmail.com)    
 Website: [hiteshkishoredas.github.io](https://hiteshkishoredas.github.io)   
 Skype  : hiteshkishoredas     
 Phone  : +49 89 30000 - (2239) (MPA)   
@@ -282,30 +282,30 @@ Bash scripting
 
 #### Dr. Max Gronke
 Max Planck Institute for Astrophysics, Garching, Germany    
-Email: maxbg@mpa-garching.mpg.de    
+Email: maxbg[AT]mpa-garching.mpg.de    
 Website: [max.lyman-alpha.com](http://max.lyman-alpha.com)   
 
 #### Assoc. Prof. Prateek Sharma
 Physical Sciences   
 Indian Institute of Science, Bangalore   
-Email: prateek@iisc.ac.in    
+Email: prateek[AT]iisc.ac.in    
 Website: [www.physics.iisc.ernet.in/~prateek](http://www.physics.iisc.ernet.in/~prateek/)      
 
 #### Assoc. Prof. Massimo Pica Ciamarra
 Nanyang Associate Professor    
 School of Physical & Mathematical Sciences    
 Nanyang Technological University, Singapore    
-Email: massimo@ntu.edu.sg    
+Email: massimo[AT]ntu.edu.sg    
 Website: [sites.google.com/site/ciamarragroup](https://sites.google.com/site/ciamarragroup/)     
 
 #### Assoc. Prof. Subroto Mukerjee
 Physical Sciences      
 Indian Institute of Science, Bangalore    
-Email: smukerjee@iisc.ac.in    
+Email: smukerjee[AT]iisc.ac.in    
 Website: [physics.iisc.ernet.in/~smukerjee](http://physics.iisc.ernet.in/~smukerjee)   
  
 #### Asst. Prof. Jyothsna Rani Komaragiri
 Centre for High Energy Physics    
 Indian Institute of Science, Bangalore  
-Email: jyothsna.komaragiri@gmail.com    
+Email: jyothsna.komaragiri[AT]gmail.com    
 Website: [chep.iisc.ac.in/Personnel/pages/jyothsna](http://chep.iisc.ac.in/Personnel/pages/jyothsna)     
