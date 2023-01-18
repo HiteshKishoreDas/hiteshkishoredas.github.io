@@ -6,15 +6,15 @@ about:
   image: images/profile_small.jpg
 #   image-width: 500%
   links:
+    - icon: envelope-fill
+      text: Email
+      href: mailto:hitesh@mpa-garching.mpg.de
     - icon: twitter
       text: Twitter
       href: https://twitter.com/hitesh_k_das
     - icon: github
       text: Github
       href: https://github.com/hiteshkishoredas
-    - icon: envelope-fill
-      text: Mail
-      href: mailto:hitesh@mpa-garching.mpg.de
     - icon: paperclip
       text: Scholar
       href: https://scholar.google.com/citations?user=5F0FN1QAAAAJ&hl=en&oi=ao

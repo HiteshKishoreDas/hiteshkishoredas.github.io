@@ -151,7 +151,7 @@
     "href": "index.html",
     "title": "Hi!",
     "section": "",
-    "text": "I am a second year PhD student at Max Planck Institute for Astrophysics (MPA), Garching, which I joined under the International Max Planck School (IMPRS) on Astrophysics on Astrophysics at Ludwig Maximilians University (LMU) (LMU), Munich.\nI am part of Dr. Max Gronke’s Multiphase Gas Group at MPA, where I am studying the effects of magnetic fields and turbulence on multiphase astrohysical mediums.\nMy broad research interest is Computational Astrophysics. To be more specific, I work with (Magneto-)Hydrodynamic simulations to study the behaviour of Astrophysical mediums.\n\nFor more about my academic history, check out my Curriculum Vitae.\n \n  \n   \n  \n    \n     Twitter\n  \n  \n    \n     Github\n  \n  \n    \n     Mail\n  \n  \n    \n     Scholar"
+    "text": "I am a second year PhD student at Max Planck Institute for Astrophysics (MPA), Garching, which I joined under the International Max Planck School (IMPRS) on Astrophysics on Astrophysics at Ludwig Maximilians University (LMU) (LMU), Munich.\nI am part of Dr. Max Gronke’s Multiphase Gas Group at MPA, where I am studying the effects of magnetic fields and turbulence on multiphase astrohysical mediums.\nMy broad research interest is Computational Astrophysics. To be more specific, I work with (Magneto-)Hydrodynamic simulations to study the behaviour of Astrophysical mediums.\n\nFor more about my academic history, check out my Curriculum Vitae.\n \n  \n   \n  \n    \n     Email\n  \n  \n    \n     Twitter\n  \n  \n    \n     Github\n  \n  \n    \n     Scholar"
   },
   {
     "objectID": "index.html#whats-on-this-website",
@@ -165,7 +165,7 @@
     "href": "other_stuff_v2.html",
     "title": "Other Stuff",
     "section": "",
-    "text": "Categories\nWhat would you like to explore first?\n\n\n  \n    \n      \n        Science \n      \n    \n    \n      \n    \n  \n  \n    \n      \n        Hiking \n      \n    \n    \n      \n    \n  \n\n\nNo matching items"
+    "text": "Categories\nWhat would you like to explore first?\n\n\n  \n    \n      \n        Science \n      \n    \n    \n      \n    \n  \n  \n    \n      \n        Outdoors \n      \n    \n    \n      \n    \n  \n  \n    \n      \n        Music \n      \n    \n    \n      \n    \n  \n\n\nNo matching items"
   },
   {
     "objectID": "other_stuff_v2.html#deprojection",
@@ -208,5 +208,19 @@
     "title": "Hiking",
     "section": "",
     "text": "Pictures from the hikes coming soon! :)"
+  },
+  {
+    "objectID": "other_stuff/outdoors.html",
+    "href": "other_stuff/outdoors.html",
+    "title": "Outdoors",
+    "section": "",
+    "text": "Pictures from outdoor activities like bouldering, hiking, skiing, etc. Coming soon! :)"
+  },
+  {
+    "objectID": "other_stuff/music.html",
+    "href": "other_stuff/music.html",
+    "title": "Music",
+    "section": "",
+    "text": "Snippets from my exploration of the musical landscape. Coming soon! :)"
   }
 ]

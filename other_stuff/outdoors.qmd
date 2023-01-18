@@ -1,0 +1,6 @@
+---
+title: "Outdoors"
+sidebar: true
+---
+
+Pictures from outdoor activities like bouldering, hiking, skiing, etc. Coming soon! :)

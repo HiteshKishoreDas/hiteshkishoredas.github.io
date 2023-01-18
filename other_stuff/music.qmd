@@ -1,0 +1,6 @@
+---
+title: "Music"
+sidebar: true
+---
+
+Snippets from my exploration of the musical landscape. Coming soon! :)

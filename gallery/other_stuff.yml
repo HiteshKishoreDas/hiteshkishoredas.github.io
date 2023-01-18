@@ -7,7 +7,11 @@
       # subtitle: for web publishing
       href: other_stuff/science.qmd
       thumbnail: images/science.png
-    - title: Hiking
+    - title: Outdoors
       # subtitle: for high quality print
-      href: other_stuff/hiking.qmd
+      href: other_stuff/outdoors.qmd
       thumbnail: images/hiking.jpg
+    - title: Music
+      # subtitle: for high quality print
+      href: other_stuff/music.qmd
+      thumbnail: images/music.jpg

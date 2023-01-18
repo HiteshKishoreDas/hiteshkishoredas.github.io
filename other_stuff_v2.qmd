@@ -7,3 +7,4 @@ listing:
     template: gallery/gallery.ejs
     contents: gallery/other_stuff.yml
 ---
+

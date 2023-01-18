@@ -1,6 +1,0 @@
----
-title: "Hiking"
-sidebar: true
----
-
-Pictures from the hikes coming soon! :)
