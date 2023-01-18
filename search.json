@@ -70,6 +70,27 @@
     "text": "References\n\nDr. Max Gronke\nMax Planck Institute for Astrophysics, Garching, Germany\nEmail: maxbg[AT]mpa-garching.mpg.de\nWebsite: max.lyman-alpha.com\n\n\nAssoc. Prof. Prateek Sharma\nPhysical Sciences\nIndian Institute of Science, Bangalore\nEmail: prateek[AT]iisc.ac.in\nWebsite: www.physics.iisc.ernet.in/~prateek\n\n\nAssoc. Prof. Massimo Pica Ciamarra\nNanyang Associate Professor\nSchool of Physical & Mathematical Sciences\nNanyang Technological University, Singapore\nEmail: massimo[AT]ntu.edu.sg\nWebsite: sites.google.com/site/ciamarragroup\n\n\nAssoc. Prof. Subroto Mukerjee\nPhysical Sciences\nIndian Institute of Science, Bangalore\nEmail: smukerjee[AT]iisc.ac.in\nWebsite: physics.iisc.ernet.in/~smukerjee\n\n\nAsst. Prof. Jyothsna Rani Komaragiri\nCentre for High Energy Physics\nIndian Institute of Science, Bangalore\nEmail: jyothsna.komaragiri[AT]gmail.com\nWebsite: chep.iisc.ac.in/Personnel/pages/jyothsna"
   },
   {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Hi!",
+    "section": "",
+    "text": "I am a second year PhD student at Max Planck Institute for Astrophysics (MPA), Garching, which I joined under the International Max Planck School (IMPRS) on Astrophysics on Astrophysics at Ludwig Maximilians University (LMU) (LMU), Munich.\nI am part of Dr. Max Gronke’s Multiphase Gas Group at MPA, where I am studying the effects of magnetic fields and turbulence on multiphase astrohysical mediums.\nMy broad research interest is Computational Astrophysics. To be more specific, I work with (Magneto-)Hydrodynamic simulations to study the behaviour of Astrophysical mediums.\n\nFor more about my academic history, check out my Curriculum Vitae.\n \n  \n   \n  \n    \n     Email\n  \n  \n    \n     Twitter\n  \n  \n    \n     Github\n  \n  \n    \n     Scholar"
+  },
+  {
+    "objectID": "index.html#whats-on-this-website",
+    "href": "index.html#whats-on-this-website",
+    "title": "Hi!",
+    "section": "What’s on this website?",
+    "text": "What’s on this website?\nAll the contents are arranged into different tabs on the top navigation bar.\nYou can find the details of my academic research in the Research section.\nThe Other Stuff section contains my other short and quick projects, my other hobbies or anything I find interesting and would like to share.\n Finally, the About page is all about (you guessed it!) me. 😄"
+  },
+  {
+    "objectID": "other_stuff_v2.html",
+    "href": "other_stuff_v2.html",
+    "title": "Other Stuff",
+    "section": "",
+    "text": "Categories\nWhat would you like to explore first?\n\n\n  \n    \n      \n        Science \n      \n    \n    \n      \n    \n  \n  \n    \n      \n        Outdoors \n      \n    \n    \n      \n    \n  \n  \n    \n      \n        Music \n      \n    \n    \n      \n    \n  \n\n\nNo matching items"
+  },
+  {
     "objectID": "about.html",
     "href": "about.html",
     "title": "Hitesh Kishore Das",
@@ -98,18 +119,32 @@
     "text": "What else?\nWhen I’m not blowing or stirring gas in a simulated box, I have a couple of hobbies that engage with. My hobbies include Bouldering, hiking on weekends at the nearby Bavarian Alps and playing Guitar.\nI also spend some of my free-time on side-projects which I might find interesting (this including adding content to this website).\nYou can find more about these in the Other Stuff section of the website."
   },
   {
-    "objectID": "research/thermal_instability.html",
-    "href": "research/thermal_instability.html",
-    "title": "Thermal Instability in 1D",
+    "objectID": "research.html",
+    "href": "research.html",
+    "title": "Research",
     "section": "",
-    "text": "Such empty, much wow!\nAn in-depth description for this project is coming soon.\nKeep an eye on this space. :)"
+    "text": "Magnetic fields and turbulence are ubiquitous, with many observational evidences towards there presence in multiple systems. This poses a dilemma for multiphase gas, which is also observed across wide scales, from solar to cluster environemnts. It has been shown that with radiative cooling, turbulence helps mixing of the different phases which can help in the survival of multiphase gas.\nBut, that is evidence from Radiative Turbulent Mixing Layer (TRMLs) simulations that mixing is suppressed in presence of magnetic fields. This can pose issue for the survival of multiphase gas. A concise summary of this dilemma is shown in meme below 😄. In this project, we attempt to solve this dilemma using a series of (magneto-)hydrodynamic simulations.\nThis project is part of my PhD thesis at Max Planck Institute of Astrophysics, Garching.\n\n\n\n \n\n\n\n\n\nThe Multiphase gas dilemma"
   },
   {
-    "objectID": "research/mhd_multiphase.html",
-    "href": "research/mhd_multiphase.html",
-    "title": "Multiphase Gas in magnetised, turbulent medium",
+    "objectID": "research.html#thermal-instability-in-1d",
+    "href": "research.html#thermal-instability-in-1d",
+    "title": "Research",
+    "section": "Thermal Instability in 1D",
+    "text": "Thermal Instability in 1D\nThermal instability (TI) is a process that can lead to multiphasa gas in Astrophysical mediums. In this project, that was part of my Bachelors thesis, we studied the linear and non-linear evolution of TI in 1D.\nWe looked at the dependence of this evolution on metallicity variation and the temperature, with some very interesting results.\nThis project lead to a paper which has been published on MNRAS, Volume 502, Issue 4, April 2021. The online version is available here. It is also available on arXiv at 2009.11317."
+  },
+  {
+    "objectID": "other_stuff/outdoors.html",
+    "href": "other_stuff/outdoors.html",
+    "title": "Outdoors",
     "section": "",
-    "text": "Such empty, much wow!\nAn in-depth description for this project is coming soon.\nKeep an eye on this space. :)"
+    "text": "Pictures from outdoor activities like bouldering, hiking, skiing, etc. Coming soon! :)"
+  },
+  {
+    "objectID": "other_stuff/music.html",
+    "href": "other_stuff/music.html",
+    "title": "Music",
+    "section": "",
+    "text": "Snippets from my exploration of the musical landscape. Coming soon! :)"
   },
   {
     "objectID": "other_stuff/science.html",
@@ -126,32 +161,11 @@
     "text": "Deprojection\nThis was a super short dive-in into deprojection. On the sky we can only see a 2D projection of something 3D. In absence of any extra information, one has to retrieve the 3D distribution from this 2D projections, and that is called Deprojecting.\nHere’s I have tried my hands at doing a very simple deprojection from a projection of a known 3D distribution.\nYou can get to the light-themed version of the page here."
   },
   {
-    "objectID": "other_stuff/hiking.html",
-    "href": "other_stuff/hiking.html",
-    "title": "Hiking",
+    "objectID": "blog_list.html",
+    "href": "blog_list.html",
+    "title": "Blog",
     "section": "",
-    "text": "Pictures from the hikes coming soon! :)"
-  },
-  {
-    "objectID": "other_stuff_v2.html",
-    "href": "other_stuff_v2.html",
-    "title": "Other Stuff",
-    "section": "",
-    "text": "Categories\nWhat would you like to explore first?\n\n\n  \n    \n      \n        Science \n      \n    \n    \n      \n    \n  \n  \n    \n      \n        Hiking \n      \n    \n    \n      \n    \n  \n\n\nNo matching items"
-  },
-  {
-    "objectID": "research.html",
-    "href": "research.html",
-    "title": "Research",
-    "section": "",
-    "text": "Magnetic fields and turbulence are ubiquitous, with many observational evidences towards there presence in multiple systems. This poses a dilemma for multiphase gas, which is also observed across wide scales, from solar to cluster environemnts. It has been shown that with radiative cooling, turbulence helps mixing of the different phases which can help in the survival of multiphase gas.\nBut, that is evidence from Radiative Turbulent Mixing Layer (TRMLs) simulations that mixing is suppressed in presence of magnetic fields. This can pose issue for the survival of multiphase gas. A concise summary of this dilemma is shown in meme below 😄. In this project, we attempt to solve this dilemma using a series of (magneto-)hydrodynamic simulations.\nThis project is part of my PhD thesis at Max Planck Institute of Astrophysics, Garching.\n\n\n\n \n\n\n\n\n\nThe Multiphase gas dilemma"
-  },
-  {
-    "objectID": "research.html#thermal-instability-in-1d",
-    "href": "research.html#thermal-instability-in-1d",
-    "title": "Research",
-    "section": "Thermal Instability in 1D",
-    "text": "Thermal Instability in 1D\nThermal instability (TI) is a process that can lead to multiphasa gas in Astrophysical mediums. In this project, that was part of my Bachelors thesis, we studied the linear and non-linear evolution of TI in 1D.\nWe looked at the dependence of this evolution on metallicity variation and the temperature, with some very interesting results.\nThis project lead to a paper which has been published on MNRAS, Volume 502, Issue 4, April 2021. The online version is available here. It is also available on arXiv at 2009.11317."
+    "text": "Blog 1\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n\n\nBlog 2\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n\n\nBlog 3\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n\nNo matching items"
   },
   {
     "objectID": "other_stuff.html",
@@ -168,24 +182,17 @@
     "text": "Deprojection\nThis was a super short dive-in into deprojection. On the sky we can only see a 2D projection of something 3D. In absence of any extra information, one has to retrieve the 3D distribution from this 2D projections, and that is called Deprojecting.\nHere’s I have tried my hands at doing a very simple deprojection from a projection of a known 3D distribution.\nYou can get to the light-themed version of the page here."
   },
   {
-    "objectID": "blog_list.html",
-    "href": "blog_list.html",
-    "title": "Blog",
+    "objectID": "research/thermal_instability.html",
+    "href": "research/thermal_instability.html",
+    "title": "Thermal Instability in 1D",
     "section": "",
-    "text": "Blog 1\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n\n\nBlog 2\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n\n\nBlog 3\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n\nNo matching items"
+    "text": "Such empty, much wow!\nAn in-depth description for this project is coming soon.\nKeep an eye on this space. :)"
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Hi!",
+    "objectID": "research/mhd_multiphase.html",
+    "href": "research/mhd_multiphase.html",
+    "title": "Multiphase Gas in magnetised, turbulent medium",
     "section": "",
-    "text": "I am a second year PhD student at Max Planck Institute for Astrophysics (MPA), Garching, which I joined under the International Max Planck School (IMPRS) on Astrophysics on Astrophysics at Ludwig Maximilians University (LMU) (LMU), Munich.\nI am part of Dr. Max Gronke’s Multiphase Gas Group at MPA, where I am studying the effects of magnetic fields and turbulence on multiphase astrohysical mediums.\nMy broad research interest is Computational Astrophysics. To be more specific, I work with (Magneto-)Hydrodynamic simulations to study the behaviour of Astrophysical mediums.\n\nFor more about my academic history, check out my Curriculum Vitae.\n \n  \n   \n  \n    \n     Twitter\n  \n  \n    \n     Github\n  \n  \n    \n     Mail\n  \n  \n    \n     Scholar"
-  },
-  {
-    "objectID": "index.html#whats-on-this-website",
-    "href": "index.html#whats-on-this-website",
-    "title": "Hi!",
-    "section": "What’s on this website?",
-    "text": "What’s on this website?\nAll the contents are arranged into different tabs on the top navigation bar.\nYou can find the details of my academic research in the Research section.\nThe Other Stuff section contains my other short and quick projects, my other hobbies or anything I find interesting and would like to share.\n Finally, the About page is all about (you guessed it!) me. 😄"
+    "text": "Such empty, much wow!\nAn in-depth description for this project is coming soon.\nKeep an eye on this space. :)"
   }
 ]
