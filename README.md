@@ -1,2 +1,3 @@
-# quarto_website
-An attempt at making a website using Quarto
+Source for my website, made using Quarto
+
+Link to the website: [hiteshkishoredas.github.io](https://hiteshkishoredas.github.io/)
