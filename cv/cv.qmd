@@ -166,7 +166,17 @@ Hitesh Kishore Das, Prakriti Pal Choudhury, Prateek Sharma
 
 ## Conferences and Seminars
 
-- **Team meeting for "Observe Local Think Global: What Solar Observations can teach us about Multiphase Plasmas across Astrophysical Scales"**
+- **Modelling of Multiphase Astrophysical Media** (May 30-June 2, 2023)
+Presented a ~15 min talk about my work. In-person at Aspenstein Castle, near Lake Kochel, Germany
+
+- **MPA weekly Institute Seminar** (May 15, 2023)
+Presented a ~45 min talk about my work. In-person at MPA, Garching, Germany
+
+- **52nd Saas-Fee winter School on "The Circum-Galactic Medium across cosmic time: an observational and modelling challenge"** (March 19-24, 2023)
+Presented a poster about my work. In-person at Les Diablerets, Switzerland
+
+- **Team meeting for "Observe Local Think Global: What Solar Observations can teach us about Multiphase Plasmas across Astrophysical Scales"** (March 13-17, 2023)
+Presented an introduction for simulations in ICM/CGM, and my work. In-person at ISSI, Bern, Switzerland
 
 - **The Multiphase Circumgalactic Medium** (February 26- March 3, 2023)
 Presented a ~15 min talk about my work. In-person at Ringberg Castle, Germany
