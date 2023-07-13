@@ -28,9 +28,10 @@ And here's a evolution in scalar quantity showing a sliced view of different TRM
 Here are 3-dimensional views of the evolution of the cold gas after the introduction of a cold gas cloud in driven-turbulence.
 
 Without magnetic fields:
+{{< video https://www.youtube.com/embed/0fWcMqdDn3E >}}
 
 With magnetic fields:
-
+{{< video https://www.youtube.com/embed/IaylcB8tKxM >}}
 
 For a more stable view, here's a similar set of videos but as density projection.
 
