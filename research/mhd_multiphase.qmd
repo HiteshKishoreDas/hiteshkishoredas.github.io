@@ -20,8 +20,10 @@ Below we show the different visualisations from these two simulations.
 ## Turbulent Radiative Mixing Layers (TRMLs)
 
 Here's a evolution in temperature showing a sliced view of different TRML simulations, along with the magnetic field lines.
+{{< video https://www.youtube.com/embed/xDP1CS5wlLM >}}
 
 And here's a evolution in scalar quantity showing a sliced view of different TRML simulations, along with the magnetic field lines.
+{{< video https://www.youtube.com/embed/QuhMbvPJ6Bg >}}
 
 ## (MHD) turbulent boxes
 
