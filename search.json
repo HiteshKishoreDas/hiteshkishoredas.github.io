@@ -207,14 +207,14 @@
     "href": "research/mhd_multiphase.html#turbulent-radiative-mixing-layers-trmls",
     "title": "Magnetic Fields in Multiphase Turbulence",
     "section": "Turbulent Radiative Mixing Layers (TRMLs)",
-    "text": "Turbulent Radiative Mixing Layers (TRMLs)\nHere’s a evolution in temperature showing a sliced view of different TRML simulations, along with the magnetic field lines.\n\nAnd here’s a evolution in scalar quantity showing a sliced view of different TRML simulations, along with the magnetic field lines."
+    "text": "Turbulent Radiative Mixing Layers (TRMLs)\nHere’s a evolution in temperature showing a sliced view of different TRML simulations, along with the magnetic field lines:\n\nIt shows how the two phases are getting mixed and how the magnetic field topology evolves with time.\nAnd here’s a evolution in scalar quantity showing a sliced view of different TRML simulations, along with the magnetic field lines. This gives some hints towards the origin of gases in the different phases."
   },
   {
-    "objectID": "research/mhd_multiphase.html#mhd-turbulent-boxes",
-    "href": "research/mhd_multiphase.html#mhd-turbulent-boxes",
+    "objectID": "research/mhd_multiphase.html#magneto-hydrodynamic-turbulent-boxes",
+    "href": "research/mhd_multiphase.html#magneto-hydrodynamic-turbulent-boxes",
     "title": "Magnetic Fields in Multiphase Turbulence",
-    "section": "(MHD) turbulent boxes",
-    "text": "(MHD) turbulent boxes\nHere are 3-dimensional views of the evolution of the cold gas after the introduction of a cold gas cloud in driven-turbulence.\nWithout magnetic fields:\n\nWith magnetic fields:\n\nFor a more stable view, here’s a similar set of videos but as density projection.\n\nThis is for a case where the cloud get’s destroyed\n\n\n\nThe cases where the cloud survives and cold gas grows"
+    "section": "(Magneto-)Hydrodynamic turbulent boxes",
+    "text": "(Magneto-)Hydrodynamic turbulent boxes\nHere are 3-dimensional views of the evolution of the cold gas after the introduction of a cold gas cloud in driven-turbulence.\nWithout magnetic fields:\n\nWith magnetic fields:\n\nThese clearly show the morphological difference between the cold phase in Hydrodynamic and Magnetohydrodynamic turbulence. The cold gas phase is much more filamentary in presence of magnetic fields.\nFor a more stable view, here’s a similar set of videos but as density projection.\n\nThis is for a case where the cloud get’s destroyed\n\n\n\nThe cases where the cloud survives and cold gas grows"
   },
   {
     "objectID": "other_stuff/music.html",
