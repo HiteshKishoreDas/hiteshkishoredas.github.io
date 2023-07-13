@@ -11,7 +11,7 @@ Impacts on Dynamics and Structure".
 The components, namely, Turbulence, Multiphase gas and Magnetic fields 
 are ubiquitous in astrophysical media. But, there has been only limited work on the intersection of all
 three parts. This work was an attempt to broaden the understanding at this intersection.
-In particular, to look at how magnetic fields affect the growth and survival of multiphase gas in a turbulent medium.
+In particular, to look at how magnetic fields affect the growth and survival of multiphase gas in a turbulent medium.   
 
 For this study, we use two sets of simulations: Turbulent Radiative Mixing Layers (TRMLs) and turbulent boxes.
 
@@ -19,13 +19,16 @@ Below we show the different visualisations from these two simulations.
 
 ## Turbulent Radiative Mixing Layers (TRMLs)
 
-Here's a evolution in temperature showing a sliced view of different TRML simulations, along with the magnetic field lines.
+Here's a evolution in temperature showing a sliced view of different TRML simulations, along with the magnetic field lines:
 {{< video https://www.youtube.com/embed/xDP1CS5wlLM >}}
 
+It shows how the two phases are getting mixed and how the magnetic field topology evolves with time. 
+
 And here's a evolution in scalar quantity showing a sliced view of different TRML simulations, along with the magnetic field lines.
+This gives some hints towards the origin of gases in the different phases.
 {{< video https://www.youtube.com/embed/QuhMbvPJ6Bg >}}
 
-## (MHD) turbulent boxes
+## (Magneto-)Hydrodynamic turbulent boxes
 
 Here are 3-dimensional views of the evolution of the cold gas after the introduction of a cold gas cloud in driven-turbulence.
 
@@ -34,6 +37,9 @@ Without magnetic fields:
 
 With magnetic fields:
 {{< video https://www.youtube.com/embed/IaylcB8tKxM >}}
+
+These clearly show the morphological difference between the cold phase in Hydrodynamic and Magnetohydrodynamic turbulence.
+The cold gas phase is much more filamentary in presence of magnetic fields.
 
 For a more stable view, here's a similar set of videos but as density projection.
 
