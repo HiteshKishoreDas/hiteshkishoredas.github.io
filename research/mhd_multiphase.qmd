@@ -35,14 +35,10 @@ With magnetic fields:
 
 For a more stable view, here's a similar set of videos but as density projection.
 
-1. This is for a case where the cloud get's destroyed
-    * Without magnetic fields
-    * With magnetic fields
-
-2. A case where the cloud survives and cold gas grows
-    * Without magnetic fields
-    * With magnetic fields
-
-
+* This is for a case where the cloud get's destroyed
+{{< video https://www.youtube.com/embed/KJKwZ34hTuw >}}
+ 
+* The cases where the cloud survives and cold gas grows
+{{< video https://www.youtube.com/embed/A7nkFZaVaGg >}}
 
 
