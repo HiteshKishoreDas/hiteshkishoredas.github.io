@@ -1,9 +1,47 @@
 ---
-title: "Multiphase Gas in magnetised, turbulent medium"
+title: "Magnetic Fields in Multiphase Turbulence"
 # sidebar: false
 ---
 
-Such empty, much wow!    
+Hi there!
 
-An in-depth description for this project is coming soon.    
-Keep an eye on this space. :)   
+In this page we show some interesting visualisations from our paper "Magnetic Fields in Multiphase Turbulence: 
+Impacts on Dynamics and Structure".
+
+The components, namely, Turbulence, Multiphase gas and Magnetic fields 
+are ubiquitous in astrophysical media. But, there has been only limited work on the intersection of all
+three parts. This work was an attempt to broaden the understanding at this intersection.
+In particular, to look at how magnetic fields affect the growth and survival of multiphase gas in a turbulent medium.
+
+For this study, we use two sets of simulations: Turbulent Radiative Mixing Layers (TRMLs) and turbulent boxes.
+
+Below we show the different visualisations from these two simulations.
+
+## Turbulent Radiative Mixing Layers (TRMLs)
+
+Here's a evolution in temperature showing a sliced view of different TRML simulations, along with the magnetic field lines.
+
+And here's a evolution in scalar quantity showing a sliced view of different TRML simulations, along with the magnetic field lines.
+
+## (MHD) turbulent boxes
+
+Here are 3-dimensional views of the evolution of the cold gas after the introduction of a cold gas cloud in driven-turbulence.
+
+Without magnetic fields:
+
+With magnetic fields:
+
+
+For a more stable view, here's a similar set of videos but as density projection.
+
+1. This is for a case where the cloud get's destroyed
+    * Without magnetic fields
+    * With magnetic fields
+
+2. A case where the cloud survives and cold gas grows
+    * Without magnetic fields
+    * With magnetic fields
+
+
+
+
