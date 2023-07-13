@@ -1,73 +1,31 @@
 [
   {
-    "objectID": "research.html",
-    "href": "research.html",
-    "title": "Research",
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "Hitesh Kishore Das",
     "section": "",
-    "text": "Magnetic fields and turbulence are ubiquitous, with many observational evidences towards there presence in multiple systems. This poses a dilemma for multiphase gas, which is also observed across wide scales, from solar to cluster environemnts. It has been shown that with radiative cooling, turbulence helps mixing of the different phases which can help in the survival of multiphase gas.\nBut, that is evidence from Radiative Turbulent Mixing Layer (TRMLs) simulations that mixing is suppressed in presence of magnetic fields. This can pose issue for the survival of multiphase gas. A concise summary of this dilemma is shown in meme below 😄. In this project, we attempt to solve this dilemma using a series of (magneto-)hydrodynamic simulations.\nThis project is part of my PhD thesis at Max Planck Institute of Astrophysics, Garching.\n\n\n\n \n\n\n\n\n\nThe Multiphase gas dilemma"
+    "text": "I am a second year PhD student at Max Planck Institute for Astrophysics (MPA), Garching, which I joined under the International Max Planck School (IMPRS) on Astrophysics at Ludwig Maximilians University (LMU), Munich.\nI am part of Dr. Max Gronke’s Multiphase Gas Group at MPA.\nMy broad research interest is Computational Astrophysics. To be more specific, I work with (Magneto-)Hydrodynamic simulations to study the behaviour of Astrophysical mediums.\nIf you want to reach me, feel free to write me at hitesh[AT]mpa-garching.mpg.de"
   },
   {
-    "objectID": "research.html#multiphase-gas-in-magnetised-turbulent-medium",
-    "href": "research.html#multiphase-gas-in-magnetised-turbulent-medium",
-    "title": "Research",
-    "section": "",
-    "text": "Magnetic fields and turbulence are ubiquitous, with many observational evidences towards there presence in multiple systems. This poses a dilemma for multiphase gas, which is also observed across wide scales, from solar to cluster environemnts. It has been shown that with radiative cooling, turbulence helps mixing of the different phases which can help in the survival of multiphase gas.\nBut, that is evidence from Radiative Turbulent Mixing Layer (TRMLs) simulations that mixing is suppressed in presence of magnetic fields. This can pose issue for the survival of multiphase gas. A concise summary of this dilemma is shown in meme below 😄. In this project, we attempt to solve this dilemma using a series of (magneto-)hydrodynamic simulations.\nThis project is part of my PhD thesis at Max Planck Institute of Astrophysics, Garching.\n\n\n\n \n\n\n\n\n\nThe Multiphase gas dilemma"
+    "objectID": "about.html#education",
+    "href": "about.html#education",
+    "title": "Hitesh Kishore Das",
+    "section": "Education",
+    "text": "Education\nMax Planck Institute for Astrophysics | Garching, Germany\nPhD in Astrophysics| Sept 2021 - Present\n\nIndian Institute of Science (IISc) | Bengaluru, India\nBSc. and MSc. in Physics | Aug 2016 - Aug 2021\n\nFor more about my academic history, check out my Curriculum Vitae."
   },
   {
-    "objectID": "research.html#thermal-instability-in-1d",
-    "href": "research.html#thermal-instability-in-1d",
-    "title": "Research",
-    "section": "Thermal Instability in 1D",
-    "text": "Thermal Instability in 1D\nThermal instability (TI) is a process that can lead to multiphasa gas in Astrophysical mediums. In this project, that was part of my Bachelors thesis, we studied the linear and non-linear evolution of TI in 1D.\nWe looked at the dependence of this evolution on metallicity variation and the temperature, with some very interesting results.\nThis project lead to a paper which has been published on MNRAS, Volume 502, Issue 4, April 2021. The online version is available here. It is also available on arXiv at 2009.11317."
+    "objectID": "about.html#background",
+    "href": "about.html#background",
+    "title": "Hitesh Kishore Das",
+    "section": "Background",
+    "text": "Background\nI am natively from the state of Odisha (ଓଡିଶା) in India. During my early years, I travelled around a bit inside India with my parents as they got posted at different places. But soon, we settled at Odisha’s capital city, Bhubaneswar, where I spent most of my schooling days till my 12th grade.\nI spent the next 5 years, 2016-2021, in another Indian state, Karnataka’s capital, Bengaluru for my Bachelors and Masters of Science degrees in Physics, at Indian Institute of Science.\nAfter that, I came to Munich in Bavaria, Germany for my Doctoral Studies at Max Planck Institute for Astrophysics in nearby town of Garching."
   },
   {
-    "objectID": "other_stuff.html",
-    "href": "other_stuff.html",
-    "title": "Other Stuff",
-    "section": "",
-    "text": "This is N-body simulation using Particle-Mesh Method aka NOISE, following the tradition of great astrophysical abbreviations.\nAs the name suggests, this is N-body simulation code, written in Python, that uses the Particle-Mesh method for calculating the gravitational forces.\nThis was part of course project for a Computational Physics course at IISc, during my Bachelors.\nYou can find the documentation here."
-  },
-  {
-    "objectID": "other_stuff.html#noise",
-    "href": "other_stuff.html#noise",
-    "title": "Other Stuff",
-    "section": "",
-    "text": "This is N-body simulation using Particle-Mesh Method aka NOISE, following the tradition of great astrophysical abbreviations.\nAs the name suggests, this is N-body simulation code, written in Python, that uses the Particle-Mesh method for calculating the gravitational forces.\nThis was part of course project for a Computational Physics course at IISc, during my Bachelors.\nYou can find the documentation here."
-  },
-  {
-    "objectID": "other_stuff.html#deprojection",
-    "href": "other_stuff.html#deprojection",
-    "title": "Other Stuff",
-    "section": "Deprojection",
-    "text": "Deprojection\nThis was a super short dive-in into deprojection. On the sky we can only see a 2D projection of something 3D. In absence of any extra information, one has to retrieve the 3D distribution from this 2D projections, and that is called Deprojecting.\nHere’s I have tried my hands at doing a very simple deprojection from a projection of a known 3D distribution.\nYou can get to the light-themed version of the page here."
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Hi!",
-    "section": "",
-    "text": "I am a second year PhD student at Max Planck Institute for Astrophysics (MPA), Garching, which I joined under the International Max Planck School (IMPRS) on Astrophysics on Astrophysics at Ludwig Maximilians University (LMU) (LMU), Munich.\nI am part of Dr. Max Gronke’s Multiphase Gas Group at MPA, where I am studying the effects of magnetic fields and turbulence on multiphase astrohysical mediums.\nMy broad research interest is Computational Astrophysics. To be more specific, I work with (Magneto-)Hydrodynamic simulations to study the behaviour of Astrophysical mediums.\n\nFor more about my academic history, check out my Curriculum Vitae.\n \n  \n   \n  \n    \n     Email\n  \n  \n    \n     Twitter\n  \n  \n    \n     Github\n  \n  \n    \n     Scholar"
-  },
-  {
-    "objectID": "index.html#whats-on-this-website",
-    "href": "index.html#whats-on-this-website",
-    "title": "Hi!",
-    "section": "What’s on this website?",
-    "text": "What’s on this website?\nAll the contents are arranged into different tabs on the top navigation bar.\nYou can find the details of my academic research in the Research section.\nThe Other Stuff section contains my other short and quick projects, my other hobbies or anything I find interesting and would like to share.\n Finally, the About page is all about (you guessed it!) me. 😄"
-  },
-  {
-    "objectID": "other_stuff/music.html",
-    "href": "other_stuff/music.html",
-    "title": "Music",
-    "section": "",
-    "text": "Snippets from my exploration of the musical landscape. Coming soon! :)"
-  },
-  {
-    "objectID": "other_stuff/outdoors.html",
-    "href": "other_stuff/outdoors.html",
-    "title": "Outdoors",
-    "section": "",
-    "text": "Pictures from outdoor activities like bouldering, hiking, skiing, etc. Coming soon! :)"
+    "objectID": "about.html#what-else",
+    "href": "about.html#what-else",
+    "title": "Hitesh Kishore Das",
+    "section": "What else?",
+    "text": "What else?\nWhen I’m not blowing or stirring gas in a simulated box, I have a couple of hobbies that engage with. My hobbies include Bouldering, hiking on weekends at the nearby Bavarian Alps and playing Guitar.\nI also spend some of my free-time on side-projects which I might find interesting (this including adding content to this website).\nYou can find more about these in the Other Stuff section of the website."
   },
   {
     "objectID": "other_stuff/science.html",
@@ -161,46 +119,32 @@
     "text": "References\n\nDr. Max Gronke\nMax Planck Institute for Astrophysics, Garching, Germany\nEmail: maxbg[AT]mpa-garching.mpg.de\nWebsite: max.lyman-alpha.com\n\n\nAssoc. Prof. Prateek Sharma\nPhysical Sciences\nIndian Institute of Science, Bangalore\nEmail: prateek[AT]iisc.ac.in\nWebsite: www.physics.iisc.ernet.in/~prateek\n\n\nAssoc. Prof. Massimo Pica Ciamarra\nNanyang Associate Professor\nSchool of Physical & Mathematical Sciences\nNanyang Technological University, Singapore\nEmail: massimo[AT]ntu.edu.sg\nWebsite: sites.google.com/site/ciamarragroup\n\n\nAssoc. Prof. Subroto Mukerjee\nPhysical Sciences\nIndian Institute of Science, Bangalore\nEmail: smukerjee[AT]iisc.ac.in\nWebsite: physics.iisc.ernet.in/~smukerjee\n\n\nAsst. Prof. Jyothsna Rani Komaragiri\nCentre for High Energy Physics\nIndian Institute of Science, Bangalore\nEmail: jyothsna.komaragiri[AT]gmail.com\nWebsite: chep.iisc.ac.in/Personnel/pages/jyothsna"
   },
   {
+    "objectID": "other_stuff.html",
+    "href": "other_stuff.html",
+    "title": "Other Stuff",
+    "section": "",
+    "text": "This is N-body simulation using Particle-Mesh Method aka NOISE, following the tradition of great astrophysical abbreviations.\nAs the name suggests, this is N-body simulation code, written in Python, that uses the Particle-Mesh method for calculating the gravitational forces.\nThis was part of course project for a Computational Physics course at IISc, during my Bachelors.\nYou can find the documentation here."
+  },
+  {
+    "objectID": "other_stuff.html#noise",
+    "href": "other_stuff.html#noise",
+    "title": "Other Stuff",
+    "section": "",
+    "text": "This is N-body simulation using Particle-Mesh Method aka NOISE, following the tradition of great astrophysical abbreviations.\nAs the name suggests, this is N-body simulation code, written in Python, that uses the Particle-Mesh method for calculating the gravitational forces.\nThis was part of course project for a Computational Physics course at IISc, during my Bachelors.\nYou can find the documentation here."
+  },
+  {
+    "objectID": "other_stuff.html#deprojection",
+    "href": "other_stuff.html#deprojection",
+    "title": "Other Stuff",
+    "section": "Deprojection",
+    "text": "Deprojection\nThis was a super short dive-in into deprojection. On the sky we can only see a 2D projection of something 3D. In absence of any extra information, one has to retrieve the 3D distribution from this 2D projections, and that is called Deprojecting.\nHere’s I have tried my hands at doing a very simple deprojection from a projection of a known 3D distribution.\nYou can get to the light-themed version of the page here."
+  },
+  {
     "objectID": "research/thermal_instability.html",
     "href": "research/thermal_instability.html",
     "title": "Thermal Instability in 1D",
     "section": "",
     "text": "Such empty, much wow!\nAn in-depth description for this project is coming soon.\nKeep an eye on this space. :)"
-  },
-  {
-    "objectID": "research/mhd_multiphase.html",
-    "href": "research/mhd_multiphase.html",
-    "title": "Multiphase Gas in magnetised, turbulent medium",
-    "section": "",
-    "text": "Such empty, much wow!\nAn in-depth description for this project is coming soon.\nKeep an eye on this space. :)"
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "Hitesh Kishore Das",
-    "section": "",
-    "text": "I am a second year PhD student at Max Planck Institute for Astrophysics (MPA), Garching, which I joined under the International Max Planck School (IMPRS) on Astrophysics at Ludwig Maximilians University (LMU), Munich.\nI am part of Dr. Max Gronke’s Multiphase Gas Group at MPA.\nMy broad research interest is Computational Astrophysics. To be more specific, I work with (Magneto-)Hydrodynamic simulations to study the behaviour of Astrophysical mediums.\nIf you want to reach me, feel free to write me at hitesh[AT]mpa-garching.mpg.de"
-  },
-  {
-    "objectID": "about.html#education",
-    "href": "about.html#education",
-    "title": "Hitesh Kishore Das",
-    "section": "Education",
-    "text": "Education\nMax Planck Institute for Astrophysics | Garching, Germany\nPhD in Astrophysics| Sept 2021 - Present\n\nIndian Institute of Science (IISc) | Bengaluru, India\nBSc. and MSc. in Physics | Aug 2016 - Aug 2021\n\nFor more about my academic history, check out my Curriculum Vitae."
-  },
-  {
-    "objectID": "about.html#background",
-    "href": "about.html#background",
-    "title": "Hitesh Kishore Das",
-    "section": "Background",
-    "text": "Background\nI am natively from the state of Odisha (ଓଡିଶା) in India. During my early years, I travelled around a bit inside India with my parents as they got posted at different places. But soon, we settled at Odisha’s capital city, Bhubaneswar, where I spent most of my schooling days till my 12th grade.\nI spent the next 5 years, 2016-2021, in another Indian state, Karnataka’s capital, Bengaluru for my Bachelors and Masters of Science degrees in Physics, at Indian Institute of Science.\nAfter that, I came to Munich in Bavaria, Germany for my Doctoral Studies at Max Planck Institute for Astrophysics in nearby town of Garching."
-  },
-  {
-    "objectID": "about.html#what-else",
-    "href": "about.html#what-else",
-    "title": "Hitesh Kishore Das",
-    "section": "What else?",
-    "text": "What else?\nWhen I’m not blowing or stirring gas in a simulated box, I have a couple of hobbies that engage with. My hobbies include Bouldering, hiking on weekends at the nearby Bavarian Alps and playing Guitar.\nI also spend some of my free-time on side-projects which I might find interesting (this including adding content to this website).\nYou can find more about these in the Other Stuff section of the website."
   },
   {
     "objectID": "blog_list.html",
@@ -210,10 +154,80 @@
     "text": "Blog 1\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nBlog 2\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nBlog 3\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n\nNo matching items"
   },
   {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Hi!",
+    "section": "",
+    "text": "I am a second year PhD student at Max Planck Institute for Astrophysics (MPA), Garching, which I joined under the International Max Planck School (IMPRS) on Astrophysics on Astrophysics at Ludwig Maximilians University (LMU) (LMU), Munich.\nI am part of Dr. Max Gronke’s Multiphase Gas Group at MPA, where I am studying the effects of magnetic fields and turbulence on multiphase astrohysical mediums.\nMy broad research interest is Computational Astrophysics. To be more specific, I work with (Magneto-)Hydrodynamic simulations to study the behaviour of Astrophysical mediums.\n\nFor more about my academic history, check out my Curriculum Vitae.\n \n  \n   \n  \n    \n     Email\n  \n  \n    \n     Twitter\n  \n  \n    \n     Github\n  \n  \n    \n     Scholar"
+  },
+  {
+    "objectID": "index.html#whats-on-this-website",
+    "href": "index.html#whats-on-this-website",
+    "title": "Hi!",
+    "section": "What’s on this website?",
+    "text": "What’s on this website?\nAll the contents are arranged into different tabs on the top navigation bar.\nYou can find the details of my academic research in the Research section.\nThe Other Stuff section contains my other short and quick projects, my other hobbies or anything I find interesting and would like to share.\n Finally, the About page is all about (you guessed it!) me. 😄"
+  },
+  {
+    "objectID": "research.html",
+    "href": "research.html",
+    "title": "Research",
+    "section": "",
+    "text": "Magnetic fields and turbulence are ubiquitous, with many observational evidences towards there presence in multiple systems. This poses a dilemma for multiphase gas, which is also observed across wide scales, from solar to cluster environemnts. It has been shown that with radiative cooling, turbulence helps mixing of the different phases which can help in the survival of multiphase gas.\nBut, that is evidence from Radiative Turbulent Mixing Layer (TRMLs) simulations that mixing is suppressed in presence of magnetic fields. This can pose issue for the survival of multiphase gas. A concise summary of this dilemma is shown in meme below 😄. In this project, we attempt to solve this dilemma using a series of (magneto-)hydrodynamic simulations.\nThis project is part of my PhD thesis at Max Planck Institute of Astrophysics, Garching.\n\n\n\n \n\n\n\n\n\nThe Multiphase gas dilemma"
+  },
+  {
+    "objectID": "research.html#multiphase-gas-in-magnetised-turbulent-medium",
+    "href": "research.html#multiphase-gas-in-magnetised-turbulent-medium",
+    "title": "Research",
+    "section": "",
+    "text": "Magnetic fields and turbulence are ubiquitous, with many observational evidences towards there presence in multiple systems. This poses a dilemma for multiphase gas, which is also observed across wide scales, from solar to cluster environemnts. It has been shown that with radiative cooling, turbulence helps mixing of the different phases which can help in the survival of multiphase gas.\nBut, that is evidence from Radiative Turbulent Mixing Layer (TRMLs) simulations that mixing is suppressed in presence of magnetic fields. This can pose issue for the survival of multiphase gas. A concise summary of this dilemma is shown in meme below 😄. In this project, we attempt to solve this dilemma using a series of (magneto-)hydrodynamic simulations.\nThis project is part of my PhD thesis at Max Planck Institute of Astrophysics, Garching.\n\n\n\n \n\n\n\n\n\nThe Multiphase gas dilemma"
+  },
+  {
+    "objectID": "research.html#thermal-instability-in-1d",
+    "href": "research.html#thermal-instability-in-1d",
+    "title": "Research",
+    "section": "Thermal Instability in 1D",
+    "text": "Thermal Instability in 1D\nThermal instability (TI) is a process that can lead to multiphasa gas in Astrophysical mediums. In this project, that was part of my Bachelors thesis, we studied the linear and non-linear evolution of TI in 1D.\nWe looked at the dependence of this evolution on metallicity variation and the temperature, with some very interesting results.\nThis project lead to a paper which has been published on MNRAS, Volume 502, Issue 4, April 2021. The online version is available here. It is also available on arXiv at 2009.11317."
+  },
+  {
     "objectID": "other_stuff_v2.html",
     "href": "other_stuff_v2.html",
     "title": "Other Stuff",
     "section": "",
     "text": "Categories\nWhat would you like to explore first?\n\n\n  \n    \n      \n        Science \n      \n    \n    \n      \n    \n  \n  \n    \n      \n        Outdoors \n      \n    \n    \n      \n    \n  \n  \n    \n      \n        Music \n      \n    \n    \n      \n    \n  \n\n\nNo matching items"
+  },
+  {
+    "objectID": "research/mhd_multiphase.html",
+    "href": "research/mhd_multiphase.html",
+    "title": "Magnetic Fields in Multiphase Turbulence",
+    "section": "",
+    "text": "Hi there!\nIn this page we show some interesting visualisations from our paper “Magnetic Fields in Multiphase Turbulence: Impacts on Dynamics and Structure”.\nThe components, namely, Turbulence, Multiphase gas and Magnetic fields are ubiquitous in astrophysical media. But, there has been only limited work on the intersection of all three parts. This work was an attempt to broaden the understanding at this intersection. In particular, to look at how magnetic fields affect the growth and survival of multiphase gas in a turbulent medium.\nFor this study, we use two sets of simulations: Turbulent Radiative Mixing Layers (TRMLs) and turbulent boxes.\nBelow we show the different visualisations from these two simulations."
+  },
+  {
+    "objectID": "research/mhd_multiphase.html#turbulent-radiative-mixing-layers-trmls",
+    "href": "research/mhd_multiphase.html#turbulent-radiative-mixing-layers-trmls",
+    "title": "Magnetic Fields in Multiphase Turbulence",
+    "section": "Turbulent Radiative Mixing Layers (TRMLs)",
+    "text": "Turbulent Radiative Mixing Layers (TRMLs)\nHere’s a evolution in temperature showing a sliced view of different TRML simulations, along with the magnetic field lines.\nAnd here’s a evolution in scalar quantity showing a sliced view of different TRML simulations, along with the magnetic field lines."
+  },
+  {
+    "objectID": "research/mhd_multiphase.html#mhd-turbulent-boxes",
+    "href": "research/mhd_multiphase.html#mhd-turbulent-boxes",
+    "title": "Magnetic Fields in Multiphase Turbulence",
+    "section": "(MHD) turbulent boxes",
+    "text": "(MHD) turbulent boxes\nHere are 3-dimensional views of the evolution of the cold gas after the introduction of a cold gas cloud in driven-turbulence.\nWithout magnetic fields:\nWith magnetic fields:\nFor a more stable view, here’s a similar set of videos but as density projection.\n\nThis is for a case where the cloud get’s destroyed\n\nWithout magnetic fields\nWith magnetic fields\n\nA case where the cloud survives and cold gas grows\n\nWithout magnetic fields\nWith magnetic fields"
+  },
+  {
+    "objectID": "other_stuff/music.html",
+    "href": "other_stuff/music.html",
+    "title": "Music",
+    "section": "",
+    "text": "Snippets from my exploration of the musical landscape. Coming soon! :)"
+  },
+  {
+    "objectID": "other_stuff/outdoors.html",
+    "href": "other_stuff/outdoors.html",
+    "title": "Outdoors",
+    "section": "",
+    "text": "Pictures from outdoor activities like bouldering, hiking, skiing, etc. Coming soon! :)"
   }
 ]
