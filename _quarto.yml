@@ -70,7 +70,7 @@ format:
       dark: [scss/theme-dark.scss, lux]
       light: [scss/theme-light.scss, lux]
     smooth-scroll: true
-    fontsize: 1.0vh
+    fontsize: 1.5vh
     page-layout: full
     max-width: 100%
     css: styles.css
