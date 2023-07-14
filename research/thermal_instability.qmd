@@ -21,6 +21,8 @@ There were three regimes:
 * II : Both isobaric (small-scale) and isochoric (large-scale) perturbations are *unstable*
 * III : Isobaric (small-scale) perturbations are *unstable* and isochoric (large-scale) ones are *stable*
 
+![The different regimes in temperature](growth_rate_regimes.jpeg)
+
 Region I of course does not lead to anything, but interesting behaviour occurs in region II and III.
 
 In region II, isochoric perturbations take the lead, and the overall evolution seems isochoric and large-scale in nature.
@@ -29,3 +31,5 @@ In region III, isobaric perturbations take the lead, and the evolution of small-
 This gives rise to a two different kinds of behaviour in presence of both large-scale and small-scale perturbations, depending on the regime that the temperature falls in.
 
 In region III, the behaviour is akin to the shattering of a large-scale perturbations, while in region II the large-scale perturbations contracts monolithically.
+
+![The overview of what happens in different regimes](TI_overview.jpeg)
