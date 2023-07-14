@@ -13,7 +13,7 @@ thermal instability at different temperatures, in 1D.
 We found that the growth rates of thermal instability does not explicitly depend on the metallicity. We compared the simulations with theoretical expectations from linear
 analysis and found a very good agreement in the limits where the theory holds.
 
-![Comparison between theoretical and simlated growth rates](growth_rate_TI.jpeg)
+![Comparison between theoretical and simlated growth rates](growth_rates_TI.jpeg)
 
 What we did find, was the existence of different temperature regimes, where isobaric (small-scale) perturbations and isochoric (large-scale) perturbations had different behaviour at a given temperture.
 There were three regimes:
