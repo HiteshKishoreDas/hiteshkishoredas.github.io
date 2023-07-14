@@ -3,7 +3,29 @@ title: "Thermal Instability in 1D"
 # sidebar: false
 ---
 
-Such empty, much wow!    
+This project was part of my Bachelors thesis at Indian Institute of Science, Bangalore, and was published on MNRAS ([here](https://doi.org/10.1093/mnras/stab382)).
 
-An in-depth description for this project is coming soon.    
-Keep an eye on this space. :)   
+Thermal instability has been long proposed as one of the sources for cold gas in different astrophysical media.
+There have been numerous studies on its evolution and behaviour, including effects of factors like magnetic fields, gravity, rotation, etc.
+Similarly, in this study we aimed to study the effects of metallicity variations on thermal instability, including the difference in non-linear evolution of 
+thermal instability at different temperatures, in 1D.
+
+We found that the growth rates of thermal instability does not explicitly depend on the metallicity. We compared the simulations with theoretical expectations from linear
+analysis and found a very good agreement in the limits where the theory holds.
+
+![Comparison between theoretical and simlated growth rates](growth_rate_TI.jpeg)
+
+What we did find, was the existence of different temperature regimes, where isobaric (small-scale) perturbations and isochoric (large-scale) perturbations had different behaviour at a given temperture.
+There were three regimes:
+* I : Both isobaric (small-scale) and isochoric (large-scale) perturbations are *stable*
+* II : Both isobaric (small-scale) and isochoric (large-scale) perturbations are *unstable*
+* III : Isobaric (small-scale) perturbations are *unstable* and isochoric (large-scale) ones are *stable*
+
+Region I of course does not lead to anything, but interesting behaviour occurs in region II and III.
+
+In region II, isochoric perturbations take the lead, and the overall evolution seems isochoric and large-scale in nature.
+In region III, isobaric perturbations take the lead, and the evolution of small-scale perturbations is dominant.
+
+This gives rise to a two different kinds of behaviour in presence of both large-scale and small-scale perturbations, depending on the regime that the temperature falls in.
+
+In region III, the behaviour is akin to the shattering of a large-scale perturbations, while in region II the large-scale perturbations contracts monolithically.
