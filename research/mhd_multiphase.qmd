@@ -6,7 +6,7 @@ title: "Magnetic Fields in Multiphase Turbulence"
 Hi there!
 
 In this page we show some interesting visualisations from our paper "Magnetic Fields in Multiphase Turbulence: 
-Impacts on Dynamics and Structure" ([2307.06411](https://arxiv.org/abs/2307.06411) ).
+Impacts on Dynamics and Structure" ([2307.06411](https://arxiv.org/abs/2307.06411)).
 
 The components, namely, Turbulence, Multiphase gas and Magnetic fields 
 are ubiquitous in astrophysical media. But, there has been only limited work on the intersection of all
