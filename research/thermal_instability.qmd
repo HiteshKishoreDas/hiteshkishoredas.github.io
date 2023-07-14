@@ -5,6 +5,8 @@ title: "Thermal Instability in 1D"
 
 This project was part of my Bachelors thesis at Indian Institute of Science, Bangalore, and was published on MNRAS ([here](https://doi.org/10.1093/mnras/stab382)).
 
+Unfortunately, the figures are not available in dark-mode. So, apologies to dark-mode users. ☹️
+
 Thermal instability has been long proposed as one of the sources for cold gas in different astrophysical media.
 There have been numerous studies on its evolution and behaviour, including effects of factors like magnetic fields, gravity, rotation, etc.
 Similarly, in this study we aimed to study the effects of metallicity variations on thermal instability, including the difference in non-linear evolution of 
