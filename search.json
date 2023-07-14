@@ -200,7 +200,7 @@
     "href": "research/mhd_multiphase.html",
     "title": "Magnetic Fields in Multiphase Turbulence",
     "section": "",
-    "text": "Hi there!\nIn this page we show some interesting visualisations from our paper “Magnetic Fields in Multiphase Turbulence: Impacts on Dynamics and Structure” (2307.06411 ).\nThe components, namely, Turbulence, Multiphase gas and Magnetic fields are ubiquitous in astrophysical media. But, there has been only limited work on the intersection of all three parts. This work was an attempt to broaden the understanding at this intersection. In particular, to look at how magnetic fields affect the growth and survival of multiphase gas in a turbulent medium.\nFor this study, we use two sets of simulations: Turbulent Radiative Mixing Layers (TRMLs) and turbulent boxes.\nBelow we show the different visualisations from these two simulations."
+    "text": "Hi there!\nIn this page we show some interesting visualisations from our paper “Magnetic Fields in Multiphase Turbulence: Impacts on Dynamics and Structure” (2307.06411).\nThe components, namely, Turbulence, Multiphase gas and Magnetic fields are ubiquitous in astrophysical media. But, there has been only limited work on the intersection of all three parts. This work was an attempt to broaden the understanding at this intersection. In particular, to look at how magnetic fields affect the growth and survival of multiphase gas in a turbulent medium.\nFor this study, we use two sets of simulations: Turbulent Radiative Mixing Layers (TRMLs) and turbulent boxes.\nBelow we show the different visualisations from these two simulations."
   },
   {
     "objectID": "research/mhd_multiphase.html#turbulent-radiative-mixing-layers-trmls",
