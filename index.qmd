@@ -16,8 +16,8 @@ about:
       text: Github
       href: https://github.com/hiteshkishoredas
     - icon: paperclip
-      text: Scholar
-      href: https://scholar.google.com/citations?user=5F0FN1QAAAAJ&hl=en&oi=ao
+      text: Publications
+      href: https://ui.adsabs.harvard.edu/public-libraries/rSxyW3mIQvK8ArHKfTxYcQ
 
 sidebar: false
 

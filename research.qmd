@@ -8,6 +8,7 @@ Magnetic fields and turbulence are ubiquitous, with many observational evidences
 But, that is evidence from Radiative Turbulent Mixing Layer (TRMLs) simulations that mixing is suppressed in presence of magnetic fields. This can pose issue for the survival of multiphase gas. A concise summary of this dilemma is shown in meme below 😄. In this project, we attempt to solve this dilemma using a series of (magneto-)hydrodynamic simulations.
 
 This project is part of my PhD thesis at Max Planck Institute of Astrophysics, Garching.
+The results from this project have been submitted for publication. The preprint version can be found at ([2307.06411](https://arxiv.org/abs/2307.06411)).
 
 ::: {layout="[-5,15,-5]"}
 ![The Multiphase gas dilemma](images/MHD_multiphase_meme.png) 
