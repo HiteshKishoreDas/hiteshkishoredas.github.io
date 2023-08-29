@@ -88,12 +88,6 @@ Indian Institute of Science (IISc), Bengaluru, India
 Major: Physics   
 Duration: 2016-2020   
 
-**Senior Secondary (CBSE), 2016}**
-Kendriya Vidyalaya No-4, Bhubaneswar, India    
-Stream: Science    
-Date: 21/05/2016   
-
-
 ## Research Experience
 
 #### The dynamics of magnetized, multiphase gas in a turbulent environment   
@@ -119,9 +113,7 @@ Physical Sciences, Indian Institute of Science, Bangalore
 
 #### Computational Studies of Systems of Self-driven Particles       
 **[ 8 MAY 2019 – 12 JUL 2019 ]**    
-This project aimed at investigating the underlying physical origin of this "phase transition" via the development of appropriate computational models. The project goals included:     
-- Molecular dynamics code development (in LAMMPS), adapting existing code in the research group    
-- Reproduction of literature data   
+This project aimed at investigating the underlying physical origin of this "phase transition" via the development of appropriate computational models. 
 
 Under supervision of: Assoc. Prof. Massimo Pica Ciamarra    
 School of Physical \& Mathematical Sciences, Nanyang Technological University, Singapore     -->
@@ -165,32 +157,6 @@ Attended virtually and submitted a poster for the parallel session "Non-equilibr
 - **Gas Flows around Galaxies: ORIGINS workshop** (May 24, 2022)    
 Presented my work in-person at MPA, Garching     
 
-- **Presision Presidency Physics Summit** (September 11-13, 2020)   
-Organized by Presidency University, Kolkata}    
-Presented work done on Thermal Instability as a talk in the Undergraduate Symposium.
-
-- **On the Origin, Nature, and Mixing of Multiphase Gas in Astrophysics** KITP online conference (October 15-16, 2020)     
-Attended the conference virtually
-
-- **IAP online Colloquium on Intracluster Medium/Circumgalactic medium** (June 22-26, 2020)     
-Attended the conference virtually    
-
-
-## Extra-curricular Experience
-
-- **13th IMPRS Symposium**    
-Was involved in organising the 13th IMPRS Symposium as the Chair of the Local Organising Committee. 
-
-- **Undergraduate Physics Club**    
-Delivered a talk on "Special Relativity and Minkowski Diagrams".    
-
-- **Indian Instiute of Science Open Day**    
-Constructed and demonstrated an experiment about Bernard cells, convection and convection cells in Sun. Also, demonstrated an experiment about Polarization of light.
-
-- **Institute Fest - "Pravega"**     
-Involved in planning and conducting events by Physics club for Pravega - 2016 and Pravega - 2017.     
-<!-- Event coordinator for the "Vacuum cannon" event in Pravega-2017 -->
-     
 
 ## Awards and Fellowships
 
