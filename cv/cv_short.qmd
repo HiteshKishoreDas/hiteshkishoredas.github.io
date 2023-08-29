@@ -124,34 +124,7 @@ This project aimed at investigating the underlying physical origin of this "phas
 - Reproduction of literature data   
 
 Under supervision of: Assoc. Prof. Massimo Pica Ciamarra    
-School of Physical \& Mathematical Sciences, Nanyang Technological University, Singapore    
-
-
-#### Electrostatics of Spherical Topological Insulators     
-**[ 1 MAY 2018 – 30 JUN 2018 ]**   
-Theoretical derivation of electric and magnetic scalar potentials for different cases of electric and magnetic fields near a spherical Topological insulator.    
-
-Under supervision of: Assoc. Prof. Subroto Mukerjee    
-Physical Sciences, Indian Institute of Science, Bangalore   
-
-
-#### Analysis of data from CERN 2010 open data and simulation of top pair production
-**[ 1 MAY 2017 – 31 JUL 2017 ]**   
-It consisted of accessing CERN 2010 open data using CernVM and analysing the data using C++ and Python code incorporating ROOT to plot Dimuon spectra, Trimuon spectra and other related plots.   
-High-energy particle physics event simulations of top pair production were done using Pythia 8.2 and Madgraph 5.    
-
-Under supervision of: Asst. Prof. Jyothsna Rani Komaragiri   
-Centre for High Energy Physics, Indian Institute of Science, Bangalore    
-
-
-<!-- #### Special Relativity and Elementary Particle Physics (Reading Project)
-**[ 1 MAY 2017 – 31 JUL 2017 ]**    
-Study of Special Relativity from "Special Relativity" by Robert Resnick and Elementary Particle Physics from "Introduction to Elementary Particles" by David Griffith.     
-
-Under supervision of: Asst. Prof. Jyothsna Rani Komaragiri    
-Centre for High Energy Physics, Indian Institute of Science, Bangalore     -->
-
-
+School of Physical \& Mathematical Sciences, Nanyang Technological University, Singapore     -->
 
 
 ## Publications
@@ -268,61 +241,4 @@ Bash scripting
 **Others**: LaTeX, ROOT, Bash scripting, High Performance Computing     
 :::
 
-<!-- ## Standardised Tests 
-
-+-----------------+---------------+---------------------------+
-| **GRE General** | - Total : 330 | - Quantitative: 169       |
-|                 |               | - Verbal      : 161       |
-|                 |               | - Analytical Writing: 4.0 |
-+-----------------+---------------+---------------------------+
-| **TOEFL-iBT**   | Total : 108   | - Reading   : 29          |
-|                 |               | - Listerning: 30          |
-|                 |               | - Speaking  : 24          |
-|                 |               | - Writing   : 25          |
-+-----------------+---------------+---------------------------+
-| **GRE Physics** | Score: 89%ile |                           |
-|                 |               |                           |
-+-----------------+---------------+---------------------------+ -->
-
-
-
-## Language proficiency
-
-- English (Proficient)
-- Hindi (Proficient)
-- Odia (Native)
-- German (Beginner A1)
-
 {{< pagebreak >}}
-
-## References
-
-#### Dr. Max Gronke
-Max Planck Institute for Astrophysics, Garching, Germany    
-Email: maxbg[AT]mpa-garching.mpg.de    
-Website: [max.lyman-alpha.com](http://max.lyman-alpha.com)   
-
-#### Assoc. Prof. Prateek Sharma
-Physical Sciences   
-Indian Institute of Science, Bangalore   
-Email: prateek[AT]iisc.ac.in    
-Website: [www.physics.iisc.ernet.in/~prateek](http://www.physics.iisc.ernet.in/~prateek/)      
-
-#### Assoc. Prof. Massimo Pica Ciamarra
-Nanyang Associate Professor    
-School of Physical & Mathematical Sciences    
-Nanyang Technological University, Singapore    
-Email: massimo[AT]ntu.edu.sg    
-Website: [sites.google.com/site/ciamarragroup](https://sites.google.com/site/ciamarragroup/)     
-
-#### Assoc. Prof. Subroto Mukerjee
-Physical Sciences      
-Indian Institute of Science, Bangalore    
-Email: smukerjee[AT]iisc.ac.in    
-Website: [physics.iisc.ernet.in/~smukerjee](http://physics.iisc.ernet.in/~smukerjee)   
- 
-#### Asst. Prof. Jyothsna Rani Komaragiri
-Centre for High Energy Physics    
-Indian Institute of Science, Bangalore  
-Email: jyothsna.komaragiri[AT]gmail.com    
-Website: [chep.iisc.ac.in/Personnel/pages/jyothsna](http://chep.iisc.ac.in/Personnel/pages/jyothsna)     
