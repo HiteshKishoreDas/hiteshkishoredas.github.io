@@ -200,14 +200,14 @@
     "href": "cv/cv_short.html#research-experience",
     "title": "Hitesh Kishore Das",
     "section": "Research Experience",
-    "text": "Research Experience\n\nThe dynamics of magnetized, multiphase gas in a turbulent environment\n[ 8 SEP 2021 - PRESENT ]\nWe are studying the different aspects of multiphase gas, like survival, morphology and growth, in a turbulent medium in presence of magnetic fields. We use idealised MHD simulations run using Athena ++ for this study.\nDoctoral Advisor: Dr. Max Gronke\nFormal supervisor: Prof. Volker Springel\nMax Planck Institute for Astrophysics, Garching\n\n\nRole of temperature and metallicity in the evolution of thermal instability\n[ 1 AUG 2019 - PRESENT ]\nIn this project we investigate the role of different parameters like metallicity and temperature in the growth of thermal instability. The project includes setting up and running simulation for study of thermal instabilities using PLUTO.\nThis work led to some important insights into evolution of large-scale isochoric clouds.\nThis project contributed towards my Bachelors thesis and led to a research paper in collaboration with Dr. Prakriti Pal Choudhury and Prof. Prateek Sharma.\nUnder supervision of: Assoc. Prof. Prateek Sharma\nCollaborator: Dr. Prakriti Pal Choudhury Physical Sciences, Indian Institute of Science, Bangalore\n\n\nComputational Studies of Systems of Self-driven Particles\n[ 8 MAY 2019 – 12 JUL 2019 ]\nThis project aimed at investigating the underlying physical origin of this “phase transition” via the development of appropriate computational models.\nUnder supervision of: Assoc. Prof. Massimo Pica Ciamarra\nSchool of Physical & Mathematical Sciences, Nanyang Technological University, Singapore –&gt;"
+    "text": "Research Experience\n\nThe dynamics of magnetized, multiphase gas in a turbulent environment\n[ 8 SEP 2021 - PRESENT ]\nWe are studying the different aspects of multiphase gas, like survival, morphology and growth, in a turbulent medium in presence of magnetic fields. We use idealised MHD simulations run using Athena ++ for this study.\nDoctoral Advisor: Dr. Max Gronke\nFormal supervisor: Prof. Volker Springel\nMax Planck Institute for Astrophysics, Garching\n\n\nRole of temperature and metallicity in the evolution of thermal instability\n[ 1 AUG 2019 - PRESENT ]\nThis project contributed towards my Bachelors thesis and led to a research paper in collaboration with Dr. Prakriti Pal Choudhury and Prof. Prateek Sharma.\nUnder supervision of: Assoc. Prof. Prateek Sharma\nCollaborator: Dr. Prakriti Pal Choudhury Physical Sciences, Indian Institute of Science, Bangalore\n\n\nComputational Studies of Systems of Self-driven Particles\n[ 8 MAY 2019 – 12 JUL 2019 ]\nThis project aimed at investigating the underlying physical origin of this “phase transition” via the development of appropriate computational models.\nUnder supervision of: Assoc. Prof. Massimo Pica Ciamarra\nSchool of Physical & Mathematical Sciences, Nanyang Technological University, Singapore –&gt;"
   },
   {
     "objectID": "cv/cv_short.html#publications",
     "href": "cv/cv_short.html#publications",
     "title": "Hitesh Kishore Das",
     "section": "Publications",
-    "text": "Publications\n\n- Shatter or not: role of temperature and metallicity in the evolution of thermal instability\nHitesh Kishore Das, Prakriti Pal Choudhury, Prateek Sharma\nJournal: Monthly Notices of the Royal Astronomical Society, Volume 502, Issue 4, April 2021, Pages 4935–4952, doi.org/10.1093/mnras/stab382\narXiv: 2009.11317"
+    "text": "Publications\n\n- Magnetic Fields in Multiphase Turbulence: Impacts on Dynamics and Structure\nHitesh Kishore Das, Max Gronke\narXiv: 2307.06411\n\n\n- Shatter or not: role of temperature and metallicity in the evolution of thermal instability\nHitesh Kishore Das, Prakriti Pal Choudhury, Prateek Sharma\nJournal: Monthly Notices of the Royal Astronomical Society, Volume 502, Issue 4, April 2021, Pages 4935–4952, doi.org/10.1093/mnras/stab382\narXiv: 2009.11317"
   },
   {
     "objectID": "cv/cv_short.html#conferences-and-seminars",
@@ -215,20 +215,6 @@
     "title": "Hitesh Kishore Das",
     "section": "Conferences and Seminars",
     "text": "Conferences and Seminars\n\nModelling of Multiphase Astrophysical Media (May 30-June 2, 2023)\nPresented a ~15 min talk about my work. In-person at Aspenstein Castle, near Lake Kochel, Germany\nMPA weekly Institute Seminar (May 15, 2023)\nPresented a ~45 min talk about my work. In-person at MPA, Garching, Germany\n52nd Saas-Fee winter School on “The Circum-Galactic Medium across cosmic time: an observational and modelling challenge”\n(March 19-24, 2023)\nPresented a poster about my work. In-person at Les Diablerets, Switzerland\nTeam meeting for “Observe Local Think Global: What Solar Observations can teach us about Multiphase Plasmas across Astrophysical Scales”\n(March 13-17, 2023)\nPresented an introduction for simulations in ICM/CGM, and my work. In-person at ISSI, Bern, Switzerland\nThe Multiphase Circumgalactic Medium (February 26- March 3, 2023)\nPresented a ~15 min talk about my work. In-person at Ringberg Castle, Germany\nLyman-X Day: ORIGINS workshop (October 5, 2022)\nAttended in-person at European Southern Observatory (ESO), Garching\nThe National Astronomy Meeting (NAM) 2022 (July 11-15, 2022)\nAttended virtually and submitted a poster for the parallel session “Non-equilibrium thermodynamics across scales: from the solar corona to the intracluster medium”.\nGas Flows around Galaxies: ORIGINS workshop (May 24, 2022)\nPresented my work in-person at MPA, Garching"
-  },
-  {
-    "objectID": "cv/cv_short.html#awards-and-fellowships",
-    "href": "cv/cv_short.html#awards-and-fellowships",
-    "title": "Hitesh Kishore Das",
-    "section": "Awards and Fellowships",
-    "text": "Awards and Fellowships\n\nKishore Vaigyanik Protsahan Yojana (KVPY) Fellowship}\nFunded by: Department of Science and Technology, Government of India\nStream: SX\nDuration: 2016-2021\nNational Cyber Olympiad 2014-15\nNational Rank: 1 (in 11th grade)\nOrganised by: Science Olympiad Foundation\nNational Standard Examination in Astronomy , 2015\nGot certificate for being in top 10% of the examination centre.\nOrganised by: Indian Association of Physics Teachers (IAPT)"
-  },
-  {
-    "objectID": "cv/cv_short.html#skills",
-    "href": "cv/cv_short.html#skills",
-    "title": "Hitesh Kishore Das",
-    "section": "Skills",
-    "text": "Skills\n\n\nC, C++\nAthena++\nLAMMPS\nMadgraph 5\nMathematica\nHigh Performance Computing\nLaTeX\n\nPython\nPLUTO\nROOT\nPythia 8.2\nSQL\nMatlab\nBash scripting"
   },
   {
     "objectID": "research/thermal_instability.html",
