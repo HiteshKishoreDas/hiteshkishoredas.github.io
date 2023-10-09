@@ -4,7 +4,7 @@
     "href": "about.html",
     "title": "Hitesh Kishore Das",
     "section": "",
-    "text": "I am a second year PhD student at Max Planck Institute for Astrophysics (MPA), Garching, which I joined under the International Max Planck School (IMPRS) on Astrophysics at Ludwig Maximilians University (LMU), Munich.\nI am part of Dr. Max Gronke’s Multiphase Gas Group at MPA.\nMy broad research interest is Computational Astrophysics. To be more specific, I work with (Magneto-)Hydrodynamic simulations to study the behaviour of Astrophysical mediums.\nIf you want to reach me, feel free to write me at hitesh[AT]mpa-garching.mpg.de"
+    "text": "I am a third year PhD student at Max Planck Institute for Astrophysics (MPA), Garching, which I joined under the International Max Planck School (IMPRS) on Astrophysics at Ludwig Maximilians University (LMU), Munich.\nI am part of Dr. Max Gronke’s Multiphase Gas Group at MPA.\nMy broad research interest is Computational Astrophysics. To be more specific, I work with (Magneto-)Hydrodynamic simulations to study the behaviour of Astrophysical mediums.\nIf you want to reach me, feel free to write me at hitesh[AT]mpa-garching.mpg.de"
   },
   {
     "objectID": "about.html#education",
@@ -49,18 +49,74 @@
     "text": "Deprojection\nThis was a super short dive-in into deprojection. On the sky we can only see a 2D projection of something 3D. In absence of any extra information, one has to retrieve the 3D distribution from this 2D projections, and that is called Deprojecting.\nHere’s I have tried my hands at doing a very simple deprojection from a projection of a known 3D distribution.\nYou can get to the light-themed version of the page here."
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Hi!",
+    "objectID": "research/mhd_multiphase.html",
+    "href": "research/mhd_multiphase.html",
+    "title": "Magnetic Fields in Multiphase Turbulence",
     "section": "",
-    "text": "I am a second year PhD student at Max Planck Institute for Astrophysics (MPA), Garching, which I joined under the International Max Planck School (IMPRS) on Astrophysics on Astrophysics at Ludwig Maximilians University (LMU) (LMU), Munich.\nI am part of Dr. Max Gronke’s Multiphase Gas Group at MPA, where I am studying the effects of magnetic fields and turbulence on multiphase astrohysical mediums.\nMy broad research interest is Computational Astrophysics. To be more specific, I work with (Magneto-)Hydrodynamic simulations to study the behaviour of Astrophysical mediums.\n\nFor more about my academic history, check out my Curriculum Vitae.\n \n  \n   \n  \n    \n     Email\n  \n  \n    \n     Twitter\n  \n  \n    \n     Github\n  \n  \n    \n     Publications"
+    "text": "Hi there!\nIn this page we show some interesting visualisations from our paper “Magnetic Fields in Multiphase Turbulence: Impacts on Dynamics and Structure” (2307.06411).\nThe components, namely, Turbulence, Multiphase gas and Magnetic fields are ubiquitous in astrophysical media. But, there has been only limited work on the intersection of all three parts. This work was an attempt to broaden the understanding at this intersection. In particular, to look at how magnetic fields affect the growth and survival of multiphase gas in a turbulent medium.\nFor this study, we use two sets of simulations: Turbulent Radiative Mixing Layers (TRMLs) and turbulent boxes.\nBelow we show the different visualisations from these two simulations."
   },
   {
-    "objectID": "index.html#whats-on-this-website",
-    "href": "index.html#whats-on-this-website",
-    "title": "Hi!",
-    "section": "What’s on this website?",
-    "text": "What’s on this website?\nAll the contents are arranged into different tabs on the top navigation bar.\nYou can find the details of my academic research in the Research section.\nThe Other Stuff section contains my other short and quick projects, my other hobbies or anything I find interesting and would like to share.\n Finally, the About page is all about (you guessed it!) me. 😄"
+    "objectID": "research/mhd_multiphase.html#turbulent-radiative-mixing-layers-trmls",
+    "href": "research/mhd_multiphase.html#turbulent-radiative-mixing-layers-trmls",
+    "title": "Magnetic Fields in Multiphase Turbulence",
+    "section": "Turbulent Radiative Mixing Layers (TRMLs)",
+    "text": "Turbulent Radiative Mixing Layers (TRMLs)\nHere’s a evolution in temperature showing a sliced view of different TRML simulations, along with the magnetic field lines:\n\nIt shows how the two phases are getting mixed and how the magnetic field topology evolves with time.\nAnd here’s a evolution in scalar quantity showing a sliced view of different TRML simulations, along with the magnetic field lines. This gives some hints towards the origin of gases in the different phases."
+  },
+  {
+    "objectID": "research/mhd_multiphase.html#magneto-hydrodynamic-turbulent-boxes",
+    "href": "research/mhd_multiphase.html#magneto-hydrodynamic-turbulent-boxes",
+    "title": "Magnetic Fields in Multiphase Turbulence",
+    "section": "(Magneto-)Hydrodynamic turbulent boxes",
+    "text": "(Magneto-)Hydrodynamic turbulent boxes\nHere are 3-dimensional views of the evolution of the cold gas after the introduction of a cold gas cloud in driven-turbulence.\nWithout magnetic fields:\n\nWith magnetic fields:\n\nThese clearly show the morphological difference between the cold phase in Hydrodynamic and Magnetohydrodynamic turbulence. The cold gas phase is much more filamentary in presence of magnetic fields.\nFor a more stable view, here’s a similar set of videos but as density projection.\n\nThis is for a case where the cloud get’s destroyed\n\n\n\nThe cases where the cloud survives and cold gas grows"
+  },
+  {
+    "objectID": "cv/cv_short.html",
+    "href": "cv/cv_short.html",
+    "title": "Hitesh Kishore Das",
+    "section": "",
+    "text": "Link to the PDF version of my CV, short version"
+  },
+  {
+    "objectID": "cv/cv_short.html#education",
+    "href": "cv/cv_short.html#education",
+    "title": "Hitesh Kishore Das",
+    "section": "Education",
+    "text": "Education\nPhD in Astrophysics} (Ongoing)\nInternational Max Planck Research School on Astrophysics (IMPRS)\nMax Planck Institute for Astrophysics (MPA), Garching, Germany\nLudwig Maximilians University (LMU), Munich, Germany\nDuration: 2021-Present\nMaster of Science}\nIndian Institute of Science (IISc), Bengaluru, India\nMajor: Physics\nDuration: 2020-2021\nBachelor of Science (Research)} Indian Institute of Science (IISc), Bengaluru, India\nMajor: Physics\nDuration: 2016-2020"
+  },
+  {
+    "objectID": "cv/cv_short.html#research-experience",
+    "href": "cv/cv_short.html#research-experience",
+    "title": "Hitesh Kishore Das",
+    "section": "Research Experience",
+    "text": "Research Experience\n\nThe dynamics of magnetized, multiphase gas in a turbulent environment\n[ 8 SEP 2021 - PRESENT ]\nWe are studying the different aspects of multiphase gas, like survival, morphology and growth, in a turbulent medium in presence of magnetic fields. We use idealised MHD simulations run using Athena ++ for this study.\nDoctoral Advisor: Dr. Max Gronke\nFormal supervisor: Prof. Volker Springel\nMax Planck Institute for Astrophysics, Garching\n\n\nRole of temperature and metallicity in the evolution of thermal instability\n[ 1 AUG 2019 - PRESENT ]\nThis project contributed towards my Bachelors thesis and led to a research paper in collaboration with Dr. Prakriti Pal Choudhury and Prof. Prateek Sharma.\nUnder supervision of: Assoc. Prof. Prateek Sharma\nCollaborator: Dr. Prakriti Pal Choudhury Physical Sciences, Indian Institute of Science, Bangalore\n\n\nComputational Studies of Systems of Self-driven Particles\n[ 8 MAY 2019 – 12 JUL 2019 ]\nThis project aimed at investigating the underlying physical origin of this “phase transition” via the development of appropriate computational models.\nUnder supervision of: Assoc. Prof. Massimo Pica Ciamarra\nSchool of Physical & Mathematical Sciences, Nanyang Technological University, Singapore –&gt;"
+  },
+  {
+    "objectID": "cv/cv_short.html#publications",
+    "href": "cv/cv_short.html#publications",
+    "title": "Hitesh Kishore Das",
+    "section": "Publications",
+    "text": "Publications\n\n- Magnetic Fields in Multiphase Turbulence: Impacts on Dynamics and Structure\nHitesh Kishore Das, Max Gronke\narXiv: 2307.06411\n\n\n- Shatter or not: role of temperature and metallicity in the evolution of thermal instability\nHitesh Kishore Das, Prakriti Pal Choudhury, Prateek Sharma\nJournal: Monthly Notices of the Royal Astronomical Society, Volume 502, Issue 4, April 2021, Pages 4935–4952, doi.org/10.1093/mnras/stab382\narXiv: 2009.11317"
+  },
+  {
+    "objectID": "cv/cv_short.html#conferences-and-seminars",
+    "href": "cv/cv_short.html#conferences-and-seminars",
+    "title": "Hitesh Kishore Das",
+    "section": "Conferences and Seminars",
+    "text": "Conferences and Seminars\n\nModelling of Multiphase Astrophysical Media (May 30-June 2, 2023)\nPresented a ~15 min talk about my work. In-person at Aspenstein Castle, near Lake Kochel, Germany\nMPA weekly Institute Seminar (May 15, 2023)\nPresented a ~45 min talk about my work. In-person at MPA, Garching, Germany\n52nd Saas-Fee winter School on “The Circum-Galactic Medium across cosmic time: an observational and modelling challenge”\n(March 19-24, 2023)\nPresented a poster about my work. In-person at Les Diablerets, Switzerland\nTeam meeting for “Observe Local Think Global: What Solar Observations can teach us about Multiphase Plasmas across Astrophysical Scales”\n(March 13-17, 2023)\nPresented an introduction for simulations in ICM/CGM, and my work. In-person at ISSI, Bern, Switzerland\nThe Multiphase Circumgalactic Medium (February 26- March 3, 2023)\nPresented a ~15 min talk about my work. In-person at Ringberg Castle, Germany\nLyman-X Day: ORIGINS workshop (October 5, 2022)\nAttended in-person at European Southern Observatory (ESO), Garching\nThe National Astronomy Meeting (NAM) 2022 (July 11-15, 2022)\nAttended virtually and submitted a poster for the parallel session “Non-equilibrium thermodynamics across scales: from the solar corona to the intracluster medium”.\nGas Flows around Galaxies: ORIGINS workshop (May 24, 2022)\nPresented my work in-person at MPA, Garching"
+  },
+  {
+    "objectID": "blog_list.html",
+    "href": "blog_list.html",
+    "title": "Blog",
+    "section": "",
+    "text": "Blog 1\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nBlog 2\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nBlog 3\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "other_stuff/music.html",
+    "href": "other_stuff/music.html",
+    "title": "Music",
+    "section": "",
+    "text": "Snippets from my exploration of the musical landscape. Coming soon! :)"
   },
   {
     "objectID": "other_stuff/science.html",
@@ -84,25 +140,11 @@
     "text": "Deprojection\nThis was a super short dive-in into deprojection. On the sky we can only see a 2D projection of something 3D. In absence of any extra information, one has to retrieve the 3D distribution from this 2D projections, and that is called Deprojecting.\nHere’s I have tried my hands at doing a very simple deprojection from a projection of a known 3D distribution.\nYou can get to the light-themed version of the page here."
   },
   {
-    "objectID": "research/mhd_multiphase.html",
-    "href": "research/mhd_multiphase.html",
-    "title": "Magnetic Fields in Multiphase Turbulence",
+    "objectID": "other_stuff/outdoors.html",
+    "href": "other_stuff/outdoors.html",
+    "title": "Outdoors",
     "section": "",
-    "text": "Hi there!\nIn this page we show some interesting visualisations from our paper “Magnetic Fields in Multiphase Turbulence: Impacts on Dynamics and Structure” (2307.06411).\nThe components, namely, Turbulence, Multiphase gas and Magnetic fields are ubiquitous in astrophysical media. But, there has been only limited work on the intersection of all three parts. This work was an attempt to broaden the understanding at this intersection. In particular, to look at how magnetic fields affect the growth and survival of multiphase gas in a turbulent medium.\nFor this study, we use two sets of simulations: Turbulent Radiative Mixing Layers (TRMLs) and turbulent boxes.\nBelow we show the different visualisations from these two simulations."
-  },
-  {
-    "objectID": "research/mhd_multiphase.html#turbulent-radiative-mixing-layers-trmls",
-    "href": "research/mhd_multiphase.html#turbulent-radiative-mixing-layers-trmls",
-    "title": "Magnetic Fields in Multiphase Turbulence",
-    "section": "Turbulent Radiative Mixing Layers (TRMLs)",
-    "text": "Turbulent Radiative Mixing Layers (TRMLs)\nHere’s a evolution in temperature showing a sliced view of different TRML simulations, along with the magnetic field lines:\n\nIt shows how the two phases are getting mixed and how the magnetic field topology evolves with time.\nAnd here’s a evolution in scalar quantity showing a sliced view of different TRML simulations, along with the magnetic field lines. This gives some hints towards the origin of gases in the different phases."
-  },
-  {
-    "objectID": "research/mhd_multiphase.html#magneto-hydrodynamic-turbulent-boxes",
-    "href": "research/mhd_multiphase.html#magneto-hydrodynamic-turbulent-boxes",
-    "title": "Magnetic Fields in Multiphase Turbulence",
-    "section": "(Magneto-)Hydrodynamic turbulent boxes",
-    "text": "(Magneto-)Hydrodynamic turbulent boxes\nHere are 3-dimensional views of the evolution of the cold gas after the introduction of a cold gas cloud in driven-turbulence.\nWithout magnetic fields:\n\nWith magnetic fields:\n\nThese clearly show the morphological difference between the cold phase in Hydrodynamic and Magnetohydrodynamic turbulence. The cold gas phase is much more filamentary in presence of magnetic fields.\nFor a more stable view, here’s a similar set of videos but as density projection.\n\nThis is for a case where the cloud get’s destroyed\n\n\n\nThe cases where the cloud survives and cold gas grows"
+    "text": "Pictures from outdoor activities like bouldering, hiking, skiing, etc. Coming soon! :)"
   },
   {
     "objectID": "cv/cv.html",
@@ -182,67 +224,11 @@
     "text": "Categories\nWhat would you like to explore first?\n\n\n  \n    \n      \n        Science \n      \n    \n    \n      \n    \n  \n  \n    \n      \n        Outdoors \n      \n    \n    \n      \n    \n  \n  \n    \n      \n        Music \n      \n    \n    \n      \n    \n  \n\n\nNo matching items"
   },
   {
-    "objectID": "cv/cv_short.html",
-    "href": "cv/cv_short.html",
-    "title": "Hitesh Kishore Das",
-    "section": "",
-    "text": "Link to the PDF version of my CV, short version"
-  },
-  {
-    "objectID": "cv/cv_short.html#education",
-    "href": "cv/cv_short.html#education",
-    "title": "Hitesh Kishore Das",
-    "section": "Education",
-    "text": "Education\nPhD in Astrophysics} (Ongoing)\nInternational Max Planck Research School on Astrophysics (IMPRS)\nMax Planck Institute for Astrophysics (MPA), Garching, Germany\nLudwig Maximilians University (LMU), Munich, Germany\nDuration: 2021-Present\nMaster of Science}\nIndian Institute of Science (IISc), Bengaluru, India\nMajor: Physics\nDuration: 2020-2021\nBachelor of Science (Research)} Indian Institute of Science (IISc), Bengaluru, India\nMajor: Physics\nDuration: 2016-2020"
-  },
-  {
-    "objectID": "cv/cv_short.html#research-experience",
-    "href": "cv/cv_short.html#research-experience",
-    "title": "Hitesh Kishore Das",
-    "section": "Research Experience",
-    "text": "Research Experience\n\nThe dynamics of magnetized, multiphase gas in a turbulent environment\n[ 8 SEP 2021 - PRESENT ]\nWe are studying the different aspects of multiphase gas, like survival, morphology and growth, in a turbulent medium in presence of magnetic fields. We use idealised MHD simulations run using Athena ++ for this study.\nDoctoral Advisor: Dr. Max Gronke\nFormal supervisor: Prof. Volker Springel\nMax Planck Institute for Astrophysics, Garching\n\n\nRole of temperature and metallicity in the evolution of thermal instability\n[ 1 AUG 2019 - PRESENT ]\nThis project contributed towards my Bachelors thesis and led to a research paper in collaboration with Dr. Prakriti Pal Choudhury and Prof. Prateek Sharma.\nUnder supervision of: Assoc. Prof. Prateek Sharma\nCollaborator: Dr. Prakriti Pal Choudhury Physical Sciences, Indian Institute of Science, Bangalore\n\n\nComputational Studies of Systems of Self-driven Particles\n[ 8 MAY 2019 – 12 JUL 2019 ]\nThis project aimed at investigating the underlying physical origin of this “phase transition” via the development of appropriate computational models.\nUnder supervision of: Assoc. Prof. Massimo Pica Ciamarra\nSchool of Physical & Mathematical Sciences, Nanyang Technological University, Singapore –&gt;"
-  },
-  {
-    "objectID": "cv/cv_short.html#publications",
-    "href": "cv/cv_short.html#publications",
-    "title": "Hitesh Kishore Das",
-    "section": "Publications",
-    "text": "Publications\n\n- Magnetic Fields in Multiphase Turbulence: Impacts on Dynamics and Structure\nHitesh Kishore Das, Max Gronke\narXiv: 2307.06411\n\n\n- Shatter or not: role of temperature and metallicity in the evolution of thermal instability\nHitesh Kishore Das, Prakriti Pal Choudhury, Prateek Sharma\nJournal: Monthly Notices of the Royal Astronomical Society, Volume 502, Issue 4, April 2021, Pages 4935–4952, doi.org/10.1093/mnras/stab382\narXiv: 2009.11317"
-  },
-  {
-    "objectID": "cv/cv_short.html#conferences-and-seminars",
-    "href": "cv/cv_short.html#conferences-and-seminars",
-    "title": "Hitesh Kishore Das",
-    "section": "Conferences and Seminars",
-    "text": "Conferences and Seminars\n\nModelling of Multiphase Astrophysical Media (May 30-June 2, 2023)\nPresented a ~15 min talk about my work. In-person at Aspenstein Castle, near Lake Kochel, Germany\nMPA weekly Institute Seminar (May 15, 2023)\nPresented a ~45 min talk about my work. In-person at MPA, Garching, Germany\n52nd Saas-Fee winter School on “The Circum-Galactic Medium across cosmic time: an observational and modelling challenge”\n(March 19-24, 2023)\nPresented a poster about my work. In-person at Les Diablerets, Switzerland\nTeam meeting for “Observe Local Think Global: What Solar Observations can teach us about Multiphase Plasmas across Astrophysical Scales”\n(March 13-17, 2023)\nPresented an introduction for simulations in ICM/CGM, and my work. In-person at ISSI, Bern, Switzerland\nThe Multiphase Circumgalactic Medium (February 26- March 3, 2023)\nPresented a ~15 min talk about my work. In-person at Ringberg Castle, Germany\nLyman-X Day: ORIGINS workshop (October 5, 2022)\nAttended in-person at European Southern Observatory (ESO), Garching\nThe National Astronomy Meeting (NAM) 2022 (July 11-15, 2022)\nAttended virtually and submitted a poster for the parallel session “Non-equilibrium thermodynamics across scales: from the solar corona to the intracluster medium”.\nGas Flows around Galaxies: ORIGINS workshop (May 24, 2022)\nPresented my work in-person at MPA, Garching"
-  },
-  {
     "objectID": "research/thermal_instability.html",
     "href": "research/thermal_instability.html",
     "title": "Thermal Instability in 1D",
     "section": "",
     "text": "This project was part of my Bachelors thesis at Indian Institute of Science, Bangalore, and was published on MNRAS (here).\nUnfortunately, the figures are not available in dark-mode. So, apologies to dark-mode users. ☹️\nThermal instability has been long proposed as one of the sources for cold gas in different astrophysical media. There have been numerous studies on its evolution and behaviour, including effects of factors like magnetic fields, gravity, rotation, etc. Similarly, in this study we aimed to study the effects of metallicity variations on thermal instability, including the difference in non-linear evolution of thermal instability at different temperatures, in 1D.\nWe found that the growth rates of thermal instability does not explicitly depend on the metallicity. We compared the simulations with theoretical expectations from linear analysis and found a very good agreement in the limits where the theory holds.\n\n\n\nComparison between theoretical and simlated growth rates\n\n\nWhat we did find, was the existence of different temperature regimes, where isobaric (small-scale) perturbations and isochoric (large-scale) perturbations had different behaviour at a given temperture. There were three regimes: * I : Both isobaric (small-scale) and isochoric (large-scale) perturbations are stable * II : Both isobaric (small-scale) and isochoric (large-scale) perturbations are unstable * III : Isobaric (small-scale) perturbations are unstable and isochoric (large-scale) ones are stable\n\n\n\nThe different regimes in temperature\n\n\nRegion I of course does not lead to anything, but interesting behaviour occurs in region II and III.\nIn region II, isochoric perturbations take the lead, and the overall evolution seems isochoric and large-scale in nature. In region III, isobaric perturbations take the lead, and the evolution of small-scale perturbations is dominant.\nThis gives rise to a two different kinds of behaviour in presence of both large-scale and small-scale perturbations, depending on the regime that the temperature falls in.\nIn region III, the behaviour is akin to the shattering of a large-scale perturbations, while in region II the large-scale perturbations contracts monolithically.\n\n\n\nThe overview of what happens in different regimes"
-  },
-  {
-    "objectID": "other_stuff/music.html",
-    "href": "other_stuff/music.html",
-    "title": "Music",
-    "section": "",
-    "text": "Snippets from my exploration of the musical landscape. Coming soon! :)"
-  },
-  {
-    "objectID": "other_stuff/outdoors.html",
-    "href": "other_stuff/outdoors.html",
-    "title": "Outdoors",
-    "section": "",
-    "text": "Pictures from outdoor activities like bouldering, hiking, skiing, etc. Coming soon! :)"
-  },
-  {
-    "objectID": "blog_list.html",
-    "href": "blog_list.html",
-    "title": "Blog",
-    "section": "",
-    "text": "Blog 1\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nBlog 2\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nBlog 3\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n\nNo matching items"
   },
   {
     "objectID": "research.html",
@@ -264,5 +250,19 @@
     "title": "Research",
     "section": "Thermal Instability in 1D",
     "text": "Thermal Instability in 1D\nThermal instability (TI) is a process that can lead to multiphasa gas in Astrophysical mediums. In this project, that was part of my Bachelors thesis, we studied the linear and non-linear evolution of TI in 1D.\nWe looked at the dependence of this evolution on metallicity variation and the temperature, with some very interesting results.\nThis project lead to a paper which has been published on MNRAS, Volume 502, Issue 4, April 2021. The online version is available here. It is also available on arXiv at 2009.11317."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Hi!",
+    "section": "",
+    "text": "I am a third year PhD student at Max Planck Institute for Astrophysics (MPA), Garching, which I joined under the International Max Planck School (IMPRS) on Astrophysics on Astrophysics at Ludwig Maximilians University (LMU) (LMU), Munich.\nI am part of Dr. Max Gronke’s Multiphase Gas Group at MPA, where I am studying the effects of magnetic fields and turbulence on multiphase astrohysical mediums.\nMy broad research interest is Computational Astrophysics. To be more specific, I work with (Magneto-)Hydrodynamic simulations to study the behaviour of Astrophysical mediums.\n\nFor more about my academic history, check out my Curriculum Vitae.\n \n  \n   \n  \n    \n     Email\n  \n  \n    \n     Twitter\n  \n  \n    \n     Github\n  \n  \n    \n     Publications"
+  },
+  {
+    "objectID": "index.html#whats-on-this-website",
+    "href": "index.html#whats-on-this-website",
+    "title": "Hi!",
+    "section": "What’s on this website?",
+    "text": "What’s on this website?\nAll the contents are arranged into different tabs on the top navigation bar.\nYou can find the details of my academic research in the Research section.\nThe Other Stuff section contains my other short and quick projects, my other hobbies or anything I find interesting and would like to share.\n Finally, the About page is all about (you guessed it!) me. 😄"
   }
 ]
