@@ -82,6 +82,7 @@ format:
     max-width: 100%
     css: styles.css
     toc: true
-
+    grid:
+      body-width: 1000px
 execute:
   freeze: auto
