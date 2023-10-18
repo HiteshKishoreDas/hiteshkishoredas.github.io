@@ -41,6 +41,15 @@ website:
       #   contents: blogs/*
 
   navbar:
+    search: true
+    collapse: true
+    tools:
+      - icon: github
+        menu:
+          - text: Source Code
+            url:  https://github.com/HiteshKishoreDas/hiteshkishoredas.github.io
+          - text: Report a Bug
+            url:  https://github.com/HiteshKishoreDas/hiteshkishoredas.github.io/issues
     left:
       - href: index.qmd
         text: Home
