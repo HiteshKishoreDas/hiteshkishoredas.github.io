@@ -41,8 +41,6 @@ website:
       #   contents: blogs/*
 
   navbar:
-    search: true
-    collapse: true
     tools:
       - icon: github
         menu:
