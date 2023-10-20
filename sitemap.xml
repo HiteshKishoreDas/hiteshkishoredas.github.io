@@ -1,71 +1,71 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://github.com/HiteshKishoreDas/hiteshkishoredas.github.io/about.html</loc>
-    <lastmod>2023-10-18T10:22:41.701Z</lastmod>
-  </url>
-  <url>
-    <loc>https://github.com/HiteshKishoreDas/hiteshkishoredas.github.io/other_stuff.html</loc>
-    <lastmod>2023-10-18T10:22:39.537Z</lastmod>
-  </url>
-  <url>
-    <loc>https://github.com/HiteshKishoreDas/hiteshkishoredas.github.io/research/mhd_multiphase.html</loc>
-    <lastmod>2023-10-18T10:22:38.417Z</lastmod>
-  </url>
-  <url>
-    <loc>https://github.com/HiteshKishoreDas/hiteshkishoredas.github.io/blogs/test_page.html</loc>
-    <lastmod>2023-10-18T10:22:37.333Z</lastmod>
-  </url>
-  <url>
-    <loc>https://github.com/HiteshKishoreDas/hiteshkishoredas.github.io/blogs/test_page_copy.html</loc>
-    <lastmod>2023-10-18T10:22:36.381Z</lastmod>
-  </url>
-  <url>
-    <loc>https://github.com/HiteshKishoreDas/hiteshkishoredas.github.io/cv/cv_short.html</loc>
-    <lastmod>2023-10-18T10:22:30.653Z</lastmod>
-  </url>
-  <url>
-    <loc>https://github.com/HiteshKishoreDas/hiteshkishoredas.github.io/blog_list.html</loc>
-    <lastmod>2023-10-18T10:22:25.000Z</lastmod>
-  </url>
-  <url>
-    <loc>https://github.com/HiteshKishoreDas/hiteshkishoredas.github.io/other_stuff/music.html</loc>
-    <lastmod>2023-10-18T10:22:23.808Z</lastmod>
-  </url>
-  <url>
-    <loc>https://github.com/HiteshKishoreDas/hiteshkishoredas.github.io/other_stuff/science.html</loc>
-    <lastmod>2023-10-18T10:22:21.308Z</lastmod>
-  </url>
-  <url>
-    <loc>https://github.com/HiteshKishoreDas/hiteshkishoredas.github.io/other_stuff/outdoors.html</loc>
-    <lastmod>2023-10-18T10:22:24.296Z</lastmod>
-  </url>
-  <url>
-    <loc>https://github.com/HiteshKishoreDas/hiteshkishoredas.github.io/cv/cv_document.html</loc>
-    <lastmod>2023-10-18T10:22:25.716Z</lastmod>
-  </url>
-  <url>
-    <loc>https://github.com/HiteshKishoreDas/hiteshkishoredas.github.io/cv/cv.html</loc>
-    <lastmod>2023-10-18T10:22:35.925Z</lastmod>
-  </url>
-  <url>
-    <loc>https://github.com/HiteshKishoreDas/hiteshkishoredas.github.io/blogs/test_page_copy_copy.html</loc>
-    <lastmod>2023-10-18T10:22:36.873Z</lastmod>
-  </url>
-  <url>
     <loc>https://github.com/HiteshKishoreDas/hiteshkishoredas.github.io/other_stuff_v2.html</loc>
-    <lastmod>2023-10-18T10:22:37.829Z</lastmod>
+    <lastmod>2023-10-20T13:04:15.174Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/HiteshKishoreDas/hiteshkishoredas.github.io/research/thermal_instability.html</loc>
-    <lastmod>2023-10-18T10:22:39.017Z</lastmod>
+    <lastmod>2023-10-20T13:04:14.146Z</lastmod>
   </url>
   <url>
-    <loc>https://github.com/HiteshKishoreDas/hiteshkishoredas.github.io/research.html</loc>
-    <lastmod>2023-10-18T10:22:40.073Z</lastmod>
+    <loc>https://github.com/HiteshKishoreDas/hiteshkishoredas.github.io/cv/cv_document.html</loc>
+    <lastmod>2023-10-20T13:04:08.793Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/HiteshKishoreDas/hiteshkishoredas.github.io/index.html</loc>
-    <lastmod>2023-10-18T10:22:41.085Z</lastmod>
+    <lastmod>2023-10-20T13:04:03.125Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/HiteshKishoreDas/hiteshkishoredas.github.io/blogs/test_page_copy_copy.html</loc>
+    <lastmod>2023-10-20T13:04:02.197Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/HiteshKishoreDas/hiteshkishoredas.github.io/other_stuff/outdoors.html</loc>
+    <lastmod>2023-10-20T13:04:01.293Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/HiteshKishoreDas/hiteshkishoredas.github.io/other_stuff/science.html</loc>
+    <lastmod>2023-10-20T13:04:00.348Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/HiteshKishoreDas/hiteshkishoredas.github.io/research.html</loc>
+    <lastmod>2023-10-20T13:03:58.200Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/HiteshKishoreDas/hiteshkishoredas.github.io/blog_list.html</loc>
+    <lastmod>2023-10-20T13:03:56.828Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/HiteshKishoreDas/hiteshkishoredas.github.io/about.html</loc>
+    <lastmod>2023-10-20T13:03:58.864Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/HiteshKishoreDas/hiteshkishoredas.github.io/other_stuff.html</loc>
+    <lastmod>2023-10-20T13:03:59.844Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/HiteshKishoreDas/hiteshkishoredas.github.io/other_stuff/music.html</loc>
+    <lastmod>2023-10-20T13:04:00.785Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/HiteshKishoreDas/hiteshkishoredas.github.io/blogs/test_page_copy.html</loc>
+    <lastmod>2023-10-20T13:04:01.749Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/HiteshKishoreDas/hiteshkishoredas.github.io/blogs/test_page.html</loc>
+    <lastmod>2023-10-20T13:04:02.641Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/HiteshKishoreDas/hiteshkishoredas.github.io/cv/cv.html</loc>
+    <lastmod>2023-10-20T13:04:08.157Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/HiteshKishoreDas/hiteshkishoredas.github.io/cv/cv_short.html</loc>
+    <lastmod>2023-10-20T13:04:13.542Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/HiteshKishoreDas/hiteshkishoredas.github.io/research/mhd_multiphase.html</loc>
+    <lastmod>2023-10-20T13:04:14.682Z</lastmod>
   </url>
 </urlset>
