@@ -83,7 +83,7 @@ format:
     css: styles.css
     toc: true
     grid:
-      sidebar-width: 500px
+      sidebar-width: 450px
       body-width: 1000px
 execute:
   freeze: auto
