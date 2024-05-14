@@ -1,1 +1,1 @@
-Sitemap: https://github.com/HiteshKishoreDas/hiteshkishoredas.github.io/sitemap.xml
+Sitemap: https://HiteshKishoreDas.github.io/hiteshkishoredas.github.io/sitemap.xml
