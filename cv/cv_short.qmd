@@ -95,8 +95,8 @@ Duration: 2016-2020
 We are studying the different aspects of multiphase gas, like survival, morphology and growth, in  a turbulent medium in presence of magnetic fields. We use idealised MHD simulations run using Athena ++ for this study.   
 
 Doctoral Advisor: Dr. Max Gronke     
-Formal supervisor: Prof. Volker Springel    
-Collaborators: Dr. Rainer Weinberger
+Formal supervisor: Prof. Volker Springel      
+Collaborators: Dr. Rainer Weinberger      
 Max Planck Institute for Astrophysics, Garching   
 
 
