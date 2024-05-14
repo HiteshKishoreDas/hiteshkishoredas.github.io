@@ -96,6 +96,7 @@ We are studying the different aspects of multiphase gas, like survival, morpholo
 
 Doctoral Advisor: Dr. Max Gronke     
 Formal supervisor: Prof. Volker Springel    
+Collaborators: Dr. Rainer Weinberger
 Max Planck Institute for Astrophysics, Garching   
 
 
