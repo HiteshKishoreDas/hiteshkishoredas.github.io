@@ -58,6 +58,6 @@ After that, I came to [Munich](https://en.wikipedia.org/wiki/Munich) in [Bavaria
 
 ## What else?
 
-When I'm not cooling or stirring gas in a simulated box, I have some hobbies that I engage with. My hobbies include **Climbing**, **Bouldering**, **hiking** on weekends at the nearby Bavarian Alps and playing **Guitar**.    
+When I'm not cooling or stirring gas in a simulated box, I have some hobbies that I engage with. My hobbies include **Climbing**, **Bouldering**, **Hiking** on weekends at the nearby Bavarian Alps and playing **Guitar**.    
 I also spend some of my free-time on **side-projects** which I might find interesting (this including adding content to this website).     
 You can find more about these in the [Other Stuff](other_stuff.qmd) section of the website.
