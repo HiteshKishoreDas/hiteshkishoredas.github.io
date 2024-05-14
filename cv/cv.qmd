@@ -96,7 +96,7 @@ Date: 21/05/2016
 
 ## Research Experience
 
-#### The dynamics of magnetized, multiphase gas in a turbulent environment   
+#### PhD Thesis: The dynamics of magnetized, multiphase gas in a turbulent environment   
 **[ 8 SEP 2021 - PRESENT ]**  
 We are studying the different aspects of multiphase gas, like survival, morphology and growth, in  a turbulent medium in presence of magnetic fields. We use idealised MHD simulations run using Athena ++ for this study.   
 
@@ -156,6 +156,11 @@ Centre for High Energy Physics, Indian Institute of Science, Bangalore     -->
 
 ## Publications
 
+##### - Magnetic Fields in Multiphase Turbulence: Impacts on Dynamics and Structure
+Hitesh Kishore Das, Max Gronke 
+Monthly Notices of the Royal Astronomical Society, Volume 527, Issue 1, January 2024, Pages 991–1013, [doi.org/10.1093/mnras/stad3125](https://doi.org/10.1093/mnras/stad3125)  
+**arXiv**: [2307.06411](https://arxiv.org/abs/2307.06411)
+
 ##### - Shatter or not: role of temperature and metallicity in the evolution of thermal instability
 Hitesh Kishore Das, Prakriti Pal Choudhury, Prateek Sharma   
 **Journal**: Monthly Notices of the Royal Astronomical Society, Volume 502, Issue 4, April 2021, Pages 4935–4952, [doi.org/10.1093/mnras/stab382](https://doi.org/10.1093/mnras/stab382)    
@@ -165,6 +170,15 @@ Hitesh Kishore Das, Prakriti Pal Choudhury, Prateek Sharma
 
 
 ## Conferences and Seminars
+
+- **Annual Astronomical Society of India (ASI) meeting** 2024 (Jan 30-Feb 4, 2024). 
+Presented a \textbf{poster} at IISc, Bangalore, India.
+
+- **2023 IAP colloquium: New simulations for new problems in galaxy formation** (December 11-15, 2023). 
+Gave a \textbf{talk} in-person at IAP, Paris, France.
+
+- **MIST2023 : Cosmic turbulence and Magnetic fields** (September 24 - October 1, 2023)
+Gave a \textbf{talk} in-person at Cargese, Corsica, France.
 
 - **Modelling of Multiphase Astrophysical Media** (May 30-June 2, 2023)   
 Presented a ~15 min talk about my work. In-person at Aspenstein Castle, near Lake Kochel, Germany   
@@ -295,7 +309,7 @@ Bash scripting
 
 {{< pagebreak >}}
 
-## References
+## Worked with:
 
 #### Dr. Max Gronke
 Max Planck Institute for Astrophysics, Garching, Germany    
