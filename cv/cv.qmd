@@ -220,6 +220,8 @@ Attended the conference virtually
 
 ## Extra-curricular Experience
 
+- **External PhD representative** at MPA
+
 - **13th IMPRS Symposium**    
 Was involved in organising the 13th IMPRS Symposium as the Chair of the Local Organising Committee. 
 
@@ -277,10 +279,10 @@ Bash scripting
 :::
 
 ::: {.content-visible when-format="pdf"}
-**Compiled languages**: C , C++    
-**Hydrodynamic Simulation**: Athena++ , PLUTO   
-**Interpreted languages**: Python   , Matlab, Mathematica    
-**Others**: LaTeX, ROOT, Bash scripting, High Performance Computing     
+**Compiled languages**: C, C++    
+**Hydrodynamic Simulation**: AREPO, Athena++ , PLUTO
+**Interpreted languages**: Python, Matlab, Mathematica    
+**Others**: LaTeX, ROOT, Bash scripting, High Performance Computing, LAMMPS, Madgraph 5, Pythia          
 :::
 
 <!-- ## Standardised Tests 
