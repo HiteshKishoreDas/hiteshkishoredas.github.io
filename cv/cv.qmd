@@ -280,7 +280,7 @@ Bash scripting
 
 ::: {.content-visible when-format="pdf"}
 **Compiled languages**: C, C++    
-**Hydrodynamic Simulation**: AREPO, Athena++ , PLUTO
+**Hydrodynamic Simulation**: AREPO, Athena++ , PLUTO      
 **Interpreted languages**: Python, Matlab, Mathematica    
 **Others**: LaTeX, ROOT, Bash scripting, High Performance Computing, LAMMPS, Madgraph 5, Pythia          
 :::
