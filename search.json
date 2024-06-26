@@ -135,77 +135,25 @@
     "text": "Worked with:\n\nDr. Max Gronke\nMax Planck Institute for Astrophysics, Garching, Germany\nEmail: maxbg[AT]mpa-garching.mpg.de\nWebsite: max.lyman-alpha.com\n\n\nAssoc. Prof. Prateek Sharma\nPhysical Sciences\nIndian Institute of Science, Bangalore\nEmail: prateek[AT]iisc.ac.in\nWebsite: www.physics.iisc.ernet.in/~prateek\n\n\nAssoc. Prof. Massimo Pica Ciamarra\nNanyang Associate Professor\nSchool of Physical & Mathematical Sciences\nNanyang Technological University, Singapore\nEmail: massimo[AT]ntu.edu.sg\nWebsite: sites.google.com/site/ciamarragroup\n\n\nAssoc. Prof. Subroto Mukerjee\nPhysical Sciences\nIndian Institute of Science, Bangalore\nEmail: smukerjee[AT]iisc.ac.in\nWebsite: physics.iisc.ernet.in/~smukerjee\n\n\nAsst. Prof. Jyothsna Rani Komaragiri\nCentre for High Energy Physics\nIndian Institute of Science, Bangalore\nEmail: jyothsna.komaragiri[AT]gmail.com\nWebsite: chep.iisc.ac.in/Personnel/pages/jyothsna"
   },
   {
-    "objectID": "other_stuff/outdoors.html",
-    "href": "other_stuff/outdoors.html",
-    "title": "Outdoors",
+    "objectID": "blogs/shinylive_test.html",
+    "href": "blogs/shinylive_test.html",
+    "title": "Shinylive in Quarto example",
     "section": "",
-    "text": "Pictures from outdoor activities like bouldering, hiking, skiing, etc. Coming soon! :)"
+    "text": "This is a Shinylive application embedded in a Quarto doc.\n#| standalone: true\n\nfrom shiny import *\n\napp_ui = ui.page_fluid(\n    ui.input_slider(\"n\", \"N\", 0, 100, 40),\n    ui.output_text_verbatim(\"txt\"),\n)\n\ndef server(input, output, session):\n    @output\n    @render.text\n    def txt():\n        return f\"The value of n*2 is {input.n() * 2}\"\n\napp = App(app_ui, server)"
   },
   {
-    "objectID": "other_stuff/science.html",
-    "href": "other_stuff/science.html",
-    "title": "Science",
-    "section": "",
-    "text": "This is N-body simulation using Particle-Mesh Method aka NOISE, following the tradition of great astrophysical abbreviations.\nAs the name suggests, this is N-body simulation code, written in Python, that uses the Particle-Mesh method for calculating the gravitational forces.\nThis was part of course project for a Computational Physics course at IISc, during my Bachelors.\nYou can find the documentation here."
-  },
-  {
-    "objectID": "other_stuff/science.html#noise",
-    "href": "other_stuff/science.html#noise",
-    "title": "Science",
-    "section": "",
-    "text": "This is N-body simulation using Particle-Mesh Method aka NOISE, following the tradition of great astrophysical abbreviations.\nAs the name suggests, this is N-body simulation code, written in Python, that uses the Particle-Mesh method for calculating the gravitational forces.\nThis was part of course project for a Computational Physics course at IISc, during my Bachelors.\nYou can find the documentation here."
-  },
-  {
-    "objectID": "other_stuff/science.html#deprojection",
-    "href": "other_stuff/science.html#deprojection",
-    "title": "Science",
-    "section": "Deprojection",
-    "text": "Deprojection\nThis was a super short dive-in into deprojection. On the sky we can only see a 2D projection of something 3D. In absence of any extra information, one has to retrieve the 3D distribution from this 2D projections, and that is called Deprojecting.\nHere’s I have tried my hands at doing a very simple deprojection from a projection of a known 3D distribution.\nYou can get to the light-themed version of the page here."
-  },
-  {
-    "objectID": "research/thermal_instability.html",
-    "href": "research/thermal_instability.html",
-    "title": "Thermal Instability in 1D",
-    "section": "",
-    "text": "This project was part of my Bachelors thesis at Indian Institute of Science, Bangalore, and was published on MNRAS (here).\nUnfortunately, the figures are not available in dark-mode. So, apologies to dark-mode users. ☹️\nThermal instability has been long proposed as one of the sources for cold gas in different astrophysical media. There have been numerous studies on its evolution and behaviour, including effects of factors like magnetic fields, gravity, rotation, etc. Similarly, in this study we aimed to study the effects of metallicity variations on thermal instability, including the difference in non-linear evolution of thermal instability at different temperatures, in 1D.\nWe found that the growth rates of thermal instability does not explicitly depend on the metallicity. We compared the simulations with theoretical expectations from linear analysis and found a very good agreement in the limits where the theory holds.\n\n\n\nComparison between theoretical and simlated growth rates\n\n\nWhat we did find, was the existence of different temperature regimes, where isobaric (small-scale) perturbations and isochoric (large-scale) perturbations had different behaviour at a given temperture. There were three regimes: * I : Both isobaric (small-scale) and isochoric (large-scale) perturbations are stable * II : Both isobaric (small-scale) and isochoric (large-scale) perturbations are unstable * III : Isobaric (small-scale) perturbations are unstable and isochoric (large-scale) ones are stable\n\n\n\nThe different regimes in temperature\n\n\nRegion I of course does not lead to anything, but interesting behaviour occurs in region II and III.\nIn region II, isochoric perturbations take the lead, and the overall evolution seems isochoric and large-scale in nature. In region III, isobaric perturbations take the lead, and the evolution of small-scale perturbations is dominant.\nThis gives rise to a two different kinds of behaviour in presence of both large-scale and small-scale perturbations, depending on the regime that the temperature falls in.\nIn region III, the behaviour is akin to the shattering of a large-scale perturbations, while in region II the large-scale perturbations contracts monolithically.\n\n\n\nThe overview of what happens in different regimes",
-    "crumbs": [
-      "Home",
-      "Research",
-      "Thermal Instability in 1D"
-    ]
-  },
-  {
-    "objectID": "other_stuff.html",
-    "href": "other_stuff.html",
+    "objectID": "other_stuff_v2.html",
+    "href": "other_stuff_v2.html",
     "title": "Other Stuff",
     "section": "",
-    "text": "This is N-body simulation using Particle-Mesh Method aka NOISE, following the tradition of great astrophysical abbreviations.\nAs the name suggests, this is N-body simulation code, written in Python, that uses the Particle-Mesh method for calculating the gravitational forces.\nThis was part of course project for a Computational Physics course at IISc, during my Bachelors.\nYou can find the documentation here.",
-    "crumbs": [
-      "Home",
-      "Other stuff"
-    ]
+    "text": "Categories\nWhat would you like to explore first?\n\n\n\n  \n    \n      \n        Science \n      \n       \n    \n    \n      \n    \n    \n    \n    \n  \n\n  \n    \n      \n        Outdoors \n      \n       \n    \n    \n      \n    \n    \n    \n    \n  \n\n  \n    \n      \n        Music \n      \n       \n    \n    \n      \n    \n    \n    \n    \n  \n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "other_stuff.html#noise",
-    "href": "other_stuff.html#noise",
-    "title": "Other Stuff",
+    "objectID": "other_stuff/music.html",
+    "href": "other_stuff/music.html",
+    "title": "Music",
     "section": "",
-    "text": "This is N-body simulation using Particle-Mesh Method aka NOISE, following the tradition of great astrophysical abbreviations.\nAs the name suggests, this is N-body simulation code, written in Python, that uses the Particle-Mesh method for calculating the gravitational forces.\nThis was part of course project for a Computational Physics course at IISc, during my Bachelors.\nYou can find the documentation here.",
-    "crumbs": [
-      "Home",
-      "Other stuff"
-    ]
-  },
-  {
-    "objectID": "other_stuff.html#deprojection",
-    "href": "other_stuff.html#deprojection",
-    "title": "Other Stuff",
-    "section": "Deprojection",
-    "text": "Deprojection\nThis was a super short dive-in into deprojection. On the sky we can only see a 2D projection of something 3D. In absence of any extra information, one has to retrieve the 3D distribution from this 2D projections, and that is called Deprojecting.\nHere’s I have tried my hands at doing a very simple deprojection from a projection of a known 3D distribution.\nYou can get to the light-themed version of the page here.",
-    "crumbs": [
-      "Home",
-      "Other stuff"
-    ]
+    "text": "Snippets from my exploration of the musical landscape. Coming soon! :)"
   },
   {
     "objectID": "research/mhd_multiphase.html",
@@ -244,18 +192,77 @@
     ]
   },
   {
-    "objectID": "other_stuff/music.html",
-    "href": "other_stuff/music.html",
-    "title": "Music",
-    "section": "",
-    "text": "Snippets from my exploration of the musical landscape. Coming soon! :)"
-  },
-  {
-    "objectID": "other_stuff_v2.html",
-    "href": "other_stuff_v2.html",
+    "objectID": "other_stuff.html",
+    "href": "other_stuff.html",
     "title": "Other Stuff",
     "section": "",
-    "text": "Categories\nWhat would you like to explore first?\n\n\n\n  \n    \n      \n        Science \n      \n       \n    \n    \n      \n    \n    \n    \n    \n  \n\n  \n    \n      \n        Outdoors \n      \n       \n    \n    \n      \n    \n    \n    \n    \n  \n\n  \n    \n      \n        Music \n      \n       \n    \n    \n      \n    \n    \n    \n    \n  \n\n\n\n\nNo matching items"
+    "text": "This is N-body simulation using Particle-Mesh Method aka NOISE, following the tradition of great astrophysical abbreviations.\nAs the name suggests, this is N-body simulation code, written in Python, that uses the Particle-Mesh method for calculating the gravitational forces.\nThis was part of course project for a Computational Physics course at IISc, during my Bachelors.\nYou can find the documentation here.",
+    "crumbs": [
+      "Home",
+      "Other stuff"
+    ]
+  },
+  {
+    "objectID": "other_stuff.html#noise",
+    "href": "other_stuff.html#noise",
+    "title": "Other Stuff",
+    "section": "",
+    "text": "This is N-body simulation using Particle-Mesh Method aka NOISE, following the tradition of great astrophysical abbreviations.\nAs the name suggests, this is N-body simulation code, written in Python, that uses the Particle-Mesh method for calculating the gravitational forces.\nThis was part of course project for a Computational Physics course at IISc, during my Bachelors.\nYou can find the documentation here.",
+    "crumbs": [
+      "Home",
+      "Other stuff"
+    ]
+  },
+  {
+    "objectID": "other_stuff.html#deprojection",
+    "href": "other_stuff.html#deprojection",
+    "title": "Other Stuff",
+    "section": "Deprojection",
+    "text": "Deprojection\nThis was a super short dive-in into deprojection. On the sky we can only see a 2D projection of something 3D. In absence of any extra information, one has to retrieve the 3D distribution from this 2D projections, and that is called Deprojecting.\nHere’s I have tried my hands at doing a very simple deprojection from a projection of a known 3D distribution.\nYou can get to the light-themed version of the page here.",
+    "crumbs": [
+      "Home",
+      "Other stuff"
+    ]
+  },
+  {
+    "objectID": "research/thermal_instability.html",
+    "href": "research/thermal_instability.html",
+    "title": "Thermal Instability in 1D",
+    "section": "",
+    "text": "This project was part of my Bachelors thesis at Indian Institute of Science, Bangalore, and was published on MNRAS (here).\nUnfortunately, the figures are not available in dark-mode. So, apologies to dark-mode users. ☹️\nThermal instability has been long proposed as one of the sources for cold gas in different astrophysical media. There have been numerous studies on its evolution and behaviour, including effects of factors like magnetic fields, gravity, rotation, etc. Similarly, in this study we aimed to study the effects of metallicity variations on thermal instability, including the difference in non-linear evolution of thermal instability at different temperatures, in 1D.\nWe found that the growth rates of thermal instability does not explicitly depend on the metallicity. We compared the simulations with theoretical expectations from linear analysis and found a very good agreement in the limits where the theory holds.\n\n\n\nComparison between theoretical and simlated growth rates\n\n\nWhat we did find, was the existence of different temperature regimes, where isobaric (small-scale) perturbations and isochoric (large-scale) perturbations had different behaviour at a given temperture. There were three regimes: * I : Both isobaric (small-scale) and isochoric (large-scale) perturbations are stable * II : Both isobaric (small-scale) and isochoric (large-scale) perturbations are unstable * III : Isobaric (small-scale) perturbations are unstable and isochoric (large-scale) ones are stable\n\n\n\nThe different regimes in temperature\n\n\nRegion I of course does not lead to anything, but interesting behaviour occurs in region II and III.\nIn region II, isochoric perturbations take the lead, and the overall evolution seems isochoric and large-scale in nature. In region III, isobaric perturbations take the lead, and the evolution of small-scale perturbations is dominant.\nThis gives rise to a two different kinds of behaviour in presence of both large-scale and small-scale perturbations, depending on the regime that the temperature falls in.\nIn region III, the behaviour is akin to the shattering of a large-scale perturbations, while in region II the large-scale perturbations contracts monolithically.\n\n\n\nThe overview of what happens in different regimes",
+    "crumbs": [
+      "Home",
+      "Research",
+      "Thermal Instability in 1D"
+    ]
+  },
+  {
+    "objectID": "other_stuff/science.html",
+    "href": "other_stuff/science.html",
+    "title": "Science",
+    "section": "",
+    "text": "This is N-body simulation using Particle-Mesh Method aka NOISE, following the tradition of great astrophysical abbreviations.\nAs the name suggests, this is N-body simulation code, written in Python, that uses the Particle-Mesh method for calculating the gravitational forces.\nThis was part of course project for a Computational Physics course at IISc, during my Bachelors.\nYou can find the documentation here."
+  },
+  {
+    "objectID": "other_stuff/science.html#noise",
+    "href": "other_stuff/science.html#noise",
+    "title": "Science",
+    "section": "",
+    "text": "This is N-body simulation using Particle-Mesh Method aka NOISE, following the tradition of great astrophysical abbreviations.\nAs the name suggests, this is N-body simulation code, written in Python, that uses the Particle-Mesh method for calculating the gravitational forces.\nThis was part of course project for a Computational Physics course at IISc, during my Bachelors.\nYou can find the documentation here."
+  },
+  {
+    "objectID": "other_stuff/science.html#deprojection",
+    "href": "other_stuff/science.html#deprojection",
+    "title": "Science",
+    "section": "Deprojection",
+    "text": "Deprojection\nThis was a super short dive-in into deprojection. On the sky we can only see a 2D projection of something 3D. In absence of any extra information, one has to retrieve the 3D distribution from this 2D projections, and that is called Deprojecting.\nHere’s I have tried my hands at doing a very simple deprojection from a projection of a known 3D distribution.\nYou can get to the light-themed version of the page here."
+  },
+  {
+    "objectID": "other_stuff/outdoors.html",
+    "href": "other_stuff/outdoors.html",
+    "title": "Outdoors",
+    "section": "",
+    "text": "Pictures from outdoor activities like bouldering, hiking, skiing, etc. Coming soon! :)"
   },
   {
     "objectID": "index.html",
@@ -311,6 +318,6 @@
     "href": "blog_list.html",
     "title": "Blog",
     "section": "",
-    "text": "Blog 1\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBlog 2\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBlog 3\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "Blog 1\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBlog 2\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBlog 3\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nShinylive in Quarto example\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
   }
 ]
