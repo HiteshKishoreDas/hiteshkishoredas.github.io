@@ -9,8 +9,8 @@ jobs:
   build-deploy:
     runs-on: ubuntu-latest
     strategy:
-    matrix:
-      python-version: ["3:10"]
+      matrix:
+        python-version: ["3:10"]
     fail-fast: false
     permissions:
       contents: write
