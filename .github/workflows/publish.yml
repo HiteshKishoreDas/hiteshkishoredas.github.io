@@ -31,8 +31,10 @@ jobs:
       - name: Upgrade pip
         run: python -m pip install --upgrade pip
 
-      - name: Install and add shinylive
+      - name: Install shinylive
         run: pip install shinylive
+      
+      - name: Add shinylive
         run: quarto add quarto-ext/shinylive
 
       - name: Render and Publish
