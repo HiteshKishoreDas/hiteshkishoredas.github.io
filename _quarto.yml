@@ -63,6 +63,8 @@ website:
 
       - href: about.qmd
         text: About
+  
+  google-analytics: "G-N162HDX82J"
 
 
 format:
