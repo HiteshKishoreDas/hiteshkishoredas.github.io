@@ -197,16 +197,16 @@ Hitesh Kishore Das, Prakriti Pal Choudhury, Prateek Sharma
 **arXiv**: [2009.11317](https://arxiv.org/abs/2009.11317) 
 
 
-## Conferences and Seminarshttps://rainerweinberger.com/
+## Conferences and Seminars
 
-- **Talk** at Lars Hernquist group meeting at Center for Astrophyiscs, Harvard University on August 23, 2024.
+- **Talk** at Lars Hernquist group meeting at **Center for Astrophyiscs**, Harvard University on August 23, 2024.
 
 - **Multiphase Madness: Resolving the CGM in Theory and Observations** (August 21-23, 2023). 
 Gave a **talk** in-person at Center for Astrophysics, Harvard University, Cambridge.
 
-- **Talk** at Computational Structure and Galaxy formation group meeting at MIT Kavli Institute for Astrophyiscs on August 19, 2024.   
+- **Talk** at Computational Structure and Galaxy formation group meeting at **MIT Kavli Institute for Astrophyiscs** on August 19, 2024.   
 
-- **Talk** in **GalRead** at Peyton Hall, Princeton University, on August 16, 2024.   
+- **Talk** in GalRead at Peyton Hall, **Princeton University**, on August 16, 2024.   
 
 - **Team meeting for "Observe Local Think Global: What Solar Observations can teach us about Multiphase Plasmas across Astrophysical Scales"**    
 (May 13-17, 2024)   
@@ -258,6 +258,12 @@ Attended the conference virtually
 
 - **IAP online Colloquium on Intracluster Medium/Circumgalactic medium** (June 22-26, 2020)     
 Attended the conference virtually    
+
+## Mentoring
+
+- Fully **Supervised** the DAAD-RISE intership of Zewei "Jason" Wu (UChicago) at MPA, Garching between May - August 2024
+
+- **Co-supervised** the DAAD-WISE intership of Atal Agarwal (IIT Roorkee) at MPA, Garching between May-August 2023
 
 
 ## Extra-curricular Experience
