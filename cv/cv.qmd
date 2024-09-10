@@ -69,7 +69,13 @@ __________________________________________________________
 \hrule
 :::
 
-## Education
+## Education       
+::: {.content-visible when-format="html"}
+__________________________________________________________
+:::
+::: {.content-visible when-format="pdf"}
+\hrule
+:::
  
 **PhD in Astrophysics (Ongoing)**   
 PhD Thesis: The dynamics of multiphase gas in astrophysical media
@@ -97,7 +103,13 @@ Stream: Science
 Date: 21/05/2016   
 
 
-## Research Experience
+## Research Experience      
+::: {.content-visible when-format="html"}
+__________________________________________________________
+:::
+::: {.content-visible when-format="pdf"}
+\hrule
+:::
 
 #### Subgrid model for multiphase gas interactions **[ FEB 2024 - ]**      
 We are developing a subgrid model for survival, destruction and other behaviours of multiphase gas, using the Multifluid AREPO framework.     
@@ -184,7 +196,13 @@ Centre for High Energy Physics, Indian Institute of Science, Bangalore     -->
 
 
 
-## Publications
+## Publications      
+::: {.content-visible when-format="html"}
+__________________________________________________________
+:::
+::: {.content-visible when-format="pdf"}
+\hrule
+:::
 
 ##### - Magnetic Fields in Multiphase Turbulence: Impacts on Dynamics and Structure
 Hitesh Kishore Das, Max Gronke 
@@ -197,7 +215,13 @@ Hitesh Kishore Das, Prakriti Pal Choudhury, Prateek Sharma
 **arXiv**: [2009.11317](https://arxiv.org/abs/2009.11317) 
 
 
-## Conferences and Seminars
+## Conferences and Seminars     
+::: {.content-visible when-format="html"}
+__________________________________________________________
+:::
+::: {.content-visible when-format="pdf"}
+\hrule
+:::
 
 - **Talk** at Lars Hernquist group meeting at **Center for Astrophyiscs**, Harvard University on August 23, 2024.
 
@@ -259,14 +283,26 @@ Attended the conference virtually
 - **IAP online Colloquium on Intracluster Medium/Circumgalactic medium** (June 22-26, 2020)     
 Attended the conference virtually    
 
-## Mentoring
+## Mentoring      
+::: {.content-visible when-format="html"}
+__________________________________________________________
+:::
+::: {.content-visible when-format="pdf"}
+\hrule
+:::
 
 - Fully **Supervised** the DAAD-RISE intership of Zewei "Jason" Wu (UChicago) at MPA, Garching between May - August 2024
 
 - **Co-supervised** the DAAD-WISE intership of Atal Agarwal (IIT Roorkee) at MPA, Garching between May-August 2023
 
 
-## Extra-curricular Experience
+## Extra-curricular Experience      
+::: {.content-visible when-format="html"}
+__________________________________________________________
+:::
+::: {.content-visible when-format="pdf"}
+\hrule
+:::
 
 - **External PhD representative** at MPA
 
@@ -284,7 +320,13 @@ Involved in planning and conducting events by Physics club for Pravega - 2016 an
 <!-- Event coordinator for the "Vacuum cannon" event in Pravega-2017 -->
      
 
-## Awards and Fellowships
+## Awards and Fellowships         
+::: {.content-visible when-format="html"}
+__________________________________________________________
+:::
+::: {.content-visible when-format="pdf"}
+\hrule
+:::
 
 - **Kishore Vaigyanik Protsahan Yojana** (KVPY) Fellowship}    
 Funded by: Department of Science and Technology, Government of India    
@@ -300,7 +342,7 @@ Got certificate for being in top 10\% of the examination centre.
 Organised by: Indian Association of Physics Teachers (IAPT)    
 
 
-## Skills
+## Skills     
 
 ::: {.content-visible when-format="html"}
 
