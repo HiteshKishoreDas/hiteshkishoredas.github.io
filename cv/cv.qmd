@@ -70,13 +70,16 @@ __________________________________________________________
 :::
 
 ## Education
-
  
 **PhD in Astrophysics (Ongoing)**   
+PhD Thesis: The dynamics of multiphase gas in astrophysical media
 International Max Planck Research School on Astrophysics (IMPRS)   
 Max Planck Institute for Astrophysics (MPA), Garching, Germany    
 Ludwig Maximilians University (LMU), Munich, Germany  
-Duration: 2021-Present     
+Duration: 2021-Present    
+Doctoral Advisor: Dr. Max Gronke     
+Formal supervisor: Prof. Volker Springel     
+
 
 **Master of Science**    
 Indian Institute of Science (IISc), Bengaluru, India   
@@ -96,25 +99,56 @@ Date: 21/05/2016
 
 ## Research Experience
 
-#### PhD Thesis: The dynamics of magnetized, multiphase gas in a turbulent environment   
-**[ 8 SEP 2021 - PRESENT ]**  
-We are studying the different aspects of multiphase gas, like survival, morphology and growth, in  a turbulent medium in presence of magnetic fields. We use idealised MHD simulations run using Athena ++ for this study.   
+#### Subgrid model for multiphase gas interactions 
+**[ FEB 2024 - ]**  
+We are developing a subgrid model for survival, destruction and other behaviours of multiphase gas, using the Multifluid AREPO framework.
+The project is part of my PhD thesis, supervised by Dr. Max Gronke.
+Collaborators: Rainer Weinberger, Dr. Max Gronke
+Max Planck Institute for Astrophysics, Garching 
 
-Doctoral Advisor: Dr. Max Gronke     
-Formal supervisor: Prof. Volker Springel     
-Collaborators: Dr. Rainer Weinberger     
-Max Planck Institute for Astrophysics, Garching   
+
+#### Three-phase gas in a turbulent medium  
+**[ MAY 2024 - ]**  
+In this project we are investigating the cold molecular gas in a turbulent medium, where both "warm" and "hot" gas phases are also possible.
+This project is led by Zewei "Jason" Wu from UChicago during his DAAD-RISE internship. I was involved as the advisor for his internship, which included writing the research proposal and supervision for the whole duration of internship.
+Collaborators: Zewei "Jason" Wu, Dr. Max Gronke
+Max Planck Institute for Astrophysics, Garching 
+
+
+#### Survival, destruction and formation of cold molecular gas  
+**[ MAY 2023 - AUG 2023 ]**  
+In this project we are investigating the in-situ formation of cold molecular gas from "warm" gas and its subsequent survival or destruction, in presence turbulence.
+Part of the work was done by Atal Agarwal from IIT Roorkee during his DAAD-WISE internship. I was involved in the intership as a co-supervisor.
+The project is also part of my PhD thesis, supervised by Dr. Max Gronke.
+Collaborators: Atal Agarwal, Dr. Max Gronke
+Max Planck Institute for Astrophysics, Garching 
+
+
+#### Evolution of thermal instability in 2D and 3D    
+**[ MAR 2021 - ]**     
+In this project we extend our previous work on thermal instability to 2D and 3D systems. We investigate both linear and non-linear evolution of multiphase gas due to radiative cooling.
+This project contributed towards my Masters thesis, supervised by Prof. Prateek Sharma.   
+Collaborator: Dr. Prakriti Pal Choudhury, Prof. Prateek Sharma
+Physical Sciences, Indian Institute of Science, Bangalore   
+
+
+#### Multiphase gas dynamics in Magnetised, turbulent medium  
+**[ SEP 2021 - JAN 2024 ]**  
+We studied the different aspects of multiphase gas, like survival, morphology and growth, in  a turbulent medium in presence of magnetic fields. We use idealised MHD simulations run using Athena ++ for this study.   
+This led to a publication on MNRAS Jan 2024 issue.
+The project is part of my thesis project, supervised by Dr. Max Gronke.
+Collaborators: Dr. Max Gronke
+Max Planck Institute for Astrophysics, Garching 
 
 
 #### Role of temperature and metallicity in the evolution of thermal instability    
-**[ 1 AUG 2019 - PRESENT ]**     
+**[ AUG 2019 - APR 2021 ]**     
 In this project we investigate the role of different parameters like metallicity and temperature in the growth of thermal instability. The project includes setting up and running simulation for study of thermal instabilities using PLUTO.   
 This work led to some important insights into evolution of large-scale isochoric clouds.    
 
-This project contributed towards my Bachelors thesis and led to a research paper in collaboration with Dr. Prakriti Pal Choudhury and Prof. Prateek Sharma.   
-
-Under supervision of: Assoc. Prof. Prateek Sharma    
-Collaborator: Dr. Prakriti Pal Choudhury
+This project contributed towards my Bachelors thesis, supervised by Prof. Prateek Sharma and led to a research paper in collaboration with Dr. Prakriti Pal Choudhury and Prof. Prateek Sharma.   
+    
+Collaborator: Dr. Prakriti Pal Choudhury, Prof. Prateek Sharma
 Physical Sciences, Indian Institute of Science, Bangalore   
        
 
@@ -166,13 +200,26 @@ Monthly Notices of the Royal Astronomical Society, Volume 527, Issue 1, January 
 Hitesh Kishore Das, Prakriti Pal Choudhury, Prateek Sharma   
 **Journal**: Monthly Notices of the Royal Astronomical Society, Volume 502, Issue 4, April 2021, Pages 4935–4952, [doi.org/10.1093/mnras/stab382](https://doi.org/10.1093/mnras/stab382)    
 **arXiv**: [2009.11317](https://arxiv.org/abs/2009.11317) 
- 
-
 
 
 ## Conferences and Seminars
 
-- **Annual Astronomical Society of India (ASI) meeting** 2024 (Jan 30-Feb 4, 2024). 
+- **Talk** at Lars Hernquist group meeting at Center for Astrophyiscs, Harvard University on August 23, 2024.
+
+- **Multiphase Madness: Resolving the CGM in Theory and Observations** (August 21-23, 2023). 
+Gave a **talk** in-person at Center for Astrophysics, Harvard University, Cambridge.
+
+- **Talk** at Computational Structure and Galaxy formation group meeting at MIT Kavli Institute for Astrophyiscs on August 19, 2024.   
+
+- **Talk** in **GalRead** at Peyton Hall, Princeton University, on August 16, 2024.   
+
+- **Team meeting for "Observe Local Think Global: What Solar Observations can teach us about Multiphase Plasmas across Astrophysical Scales"**    
+(May 13-17, 2024)   
+**Presented** my work. In-person at ISSI, Bern, Switzerland   
+
+- **Talk** in **Cosmology section meeting** at AIP, Potsdam, on May 8, 2024.     
+
+- **Annual Astronomical Society of India (ASI) meeting** 2024 (Jan 30-Feb 4, 2024).    
 Presented a \textbf{poster} at IISc, Bangalore, India.
 
 - **2023 IAP colloquium: New simulations for new problems in galaxy formation** (December 11-15, 2023). 
@@ -208,7 +255,7 @@ Attended virtually and submitted a poster for the parallel session "Non-equilibr
 Presented my work in-person at MPA, Garching     
 
 - **Presision Presidency Physics Summit** (September 11-13, 2020)   
-Organized by Presidency University, Kolkata}    
+Organized by Presidency University, Kolkata    
 Presented work done on Thermal Instability as a talk in the Undergraduate Symposium.
 
 - **On the Origin, Nature, and Mixing of Multiphase Gas in Astrophysics** KITP online conference (October 15-16, 2020)     
@@ -319,11 +366,16 @@ Max Planck Institute for Astrophysics, Garching, Germany
 Email: maxbg[AT]mpa-garching.mpg.de    
 Website: [max.lyman-alpha.com](http://max.lyman-alpha.com)   
 
-#### Assoc. Prof. Prateek Sharma
+#### Prof. Prateek Sharma
 Physical Sciences   
-Indian Institute of Science, Bangalore   
+Indian Institute of Science, Bangalore, India   
 Email: prateek[AT]iisc.ac.in    
-Website: [www.physics.iisc.ernet.in/~prateek](http://www.physics.iisc.ernet.in/~prateek/)      
+Website: [www.physics.iisc.ernet.in/~prateek](http://www.physics.iisc.ernet.in/~prateek/)     
+
+#### Dr. Rainer Weinberger
+Leibniz Instiute for Astrophyiscs (AIP), Potsdam, Germany
+Email: rweinberger[AT]aip.de    
+Website: [rainerweinberger.com](https://rainerweinberger.com/)     
 
 #### Assoc. Prof. Massimo Pica Ciamarra
 Nanyang Associate Professor    
@@ -334,12 +386,12 @@ Website: [sites.google.com/site/ciamarragroup](https://sites.google.com/site/cia
 
 #### Assoc. Prof. Subroto Mukerjee
 Physical Sciences      
-Indian Institute of Science, Bangalore    
+Indian Institute of Science, Bangalore, India    
 Email: smukerjee[AT]iisc.ac.in    
 Website: [physics.iisc.ernet.in/~smukerjee](http://physics.iisc.ernet.in/~smukerjee)   
  
 #### Asst. Prof. Jyothsna Rani Komaragiri
 Centre for High Energy Physics    
-Indian Institute of Science, Bangalore  
+Indian Institute of Science, Bangalore, India  
 Email: jyothsna.komaragiri[AT]gmail.com    
 Website: [chep.iisc.ac.in/Personnel/pages/jyothsna](http://chep.iisc.ac.in/Personnel/pages/jyothsna)     
