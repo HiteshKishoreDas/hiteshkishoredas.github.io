@@ -102,6 +102,7 @@ Date: 21/05/2016
 #### Subgrid model for multiphase gas interactions **[ FEB 2024 - ]**      
 We are developing a subgrid model for survival, destruction and other behaviours of multiphase gas, using the Multifluid AREPO framework.     
 The project is part of my PhD thesis, supervised by Dr. Max Gronke.     
+
 Collaborators: Rainer Weinberger, Dr. Max Gronke    
 Max Planck Institute for Astrophysics, Garching 
 
@@ -109,6 +110,7 @@ Max Planck Institute for Astrophysics, Garching
 #### Three-phase gas in a turbulent medium  **[ MAY 2024 - ]**      
 In this project we are investigating the cold molecular gas in a turbulent medium, where both "warm" and "hot" gas phases are also possible.    
 This project is led by Zewei "Jason" Wu from UChicago during his DAAD-RISE internship. I was involved as the advisor for his internship, which included writing the research proposal and supervision for the whole duration of internship.      
+
 Collaborators: Zewei "Jason" Wu, Dr. Max Gronke       
 Max Planck Institute for Astrophysics, Garching     
 
@@ -117,21 +119,23 @@ Max Planck Institute for Astrophysics, Garching
 In this project we are investigating the in-situ formation of cold molecular gas from "warm" gas and its subsequent survival or destruction, in presence turbulence.     
 Part of the work was done by Atal Agarwal from IIT Roorkee during his DAAD-WISE internship. I was involved in the intership as a co-supervisor.     
 The project is also part of my PhD thesis, supervised by Dr. Max Gronke.     
+
 Collaborators: Atal Agarwal, Dr. Max Gronke     
 Max Planck Institute for Astrophysics, Garching     
 
 
 #### Evolution of thermal instability in 2D and 3D  **[ MAR 2021 - ]**        
 In this project we extend our previous work on thermal instability to 2D and 3D systems. We investigate both linear and non-linear evolution of multiphase gas due to radiative cooling.     
-This project contributed towards my Masters thesis, supervised by Prof. Prateek Sharma.      
+This project contributed towards my Masters thesis, supervised by Prof. Prateek Sharma.     
+
 Collaborator: Dr. Prakriti Pal Choudhury, Prof. Prateek Sharma      
 Physical Sciences, Indian Institute of Science, Bangalore      
 
 
 #### Multiphase gas dynamics in Magnetised, turbulent medium  **[ SEP 2021 - JAN 2024 ]**     
 We studied the different aspects of multiphase gas, like survival, morphology and growth, in  a turbulent medium in presence of magnetic fields. We use idealised MHD simulations run using Athena ++ for this study.     
-This led to a publication on MNRAS Jan 2024 issue.       
-The project is part of my thesis project, supervised by Dr. Max Gronke.
+This led to a publication on MNRAS Jan 2024 issue. The project is part of my thesis project, supervised by Dr. Max Gronke.    
+
 Collaborators: Dr. Max Gronke     
 Max Planck Institute for Astrophysics, Garching      
 
