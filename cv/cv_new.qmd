@@ -360,8 +360,8 @@ Indian Institute of Science, Bangalore, India
 Email: prateek[AT]iisc.ac.in    
 Website: [www.physics.iisc.ernet.in/~prateek](http://www.physics.iisc.ernet.in/~prateek/)     
 
-#### Dr. Rainer Weinberger
-Leibniz Instiute for Astrophyiscs (AIP), Potsdam, Germany
+#### Dr. Rainer Weinberger   
+Leibniz Instiute for Astrophyiscs (AIP), Potsdam, Germany     
 Email: rweinberger[AT]aip.de    
 Website: [rainerweinberger.com](https://rainerweinberger.com/)     
 
@@ -372,7 +372,7 @@ Nanyang Technological University, Singapore
 Email: massimo[AT]ntu.edu.sg    
 Website: [sites.google.com/site/ciamarragroup](https://sites.google.com/site/ciamarragroup/)     
 
-#### Assoc. Prof. Subroto Mukerjee
+<!-- #### Assoc. Prof. Subroto Mukerjee
 Physical Sciences      
 Indian Institute of Science, Bangalore, India    
 Email: smukerjee[AT]iisc.ac.in    
@@ -382,4 +382,4 @@ Website: [physics.iisc.ernet.in/~smukerjee](http://physics.iisc.ernet.in/~smuker
 Centre for High Energy Physics    
 Indian Institute of Science, Bangalore, India  
 Email: jyothsna.komaragiri[AT]gmail.com    
-Website: [chep.iisc.ac.in/Personnel/pages/jyothsna](http://chep.iisc.ac.in/Personnel/pages/jyothsna)     
+Website: [chep.iisc.ac.in/Personnel/pages/jyothsna](http://chep.iisc.ac.in/Personnel/pages/jyothsna)      -->
