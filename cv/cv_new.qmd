@@ -59,21 +59,20 @@ Duration: 2021-Present
 Doctoral Advisor: Dr. Max Gronke     
 Formal supervisor: Prof. Volker Springel     
 
-
 **Master of Science**    
 Indian Institute of Science (IISc), Bengaluru, India   
 Major: Physics    
-Duration: 2020-2021   
+Duration: 2020-2021    
 
-**Bachelor of Science (Research)** 
+**Bachelor of Science (Research)**     
 Indian Institute of Science (IISc), Bengaluru, India  
 Major: Physics   
-Duration: 2016-2020   
+Duration: 2016-2020    
 
-**Senior Secondary (CBSE), 2016**
+<!-- **Senior Secondary (CBSE), 2016**
 Kendriya Vidyalaya No-4, Bhubaneswar, India    
 Stream: Science    
-Date: 21/05/2016   
+Date: 21/05/2016    -->
 
 
 ## Research Experience      
