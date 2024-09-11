@@ -1,5 +1,5 @@
 /* import fonts */
-@import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&display=swap');
 
 /* all formats */
 
@@ -42,11 +42,11 @@ from: https://github.com/quarto-dev/quarto-cli/discussions/2538#discussioncommen
   }
 
   html {
-    font-family: 'Public Sans', sans-serif;
+    font-family: 'Lexend Deca', sans-serif;
   }
 
   header {
-    margin-block-end: 5em;
+    margin-block-end: 4em;
   }
   header h1.title {
       display: none;
@@ -62,13 +62,13 @@ from: https://github.com/quarto-dev/quarto-cli/discussions/2538#discussioncommen
   }
 
   h2 {
-    font-weight: 900;
+    font-weight: 750;
     text-transform: uppercase;
     /* color: blueviolet; */
   }
 
   h3 {
-    font-weight: 700;
+    font-weight: 500;
     text-transform: uppercase;
     /* color: green; */
   }
