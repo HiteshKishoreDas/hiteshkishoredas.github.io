@@ -9,24 +9,10 @@ format:
         toc-location: left
         html-math-method: katex
     pdf:
-        documentclass: article #[a4paper,11pt,oneside]{article}
-        classoption: [a4paper,11pt,oneside]
-        geometry:
-            - left=10mm 
-            - right=10mm 
-            - bottom=10mm 
-            - top=10mm
-        keep-tex: true
-
-# \usepackage{url}
-# %\usepackage[utf8]{inputenc}
-# %\usepackage{setspace}
-# \usepackage{hyperref}
-# \usepackage{graphicx}
-# \usepackage[left=0.75in, right=1in, bottom=0.75in, top=0.5in]{geometry}
-
-# \newcommand*{\Skype}{\href{skype:hiteshkishoredas?add}{hiteshkishoredas}} 
-# \newcommand{\Absender}[1][\normalsize]{\Skype} 
+        author: Hitesh Kishore Das
+        pdf-engine: weasyprint
+css: cv.css
+format-links: [pdf]
 ---
 
 ::: {.content-visible when-format="html"}
@@ -37,12 +23,6 @@ Link to the PDF version of my [CV](cv.pdf), [short version](cv_short.pdf)
 
 # Hitesh Kishore Das
 
-::: {.content-visible when-format="html"}
-__________________________________________________________
-:::
-::: {.content-visible when-format="pdf"}
-\hrule
-:::
 
 :::: {.columns}
 
@@ -62,20 +42,13 @@ Phone  : +49 89 30000 - (2239) (MPA)
 
 ::::
 
-::: {.content-visible when-format="html"}
+
 __________________________________________________________
-:::
-::: {.content-visible when-format="pdf"}
-\hrule
-:::
+
 
 ## Education       
-::: {.content-visible when-format="html"}
 __________________________________________________________
-:::
-::: {.content-visible when-format="pdf"}
-\hrule
-:::
+
  
 **PhD in Astrophysics (Ongoing)**   
 PhD Thesis: The dynamics of multiphase gas in astrophysical media
@@ -104,12 +77,8 @@ Date: 21/05/2016
 
 
 ## Research Experience      
-::: {.content-visible when-format="html"}
 __________________________________________________________
-:::
-::: {.content-visible when-format="pdf"}
-\hrule
-:::
+
 
 #### Subgrid model for multiphase gas interactions **[ FEB 2024 - ]**      
 We are developing a subgrid model for survival, destruction and other behaviours of multiphase gas, using the Multifluid AREPO framework.     
@@ -197,12 +166,7 @@ Centre for High Energy Physics, Indian Institute of Science, Bangalore     -->
 
 
 ## Publications      
-::: {.content-visible when-format="html"}
 __________________________________________________________
-:::
-::: {.content-visible when-format="pdf"}
-\hrule
-:::
 
 ##### - Magnetic Fields in Multiphase Turbulence: Impacts on Dynamics and Structure
 Hitesh Kishore Das, Max Gronke 
@@ -216,12 +180,8 @@ Hitesh Kishore Das, Prakriti Pal Choudhury, Prateek Sharma
 
 
 ## Conferences and Seminars     
-::: {.content-visible when-format="html"}
 __________________________________________________________
-:::
-::: {.content-visible when-format="pdf"}
-\hrule
-:::
+
 
 - **Talk** at Lars Hernquist group meeting at **Center for Astrophyiscs**, Harvard University on August 23, 2024.
 
@@ -284,12 +244,8 @@ Attended the conference virtually
 Attended the conference virtually    
 
 ## Mentoring      
-::: {.content-visible when-format="html"}
 __________________________________________________________
-:::
-::: {.content-visible when-format="pdf"}
-\hrule
-:::
+
 
 - Fully **Supervised** the DAAD-RISE intership of Zewei "Jason" Wu (UChicago) at MPA, Garching between May - August 2024
 
@@ -297,12 +253,7 @@ __________________________________________________________
 
 
 ## Extra-curricular Experience      
-::: {.content-visible when-format="html"}
 __________________________________________________________
-:::
-::: {.content-visible when-format="pdf"}
-\hrule
-:::
 
 - **External PhD representative** at MPA
 
@@ -321,12 +272,7 @@ Involved in planning and conducting events by Physics club for Pravega - 2016 an
      
 
 ## Awards and Fellowships         
-::: {.content-visible when-format="html"}
 __________________________________________________________
-:::
-::: {.content-visible when-format="pdf"}
-\hrule
-:::
 
 - **Kishore Vaigyanik Protsahan Yojana** (KVPY) Fellowship}    
 Funded by: Department of Science and Technology, Government of India    
