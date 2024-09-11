@@ -275,18 +275,23 @@ Involved in planning and conducting events by Physics club for Pravega - 2016 an
 ## Awards and Fellowships         
 __________________________________________________________
 
+- **NTU-India Connect Research Fellowship** 
+2-month long intership opportunity at NTU, with funding for travel, accommodation and living costs.
+Funded by: Nanyang Technological University, Singapore (NTU)
+Duration: May 2019 – July 2019
+
 - **Kishore Vaigyanik Protsahan Yojana** (KVPY) Fellowship}    
 Funded by: Department of Science and Technology, Government of India    
 Stream: SX     
 Duration: 2016-2021     
 
-- **National Cyber Olympiad** 2014-15   
+<!-- - **National Cyber Olympiad** 2014-15   
 National Rank: 1 (in 11th grade)     
 Organised by: Science Olympiad Foundation    
 
 - **National Standard Examination in Astronomy** , 2015    
 Got certificate for being in top 10\% of the examination centre.    
-Organised by: Indian Association of Physics Teachers (IAPT)    
+Organised by: Indian Association of Physics Teachers (IAPT)     -->
 
 
 ## Skills     
