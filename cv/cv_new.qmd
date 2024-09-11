@@ -15,8 +15,8 @@ css: cv.css
 format-links: [pdf]
 ---
 
-::: {.content-visible when-format="html"}
-
+<!-- ::: {.content-visible when-format="html"} -->
+::: {.no-print}
 Link to the PDF version of my [CV](cv_new.pdf), [short version](cv_short.pdf) 
 
 :::
@@ -291,7 +291,7 @@ Organised by: Indian Association of Physics Teachers (IAPT)
 
 ## Skills     
 
-::: {.content-visible when-format="html"}
+::: {.no-print}
 
 :::: {.columns}
 ::: {.column width="35%"}
@@ -315,7 +315,7 @@ Bash scripting
 ::::
 :::
 
-::: {.content-visible when-format="pdf"}
+::: {.print-only}
 **Compiled languages**: C, C++    
 **Hydrodynamic Simulation**: AREPO, Athena++ , PLUTO      
 **Interpreted languages**: Python, Matlab, Mathematica    
