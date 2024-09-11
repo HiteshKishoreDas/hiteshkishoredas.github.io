@@ -33,6 +33,9 @@ jobs:
 
       - name: Install shinylive
         run: pip install shinylive
+
+      - name: Install weasyprint
+        run: pip install weasyprint
       
       - name: Render and Publish
         uses: quarto-dev/quarto-actions/publish@v2
