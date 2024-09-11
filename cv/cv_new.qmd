@@ -94,7 +94,7 @@ Collaborators: Zewei "Jason" Wu, Dr. Max Gronke
 Max Planck Institute for Astrophysics, Garching     
 
 
-- **Evolution of thermal instability in 2D and 3D**  [ MAR 2021 - ]        
+- **Linear and nonlinear evolution of thermal instability in 2D/3D**  [ MAR 2021 - ]        
 <!-- In this project we extend our previous work on thermal instability to 2D and 3D systems. We investigate both linear and non-linear evolution of multiphase gas due to radiative cooling.     
 This project contributed towards my Masters thesis, supervised by Prof. Prateek Sharma.     -->
 Collaborator: Dr. Prakriti Pal Choudhury, Prof. Prateek Sharma      
@@ -121,6 +121,7 @@ Max Planck Institute for Astrophysics, Garching
 This work led to some important insights into evolution of large-scale isochoric clouds.    
 
 This project contributed towards my Bachelors thesis, supervised by Prof. Prateek Sharma and led to a research paper in collaboration with Dr. Prakriti Pal Choudhury and Prof. Prateek Sharma.-->
+Part of Bachelors thesis project under the supervision of Prof. Prateek Sharma
 Collaborators: Dr. Prakriti Pal Choudhury, Prof. Prateek Sharma     
 Physical Sciences, Indian Institute of Science, Bangalore      
        
@@ -130,7 +131,7 @@ Physical Sciences, Indian Institute of Science, Bangalore
 - Molecular dynamics code development (in LAMMPS), adapting existing code in the research group    
 - Reproduction of literature data   
 -->
-Under supervision of: Assoc. Prof. Massimo Pica Ciamarra    
+Internship under supervision of: Assoc. Prof. Massimo Pica Ciamarra    
 School of Physical \& Mathematical Sciences, Nanyang Technological University, Singapore    
 
 
