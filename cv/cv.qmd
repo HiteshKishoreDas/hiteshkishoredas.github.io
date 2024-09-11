@@ -9,7 +9,9 @@ format:
         toc-location: left
         html-math-method: katex
     pdf:
-        
+        author: Hitesh Kishore Das
+        pdf-engine: weasyprint
+format-links: [pdf]
 ---
 
 ::: {.content-visible when-format="html"}
