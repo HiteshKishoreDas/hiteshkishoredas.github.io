@@ -51,10 +51,10 @@ __________________________________________________________
 
  
 **PhD in Astrophysics (Ongoing)**   
-PhD Thesis: The dynamics of multiphase gas in astrophysical media
-International Max Planck Research School on Astrophysics (IMPRS)   
-Max Planck Institute for Astrophysics (MPA), Garching, Germany    
-Ludwig Maximilians University (LMU), Munich, Germany  
+PhD Thesis: The dynamics of multiphase gas in astrophysical media     
+International Max Planck Research School on Astrophysics (IMPRS)     
+Max Planck Institute for Astrophysics (MPA), Garching, Germany     
+Ludwig Maximilians University (LMU), Munich, Germany    
 Duration: 2021-Present    
 Doctoral Advisor: Dr. Max Gronke     
 Formal supervisor: Prof. Volker Springel     
