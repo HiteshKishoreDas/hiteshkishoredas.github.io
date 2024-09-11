@@ -135,16 +135,16 @@ School of Physical \& Mathematical Sciences, Nanyang Technological University, S
 
 
 <!-- - *Electrostatics of Spherical Topological Insulators [ 1 MAY 2018 – 30 JUN 2018 ]   
-<!-- Theoretical derivation of electric and magnetic scalar potentials for different cases of electric and magnetic fields near a spherical Topological insulator.    
--->
+ Theoretical derivation of electric and magnetic scalar potentials for different cases of electric and magnetic fields near a spherical Topological insulator.    
+
 Under supervision of: Assoc. Prof. Subroto Mukerjee    
 Physical Sciences, Indian Institute of Science, Bangalore    -->
 
 
 <!-- - *Analysis of data from CERN 2010 open data and simulation of top pair production [ 1 MAY 2017 – 31 JUL 2017 ]   
-<!-- It consisted of accessing CERN 2010 open data using CernVM and analysing the data using C++ and Python code incorporating ROOT to plot Dimuon spectra, Trimuon spectra and other related plots.   
+It consisted of accessing CERN 2010 open data using CernVM and analysing the data using C++ and Python code incorporating ROOT to plot Dimuon spectra, Trimuon spectra and other related plots.   
 High-energy particle physics event simulations of top pair production were done using Pythia 8.2 and Madgraph 5.    
--->
+
 Under supervision of: Asst. Prof. Jyothsna Rani Komaragiri   
 Centre for High Energy Physics, Indian Institute of Science, Bangalore     -->
 
