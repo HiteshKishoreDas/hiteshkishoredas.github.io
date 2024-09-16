@@ -249,13 +249,19 @@ __________________________________________________________
 - **Mentored** Tapan Mayukh from LMU during their Masters thesis project at MPA during 2023-24 academic year
 
 
-## Extra-curricular Experience      
+## Service      
 __________________________________________________________
+
+- Refereed:
+    - Scientific article for A&A
+    - Computating time proposal for DIRAC HPC facility
 
 - **External PhD representative** at MPA (July 2024-)
 
-- **13th IMPRS Symposium**    
-Chair of the Local Organising Committee
+- **13th IMPRS Symposium**: Chair of the Local Organising Committee
+
+## Extra-curricular Experience      
+__________________________________________________________
 
 - **IISc Undergraduate Astro Club**    
 Delivered a talk on "Astrophysical media and their behaviour". 
