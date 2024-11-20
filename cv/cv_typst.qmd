@@ -1,0 +1,538 @@
+---
+title: "" 
+sidebar: false
+
+format:
+    html:
+        toc: true
+        toc-depth: 2
+        toc-location: left
+        html-math-method: katex
+    typst:
+        toc: true
+        papersize: a4
+        margin:
+            x: 1cm
+            y: 1cm
+        # documentclass: article #[a4paper,11pt,oneside]{article}
+        # classoption: [a4paper,11pt,oneside]
+        # geometry:
+        #     - left=10mm 
+        #     - right=10mm 
+        #     - bottom=10mm 
+        #     - top=10mm
+        # keep-tex: true
+
+# \usepackage{url}
+# %\usepackage[utf8]{inputenc}
+# %\usepackage{setspace}
+# \usepackage{hyperref}
+# \usepackage{graphicx}
+# \usepackage[left=0.75in, right=1in, bottom=0.75in, top=0.5in]{geometry}
+
+# \newcommand*{\Skype}{\href{skype:hiteshkishoredas?add}{hiteshkishoredas}} 
+# \newcommand{\Absender}[1][\normalsize]{\Skype} 
+---
+
+::: {.content-visible when-format="html"}
+
+Link to the PDF version of my [CV](cv.pdf), [short version](cv_short.pdf) 
+
+```{=typst}
+
+#import "@preview/fontawesome:0.4.0": *
+#import "@preview/modern-cv:0.6.0": *
+#import "lib.typ": *
+
+
+#show: resume.with(
+  author: (
+    firstname: "Hitesh Kishore",
+    lastname: "Das",
+    email: "hitesh@mpa-garching.mpg.de",
+    homepage: "hiteshkishoredas.github.io",
+    // phone: "(+1) 111-111-1111",
+    github: "hiteshkishoredas",
+    // twitter: "hiteshkdas",
+    // scholar: "",
+    orcid: "0000-0001-6171-6924",
+    // birth: "Septemper 1, 1990",
+    // linkedin: "Example",
+    address: "Max Planck Institute for Astrophysics, Garching, Germany",
+    positions: (
+      "Galaxy Physics",
+      "Astrophysical fluid dynamics",
+      "Circumgalactic Medium",
+    ),
+  ),
+  date: datetime.today().display(),
+  language: "en",
+  colored-headers: true,
+  show-footer: false,
+)
+
+#show link: set text(blue)
+
+= Education
+
+#resume-entry(
+  title: "PhD in Astrophysics (Ongoing)",
+  location: "Munich/Garching, Germany",
+  date: "Aug 2021 - Present",
+  description: "Max Planck Institute for Astrophysics (MPA) \nInternational Max Planck Research School for Astrophysics (IMPRS) \nLudwig Maximilians University (LMU)",
+)
+
+#resume-item[
+  - *Thesis title*: The dynamics of Multiphase gas in Astrophysical media
+  - *Doctoral Advisor*: Dr. Max Gronke
+  - *Formal Supervisor*: Prof. Volker Springel
+]
+
+#resume-entry(
+  title: "Master of Science",
+  location: "Bengaluru, India",
+  date: "Aug 2020 - July 2021",
+  description: "Indian Insitute of Science (IISc)",
+)
+#resume-item[
+  - With full scholarship from KVPY fellowship
+]
+
+#resume-entry(
+  title: "Bachelor of Science (Research)",
+  location: "Bengaluru, India",
+  date: "Aug 2016 - July 2020",
+  description: "Indian Insitute of Science (IISc)",
+)
+#resume-item[
+  - With full scholarship from KVPY fellowship
+]
+
+
+= Research Experience
+
+#resume-entry(
+  title: "Subgrid model for multiphase gas interactions",
+  location: "MPA",
+  date: "Feb 2024 - Present",
+  description: "Collaborators: Dr. Rainer Weinberger, Dr. Max Gronke",
+)
+
+#resume-entry(
+  title: "Three-phase gas in a turbulent medium",
+  location: "MPA",
+  date: "May 2024 - Present",
+  description: "Collaborators: Zewei Wu, Dr. Max Gronke",
+)
+
+#resume-item[
+  - Project is led by Zewei Wu from UChicago during his DAAD-RISE internship.
+  - *Involved as the advisor* for his internship, including framing the research proposal.
+]
+
+#resume-entry(
+  title: "Linear and nonlinear evolution of thermal instability in 2D/3D",
+  location: "IISc/MPA",
+  date: "Mar 2021 - Present",
+  description: "Collaborators: Dr. Prakriti Pal Choudhury, Prof. Prateek Sharma, Dr. Max Gronke",
+)
+
+#resume-entry(
+  title: "Multiphase gas dynamics in Magnetised, turbulent medium",
+  location: "MPA",
+  date: "Sep 2021 - Jan 2024",
+  description: "Collaborators: Dr. Max Gronke",
+)
+
+#resume-entry(
+  title: "Role of temperature and metallicity in the evolution of thermal instability",
+  location: "IISc",
+  date: "Aug 2019 - Apr 2021",
+  description: "Collaborators: Dr. Prakriti Pal Choudhury, Prof. Prateek Sharma",
+)
+
+#resume-entry(
+  title: "Survival, destruction, and formation of cold molecular gas",
+  location: "MPA",
+  date: "Mar 2023 - Aug 2023",
+  description: "Collaborators: Atal Agarwal, Dr. Max Gronke",
+)
+
+#resume-item[
+  - Atal Agarwal did part of the work from IIT Roorkee during his DAAD-WISE internship 
+  - I was *involved as a co-supervisor* in the internship 
+]
+
+= Publications
+
+#resume-entry(
+  title: "Summary - Total: 5, Submitted: 1, In prep: 2, citations: 38",
+  location:"(as of Oct 2024)"
+)
+
+#resume-entry(
+  title: "M3: Multifluid Model for Multiphase Gas",
+  description: "Hitesh Kishore Das, Max Gronke, Rainer Weinberger",
+  location: "Submitted",
+)
+
+#v(15pt)
+
+#resume-entry(
+  title: "Shatter or not in 2D/3D: Linear and nonlinear evolution of thermal instability",
+  description: "Hitesh Kishore Das, Prakriti Pal Choudhury, Prateek Sharma, Max Gronke",
+  location: "In prep."
+)
+
+#resume-entry(
+  title: "Three-phase gas in a turbulence medium",
+  description: "Zewei Wu, Hitesh Kishore Das, Max Gronke",
+  location: "In prep."
+)
+
+// #resume-entry(
+//   title: "Survival, Destruction, and formation of cold molecular gas",
+//   description: "Hitesh Kishore Das and Atal Agarwal, Max Gronke",
+//   location: "In prep."
+// )
+
+#resume-entry(
+  title: "Magnetic Fields in Multiphase Turbulence: Impacts on Dynamics and Structure",
+  description: "Hitesh Kishore Das, Max Gronke",
+  location: link("https://arxiv.org/abs/2307.06411")[(2307.06411)]
+)
+
+#resume-item[
+  Monthly Notices of the Royal Astronomical Society, Volume 527, Issue 1, January 2024, 
+  Pages 991–1013
+]
+#resume-item[
+  Journal: #link("https://doi.org/10.1093/mnras/stad3125")[doi.org/10.1093/mnras/stad3125]
+]
+
+#resume-entry(
+  title: "Shatter or not: Role of temperature and metallicity in evolution of thermal instability",
+  description: "Hitesh Kishore Das, Prakriti Pal Choudhury, Prateek Sharma",
+  location: link("https://arxiv.org/abs/2009.11317")[(2009.11317)]
+)
+
+#resume-item[
+  Monthly Notices of the Royal Astronomical Society, Volume 502, Issue 4, April 2021, Pages 4935–4952
+]
+#resume-item[
+  Journal: #link("https://doi.org/10.1093/mnras/stab382")[doi.org/10.1093/mnras/stad3125]
+]
+
+= Conferences and Seminars
+#v(-5pt)
+
+== - 2024
+#talk-entry(
+  type: "Talk",
+  description: "(Upcoming) Baryons Beyond Galactic Boundaries",
+  date: "Dec 2-6, 2024",
+  location: "IUCAA, Pune",
+)
+
+#talk-entry(
+  type: "Talk",
+  description: "(Upcoming) Highlight talk at ORIGINS Science Week",
+  date: "Nov 18-21, 2024",
+  location: "Kloster Seeon, Germany",
+)
+
+#talk-entry(
+  type: "Talk",
+  description: "ORIGINS Turbulence Day",
+  date: "Oct 16, 2024",
+  location: "MPA, Garching",
+)
+
+#talk-entry(
+  type: "Talk",
+  description: "Lars Hernquist group meeting",
+  date: "Aug 23, 2024",
+  location: "CfA, Harvard",
+)
+
+#talk-entry(
+  type: "Talk",
+  description: "Multiphase Madness: Resolving the CGM in Theory and Observations",
+  date: "Aug 21-23, 2024",
+  location: "CfA, Harvard",
+)
+
+#talk-entry(
+  type: "Talk",
+  description: "Computational Structure and Galaxy Formation Group meeting",
+  date: "Aug 19, 2024",
+  location: "Kavli Inst. for Astrophysics, MIT",
+)
+
+#talk-entry(
+  type: "Talk",
+  description: "presented my work at GalRead",
+  date: "Aug 19, 2024",
+  location: "Peyton Hall, Princeton Univ.",
+)
+
+#talk-entry(
+  type: "Talk",
+  description: "ISSI Team meeting for 'Observing Local Think Global: What solar obs. can teach us about Multiphase Plasma  across Astrophysical scales'",
+  date: "May 13-17, 2024",
+  location: "ISSI, Bern",
+)
+
+#talk-entry(
+  type: "Talk",
+  description: "Cosmology section meeting",
+  date: "May 8, 2024",
+  location: "AIP, Potsdam",
+)
+
+#talk-entry(
+  type: "Talk",
+  description: "Astrophysics Seminar Talk at the Physics Department",
+  date: "Jan 27, 2024",
+  location: "IISc, Bengaluru",
+)
+
+#talk-entry(
+  type: "Poster",
+  description: "Annual meeting of Astronomical Society of India (ASI)",
+  date: "Jan 30-Feb 4, 2024",
+  location: "IISc, Bengaluru",
+)
+
+#v(5pt)
+== - 2023
+#talk-entry(
+  type: "Talk",
+  description: "IAP 2023 Colloquium: New simulations for new problems in galaxy formation",
+  date: "Dec 11-15, 2023",
+  location: "IAP, Paris",
+)
+
+#talk-entry(
+  type: "Talk",
+  description: "MIST 2023: Cosmic turbulence and Magnetic fields",
+  date: "Sep 24- Oct 1, 2023",
+  location: "Cargese, Corsica",
+)
+
+#talk-entry(
+  type: "Talk",
+  description: "Modelling of Multiphase Astrophysical Media",
+  date: "May 30- June 2, 2023",
+  location: "Kochel, Germany",
+)
+
+#talk-entry(
+  type: "Talk",
+  description: "MPA Institute Seminar",
+  date: "May 15, 2023",
+  location: "MPA, Garching",
+)
+
+#talk-entry(
+  type: "Talk",
+  description: "ISSI Team meeting for 'Observing Local Think Global: What solar obs. can teach us about Multiphase Plasma  across Astrophysical scales'",
+  date: "May 13-17, 2023",
+  location: "ISSI, Bern",
+)
+
+#talk-entry(
+  type: "Review Talk",
+  description: "ISSI Team meeting for 'Observing Local Think Global: What solar obs. can teach us about Multiphase Plasma  across Astrophysical scales'",
+  date: "May 13-17, 2023",
+  location: "ISSI, Bern",
+)
+
+
+#talk-entry(
+  type: "Talk",
+  description: "The Multiphase Circumgalactic Medium",
+  date: "Feb 26 - Mar 3, 2023",
+  location: "Ringberg Castle, Germany",
+)
+
+#talk-entry(
+  type: "School",
+  description: "52nd Saas-Fee Winter School on 'The Circumgalactic Medium across cosmic time: an observational and modelling challenge'",
+  date: "May 15, 2023",
+  location: "Les Diablerets, Switzerland",
+)
+
+
+#v(5pt)
+== - 2022
+#talk-entry(
+  type: "Talk",
+  description: "Gas Flows around Galaxies: ORIGINS Workshop",
+  date: "May 24, 2022",
+  location: "Remote",
+)
+
+#talk-entry(
+  type: "Poster",
+  description: "The National Astronomy Meeting (NAM) 2022",
+  date: "July 11-15, 2022",
+  location: "Remote",
+)
+
+// #talk-entry(
+//   type: "Attended",
+//   description: "Lyman-X Day: ORIGINS Workshop",
+//   date: "Oct 5, 2022",
+//   location: "ESO, Garching",
+// )
+
+// == 2020
+// #talk-entry(
+//   type: "Talk",
+//   description: "Presision Presidency Physics Summit",
+//   date: "Sep 11-13, 2020",
+//   location: "Remote",
+// )
+
+
+// #talk-entry(
+//   type: "Attended",
+//   description: "On the Origin, Nature and Mixing of Multiphase Gas in Astrophysics, \nKITP Online conference",
+//   date: "Oct 15-16, 2020",
+//   location: "Remote",
+// )
+
+// #talk-entry(
+//   type: "Attended",
+//   description: "IAP online Colloquium on Intracluster Medium/Circumgalactic Medium",
+//   date: "June 22-26, 2020",
+//   location: "Remote",
+// )
+
+#v(5pt)
+
+= Mentoring
+
+- #text-entry(
+  type: "Fully supervised ",
+  description: "the DAAD-RISE internship of Zewei “Jason” Wu (UChicago)",
+  location: "MPA, Garching",
+  date: "May-Aug 2024",
+)
+  - #resume-item[
+      Wrote a successful project proposal that was accepted by DAAD-WISE and got *over 60* student applications.
+    ]
+  - #resume-item[
+      After the selection process, the internship was *fully funded*, by the DAAD Academy.
+    ]
+
+- #text-entry(
+  type: "Co-supervised ",
+  description: "the DAAD-WISE internship of Atal Agarwal (IIT Roorkee)",
+  location: "MPA, Garching",
+  date: "May-Aug 2023",
+)
+
+- #text-entry(
+  type: "Mentored ",
+  description: "Tapan Mayukh from LMU during their Master's thesis project",
+  location: "MPA, Garching",
+  date: "2023-24 Academic year",
+)
+
+- #text-entry(
+  type: "Mentored ",
+  description: "Benedikt Seidl from LMU during their Bachelor's thesis project",
+  location: "MPA, Garching",
+  date: "2022-23 Academic year",
+)
+
+= Service
+
+- *Refereed:*
+  - Scientific article for the journal "Astronomy and Astrophysics"
+  - Computing time proposal for DIRAC HPC facility
+- *External PhD representative* for MPG PhDNet at MPA, Garching (July 2024-Present) 
+- *Chair of the Local Organising Committee* of 13th IMPRS Symposium
+- *Outreach:*
+  - Volunteered for demonstration at MPA, Garching Open Day (2024)
+  - Outreach talk for Undergraduate students at IISc Astro Club (2021)
+  - Outreach talk for Undergraduate students at IISc Physics Club (2020)
+  - Outreach demonstrations at IISc Open Day (2021)
+  - Outreach demonstrations at IISc Institute festivals (2016-17)
+
+= Awards and Fellowships 
+
+  - Funded *Max Planck Society PhD position* (Sep 2021 - Sep2025)
+  - Funded travel and accommodation to attend *two annual ISSI team meetings* for the working team *Observing Local Think Global: What solar obs. can teach us about Multiphase Plasma  across Astrophysical scales* 
+  - *NTU-India Connect Research Fellowship*: 2-month long internship opportunity at NTU, Singapore, with funded travel, accommodation and living costs. (May 2019 - July 2019)
+  - *Kishore Vaigyanik Protsahan Yojana (KVPY) Fellowship*: Scholarship from the Govt. of India for pursuing university studies in basic sciences (Aug 2016 - July 2021)
+
+= Skills
+
+#resume-skill-item(
+  "Languages",
+  (strong("C/C++"), strong("Python"), "Rust", "Haskell", "Matlab", "Mathematica"),
+)
+#resume-skill-item("Simulation codes", (strong("Athena++"), strong("AREPO"), strong("PLUTO"), "AthenaPK"))
+#resume-skill-item("HPC", (strong("Over 10M CPU hours")+" used across different systems and architectures",))
+#resume-skill-item(
+  "Others",
+  ("LaTeX", "HTML", "Typst", "ROOT", "Bash", "LAMMPS", "Madgraph5","Pythia",),
+)
+#resume-skill-item(
+  "Spoken Languages",
+  (strong("English")+" (Proficient)", strong("Hindi")+" (Proficient)", strong("Odia")+" (Native)", "German"+" (A1)"),
+)
+
+= References
+
+#resume-entry(
+  title: "Dr. Max Gronke",
+  description: "Max Planck Institute for Astrophysics (MPA), Garching",
+)
+
+#resume-item[
+  *Email*: maxbg [at] mpa-garching.mpg.de
+]
+#resume-item[
+  *Website*: #link("http://max.lyman-alpha.com/")[max.lyman-alpha.com]
+]
+
+#resume-entry(
+  title: "Prof. Prateek Sharma",
+  description: "Physical Sciences, Indian Institute of Science (IISc), Bengaluru",
+)
+#resume-item[
+  *Email*: prateek [at] iisc.ac.in
+]
+#resume-item[
+  *Website*: #link("http://www.physics.iisc.ernet.in/~prateek/")[physics.iisc.ernet.in/~prateek]
+]
+
+#resume-entry(
+  title: "Dr. Rainer Weinberger",
+  description: "Leibniz Insitute for Astrophysics (AIP), Potsdam",
+)
+#resume-item[
+  *Email*: rweinberger [at] aip.de
+]
+#resume-item[
+  *Website*: #link("https://rainerweinberger.com/")[rainerweinberger.com]
+]
+
+// #resume-entry(
+//   title: "Dr. Prakriti Pal Choudhury",
+//   description: "Theoretical Astrophysics and Plasma Physics, University of Oxford",
+// )
+// #resume-item[
+//   *Email*: prakriti.palchoudhury [at] physics.ox.ac.uk
+// ]
+// #resume-item[
+//   *Website*: #link("https://astro.prakritipc.com/")[astro.prakritipc.com]
+// ]
+
+
+
+```
