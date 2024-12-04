@@ -1,0 +1,9 @@
+---
+title: "MOGLI: Model for Multiphase Gas using Multifluid hydrodynamics"
+# sidebar: false
+---
+
+Hi there!
+
+In this page we show some interesting visualisations from our paper for the subgrid model "MOGLI".
+
