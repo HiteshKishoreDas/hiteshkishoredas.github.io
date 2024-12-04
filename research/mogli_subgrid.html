@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Magnetic Fields in Multiphase Turbulence – Hitesh Kishore Das</title>
+<title>MOGLI: Model for Multiphase Gas using Multifluid hydrodynamics – Hitesh Kishore Das</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -29,8 +29,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../">
-<link href="../research/mogli_subgrid.html" rel="next">
-<link href="../about.html" rel="prev">
+<link href="../research/thermal_instability.html" rel="next">
+<link href="../research/mhd_multiphase.html" rel="prev">
 <script src="../site_libs/quarto-html/quarto.js"></script>
 <script src="../site_libs/quarto-html/popper.min.js"></script>
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -81,7 +81,7 @@ gtag('config', 'G-N162HDX82J', { 'anonymize_ip': true});
 
 
 <link rel="stylesheet" href="../styles.css">
-<meta property="og:title" content="Magnetic Fields in Multiphase Turbulence – Hitesh Kishore Das">
+<meta property="og:title" content="MOGLI: Model for Multiphase Gas using Multifluid hydrodynamics – Hitesh Kishore Das">
 <meta property="og:description" content="">
 <meta property="og:site_name" content="Hitesh Kishore Das">
 </head>
@@ -151,7 +151,7 @@ gtag('config', 'G-N162HDX82J', { 'anonymize_ip': true});
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../research/mhd_multiphase.html">Research</a></li><li class="breadcrumb-item"><a href="../research/mhd_multiphase.html">Magnetic Fields in Multiphase Turbulence</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../research/mhd_multiphase.html">Research</a></li><li class="breadcrumb-item"><a href="../research/mogli_subgrid.html">MOGLI: Model for Multiphase Gas using Multifluid hydrodynamics</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -192,13 +192,13 @@ gtag('config', 'G-N162HDX82J', { 'anonymize_ip': true});
       <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../research/mhd_multiphase.html" class="sidebar-item-text sidebar-link active">
+  <a href="../research/mhd_multiphase.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Magnetic Fields in Multiphase Turbulence</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../research/mogli_subgrid.html" class="sidebar-item-text sidebar-link">
+  <a href="../research/mogli_subgrid.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text">MOGLI: Model for Multiphase Gas using Multifluid hydrodynamics</span></a>
   </div>
 </li>
@@ -221,27 +221,20 @@ gtag('config', 'G-N162HDX82J', { 'anonymize_ip': true});
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
-   
-  <ul>
-  <li><a href="#turbulent-radiative-mixing-layers-trmls" id="toc-turbulent-radiative-mixing-layers-trmls" class="nav-link active" data-scroll-target="#turbulent-radiative-mixing-layers-trmls">Turbulent Radiative Mixing Layers (TRMLs)</a></li>
-  <li><a href="#magneto-hydrodynamic-turbulent-boxes" id="toc-magneto-hydrodynamic-turbulent-boxes" class="nav-link" data-scroll-target="#magneto-hydrodynamic-turbulent-boxes">(Magneto-)Hydrodynamic turbulent boxes</a></li>
-  </ul>
-</nav>
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
+        
     </div>
 <!-- main -->
-<main class="content column-body" id="quarto-document-content">
+<main class="content column-page-right" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../research/mhd_multiphase.html">Research</a></li><li class="breadcrumb-item"><a href="../research/mhd_multiphase.html">Magnetic Fields in Multiphase Turbulence</a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../research/mhd_multiphase.html">Research</a></li><li class="breadcrumb-item"><a href="../research/mogli_subgrid.html">MOGLI: Model for Multiphase Gas using Multifluid hydrodynamics</a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title">Magnetic Fields in Multiphase Turbulence</h1>
+<h1 class="title">MOGLI: Model for Multiphase Gas using Multifluid hydrodynamics</h1>
 </div>
 
 
 
-<div class="quarto-title-meta column-body">
+<div class="quarto-title-meta column-page-right">
 
     
   
@@ -254,38 +247,9 @@ gtag('config', 'G-N162HDX82J', { 'anonymize_ip': true});
 
 
 <p>Hi there!</p>
-<p>In this page we show some interesting visualisations from our paper “Magnetic Fields in Multiphase Turbulence: Impacts on Dynamics and Structure” (<a href="https://arxiv.org/abs/2307.06411">2307.06411</a>).</p>
-<p>The components, namely, Turbulence, Multiphase gas and Magnetic fields are ubiquitous in astrophysical media. But, there has been only limited work on the intersection of all three parts. This work was an attempt to broaden the understanding at this intersection. In particular, to look at how magnetic fields affect the growth and survival of multiphase gas in a turbulent medium.</p>
-<p>For this study, we use two sets of simulations: Turbulent Radiative Mixing Layers (TRMLs) and turbulent boxes.</p>
-<p>Below we show the different visualisations from these two simulations.</p>
-<section id="turbulent-radiative-mixing-layers-trmls" class="level2">
-<h2 class="anchored" data-anchor-id="turbulent-radiative-mixing-layers-trmls">Turbulent Radiative Mixing Layers (TRMLs)</h2>
-<p>Here’s a evolution in temperature showing a sliced view of different TRML simulations, along with the magnetic field lines:</p>
-<div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/xDP1CS5wlLM" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
-<p>It shows how the two phases are getting mixed and how the magnetic field topology evolves with time.</p>
-<p>And here’s a evolution in scalar quantity showing a sliced view of different TRML simulations, along with the magnetic field lines. This gives some hints towards the origin of gases in the different phases.</p>
-<div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/QuhMbvPJ6Bg" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
-</section>
-<section id="magneto-hydrodynamic-turbulent-boxes" class="level2">
-<h2 class="anchored" data-anchor-id="magneto-hydrodynamic-turbulent-boxes">(Magneto-)Hydrodynamic turbulent boxes</h2>
-<p>Here are 3-dimensional views of the evolution of the cold gas after the introduction of a cold gas cloud in driven-turbulence.</p>
-<p>Without magnetic fields:</p>
-<div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/0fWcMqdDn3E" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
-<p>With magnetic fields:</p>
-<div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/IaylcB8tKxM" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
-<p>These clearly show the morphological difference between the cold phase in Hydrodynamic and Magnetohydrodynamic turbulence. The cold gas phase is much more filamentary in presence of magnetic fields.</p>
-<p>For a more stable view, here’s a similar set of videos but as density projection.</p>
-<ul>
-<li>This is for a case where the cloud get’s destroyed</li>
-</ul>
-<div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/KJKwZ34hTuw" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
-<ul>
-<li>The cases where the cloud survives and cold gas grows</li>
-</ul>
-<div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/A7nkFZaVaGg" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
+<p>In this page we show some interesting visualisations from our paper for the subgrid model “MOGLI”.</p>
 
 
-</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -849,15 +813,15 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
 });
 </script>
-<nav class="page-navigation column-body">
+<nav class="page-navigation column-page-right">
   <div class="nav-page nav-page-previous">
-      <a href="../about.html" class="pagination-link" aria-label="About">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">About</span>
+      <a href="../research/mhd_multiphase.html" class="pagination-link" aria-label="Magnetic Fields in Multiphase Turbulence">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Magnetic Fields in Multiphase Turbulence</span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="../research/mogli_subgrid.html" class="pagination-link" aria-label="MOGLI: Model for Multiphase Gas using Multifluid hydrodynamics">
-        <span class="nav-page-text">MOGLI: Model for Multiphase Gas using Multifluid hydrodynamics</span> <i class="bi bi-arrow-right-short"></i>
+      <a href="../research/thermal_instability.html" class="pagination-link" aria-label="Thermal Instability in 1D">
+        <span class="nav-page-text">Thermal Instability in 1D</span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>
