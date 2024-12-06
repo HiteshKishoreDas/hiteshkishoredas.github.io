@@ -302,6 +302,13 @@
     "text": "A list of my publications can be found here."
   },
   {
+    "objectID": "research.html#mogli-model-for-multiphase-gas-using-multifluid-hydrodynamics",
+    "href": "research.html#mogli-model-for-multiphase-gas-using-multifluid-hydrodynamics",
+    "title": "Research",
+    "section": "MOGLI: Model for Multiphase Gas using Multifluid hydrodynamics",
+    "text": "MOGLI: Model for Multiphase Gas using Multifluid hydrodynamics\nThere is a requirement of subgrid models for the Multiphase gas for converged large-scale simulations. And in this study we do the same using a multifluid scheme in AREPO. We test and verify our subgrid model MOGLI with resolved benchmark simulations."
+  },
+  {
     "objectID": "research.html#multiphase-gas-in-magnetised-turbulent-medium",
     "href": "research.html#multiphase-gas-in-magnetised-turbulent-medium",
     "title": "Research",
