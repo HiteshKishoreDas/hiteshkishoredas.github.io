@@ -416,7 +416,7 @@
     "href": "research/mogli_subgrid.html",
     "title": "MOGLI: Model for Multiphase Gas using Multifluid hydrodynamics",
     "section": "",
-    "text": "Hi there!\nIn this page we show some interesting visualisations from our paper for the subgrid model “MOGLI”.",
+    "text": "Hi there!\nIn this page we show some of relevant visualisations from our paper for the subgrid model “MOGLI”. These are only a subset of the visualtisation. Keep an eye on this page, for more content in a couple of weeks.\nHere’s a showcase of an application of MOGLI. A turbulent box with 64^3 cells, 100 unresolved clouds with the radius of L_box/256:\n\nAnd here’s a showcase of turbulent mixing of unresolved cold gas with a reduced version of MOGLI, where cold gas growth is turned off. It’s a turbulent box with 64^3 cells, 100 unresolved clouds with the radius of L_box/256:",
     "crumbs": [
       "Home",
       "Research",
