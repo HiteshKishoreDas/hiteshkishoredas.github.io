@@ -34,6 +34,9 @@ jobs:
       - name: Install shinylive
         run: pip install shinylive
 
+      - name: Install pyyaml
+        run: pip install pyyaml
+
       - name: Install weasyprint
         run: pip install weasyprint
       
