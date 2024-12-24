@@ -1,6 +1,7 @@
 ---
 title: "Research"
-sidebar: true
+sidebar: false
+toc: true
 ---
 
 A list of my publications can be found [here](https://ui.adsabs.harvard.edu/public-libraries/rSxyW3mIQvK8ArHKfTxYcQ).
