@@ -37,6 +37,9 @@ jobs:
       - name: Install pyyaml
         run: pip install pyyaml
 
+      - name: Install jupyter
+        run: pip install jupyter
+
       - name: Install weasyprint
         run: pip install weasyprint
       
