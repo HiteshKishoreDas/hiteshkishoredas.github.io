@@ -1,6 +1,7 @@
 ---
 title: "Other Stuff"
-sidebar: true
+sidebar: false
+toc: true
 ---
 
 ## [NOISE](https://github.com/HiteshKishoreDas/NOISE)
