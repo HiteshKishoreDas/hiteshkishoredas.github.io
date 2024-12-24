@@ -83,7 +83,7 @@ format:
     page-layout: full
     max-width: 100%
     css: styles.css
-    toc: true
+    toc: false
     grid:
       sidebar-width: 450px
       body-width: 1000px

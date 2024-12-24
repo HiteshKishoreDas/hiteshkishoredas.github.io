@@ -20,7 +20,6 @@ about:
       href: https://ui.adsabs.harvard.edu/public-libraries/rSxyW3mIQvK8ArHKfTxYcQ
 
 sidebar: false
-
 # format: 
 #   html:
 #     margin-left: 0vw
