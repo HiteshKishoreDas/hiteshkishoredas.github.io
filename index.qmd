@@ -52,14 +52,3 @@ You can find the details of my academic research in the [**Research**](research.
 The [**Other Stuff**](other_stuff.qmd) section contains my other short and quick projects, my other hobbies or anything I find interesting and would like to share.   
 <!-- And [**Blogs**](blog_list.qmd) section is (or will be) home to all other thoughts that I just want blurt out. -->
 Finally, the [**About**](about.qmd) page is all about (you guessed it!) me. 😄
-
-```{python}
-#| output: false
-import random
-import textwrap
-with open("quotes.txt") as f:
-    quotes = f.readlines()
-quotes = [q.strip() for q in quotes]
-res = random.choice(quotes)
-print("\n".join(textwrap.wrap(res)))
-```
