@@ -222,7 +222,7 @@
     "href": "index.html#whats-on-this-website",
     "title": "Hi!",
     "section": "What’s on this website?",
-    "text": "What’s on this website?\nAll the contents are arranged into different tabs on the top navigation bar.\nYou can find the details of my academic research in the Research section.\nThe Other Stuff section contains my other short and quick projects, my other hobbies or anything I find interesting and would like to share.\n Finally, the About page is all about (you guessed it!) me. 😄\n\nimport random\nimport textwrap\nwith open(\"quotes.txt\") as f:\n    quotes = f.readlines()\nquotes = [q.strip() for q in quotes]\nres = random.choice(quotes)\nprint(\"\\n\".join(textwrap.wrap(res)))"
+    "text": "What’s on this website?\nAll the contents are arranged into different tabs on the top navigation bar.\nYou can find the details of my academic research in the Research section.\nThe Other Stuff section contains my other short and quick projects, my other hobbies or anything I find interesting and would like to share.\n Finally, the About page is all about (you guessed it!) me. 😄"
   },
   {
     "objectID": "research/thermal_instability.html",
