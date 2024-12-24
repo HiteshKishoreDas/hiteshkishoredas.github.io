@@ -2,8 +2,9 @@
 title: "Hi!"
 about:
   id: home-about
-  template: jolla
+  template: solana
   image: images/profile_small.jpg
+  image-shape: round
 #   image-width: 500%
   links:
     - icon: envelope-fill
