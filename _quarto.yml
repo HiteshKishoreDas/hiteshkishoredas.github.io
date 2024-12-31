@@ -76,8 +76,8 @@ format:
     # theme: lux
     # theme: minty
     theme:
-      dark: [scss/theme-dark.scss, lux]
       light: [scss/theme-light.scss, lux]
+      dark: [scss/theme-dark.scss, lux]
     smooth-scroll: true
     fontsize: 2.0vh
     page-layout: full
