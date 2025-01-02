@@ -6,6 +6,7 @@ title: "MOGLI: Model for Multiphase Gas using Multifluid hydrodynamics"
 Hi there!
 
 In this page we show some of relevant visualisations from our paper about the subgrid model "MOGLI". The preprint version is now available on arXiv at [2412.03751](https://arxiv.org/abs/2412.03751).
+
 These are only a subset of the visualtisation. Keep an eye on this page, for more content in a couple of weeks.
 
 ## MOGLI with 100 unresolved clouds
