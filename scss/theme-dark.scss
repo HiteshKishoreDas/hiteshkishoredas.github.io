@@ -6,20 +6,23 @@
 /*-- scss:defaults --*/
 // Base document colors
 
-$body-color: white;
-
 $body-bg: #000000;
-// $body-bg: #181818;
+$body-color: white;
+$link-color: #b7ff60e0;
 
 $input-bg: #000000;
 
-// $link-color: #75AADB;
-$link-color: #b7ff60e0;
-
-// $navbar-bg: #a5ff371a;
-$navbar-bg: #1d2711d8;
+$navbar-bg: #1d2711ee;
 $navbar-fg: $body-color;
 $navbar-hl: #c6ff80a4;
+
+$secondary-color: #dcffb6;
+  
+// Mermaid theme
+$mermaid-bg-color: $body-bg;
+$mermaid-edge-color: $body-color;
+$mermaid-label-bg-color: $body-bg;
+$mermaid-label-fg-color: $body-color;
 
 div h1 { color: $body-color; }
 div h2 { color: $body-color; }
@@ -28,8 +31,10 @@ div h4 { color: $body-color; }
 div h5 { color: $body-color; }
 div h6 { color: $body-color; }
 
-div p strong { font-weight: bold }
-
+div p strong { 
+    font-weight: bold; 
+    color: lighten($link-color, 10%);
+}
 // Code blocks
 // $code-block-bg-alpha: -.8;
 

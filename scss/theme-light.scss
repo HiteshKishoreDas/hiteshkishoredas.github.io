@@ -1,15 +1,40 @@
+/*-- scss:functions --*/
+@function colorToRGB ($color) {
+  @return "rgb(" + red($color) + ", " + green($color) + ", " + blue($color)+ ")";
+}
+
 /*-- scss:defaults --*/
 // Base document colors
-// $body-bg: #eecc99;
+
 $body-bg: #e6f5d6;
 $body-color: black;
 $link-color: #233c53;
 
-// $navbar-bg: #5e3d0c;
-// $navbar-bg: #77b82dd7;
-$navbar-bg: #cde4b5c2;
+$input-bg: #ffffff;
 
-div p strong { font-weight: bold }
+$navbar-bg: #cde4b5f6;
+$navbar-fg: #386b00;
+$navbar-hl: $body-color;
 
-// Code blocks
-$code-block-bg-alpha: -.8;
+$secondary-color: #61aa12;
+
+// Mermaid theme
+$mermaid-bg-color: $body-bg;
+$mermaid-edge-color: $body-color;
+$mermaid-label-bg-color: $body-bg;
+$mermaid-label-fg-color: $body-color;
+
+div h1 { color: $body-color; }
+div h2 { color: $body-color; }
+div h3 { color: $body-color; }
+div h4 { color: $body-color; }
+div h5 { color: $body-color; }
+div h6 { color: $body-color; }
+
+div p strong { 
+    font-weight: bold; 
+    color: $navbar-fg;
+}
+
+// Code blocks 
+// $code-block-bg-alpha: -.8;

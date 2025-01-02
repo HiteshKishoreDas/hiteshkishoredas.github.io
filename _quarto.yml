@@ -76,13 +76,13 @@ format:
     # theme: lux
     # theme: minty
     theme:
-      light: [scss/theme-light.scss, lux]
-      dark: [scss/theme-dark.scss, lux]
+      light: [scss/timeline.scss, scss/theme-light.scss, lux]
+      dark: [scss/timeline.scss, scss/theme-dark.scss, lux]
     smooth-scroll: true
-    fontsize: 2.0vh
+    fontsize: 1.5vh
     page-layout: full
     max-width: 100%
-    css: styles.css
+    css: styles.css 
     toc: false
     grid:
       sidebar-width: 450px
