@@ -60,7 +60,7 @@
     "href": "research/mogli_subgrid.html",
     "title": "MOGLI: Model for Multiphase Gas using Multifluid hydrodynamics",
     "section": "",
-    "text": "Hi there!\nIn this page we show some of relevant visualisations from our paper for the subgrid model “MOGLI”. These are only a subset of the visualtisation. Keep an eye on this page, for more content in a couple of weeks.",
+    "text": "Hi there!\nIn this page we show some of relevant visualisations from our paper about the subgrid model “MOGLI”. The preprint version is now available on arXiv at 2412.03751. These are only a subset of the visualtisation. Keep an eye on this page, for more content in a couple of weeks.",
     "crumbs": [
       "Home",
       "Research",
@@ -194,7 +194,7 @@
     "href": "research.html#mogli-model-for-multiphase-gas-using-multifluid-hydrodynamics",
     "title": "Research",
     "section": "MOGLI: Model for Multiphase Gas using Multifluid hydrodynamics",
-    "text": "MOGLI: Model for Multiphase Gas using Multifluid hydrodynamics\nThere is a requirement of subgrid models for the Multiphase gas for converged large-scale simulations. And in this study we do the same using a multifluid scheme in AREPO. We test and verify our subgrid model MOGLI with resolved benchmark simulations."
+    "text": "MOGLI: Model for Multiphase Gas using Multifluid hydrodynamics\nThere is a requirement of subgrid models for the Multiphase gas for converged large-scale simulations. And in this study we do the same using a multifluid scheme in AREPO. We test and verify our subgrid model MOGLI with resolved benchmark simulations. The preprint version can be found at (2412.03751)."
   },
   {
     "objectID": "research.html#multiphase-gas-in-magnetised-turbulent-medium",
