@@ -188,8 +188,8 @@ window.Quarto = {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#mogli-with-100-unresolved-clouds" id="toc-mogli-with-100-unresolved-clouds" class="nav-link active" data-scroll-target="#mogli-with-100-unresolved-clouds">MOGLI with 100 unresolved clouds</a></li>
-  <li><a href="#reduced-mogli-and-1000-unresolved-clouds" id="toc-reduced-mogli-and-1000-unresolved-clouds" class="nav-link" data-scroll-target="#reduced-mogli-and-1000-unresolved-clouds">Reduced MOGLI, and 1000 unresolved clouds</a></li>
+  <li><a href="#mogli-with-100-unresolved-clouds" id="toc-mogli-with-100-unresolved-clouds" class="nav-link active" data-scroll-target="#mogli-with-100-unresolved-clouds"><strong>MOGLI</strong> with 100 unresolved clouds</a></li>
+  <li><a href="#reduced-mogli-and-1000-unresolved-clouds" id="toc-reduced-mogli-and-1000-unresolved-clouds" class="nav-link" data-scroll-target="#reduced-mogli-and-1000-unresolved-clouds">Reduced <strong>MOGLI</strong>, and 1000 unresolved clouds</a></li>
   </ul>
 </nav>
     </div>
@@ -277,14 +277,18 @@ We verify the different components of the framework through <strong>extensive co
 </div>
 <p>We find that <strong>MOGLI can reproduce behaviour like the cold gas survival criteria as an emergent property</strong>, without it being explicitly included in the model.<br>
 Additionally, we demonstrate its capability by running a simulation which would be computationally prohibitive to run as a resolved single-fluid simulation, and following are two such simulations.</p>
+<p>For more about the details and verification of the model check our paper, now on arXiv at <a href="https://arxiv.org/abs/2412.03751">2412.03751</a>.</p>
 <section id="mogli-with-100-unresolved-clouds" class="level2">
-<h2 class="anchored" data-anchor-id="mogli-with-100-unresolved-clouds">MOGLI with 100 unresolved clouds</h2>
-<p>Here’s a showcase of an application of MOGLI. A turbulent box with <span class="math inline">\(64^3\)</span> cells, 100 unresolved clouds with the radius of <span class="math inline">\(L_\mathrm{box}/256\)</span>:</p>
+<h2 class="anchored" data-anchor-id="mogli-with-100-unresolved-clouds"><strong>MOGLI</strong> with 100 unresolved clouds</h2>
+<p>Here’s showcase an simulation which would required a resolution upwards of <span class="math inline">\(3000^3\)</span> cells, if done with the tranditional resolved single-fluid method.<br>
+But, with <strong>MOGLI</strong>, we can get an equivalent simulation with just <span class="math inline">\(64^3\)</span> cells.</p>
+<p>We are simulating a turbulent box with <span class="math inline">\(64^3\)</span> cells and 100 unresolved clouds of radius <span class="math inline">\(L_\mathrm{box}/256\)</span>:</p>
 <div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/o0lmaBVV9zI" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
 </section>
 <section id="reduced-mogli-and-1000-unresolved-clouds" class="level2">
-<h2 class="anchored" data-anchor-id="reduced-mogli-and-1000-unresolved-clouds">Reduced MOGLI, and 1000 unresolved clouds</h2>
-<p>And here’s a showcase of turbulent mixing of unresolved cold gas with a reduced version of MOGLI, where cold gas growth is turned off. It’s a turbulent box with <span class="math inline">\(64^3\)</span> cells, 1000 unresolved clouds with the radius of <span class="math inline">\(L_\mathrm{box}/256\)</span>:</p>
+<h2 class="anchored" data-anchor-id="reduced-mogli-and-1000-unresolved-clouds">Reduced <strong>MOGLI</strong>, and 1000 unresolved clouds</h2>
+<p>In this simulation, we are showing the evolution of a similar simulation setup as the previous section. <strong>But</strong> this time with a reduced <strong>MOGLI</strong> mode, i.e.&nbsp;cold gas growth is turned off. The cold gas is just destroyed via turbulent mixing and there are drag forces.</p>
+<p>We are simulating a turbulent box with <span class="math inline">\(64^3\)</span> cells and 1000 unresolved clouds of radius <span class="math inline">\(L_\mathrm{box}/256\)</span>:</p>
 <div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/dosonyzpJT8" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
 <!-- ## About the name and logo
 ::: {.column-margin}
