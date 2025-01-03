@@ -60,7 +60,7 @@
     "href": "research/mogli_subgrid.html",
     "title": "MOGLI: Model for Multiphase Gas using Multifluid hydrodynamics",
     "section": "",
-    "text": "Hi there!\nIn this page we show some of relevant visualisations from our paper about the subgrid model “MOGLI”. The preprint version is now available on arXiv at 2412.03751.\nThese are only a subset of the visualtisation. Keep an eye on this page, for more content in a couple of weeks.",
+    "text": "Hello there! 👋\nWe would like to introduce our recently published, MOGLI subgrid model for capturing multiphase gas dynamics!\nFollowing the age-old tradition of contrived Astrophysical abbreviation, MOGLI stands for MOdel for Multiphase Gas using MulLIfluid hydrodynamics.\nMultiphase gas, with hot (∼\\(10^6\\)K) and cold (∼\\(10^4\\)K) gas, is ubiquitous in astrophysical media across a wide range of scales. However, simulating multiphase gas has been a long-standing challenge, due to the large separation between the size of cold gas structures and the scales at which such gas impacts the evolution of associated systems.\nThis is where MOGLI comes into the picture. Implemented with multifluid AREPO, the model is based on first principles and theoretical results from previous studies with resolved small-scale simulations, leading to a minimal number of free parameters in the formulation.\nMultifluid methods have long been used for engineering applications for water-air interactions, combustions, and meteorolgy.\nIn this scheme, fluid properties like density, momenta and energy of multiple fluid are tracked on the same grid and the different fluids are tracked via their volume fractions in each cell. We build upon the implementation of multifluid methods in AREPO, showcased in this paper by Weinberger & Hernquist (2023).\nWe use the theoretical understanding from previous studies which use small-scale resolved simluations as the foundation of MOGLI. We divide the interactions between the hot and cold gas fluid in the model into three sources: drag, turbulent mixing and cold gas growth.\nWe verify the different components of the framework through extensive comparison with benchmark single-fluid simulations across different simulation parameters, such as how resolved the cold gas is initially, the turbulent Mach number, spatial resolution, and random initialisation of turbulence.\nWe find that MOGLI can reproduce behaviour like the cold gas survival criteria as an emergent property, without it being explicitly included in the model.\nAdditionally, we demonstrate its capability by running a simulation which would be computationally prohibitive to run as a resolved single-fluid simulation, and following are two such simulations.",
     "crumbs": [
       "Home",
       "Research",
@@ -72,7 +72,7 @@
     "href": "research/mogli_subgrid.html#mogli-with-100-unresolved-clouds",
     "title": "MOGLI: Model for Multiphase Gas using Multifluid hydrodynamics",
     "section": "MOGLI with 100 unresolved clouds",
-    "text": "MOGLI with 100 unresolved clouds\nHere’s a showcase of an application of MOGLI. A turbulent box with 64^3 cells, 100 unresolved clouds with the radius of L_box/256:",
+    "text": "MOGLI with 100 unresolved clouds\nHere’s a showcase of an application of MOGLI. A turbulent box with \\(64^3\\) cells, 100 unresolved clouds with the radius of \\(L_\\mathrm{box}/256\\):",
     "crumbs": [
       "Home",
       "Research",
@@ -84,7 +84,7 @@
     "href": "research/mogli_subgrid.html#reduced-mogli-and-1000-unresolved-clouds",
     "title": "MOGLI: Model for Multiphase Gas using Multifluid hydrodynamics",
     "section": "Reduced MOGLI, and 1000 unresolved clouds",
-    "text": "Reduced MOGLI, and 1000 unresolved clouds\nAnd here’s a showcase of turbulent mixing of unresolved cold gas with a reduced version of MOGLI, where cold gas growth is turned off. It’s a turbulent box with 64^3 cells, 1000 unresolved clouds with the radius of L_box/256:",
+    "text": "Reduced MOGLI, and 1000 unresolved clouds\nAnd here’s a showcase of turbulent mixing of unresolved cold gas with a reduced version of MOGLI, where cold gas growth is turned off. It’s a turbulent box with \\(64^3\\) cells, 1000 unresolved clouds with the radius of \\(L_\\mathrm{box}/256\\):",
     "crumbs": [
       "Home",
       "Research",
@@ -194,7 +194,7 @@
     "href": "research.html#mogli-model-for-multiphase-gas-using-multifluid-hydrodynamics",
     "title": "Research",
     "section": "MOGLI: Model for Multiphase Gas using Multifluid hydrodynamics",
-    "text": "MOGLI: Model for Multiphase Gas using Multifluid hydrodynamics\nThere is a requirement of subgrid models for the Multiphase gas for converged large-scale simulations. And in this study we do the same using a multifluid scheme in AREPO. We test and verify our subgrid model MOGLI with resolved benchmark simulations. The preprint version can be found at (2412.03751)."
+    "text": "MOGLI: Model for Multiphase Gas using Multifluid hydrodynamics\nThere is a requirement of subgrid models for the Multiphase gas for converged large-scale simulations. And in this study we do the same using a multifluid scheme in AREPO. We test and verify our subgrid model MOGLI with resolved benchmark simulations. The preprint version can be found at (2412.03751).\n\n\n\n\n\n\n \n\n\n\n\n\nComponents of MOGLI"
   },
   {
     "objectID": "research.html#multiphase-gas-in-magnetised-turbulent-medium",

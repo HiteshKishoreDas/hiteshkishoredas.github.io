@@ -40,8 +40,8 @@ ul.task-list li input[type="checkbox"] {
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark-d166b450ba5a8e9f7a0ab969bf6592c1.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-600257698821409ad5c62c7f044f6dcd.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="../site_libs/bootstrap/bootstrap-dark-557368bbd39a188832f3a555398091ce.min.css" rel="prefetch" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../site_libs/bootstrap/bootstrap-f4375b09f3be31a7cbba1d4b622cde7b.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-dark-aa6ebe3ea7a4bf815f23cc38aee16c02.min.css" rel="prefetch" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -79,14 +79,46 @@ gtag('config', 'G-N162HDX82J', { 'anonymize_ip': true});
 </script>
 <style>html{ scroll-behavior: smooth; }</style>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="../styles.css">
 <meta property="og:title" content="MOGLI: Model for Multiphase Gas using Multifluid hydrodynamics – Hitesh Kishore Das">
 <meta property="og:description" content="">
+<meta property="og:image" content="https://hiteshdas.org/images/MOGLI_logo.png">
 <meta property="og:site_name" content="Hitesh Kishore Das">
+<meta property="og:image:height" content="1818">
+<meta property="og:image:width" content="1791">
 </head>
 
-<body class="nav-sidebar docked nav-fixed">
+<body class="nav-fixed">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -112,7 +144,7 @@ gtag('config', 'G-N162HDX82J', { 'anonymize_ip': true});
 <span class="menu-text">Research</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="../other_stuff.html" aria-current="page"> 
+    <a class="nav-link" href="../other_stuff.html"> 
 <span class="menu-text">Other Stuff</span></a>
   </li>  
   <li class="nav-item">
@@ -146,84 +178,23 @@ gtag('config', 'G-N162HDX82J', { 'anonymize_ip': true});
 </div>
       </div> <!-- /container-fluid -->
     </nav>
-  <nav class="quarto-secondary-nav">
-    <div class="container-fluid d-flex">
-      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
-        <i class="bi bi-layout-text-sidebar-reverse"></i>
-      </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../research/mhd_multiphase.html">Research</a></li><li class="breadcrumb-item"><a href="../research/mogli_subgrid.html">MOGLI: Model for Multiphase Gas using Multifluid hydrodynamics</a></li></ol></nav>
-        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
-        </a>
-      <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
-        <i class="bi bi-search"></i>
-      </button>
-    </div>
-  </nav>
 </header>
 <!-- content -->
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
-  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
-        <div class="mt-2 flex-shrink-0 align-items-center">
-        <div class="sidebar-search">
-        <div id="quarto-search" class="" title="Search"></div>
-        </div>
-        </div>
-        <div class="sidebar-tools-collapse">
-    <a href="https://twitter.com/hitesh_k_das" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-twitter"></i></a>
-    <a href="https://github.com/hiteshkishoredas" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-github"></i></a>
-</div>
-    <div class="sidebar-menu-container"> 
-    <ul class="list-unstyled mt-1">
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../about.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">About</span></a>
-  </div>
-</li>
-        <li class="sidebar-item sidebar-item-section">
-      <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true">
- <span class="menu-text">Research</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Toggle section">
-            <i class="bi bi-chevron-right ms-2"></i>
-          </a> 
-      </div>
-      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../research/mhd_multiphase.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Magnetic Fields in Multiphase Turbulence</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../research/mogli_subgrid.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text">MOGLI: Model for Multiphase Gas using Multifluid hydrodynamics</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../research/thermal_instability.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Thermal Instability in 1D</span></a>
-  </div>
-</li>
-      </ul>
-  </li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../other_stuff.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Other stuff</span></a>
-  </div>
-</li>
-    </ul>
-    </div>
-</nav>
-<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#mogli-with-100-unresolved-clouds" id="toc-mogli-with-100-unresolved-clouds" class="nav-link active" data-scroll-target="#mogli-with-100-unresolved-clouds">MOGLI with 100 unresolved clouds</a></li>
+  <li><a href="#reduced-mogli-and-1000-unresolved-clouds" id="toc-reduced-mogli-and-1000-unresolved-clouds" class="nav-link" data-scroll-target="#reduced-mogli-and-1000-unresolved-clouds">Reduced MOGLI, and 1000 unresolved clouds</a></li>
+  </ul>
+</nav>
+    </div>
 <!-- main -->
-<main class="content column-page-right" id="quarto-document-content">
+<main class="content page-columns page-full column-page-left" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../research/mhd_multiphase.html">Research</a></li><li class="breadcrumb-item"><a href="../research/mogli_subgrid.html">MOGLI: Model for Multiphase Gas using Multifluid hydrodynamics</a></li></ol></nav>
 <div class="quarto-title">
@@ -232,7 +203,7 @@ gtag('config', 'G-N162HDX82J', { 'anonymize_ip': true});
 
 
 
-<div class="quarto-title-meta column-page-right">
+<div class="quarto-title-meta column-page-left">
 
     
   
@@ -244,18 +215,87 @@ gtag('config', 'G-N162HDX82J', { 'anonymize_ip': true});
 </header>
 
 
-<p>Hi there!</p>
-<p>In this page we show some of relevant visualisations from our paper about the subgrid model “MOGLI”. The preprint version is now available on arXiv at <a href="https://arxiv.org/abs/2412.03751">2412.03751</a>.</p>
-<p>These are only a subset of the visualtisation. Keep an eye on this page, for more content in a couple of weeks.</p>
+
+<div class="no-row-height column-margin column-container"><div class="">
+<p><img src="../images/MOGLI_logo.png" class="img-fluid"></p>
+</div></div><p>Hello there! 👋</p>
+<p>We would like to introduce our recently published, <strong>MOGLI</strong> subgrid model for capturing multiphase gas dynamics!</p>
+<p>Following the age-old tradition of contrived Astrophysical abbreviation, <strong>MOGLI</strong> stands for <strong>MO</strong>del for Multiphase <strong>G</strong>as using Mul<strong>LI</strong>fluid hydrodynamics.</p>
+
+<div class="no-row-height column-margin column-container"><div class="">
+<p>The preprint version of the paper is now available on arXiv at <a href="https://arxiv.org/abs/2412.03751">2412.03751</a>.</p>
+</div></div><p>Multiphase gas, with hot (∼<span class="math inline">\(10^6\)</span>K) and cold (∼<span class="math inline">\(10^4\)</span>K) gas, is ubiquitous in astrophysical media across a wide range of scales. However, simulating multiphase gas has been a long-standing challenge, due to the large separation between the size of cold gas structures and the scales at which such gas impacts the evolution of associated systems.<br>
+This is where <strong>MOGLI</strong> comes into the picture. Implemented with multifluid AREPO, the model is based on first principles and theoretical results from previous studies with resolved small-scale simulations, leading to a <strong>minimal number of free parameters in the formulation</strong>.</p>
+<p>Multifluid methods have long been used for engineering applications for water-air interactions, combustions, and meteorolgy.<br>
+In this scheme, fluid properties like density, momenta and energy of multiple fluid are tracked on the same grid and the different fluids are tracked via their volume fractions in each cell. We build upon the implementation of multifluid methods in AREPO, showcased in this paper by <a href="https://dx.doi.org/10.1093/mnras/stac3708">Weinberger &amp; Hernquist (2023)</a>.</p>
+<div>
+
+</div>
+<div class="quarto-layout-panel" data-layout="[-5,15,-5]">
+<div class="quarto-layout-row">
+<div class="quarto-figure-spacer quarto-layout-cell" style="flex-basis: 20.0%;justify-content: flex-start;">
+<p>&nbsp;</p>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 60.0%;justify-content: flex-start;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../images/MOGLI_multifluid.png" class="img-fluid figure-img"></p>
+<figcaption>Description of multifluid methods</figcaption>
+</figure>
+</div>
+</div>
+<div class="quarto-figure-spacer quarto-layout-cell" style="flex-basis: 20.0%;justify-content: flex-start;">
+<p>&nbsp;</p>
+</div>
+</div>
+</div>
+
+<div class="no-row-height column-margin column-container"><div class="">
+<p>For example, with two fluids, each cell would contain information about density <span class="math inline">\((\rho)\)</span>, momenta <span class="math inline">\((\vec{p})\)</span> and energy <span class="math inline">\((E)\)</span> of each fluid, in addition to the volume fraction <span class="math inline">\((\alpha)\)</span> of one of the fluids.</p>
+</div></div><p>We use the theoretical understanding from previous studies which use small-scale resolved simluations as the foundation of <strong>MOGLI</strong>. We divide the interactions between the hot and cold gas fluid in the model into three sources: drag, turbulent mixing and cold gas growth.<br>
+We verify the different components of the framework through <strong>extensive comparison with benchmark single-fluid simulations</strong> across different simulation parameters, such as how resolved the cold gas is initially, the turbulent Mach number, spatial resolution, and random initialisation of turbulence.</p>
+<div>
+
+</div>
+<div class="quarto-layout-panel" data-layout="[-5,15,-5]">
+<div class="quarto-layout-row">
+<div class="quarto-figure-spacer quarto-layout-cell" style="flex-basis: 20.0%;justify-content: flex-start;">
+<p>&nbsp;</p>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 60.0%;justify-content: flex-start;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../images/MOGLI_comp.gif" class="img-fluid figure-img"></p>
+<figcaption>Components of MOGLI</figcaption>
+</figure>
+</div>
+</div>
+<div class="quarto-figure-spacer quarto-layout-cell" style="flex-basis: 20.0%;justify-content: flex-start;">
+<p>&nbsp;</p>
+</div>
+</div>
+</div>
+<p>We find that <strong>MOGLI can reproduce behaviour like the cold gas survival criteria as an emergent property</strong>, without it being explicitly included in the model.<br>
+Additionally, we demonstrate its capability by running a simulation which would be computationally prohibitive to run as a resolved single-fluid simulation, and following are two such simulations.</p>
 <section id="mogli-with-100-unresolved-clouds" class="level2">
 <h2 class="anchored" data-anchor-id="mogli-with-100-unresolved-clouds">MOGLI with 100 unresolved clouds</h2>
-<p>Here’s a showcase of an application of MOGLI. A turbulent box with 64^3 cells, 100 unresolved clouds with the radius of L_box/256:</p>
+<p>Here’s a showcase of an application of MOGLI. A turbulent box with <span class="math inline">\(64^3\)</span> cells, 100 unresolved clouds with the radius of <span class="math inline">\(L_\mathrm{box}/256\)</span>:</p>
 <div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/o0lmaBVV9zI" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
 </section>
 <section id="reduced-mogli-and-1000-unresolved-clouds" class="level2">
 <h2 class="anchored" data-anchor-id="reduced-mogli-and-1000-unresolved-clouds">Reduced MOGLI, and 1000 unresolved clouds</h2>
-<p>And here’s a showcase of turbulent mixing of unresolved cold gas with a reduced version of MOGLI, where cold gas growth is turned off. It’s a turbulent box with 64^3 cells, 1000 unresolved clouds with the radius of L_box/256:</p>
+<p>And here’s a showcase of turbulent mixing of unresolved cold gas with a reduced version of MOGLI, where cold gas growth is turned off. It’s a turbulent box with <span class="math inline">\(64^3\)</span> cells, 1000 unresolved clouds with the radius of <span class="math inline">\(L_\mathrm{box}/256\)</span>:</p>
 <div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/dosonyzpJT8" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
+<!-- ## About the name and logo
+::: {.column-margin}
+![](../images/MOGLI_logo.png) 
+:::
+
+**MOGLI** is a reference to the main character, named Mowgli, of the widely popular book "Jungle Book" by Rudyard Kipling.
+
+The logo has multiple references to both the book and the multiphase gas:
+
+- The fire was a key part of the finale of -->
 
 
 </section>
@@ -822,7 +862,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
 });
 </script>
-<nav class="page-navigation column-page-right">
+<nav class="page-navigation column-page-left">
   <div class="nav-page nav-page-previous">
       <a href="../research/mhd_multiphase.html" class="pagination-link" aria-label="Magnetic Fields in Multiphase Turbulence">
         <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Magnetic Fields in Multiphase Turbulence</span>
