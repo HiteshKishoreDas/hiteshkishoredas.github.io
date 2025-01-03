@@ -39,17 +39,25 @@ We verify the different components of the framework through **extensive comparis
 :::
 
 We find that **MOGLI can reproduce behaviour like the cold gas survival criteria as an emergent property**, without it being explicitly included in the model.    
-Additionally, we demonstrate its capability by running a simulation which would be computationally prohibitive to run as a resolved single-fluid simulation, and following are two such simulations.
+Additionally, we demonstrate its capability by running a simulation which would be computationally prohibitive to run as a resolved single-fluid simulation, and following are two such simulations. 
 
-## MOGLI with 100 unresolved clouds
+For more about the details and verification of the model check our paper, now on arXiv at [2412.03751](https://arxiv.org/abs/2412.03751).
 
-Here's a showcase of an application of MOGLI. A turbulent box with $64^3$ cells, 100 unresolved clouds with the radius of $L_\mathrm{box}/256$:
+## **MOGLI** with 100 unresolved clouds
+
+Here's showcase an simulation which would required a resolution upwards of $3000^3$ cells, if done with the tranditional resolved single-fluid method.   
+But, with **MOGLI**, we can get an equivalent simulation with just $64^3$ cells. 
+
+We are simulating a turbulent box with $64^3$ cells and 100 unresolved clouds of radius $L_\mathrm{box}/256$:
+
 {{< video https://www.youtube.com/embed/o0lmaBVV9zI >}}
 
-## Reduced MOGLI, and 1000 unresolved clouds
+## Reduced **MOGLI**, and 1000 unresolved clouds
 
-And here's a showcase of turbulent mixing of unresolved cold gas with a reduced version of MOGLI, where cold gas growth is turned off. 
-It's a turbulent box with $64^3$ cells, 1000 unresolved clouds with the radius of $L_\mathrm{box}/256$:
+In this simulation, we are showing the evolution of a similar simulation setup as the previous section. **But** this time with a reduced **MOGLI** mode, i.e. cold gas growth is turned off. The cold gas is just destroyed via turbulent mixing and there are drag forces. 
+
+We are simulating a turbulent box with $64^3$ cells and 1000 unresolved clouds of radius $L_\mathrm{box}/256$:
+
 {{< video https://www.youtube.com/embed/dosonyzpJT8 >}}
 
 <!-- ## About the name and logo
