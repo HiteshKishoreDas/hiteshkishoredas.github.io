@@ -1,21 +1,64 @@
 ---
 title: "MOGLI: Model for Multiphase Gas using Multifluid hydrodynamics"
-# sidebar: false
+sidebar: false
+toc: true
+
 ---
+::: {.column-margin}
+![](../images/MOGLI_logo.png) 
+:::
 
-Hi there!
+Hello there! 👋
 
-In this page we show some of relevant visualisations from our paper about the subgrid model "MOGLI". The preprint version is now available on arXiv at [2412.03751](https://arxiv.org/abs/2412.03751).
+We would like to introduce our recently published, **MOGLI** subgrid model for capturing multiphase gas dynamics!
 
-These are only a subset of the visualtisation. Keep an eye on this page, for more content in a couple of weeks.
+Following the age-old tradition of contrived Astrophysical abbreviation, **MOGLI** stands for **MO**del for Multiphase **G**as using Mul**LI**fluid hydrodynamics.
+
+::: {.column-margin}
+The preprint version of the paper is now available on arXiv at [2412.03751](https://arxiv.org/abs/2412.03751).
+:::
+
+Multiphase gas, with hot (∼$10^6$K) and cold (∼$10^4$K) gas, is ubiquitous in astrophysical media across a wide range of scales. However, simulating multiphase gas has been a long-standing challenge, due to the large separation between the size of cold gas structures and the scales at which such gas impacts the evolution of associated systems.    
+This is where **MOGLI** comes into the picture. Implemented with multifluid AREPO, the model is based on first principles and theoretical results from previous studies with resolved small-scale simulations, leading to a **minimal number of free parameters in the formulation**.
+
+Multifluid methods have long been used for engineering applications for water-air interactions, combustions, and meteorolgy.    
+In this scheme, fluid properties like density, momenta and energy of multiple fluid are tracked on the same grid and the different fluids are tracked via their volume fractions in each cell. We build upon the implementation of multifluid methods in AREPO, showcased in this paper by [Weinberger & Hernquist (2023)](https://dx.doi.org/10.1093/mnras/stac3708).
+
+::: {layout="[-5,15,-5]"}
+![Description of multifluid methods](../images/MOGLI_multifluid.png) 
+:::
+::: {.column-margin}
+For example, with two fluids, each cell would contain information about density $(\rho)$, momenta $(\vec{p})$ and energy $(E)$ of each fluid, in addition to the volume fraction $(\alpha)$ of one of the fluids.
+:::
+
+We use the theoretical understanding from previous studies which use small-scale resolved simluations as the foundation of **MOGLI**. We divide the interactions between the hot and cold gas fluid in the model into three sources: drag, turbulent mixing and cold gas growth.    
+We verify the different components of the framework through **extensive comparison with benchmark single-fluid simulations** across different simulation parameters, such as how resolved the cold gas is initially, the turbulent Mach number, spatial resolution, and random initialisation of turbulence. 
+
+::: {layout="[-5,15,-5]"}
+![Components of MOGLI](../images/MOGLI_comp.gif) 
+:::
+
+We find that **MOGLI can reproduce behaviour like the cold gas survival criteria as an emergent property**, without it being explicitly included in the model.    
+Additionally, we demonstrate its capability by running a simulation which would be computationally prohibitive to run as a resolved single-fluid simulation, and following are two such simulations.
 
 ## MOGLI with 100 unresolved clouds
 
-Here's a showcase of an application of MOGLI. A turbulent box with 64^3 cells, 100 unresolved clouds with the radius of L_box/256:
+Here's a showcase of an application of MOGLI. A turbulent box with $64^3$ cells, 100 unresolved clouds with the radius of $L_\mathrm{box}/256$:
 {{< video https://www.youtube.com/embed/o0lmaBVV9zI >}}
 
 ## Reduced MOGLI, and 1000 unresolved clouds
 
 And here's a showcase of turbulent mixing of unresolved cold gas with a reduced version of MOGLI, where cold gas growth is turned off. 
-It's a turbulent box with 64^3 cells, 1000 unresolved clouds with the radius of L_box/256:
+It's a turbulent box with $64^3$ cells, 1000 unresolved clouds with the radius of $L_\mathrm{box}/256$:
 {{< video https://www.youtube.com/embed/dosonyzpJT8 >}}
+
+<!-- ## About the name and logo
+::: {.column-margin}
+![](../images/MOGLI_logo.png) 
+:::
+
+**MOGLI** is a reference to the main character, named Mowgli, of the widely popular book "Jungle Book" by Rudyard Kipling.
+
+The logo has multiple references to both the book and the multiphase gas:
+
+- The fire was a key part of the finale of -->

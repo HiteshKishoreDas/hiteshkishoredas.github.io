@@ -76,6 +76,8 @@ format:
     # theme: lux
     # theme: minty
     theme:
+      # light: [scss/horiz_timeline.scss, scss/timeline.scss, scss/theme-light.scss, lux]
+      # dark: [scss/horiz_timeline.scss, scss/timeline.scss, scss/theme-dark.scss, lux]
       light: [scss/timeline.scss, scss/theme-light.scss, lux]
       dark: [scss/timeline.scss, scss/theme-dark.scss, lux]
     smooth-scroll: true
@@ -85,8 +87,9 @@ format:
     css: styles.css 
     toc: false
     grid:
-      sidebar-width: 450px
-      body-width: 1000px
+      # sidebar-width: 450px
+      margin-width: 450px
+      body-width: 1200px
 execute:
   freeze: auto
 

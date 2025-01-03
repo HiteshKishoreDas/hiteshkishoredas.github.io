@@ -6,13 +6,13 @@
 /*-- scss:defaults --*/
 // Base document colors
 
-$body-bg: #e6f5d6;
+$body-bg: #eff8e5;
 $body-color: black;
 $link-color: #233c53;
 
 $input-bg: #ffffff;
 
-$navbar-bg: #cde4b5f6;
+$navbar-bg: darken($body-bg, 6%);
 $navbar-fg: #386b00;
 $navbar-hl: $body-color;
 
@@ -33,7 +33,7 @@ div h6 { color: $body-color; }
 
 div p strong { 
     font-weight: bold; 
-    color: $navbar-fg;
+    color: lighten($navbar-fg, 10%);
 }
 
 // Code blocks 

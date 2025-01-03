@@ -40,7 +40,7 @@ Currently, I am part of [Dr. Max Gronke](http://max.lyman-alpha.com/)'s [Multiph
 <!-- I'm part of the [International Max Planck School (IMPRS) on Astrophysics](https://www.imprs-astro.mpg.de/) on Astrophysics at [Ludwig Maximilians University (LMU)](https://www.lmu.de/en/) (LMU), Munich. -->
 ___________________________________________________________
 ```{=html}
-{{< include home_timeline.html >}}
+{{< include html_files/home_timeline.html >}}
 ```
 For more about my academic history, check out my [Curriculum Vitae](cv/cv.qmd).
 
