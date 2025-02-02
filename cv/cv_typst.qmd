@@ -3,47 +3,28 @@ title: ""
 sidebar: false
 
 format:
-    html:
-        toc: true
-        toc-depth: 2
-        toc-location: left
-        html-math-method: katex
+    # html:
+    #     toc: true
+    #     toc-depth: 2
+    #     toc-location: left
+    #     html-math-method: katex
     typst:
-        toc: true
+        # toc: true
         papersize: a4
         margin:
             x: 1cm
             y: 1cm
-        # documentclass: article #[a4paper,11pt,oneside]{article}
-        # classoption: [a4paper,11pt,oneside]
-        # geometry:
-        #     - left=10mm 
-        #     - right=10mm 
-        #     - bottom=10mm 
-        #     - top=10mm
-        # keep-tex: true
-
-# \usepackage{url}
-# %\usepackage[utf8]{inputenc}
-# %\usepackage{setspace}
-# \usepackage{hyperref}
-# \usepackage{graphicx}
-# \usepackage[left=0.75in, right=1in, bottom=0.75in, top=0.5in]{geometry}
-
-# \newcommand*{\Skype}{\href{skype:hiteshkishoredas?add}{hiteshkishoredas}} 
-# \newcommand{\Absender}[1][\normalsize]{\Skype} 
 ---
 
-::: {.content-visible when-format="html"}
+<!-- ::: {.content-visible when-format="html"} -->
 
-Link to the PDF version of my [CV](cv.pdf), [short version](cv_short.pdf) 
+<!-- Link to the PDF version of my [CV](cv.pdf), [short version](cv_short.pdf)  -->
+
 
 ```{=typst}
-
 #import "@preview/fontawesome:0.4.0": *
 #import "@preview/modern-cv:0.6.0": *
 #import "lib.typ": *
-
 
 #show: resume.with(
   author: (
@@ -229,16 +210,9 @@ Link to the PDF version of my [CV](cv.pdf), [short version](cv_short.pdf)
 == - 2024
 #talk-entry(
   type: "Talk",
-  description: "(Upcoming) Baryons Beyond Galactic Boundaries",
+  description: "Baryons Beyond Galactic Boundaries",
   date: "Dec 2-6, 2024",
   location: "IUCAA, Pune",
-)
-
-#talk-entry(
-  type: "Talk",
-  description: "(Upcoming) Highlight talk at ORIGINS Science Week",
-  date: "Nov 18-21, 2024",
-  location: "Kloster Seeon, Germany",
 )
 
 #talk-entry(
@@ -532,7 +506,6 @@ Link to the PDF version of my [CV](cv.pdf), [short version](cv_short.pdf)
 // #resume-item[
 //   *Website*: #link("https://astro.prakritipc.com/")[astro.prakritipc.com]
 // ]
-
 
 
 ```

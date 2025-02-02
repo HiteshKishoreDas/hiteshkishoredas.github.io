@@ -31,7 +31,8 @@ format:
 
 ::: {.content-visible when-format="html"}
 
-Link to the PDF version of my [CV](cv.pdf), [short version](cv_short.pdf) 
+Link to the PDF version of my [CV](cv_typst.pdf).
+<!-- , [short version](cv_short.pdf)  -->
 
 :::
 
