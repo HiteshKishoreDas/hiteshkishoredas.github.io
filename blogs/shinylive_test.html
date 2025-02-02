@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Shinylive in Quarto example – Hitesh Kishore Das</title>
+<title>Sine function – Hitesh Kishore Das</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -38,8 +38,8 @@ ul.task-list li input[type="checkbox"] {
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark-8ea72dc5fed832574809a9c94082fbbb.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-f4375b09f3be31a7cbba1d4b622cde7b.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="../site_libs/bootstrap/bootstrap-dark-aa6ebe3ea7a4bf815f23cc38aee16c02.min.css" rel="prefetch" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../site_libs/bootstrap/bootstrap-2c055eb1fb4b0c10c9d1a7e249632dbc.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-dark-92ed7a5ecbfbf65f73c373e220c519a7.min.css" rel="prefetch" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
 <meta name="shinylive:serviceworker_dir" content="..">
 <script src="../site_libs/quarto-contrib/shinylive-0.9.3/shinylive/load-shinylive-sw.js" type="module"></script>
 <script src="../site_libs/quarto-contrib/shinylive-0.9.3/shinylive/run-python-blocks.js" type="module"></script>
@@ -84,7 +84,7 @@ gtag('config', 'G-N162HDX82J', { 'anonymize_ip': true});
 
 
 <link rel="stylesheet" href="../styles.css">
-<meta property="og:title" content="Shinylive in Quarto example – Hitesh Kishore Das">
+<meta property="og:title" content="Sine function – Hitesh Kishore Das">
 <meta property="og:description" content="">
 <meta property="og:site_name" content="Hitesh Kishore Das">
 </head>
@@ -154,7 +154,7 @@ gtag('config', 'G-N162HDX82J', { 'anonymize_ip': true});
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">Shinylive in Quarto example</li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">Sine function</li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -230,7 +230,7 @@ gtag('config', 'G-N162HDX82J', { 'anonymize_ip': true});
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Shinylive in Quarto example</h1>
+<h1 class="title">Sine function</h1>
 </div>
 
 
@@ -247,21 +247,41 @@ gtag('config', 'G-N162HDX82J', { 'anonymize_ip': true});
 </header>
 
 
-<p>This is a Shinylive application embedded in a Quarto doc.</p>
+<p>The plot below allows you to control parameters used in the sine function. Experiment with the <em>period</em>, <em>amplitude</em>, and <em>phase shift</em> to see how they affect the graph.</p>
 <pre class="shinylive-python" data-engine="python"><code>#| standalone: true
+#| viewerHeight: 1080
 
-from shiny import *
+from shiny import App, render, ui
+import numpy as np
+import matplotlib.pyplot as plt
 
 app_ui = ui.page_fluid(
-    ui.input_slider("n", "N", 0, 100, 40),
-    ui.output_text_verbatim("txt"),
+    ui.layout_sidebar(
+        ui.panel_sidebar(
+            ui.input_slider("period", "Period", 0.5, 2, 1, step=0.5),
+            ui.input_slider("amplitude", "Amplitude", 0, 2, 1, step=0.25),
+            ui.input_slider("shift", "Phase shift", 0, 2, 0, step=0.1),
+        ),
+        ui.panel_main(
+            ui.output_plot("plot"),
+        ),
+    ),
 )
+
 
 def server(input, output, session):
     @output
-    @render.text
-    def txt():
-        return f"The value of n*2 is {input.n() * 2}"
+    @render.plot(alt="Sine function")
+    def plot():
+        t = np.arange(0.0, 4.0, 0.01)
+        s = input.amplitude() * np.sin(
+            (2 * np.pi / input.period()) * (t - input.shift() / 2)
+        )
+        fig, ax = plt.subplots()
+        ax.set_ylim([-2, 2])
+        ax.plot(t, s)
+        ax.grid()
+
 
 app = App(app_ui, server)
 </code></pre>

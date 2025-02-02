@@ -1,83 +1,79 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://hiteshdas.org/blog_list.html</loc>
-    <lastmod>2025-01-03T22:59:09.968Z</lastmod>
-  </url>
-  <url>
-    <loc>https://hiteshdas.org/cv/cv_short.html</loc>
-    <lastmod>2025-01-03T22:59:09.969Z</lastmod>
-  </url>
-  <url>
-    <loc>https://hiteshdas.org/other_stuff/outdoors.html</loc>
-    <lastmod>2025-01-03T22:59:09.992Z</lastmod>
-  </url>
-  <url>
-    <loc>https://hiteshdas.org/other_stuff/music.html</loc>
-    <lastmod>2025-01-03T22:59:09.992Z</lastmod>
+    <loc>https://hiteshdas.org/other_stuff_v2.html</loc>
+    <lastmod>2025-02-02T10:58:01.985Z</lastmod>
   </url>
   <url>
     <loc>https://hiteshdas.org/research/mogli_subgrid.html</loc>
-    <lastmod>2025-01-03T22:59:09.994Z</lastmod>
-  </url>
-  <url>
-    <loc>https://hiteshdas.org/other_stuff_v2.html</loc>
-    <lastmod>2025-01-03T22:59:09.992Z</lastmod>
-  </url>
-  <url>
-    <loc>https://hiteshdas.org/about.html</loc>
-    <lastmod>2025-01-03T22:59:09.968Z</lastmod>
-  </url>
-  <url>
-    <loc>https://hiteshdas.org/blogs/shinylive_test.html</loc>
-    <lastmod>2025-01-03T22:59:09.969Z</lastmod>
-  </url>
-  <url>
-    <loc>https://hiteshdas.org/blogs/test_page.html</loc>
-    <lastmod>2025-01-03T22:59:09.969Z</lastmod>
-  </url>
-  <url>
-    <loc>https://hiteshdas.org/other_stuff.html</loc>
-    <lastmod>2025-01-03T22:59:09.992Z</lastmod>
-  </url>
-  <url>
-    <loc>https://hiteshdas.org/research.html</loc>
-    <lastmod>2025-01-03T22:59:09.992Z</lastmod>
-  </url>
-  <url>
-    <loc>https://hiteshdas.org/blogs/test_page_copy.html</loc>
-    <lastmod>2025-01-03T22:59:09.969Z</lastmod>
-  </url>
-  <url>
-    <loc>https://hiteshdas.org/blogs/test_page_copy_copy.html</loc>
-    <lastmod>2025-01-03T22:59:09.969Z</lastmod>
-  </url>
-  <url>
-    <loc>https://hiteshdas.org/index.html</loc>
-    <lastmod>2025-01-03T22:59:09.992Z</lastmod>
+    <lastmod>2025-02-02T10:58:01.988Z</lastmod>
   </url>
   <url>
     <loc>https://hiteshdas.org/research/thermal_instability.html</loc>
-    <lastmod>2025-01-03T22:59:09.995Z</lastmod>
-  </url>
-  <url>
-    <loc>https://hiteshdas.org/research/mhd_multiphase.html</loc>
-    <lastmod>2025-01-03T22:59:09.994Z</lastmod>
-  </url>
-  <url>
-    <loc>https://hiteshdas.org/other_stuff/science.html</loc>
-    <lastmod>2025-01-03T22:59:09.992Z</lastmod>
+    <lastmod>2025-02-02T10:58:01.988Z</lastmod>
   </url>
   <url>
     <loc>https://hiteshdas.org/cv/cv_new.html</loc>
-    <lastmod>2025-01-03T22:59:09.969Z</lastmod>
+    <lastmod>2025-02-02T10:58:01.963Z</lastmod>
   </url>
   <url>
     <loc>https://hiteshdas.org/cv/cv.html</loc>
-    <lastmod>2025-01-03T22:59:09.969Z</lastmod>
+    <lastmod>2025-02-02T10:58:01.963Z</lastmod>
   </url>
   <url>
-    <loc>https://hiteshdas.org/cv/cv_typst.html</loc>
-    <lastmod>2025-01-03T22:59:09.970Z</lastmod>
+    <loc>https://hiteshdas.org/blogs/test_page_copy.html</loc>
+    <lastmod>2025-02-02T10:58:01.962Z</lastmod>
+  </url>
+  <url>
+    <loc>https://hiteshdas.org/blogs/shinylive_test.html</loc>
+    <lastmod>2025-02-02T10:58:01.962Z</lastmod>
+  </url>
+  <url>
+    <loc>https://hiteshdas.org/research.html</loc>
+    <lastmod>2025-02-02T10:58:01.985Z</lastmod>
+  </url>
+  <url>
+    <loc>https://hiteshdas.org/other_stuff/science.html</loc>
+    <lastmod>2025-02-02T10:58:01.985Z</lastmod>
+  </url>
+  <url>
+    <loc>https://hiteshdas.org/other_stuff/outdoors.html</loc>
+    <lastmod>2025-02-02T10:58:01.985Z</lastmod>
+  </url>
+  <url>
+    <loc>https://hiteshdas.org/blog_list.html</loc>
+    <lastmod>2025-02-02T10:58:01.962Z</lastmod>
+  </url>
+  <url>
+    <loc>https://hiteshdas.org/about.html</loc>
+    <lastmod>2025-02-02T10:58:01.962Z</lastmod>
+  </url>
+  <url>
+    <loc>https://hiteshdas.org/other_stuff/music.html</loc>
+    <lastmod>2025-02-02T10:58:01.985Z</lastmod>
+  </url>
+  <url>
+    <loc>https://hiteshdas.org/blogs/test_page_copy_copy.html</loc>
+    <lastmod>2025-02-02T10:58:01.962Z</lastmod>
+  </url>
+  <url>
+    <loc>https://hiteshdas.org/blogs/test_page.html</loc>
+    <lastmod>2025-02-02T10:58:01.962Z</lastmod>
+  </url>
+  <url>
+    <loc>https://hiteshdas.org/cv/cv_short.html</loc>
+    <lastmod>2025-02-02T10:58:01.963Z</lastmod>
+  </url>
+  <url>
+    <loc>https://hiteshdas.org/index.html</loc>
+    <lastmod>2025-02-02T10:58:01.985Z</lastmod>
+  </url>
+  <url>
+    <loc>https://hiteshdas.org/research/mhd_multiphase.html</loc>
+    <lastmod>2025-02-02T10:58:01.988Z</lastmod>
+  </url>
+  <url>
+    <loc>https://hiteshdas.org/other_stuff.html</loc>
+    <lastmod>2025-02-02T10:58:01.985Z</lastmod>
   </url>
 </urlset>
