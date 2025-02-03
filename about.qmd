@@ -29,6 +29,8 @@ I am part of [Dr. Max Gronke](http://max.lyman-alpha.com/)'s [Multiphase Gas Gro
 
 My broad research interest is Computational Astrophysics. To be more specific, I work with (Magneto-)Hydrodynamic simulations to study the behaviour of Astrophysical mediums.
 
+For more about my academic history, check out my [Curriculum Vitae](cv/cv.qmd).
+
 If you want to reach me, feel free to write me at [hitesh[AT]mpa-garching.mpg.de](mailto:hitesh@mpa-garching.mpg.de)
 
 ## Education
@@ -45,7 +47,6 @@ BSc. and MSc. in Physics | Aug 2016 - Aug 2021
 
 ___________________________________________
 
-For more about my academic history, check out my [Curriculum Vitae](cv/cv.qmd).
 
 ## Background
 

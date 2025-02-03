@@ -78,8 +78,8 @@ format:
     theme:
       # light: [scss/horiz_timeline.scss, scss/timeline.scss, scss/theme-light.scss, lux]
       # dark: [scss/horiz_timeline.scss, scss/timeline.scss, scss/theme-dark.scss, lux]
-      light: [scss/timeline.scss, scss/theme-light.scss, lux]
       dark: [scss/timeline.scss, scss/theme-dark.scss, lux]
+      light: [scss/timeline.scss, scss/theme-light.scss, lux]
     smooth-scroll: true
     fontsize: 1.5vh
     page-layout: full
