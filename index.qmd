@@ -19,6 +19,9 @@ about:
     - icon: paperclip
       text: Publications
       href: https://ui.adsabs.harvard.edu/public-libraries/rSxyW3mIQvK8ArHKfTxYcQ
+    - icon: newspaper
+      text: CV
+      href: cv/cv.qmd
 
 sidebar: false
 format: 
