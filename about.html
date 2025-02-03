@@ -35,11 +35,11 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-549806ee2085284f45b00abea8c6df48.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-8ea72dc5fed832574809a9c94082fbbb.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-8ea72dc5fed832574809a9c94082fbbb.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="site_libs/bootstrap/bootstrap-2c055eb1fb4b0c10c9d1a7e249632dbc.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-dark-92ed7a5ecbfbf65f73c373e220c519a7.min.css" rel="prefetch" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap-dark-92ed7a5ecbfbf65f73c373e220c519a7.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -167,6 +167,7 @@ gtag('config', 'G-N162HDX82J', { 'anonymize_ip': true});
 <p>I am a fourth year PhD student at <a href="https://www.mpa-garching.mpg.de">Max Planck Institute for Astrophysics</a> (MPA), Garching, which I joined under the <a href="https://www.imprs-astro.mpg.de/">International Max Planck School (IMPRS) on Astrophysics</a> at <a href="https://www.lmu.de/en/">Ludwig Maximilians University</a> (LMU), Munich.</p>
 <p>I am part of <a href="http://max.lyman-alpha.com/">Dr.&nbsp;Max Gronke</a>’s <a href="https://www.mpa-garching.mpg.de/1020167/multiphase-gas">Multiphase Gas Group</a> at MPA.</p>
 <p>My broad research interest is Computational Astrophysics. To be more specific, I work with (Magneto-)Hydrodynamic simulations to study the behaviour of Astrophysical mediums.</p>
+<p>For more about my academic history, check out my <a href="./cv/cv.html">Curriculum Vitae</a>.</p>
 <p>If you want to reach me, feel free to write me at <a href="mailto:hitesh@mpa-garching.mpg.de">hitesh[AT]mpa-garching.mpg.de</a></p>
 <section id="education" class="level2">
 <h2 data-anchor-id="education">Education</h2>
@@ -176,7 +177,6 @@ gtag('config', 'G-N162HDX82J', { 'anonymize_ip': true});
 <p><strong>Indian Institute of Science</strong> (IISc) | Bengaluru, India</p>
 <p>BSc. and MSc. in Physics | Aug 2016 - Aug 2021</p>
 <hr>
-<p>For more about my academic history, check out my <a href="./cv/cv.html">Curriculum Vitae</a>.</p>
 </section>
 <section id="background" class="level2">
 <h2 data-anchor-id="background">Background</h2>
@@ -351,7 +351,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       return localAlternateSentinel;
     }
   }
-  const darkModeDefault = false;
+  const darkModeDefault = true;
   let localAlternateSentinel = darkModeDefault ? 'alternate' : 'default';
   // Dark / light mode switch
   window.quartoToggleColorScheme = () => {
