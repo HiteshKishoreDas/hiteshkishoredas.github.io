@@ -6,8 +6,7 @@ filters:
 ---
 
 
-The plot below allows you to control parameters used in the sine function.
-Experiment with the _period_, _amplitude_, and _phase shift_ to see how they affect the graph.
+The shaded blue regions show the areas where the instantaneous cooling flux is higher than the conductive heating flux.
 
 ```{shinylive-python}
 #| standalone: true
@@ -302,7 +301,7 @@ def server(input, output, session):
         ax[4].set_ylabel(r"$ \Theta - \Lambda$" + f"\n[erg/cm^3/s]")
         ax[5].set_ylabel(f"Field Length \n[pc]")
 
-        ax[4].set_xlabel("x (pc)")
+        ax[5].set_xlabel("x (pc)")
 
         # ax[0].grid()
         # ax[1].grid()
