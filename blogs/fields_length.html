@@ -247,7 +247,7 @@ gtag('config', 'G-N162HDX82J', { 'anonymize_ip': true});
 </header>
 
 
-<p>The plot below allows you to control parameters used in the sine function. Experiment with the <em>period</em>, <em>amplitude</em>, and <em>phase shift</em> to see how they affect the graph.</p>
+<p>The shaded blue regions show the areas where the instantaneous cooling flux is higher than the conductive heating flux.</p>
 <pre class="shinylive-python" data-engine="python"><code>#| standalone: true
 #| viewerHeight: 1080
 
@@ -540,7 +540,7 @@ def server(input, output, session):
         ax[4].set_ylabel(r"$ \Theta - \Lambda$" + f"\n[erg/cm^3/s]")
         ax[5].set_ylabel(f"Field Length \n[pc]")
 
-        ax[4].set_xlabel("x (pc)")
+        ax[5].set_xlabel("x (pc)")
 
         # ax[0].grid()
         # ax[1].grid()
