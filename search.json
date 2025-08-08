@@ -1,135 +1,80 @@
 [
   {
-    "objectID": "other_stuff_v2.html",
-    "href": "other_stuff_v2.html",
-    "title": "Other Stuff",
+    "objectID": "other_stuff/music.html",
+    "href": "other_stuff/music.html",
+    "title": "Music",
     "section": "",
-    "text": "Categories\nWhat would you like to explore first?\n\n\n\n  \n    \n      \n        Science \n      \n       \n    \n    \n      \n    \n    \n    \n    \n  \n\n  \n    \n      \n        Outdoors \n      \n       \n    \n    \n      \n    \n    \n    \n    \n  \n\n  \n    \n      \n        Music \n      \n       \n    \n    \n      \n    \n    \n    \n    \n  \n\n\n\n\nNo matching items"
+    "text": "Snippets from my exploration of the musical landscape. Coming soon! :)"
   },
   {
-    "objectID": "research/mogli_subgrid.html",
-    "href": "research/mogli_subgrid.html",
-    "title": "MOGLI: Model for Multiphase Gas using Multifluid hydrodynamics",
+    "objectID": "other_stuff/outdoors.html",
+    "href": "other_stuff/outdoors.html",
+    "title": "Outdoors",
     "section": "",
-    "text": "Hello there! 👋\nWe would like to introduce our recently published, MOGLI subgrid model for capturing multiphase gas dynamics!\nFollowing the age-old tradition of contrived Astrophysical abbreviation, MOGLI stands for MOdel for Multiphase Gas using MulLIfluid hydrodynamics.\nMultiphase gas, with hot (∼\\(10^6\\)K) and cold (∼\\(10^4\\)K) gas, is ubiquitous in astrophysical media across a wide range of scales. However, simulating multiphase gas has been a long-standing challenge, due to the large separation between the size of cold gas structures and the scales at which such gas impacts the evolution of associated systems.\nThis is where MOGLI comes into the picture. Implemented with multifluid AREPO, the model is based on first principles and theoretical results from previous studies with resolved small-scale simulations, leading to a minimal number of free parameters in the formulation.\nMultifluid methods have long been used for engineering applications for water-air interactions, combustions, and meteorolgy.\nIn this scheme, fluid properties like density, momenta and energy of multiple fluid are tracked on the same grid and the different fluids are tracked via their volume fractions in each cell. We build upon the implementation of multifluid methods in AREPO, showcased in this paper by Weinberger & Hernquist (2023).\nWe use the theoretical understanding from previous studies which use small-scale resolved simluations as the foundation of MOGLI. We divide the interactions between the hot and cold gas fluid in the model into three sources: drag, turbulent mixing and cold gas growth.\nWe verify the different components of the framework through extensive comparison with benchmark single-fluid simulations across different simulation parameters, such as how resolved the cold gas is initially, the turbulent Mach number, spatial resolution, and random initialisation of turbulence.\nWe find that MOGLI can reproduce behaviour like the cold gas survival criteria as an emergent property, without it being explicitly included in the model.\nAdditionally, we demonstrate its capability by running a simulation which would be computationally prohibitive to run as a resolved single-fluid simulation, and following are two such simulations.\nFor more about the details and verification of the model check our paper, now on arXiv at 2412.03751.",
-    "crumbs": [
-      "Home",
-      "Research",
-      "MOGLI: Model for Multiphase Gas using Multifluid hydrodynamics"
-    ]
+    "text": "Pictures from outdoor activities like bouldering, hiking, skiing, etc. Coming soon! :)"
   },
   {
-    "objectID": "research/mogli_subgrid.html#mogli-with-100-unresolved-clouds",
-    "href": "research/mogli_subgrid.html#mogli-with-100-unresolved-clouds",
-    "title": "MOGLI: Model for Multiphase Gas using Multifluid hydrodynamics",
-    "section": "MOGLI with 100 unresolved clouds",
-    "text": "MOGLI with 100 unresolved clouds\nHere’s showcase an simulation which would required a resolution upwards of \\(3000^3\\) cells, if done with the tranditional resolved single-fluid method.\nBut, with MOGLI, we can get an equivalent simulation with just \\(64^3\\) cells.\nWe are simulating a turbulent box with \\(64^3\\) cells and 100 unresolved clouds of radius \\(L_\\mathrm{box}/256\\):",
-    "crumbs": [
-      "Home",
-      "Research",
-      "MOGLI: Model for Multiphase Gas using Multifluid hydrodynamics"
-    ]
-  },
-  {
-    "objectID": "research/mogli_subgrid.html#reduced-mogli-and-1000-unresolved-clouds",
-    "href": "research/mogli_subgrid.html#reduced-mogli-and-1000-unresolved-clouds",
-    "title": "MOGLI: Model for Multiphase Gas using Multifluid hydrodynamics",
-    "section": "Reduced MOGLI, and 1000 unresolved clouds",
-    "text": "Reduced MOGLI, and 1000 unresolved clouds\nIn this simulation, we are showing the evolution of a similar simulation setup as the previous section. But this time with a reduced MOGLI mode, i.e. cold gas growth is turned off. The cold gas is just destroyed via turbulent mixing and there are drag forces.\nWe are simulating a turbulent box with \\(64^3\\) cells and 1000 unresolved clouds of radius \\(L_\\mathrm{box}/256\\):",
-    "crumbs": [
-      "Home",
-      "Research",
-      "MOGLI: Model for Multiphase Gas using Multifluid hydrodynamics"
-    ]
-  },
-  {
-    "objectID": "research/thermal_instability.html",
-    "href": "research/thermal_instability.html",
-    "title": "Thermal Instability in 1D",
+    "objectID": "research.html",
+    "href": "research.html",
+    "title": "Research",
     "section": "",
-    "text": "This project was part of my Bachelors thesis at Indian Institute of Science, Bangalore, and was published on MNRAS (here).\nUnfortunately, the figures are not available in dark-mode. So, apologies to dark-mode users. ☹️\nThermal instability has been long proposed as one of the sources for cold gas in different astrophysical media. There have been numerous studies on its evolution and behaviour, including effects of factors like magnetic fields, gravity, rotation, etc. Similarly, in this study we aimed to study the effects of metallicity variations on thermal instability, including the difference in non-linear evolution of thermal instability at different temperatures, in 1D.\nWe found that the growth rates of thermal instability does not explicitly depend on the metallicity. We compared the simulations with theoretical expectations from linear analysis and found a very good agreement in the limits where the theory holds.\n\n\n\nComparison between theoretical and simlated growth rates\n\n\nWhat we did find, was the existence of different temperature regimes, where isobaric (small-scale) perturbations and isochoric (large-scale) perturbations had different behaviour at a given temperture. There were three regimes: * I : Both isobaric (small-scale) and isochoric (large-scale) perturbations are stable * II : Both isobaric (small-scale) and isochoric (large-scale) perturbations are unstable * III : Isobaric (small-scale) perturbations are unstable and isochoric (large-scale) ones are stable\n\n\n\nThe different regimes in temperature\n\n\nRegion I of course does not lead to anything, but interesting behaviour occurs in region II and III.\nIn region II, isochoric perturbations take the lead, and the overall evolution seems isochoric and large-scale in nature. In region III, isobaric perturbations take the lead, and the evolution of small-scale perturbations is dominant.\nThis gives rise to a two different kinds of behaviour in presence of both large-scale and small-scale perturbations, depending on the regime that the temperature falls in.\nIn region III, the behaviour is akin to the shattering of a large-scale perturbations, while in region II the large-scale perturbations contracts monolithically.\n\n\n\nThe overview of what happens in different regimes",
-    "crumbs": [
-      "Home",
-      "Research",
-      "Thermal Instability in 1D"
-    ]
+    "text": "A list of my publications can be found here."
   },
   {
-    "objectID": "cv/cv_old.html",
-    "href": "cv/cv_old.html",
+    "objectID": "research.html#mogli-model-for-multiphase-gas-using-multifluid-hydrodynamics",
+    "href": "research.html#mogli-model-for-multiphase-gas-using-multifluid-hydrodynamics",
+    "title": "Research",
+    "section": "MOGLI: Model for Multiphase Gas using Multifluid hydrodynamics",
+    "text": "MOGLI: Model for Multiphase Gas using Multifluid hydrodynamics\nThere is a requirement of subgrid models for the Multiphase gas for converged large-scale simulations. And in this study we do the same using a multifluid scheme in AREPO. We test and verify our subgrid model MOGLI with resolved benchmark simulations. The preprint version can be found at (2412.03751).\n\n\n\n \n\n\n\n\n\nComponents of MOGLI"
+  },
+  {
+    "objectID": "research.html#multiphase-gas-in-magnetised-turbulent-medium",
+    "href": "research.html#multiphase-gas-in-magnetised-turbulent-medium",
+    "title": "Research",
+    "section": "Multiphase gas in Magnetised, Turbulent medium",
+    "text": "Multiphase gas in Magnetised, Turbulent medium\nMagnetic fields and turbulence are ubiquitous, with many observational evidences towards there presence in multiple systems. This poses a dilemma for multiphase gas, which is also observed across wide scales, from solar to cluster environemnts. It has been shown that with radiative cooling, turbulence helps mixing of the different phases which can help in the survival of multiphase gas.\nBut, that is evidence from Radiative Turbulent Mixing Layer (TRMLs) simulations that mixing is suppressed in presence of magnetic fields. This can pose issue for the survival of multiphase gas. A concise summary of this dilemma is shown in meme below 😄. In this project, we attempt to solve this dilemma using a series of (magneto-)hydrodynamic simulations.\nThis project is part of my PhD thesis at Max Planck Institute of Astrophysics, Garching. The results from this project have been submitted for publication. The preprint version can be found at (2307.06411).\n\n\n\n \n\n\n\n\n\nThe Multiphase gas dilemma"
+  },
+  {
+    "objectID": "research.html#thermal-instability-in-1d",
+    "href": "research.html#thermal-instability-in-1d",
+    "title": "Research",
+    "section": "Thermal Instability in 1D",
+    "text": "Thermal Instability in 1D\nThermal instability (TI) is a process that can lead to multiphasa gas in Astrophysical mediums. In this project, that was part of my Bachelors thesis, we studied the linear and non-linear evolution of TI in 1D.\nWe looked at the dependence of this evolution on metallicity variation and the temperature, with some very interesting results.\nThis project lead to a paper which has been published on MNRAS, Volume 502, Issue 4, April 2021. The online version is available here. It is also available on arXiv at 2009.11317."
+  },
+  {
+    "objectID": "cv/cv_short.html",
+    "href": "cv/cv_short.html",
     "title": "Hitesh Kishore Das",
     "section": "",
-    "text": "Link to the PDF version of my CV."
+    "text": "Link to the PDF version of my CV, short version"
   },
   {
-    "objectID": "cv/cv_old.html#education",
-    "href": "cv/cv_old.html#education",
+    "objectID": "cv/cv_short.html#education",
+    "href": "cv/cv_short.html#education",
     "title": "Hitesh Kishore Das",
     "section": "Education",
-    "text": "Education\n\nPhD in Astrophysics (Ongoing)\nPhD Thesis: The dynamics of multiphase gas in astrophysical media International Max Planck Research School on Astrophysics (IMPRS)\nMax Planck Institute for Astrophysics (MPA), Garching, Germany\nLudwig Maximilians University (LMU), Munich, Germany\nDuration: 2021-Present\nDoctoral Advisor: Dr. Max Gronke\nFormal supervisor: Prof. Volker Springel\nMaster of Science\nIndian Institute of Science (IISc), Bengaluru, India\nMajor: Physics\nDuration: 2020-2021\nBachelor of Science (Research) Indian Institute of Science (IISc), Bengaluru, India\nMajor: Physics\nDuration: 2016-2020\nSenior Secondary (CBSE), 2016 Kendriya Vidyalaya No-4, Bhubaneswar, India\nStream: Science\nDate: 21/05/2016"
+    "text": "Education\nPhD in Astrophysics (Ongoing)\nInternational Max Planck Research School on Astrophysics (IMPRS)\nMax Planck Institute for Astrophysics (MPA), Garching, Germany\nLudwig Maximilians University (LMU), Munich, Germany\nDuration: 2021-Present\nMaster of Science\nIndian Institute of Science (IISc), Bengaluru, India\nMajor: Physics\nDuration: 2020-2021\nBachelor of Science (Research) Indian Institute of Science (IISc), Bengaluru, India\nMajor: Physics\nDuration: 2016-2020"
   },
   {
-    "objectID": "cv/cv_old.html#research-experience",
-    "href": "cv/cv_old.html#research-experience",
+    "objectID": "cv/cv_short.html#research-experience",
+    "href": "cv/cv_short.html#research-experience",
     "title": "Hitesh Kishore Das",
     "section": "Research Experience",
-    "text": "Research Experience\n\n\nSubgrid model for multiphase gas interactions [ FEB 2024 - ]\nWe are developing a subgrid model for survival, destruction and other behaviours of multiphase gas, using the Multifluid AREPO framework.\nThe project is part of my PhD thesis, supervised by Dr. Max Gronke.\nCollaborators: Rainer Weinberger, Dr. Max Gronke\nMax Planck Institute for Astrophysics, Garching\n\n\nThree-phase gas in a turbulent medium [ MAY 2024 - ]\nIn this project we are investigating the cold molecular gas in a turbulent medium, where both “warm” and “hot” gas phases are also possible.\nThis project is led by Zewei “Jason” Wu from UChicago during his DAAD-RISE internship. I was involved as the advisor for his internship, which included writing the research proposal and supervision for the whole duration of internship.\nCollaborators: Zewei “Jason” Wu, Dr. Max Gronke\nMax Planck Institute for Astrophysics, Garching\n\n\nSurvival, destruction and formation of cold molecular gas [ MAY 2023 - AUG 2023 ]\nIn this project we are investigating the in-situ formation of cold molecular gas from “warm” gas and its subsequent survival or destruction, in presence turbulence.\nPart of the work was done by Atal Agarwal from IIT Roorkee during his DAAD-WISE internship. I was involved in the intership as a co-supervisor.\nThe project is also part of my PhD thesis, supervised by Dr. Max Gronke.\nCollaborators: Atal Agarwal, Dr. Max Gronke\nMax Planck Institute for Astrophysics, Garching\n\n\nEvolution of thermal instability in 2D and 3D [ MAR 2021 - ]\nIn this project we extend our previous work on thermal instability to 2D and 3D systems. We investigate both linear and non-linear evolution of multiphase gas due to radiative cooling.\nThis project contributed towards my Masters thesis, supervised by Prof. Prateek Sharma.\nCollaborator: Dr. Prakriti Pal Choudhury, Prof. Prateek Sharma\nPhysical Sciences, Indian Institute of Science, Bangalore\n\n\nMultiphase gas dynamics in Magnetised, turbulent medium [ SEP 2021 - JAN 2024 ]\nWe studied the different aspects of multiphase gas, like survival, morphology and growth, in a turbulent medium in presence of magnetic fields. We use idealised MHD simulations run using Athena ++ for this study.\nThis led to a publication on MNRAS Jan 2024 issue. The project is part of my thesis project, supervised by Dr. Max Gronke.\nCollaborators: Dr. Max Gronke\nMax Planck Institute for Astrophysics, Garching\n\n\nRole of temperature and metallicity in the evolution of thermal instability [ AUG 2019 - APR 2021 ]\nIn this project we investigate the role of different parameters like metallicity and temperature in the growth of thermal instability. The project includes setting up and running simulation for study of thermal instabilities using PLUTO.\nThis work led to some important insights into evolution of large-scale isochoric clouds.\nThis project contributed towards my Bachelors thesis, supervised by Prof. Prateek Sharma and led to a research paper in collaboration with Dr. Prakriti Pal Choudhury and Prof. Prateek Sharma.\nCollaborator: Dr. Prakriti Pal Choudhury, Prof. Prateek Sharma\nPhysical Sciences, Indian Institute of Science, Bangalore\n\n\nComputational Studies of Systems of Self-driven Particles [ 8 MAY 2019 – 12 JUL 2019 ]\nThis project aimed at investigating the underlying physical origin of this “phase transition” via the development of appropriate computational models. The project goals included:\n- Molecular dynamics code development (in LAMMPS), adapting existing code in the research group\n- Reproduction of literature data\nUnder supervision of: Assoc. Prof. Massimo Pica Ciamarra\nSchool of Physical & Mathematical Sciences, Nanyang Technological University, Singapore\n\n\nElectrostatics of Spherical Topological Insulators [ 1 MAY 2018 – 30 JUN 2018 ]\nTheoretical derivation of electric and magnetic scalar potentials for different cases of electric and magnetic fields near a spherical Topological insulator.\nUnder supervision of: Assoc. Prof. Subroto Mukerjee\nPhysical Sciences, Indian Institute of Science, Bangalore\n\n\nAnalysis of data from CERN 2010 open data and simulation of top pair production [ 1 MAY 2017 – 31 JUL 2017 ]\nIt consisted of accessing CERN 2010 open data using CernVM and analysing the data using C++ and Python code incorporating ROOT to plot Dimuon spectra, Trimuon spectra and other related plots.\nHigh-energy particle physics event simulations of top pair production were done using Pythia 8.2 and Madgraph 5.\nUnder supervision of: Asst. Prof. Jyothsna Rani Komaragiri\nCentre for High Energy Physics, Indian Institute of Science, Bangalore"
+    "text": "Research Experience\n\nPhD Thesis: The dynamics of magnetized, multiphase gas in a turbulent environment\n[ 8 SEP 2021 - PRESENT ]\nWe are studying the different aspects of multiphase gas, like survival, morphology and growth, in a turbulent medium in presence of magnetic fields. We use idealised MHD simulations run using Athena ++ for this study.\nDoctoral Advisor: Dr. Max Gronke\nFormal supervisor: Prof. Volker Springel\nCollaborators: Dr. Rainer Weinberger\nMax Planck Institute for Astrophysics, Garching\n\n\nRole of temperature and metallicity in the evolution of thermal instability\n[ 1 AUG 2019 - PRESENT ]\nThis project contributed towards my Bachelors thesis and led to a research paper in collaboration with Dr. Prakriti Pal Choudhury and Prof. Prateek Sharma.\nUnder supervision of: Assoc. Prof. Prateek Sharma\nCollaborator: Dr. Prakriti Pal Choudhury Physical Sciences, Indian Institute of Science, Bangalore\n\n\nComputational Studies of Systems of Self-driven Particles\n[ 8 MAY 2019 – 12 JUL 2019 ]\nThis project aimed at investigating the underlying physical origin of this “phase transition” via the development of appropriate computational models.\nUnder supervision of: Assoc. Prof. Massimo Pica Ciamarra\nSchool of Physical & Mathematical Sciences, Nanyang Technological University, Singapore –&gt;"
   },
   {
-    "objectID": "cv/cv_old.html#publications",
-    "href": "cv/cv_old.html#publications",
+    "objectID": "cv/cv_short.html#publications",
+    "href": "cv/cv_short.html#publications",
     "title": "Hitesh Kishore Das",
     "section": "Publications",
-    "text": "Publications\n\n\n- Magnetic Fields in Multiphase Turbulence: Impacts on Dynamics and Structure\nHitesh Kishore Das, Max Gronke Monthly Notices of the Royal Astronomical Society, Volume 527, Issue 1, January 2024, Pages 991–1013, doi.org/10.1093/mnras/stad3125\narXiv: 2307.06411\n\n\n- Shatter or not: role of temperature and metallicity in the evolution of thermal instability\nHitesh Kishore Das, Prakriti Pal Choudhury, Prateek Sharma\nJournal: Monthly Notices of the Royal Astronomical Society, Volume 502, Issue 4, April 2021, Pages 4935–4952, doi.org/10.1093/mnras/stab382\narXiv: 2009.11317"
+    "text": "Publications\n\n- Magnetic Fields in Multiphase Turbulence: Impacts on Dynamics and Structure\nHitesh Kishore Das, Max Gronke Monthly Notices of the Royal Astronomical Society, Volume 527, Issue 1, January 2024, Pages 991–1013, doi.org/10.1093/mnras/stad3125\narXiv: 2307.06411\n\n\n- Shatter or not: role of temperature and metallicity in the evolution of thermal instability\nHitesh Kishore Das, Prakriti Pal Choudhury, Prateek Sharma\nJournal: Monthly Notices of the Royal Astronomical Society, Volume 502, Issue 4, April 2021, Pages 4935–4952, doi.org/10.1093/mnras/stab382\narXiv: 2009.11317"
   },
   {
-    "objectID": "cv/cv_old.html#conferences-and-seminars",
-    "href": "cv/cv_old.html#conferences-and-seminars",
+    "objectID": "cv/cv_short.html#conferences-and-seminars",
+    "href": "cv/cv_short.html#conferences-and-seminars",
     "title": "Hitesh Kishore Das",
     "section": "Conferences and Seminars",
-    "text": "Conferences and Seminars\n\n\nTalk at Lars Hernquist group meeting at Center for Astrophyiscs, Harvard University on August 23, 2024.\nMultiphase Madness: Resolving the CGM in Theory and Observations (August 21-23, 2023). Gave a talk in-person at Center for Astrophysics, Harvard University, Cambridge.\nTalk at Computational Structure and Galaxy formation group meeting at MIT Kavli Institute for Astrophyiscs on August 19, 2024.\nTalk in GalRead at Peyton Hall, Princeton University, on August 16, 2024.\nTeam meeting for “Observe Local Think Global: What Solar Observations can teach us about Multiphase Plasmas across Astrophysical Scales”\n(May 13-17, 2024)\nPresented my work. In-person at ISSI, Bern, Switzerland\nTalk in Cosmology section meeting at AIP, Potsdam, on May 8, 2024.\nAnnual Astronomical Society of India (ASI) meeting 2024 (Jan 30-Feb 4, 2024).\nPresented a at IISc, Bangalore, India.\n2023 IAP colloquium: New simulations for new problems in galaxy formation (December 11-15, 2023). Gave a in-person at IAP, Paris, France.\nMIST2023 : Cosmic turbulence and Magnetic fields (September 24 - October 1, 2023) Gave a in-person at Cargese, Corsica, France.\nModelling of Multiphase Astrophysical Media (May 30-June 2, 2023)\nPresented a ~15 min talk about my work. In-person at Aspenstein Castle, near Lake Kochel, Germany\nMPA weekly Institute Seminar (May 15, 2023)\nPresented a ~45 min talk about my work. In-person at MPA, Garching, Germany\n52nd Saas-Fee winter School on “The Circum-Galactic Medium across cosmic time: an observational and modelling challenge”\n(March 19-24, 2023)\nPresented a poster about my work. In-person at Les Diablerets, Switzerland\nTeam meeting for “Observe Local Think Global: What Solar Observations can teach us about Multiphase Plasmas across Astrophysical Scales”\n(March 13-17, 2023)\nPresented an introduction for simulations in ICM/CGM, and my work. In-person at ISSI, Bern, Switzerland\nThe Multiphase Circumgalactic Medium (February 26- March 3, 2023)\nPresented a ~15 min talk about my work. In-person at Ringberg Castle, Germany\nLyman-X Day: ORIGINS workshop (October 5, 2022)\nAttended in-person at European Southern Observatory (ESO), Garching\nThe National Astronomy Meeting (NAM) 2022 (July 11-15, 2022)\nAttended virtually and submitted a poster for the parallel session “Non-equilibrium thermodynamics across scales: from the solar corona to the intracluster medium”.\nGas Flows around Galaxies: ORIGINS workshop (May 24, 2022)\nPresented my work in-person at MPA, Garching\nPresision Presidency Physics Summit (September 11-13, 2020)\nOrganized by Presidency University, Kolkata\nPresented work done on Thermal Instability as a talk in the Undergraduate Symposium.\nOn the Origin, Nature, and Mixing of Multiphase Gas in Astrophysics KITP online conference (October 15-16, 2020)\nAttended the conference virtually\nIAP online Colloquium on Intracluster Medium/Circumgalactic medium (June 22-26, 2020)\nAttended the conference virtually"
-  },
-  {
-    "objectID": "cv/cv_old.html#mentoring",
-    "href": "cv/cv_old.html#mentoring",
-    "title": "Hitesh Kishore Das",
-    "section": "Mentoring",
-    "text": "Mentoring\n\n\nFully Supervised the DAAD-RISE intership of Zewei “Jason” Wu (UChicago) at MPA, Garching between May - August 2024\nCo-supervised the DAAD-WISE intership of Atal Agarwal (IIT Roorkee) at MPA, Garching between May-August 2023"
-  },
-  {
-    "objectID": "cv/cv_old.html#extra-curricular-experience",
-    "href": "cv/cv_old.html#extra-curricular-experience",
-    "title": "Hitesh Kishore Das",
-    "section": "Extra-curricular Experience",
-    "text": "Extra-curricular Experience\n\n\nExternal PhD representative at MPA\n13th IMPRS Symposium\nWas involved in organising the 13th IMPRS Symposium as the Chair of the Local Organising Committee.\nUndergraduate Physics Club\nDelivered a talk on “Special Relativity and Minkowski Diagrams”.\nIndian Instiute of Science Open Day\nConstructed and demonstrated an experiment about Bernard cells, convection and convection cells in Sun. Also, demonstrated an experiment about Polarization of light.\nInstitute Fest - “Pravega”\nInvolved in planning and conducting events by Physics club for Pravega - 2016 and Pravega - 2017."
-  },
-  {
-    "objectID": "cv/cv_old.html#awards-and-fellowships",
-    "href": "cv/cv_old.html#awards-and-fellowships",
-    "title": "Hitesh Kishore Das",
-    "section": "Awards and Fellowships",
-    "text": "Awards and Fellowships\n\n\nKishore Vaigyanik Protsahan Yojana (KVPY) Fellowship}\nFunded by: Department of Science and Technology, Government of India\nStream: SX\nDuration: 2016-2021\nNational Cyber Olympiad 2014-15\nNational Rank: 1 (in 11th grade)\nOrganised by: Science Olympiad Foundation\nNational Standard Examination in Astronomy , 2015\nGot certificate for being in top 10% of the examination centre.\nOrganised by: Indian Association of Physics Teachers (IAPT)"
-  },
-  {
-    "objectID": "cv/cv_old.html#skills",
-    "href": "cv/cv_old.html#skills",
-    "title": "Hitesh Kishore Das",
-    "section": "Skills",
-    "text": "Skills\n\n\nC, C++\nAthena++\nLAMMPS\nMadgraph 5\nMathematica\nHigh Performance Computing\nLaTeX\n\nPython\nPLUTO\nROOT\nPythia 8.2\nSQL\nMatlab\nBash scripting"
-  },
-  {
-    "objectID": "cv/cv_old.html#language-proficiency",
-    "href": "cv/cv_old.html#language-proficiency",
-    "title": "Hitesh Kishore Das",
-    "section": "Language proficiency",
-    "text": "Language proficiency\n\nEnglish (Proficient)\nHindi (Proficient)\nOdia (Native)\nGerman (Beginner A1)"
-  },
-  {
-    "objectID": "cv/cv_old.html#worked-with",
-    "href": "cv/cv_old.html#worked-with",
-    "title": "Hitesh Kishore Das",
-    "section": "Worked with:",
-    "text": "Worked with:\n\nDr. Max Gronke\nMax Planck Institute for Astrophysics, Garching, Germany\nEmail: maxbg[AT]mpa-garching.mpg.de\nWebsite: max.lyman-alpha.com\n\n\nProf. Prateek Sharma\nPhysical Sciences\nIndian Institute of Science, Bangalore, India\nEmail: prateek[AT]iisc.ac.in\nWebsite: www.physics.iisc.ernet.in/~prateek\n\n\nDr. Rainer Weinberger\nLeibniz Instiute for Astrophyiscs (AIP), Potsdam, Germany Email: rweinberger[AT]aip.de\nWebsite: rainerweinberger.com\n\n\nAssoc. Prof. Massimo Pica Ciamarra\nNanyang Associate Professor\nSchool of Physical & Mathematical Sciences\nNanyang Technological University, Singapore\nEmail: massimo[AT]ntu.edu.sg\nWebsite: sites.google.com/site/ciamarragroup\n\n\nAssoc. Prof. Subroto Mukerjee\nPhysical Sciences\nIndian Institute of Science, Bangalore, India\nEmail: smukerjee[AT]iisc.ac.in\nWebsite: physics.iisc.ernet.in/~smukerjee\n\n\nAsst. Prof. Jyothsna Rani Komaragiri\nCentre for High Energy Physics\nIndian Institute of Science, Bangalore, India\nEmail: jyothsna.komaragiri[AT]gmail.com\nWebsite: chep.iisc.ac.in/Personnel/pages/jyothsna"
+    "text": "Conferences and Seminars\n\nAnnual Astronomical Society of India (ASI) meeting 2024 (Jan 30-Feb 4, 2024). Presented a at IISc, Bangalore, India.\n2023 IAP colloquium: New simulations for new problems in galaxy formation (December 11-15, 2023). Gave a in-person at IAP, Paris, France.\nMIST2023 : Cosmic turbulence and Magnetic fields (September 24 - October 1, 2023) Gave a in-person at Cargese, Corsica, France.\nModelling of Multiphase Astrophysical Media (May 30-June 2, 2023)\nPresented a ~15 min talk about my work. In-person at Aspenstein Castle, near Lake Kochel, Germany\nMPA weekly Institute Seminar (May 15, 2023)\nPresented a ~45 min talk about my work. In-person at MPA, Garching, Germany\n52nd Saas-Fee winter School on “The Circum-Galactic Medium across cosmic time: an observational and modelling challenge”\n(March 19-24, 2023)\nPresented a poster about my work. In-person at Les Diablerets, Switzerland\nTeam meeting for “Observe Local Think Global: What Solar Observations can teach us about Multiphase Plasmas across Astrophysical Scales”\n(March 13-17, 2023)\nPresented an introduction for simulations in ICM/CGM, and my work. In-person at ISSI, Bern, Switzerland\nThe Multiphase Circumgalactic Medium (February 26- March 3, 2023)\nPresented a ~15 min talk about my work. In-person at Ringberg Castle, Germany\nLyman-X Day: ORIGINS workshop (October 5, 2022)\nAttended in-person at European Southern Observatory (ESO), Garching\nThe National Astronomy Meeting (NAM) 2022 (July 11-15, 2022)\nAttended virtually and submitted a poster for the parallel session “Non-equilibrium thermodynamics across scales: from the solar corona to the intracluster medium”.\nGas Flows around Galaxies: ORIGINS workshop (May 24, 2022)\nPresented my work in-person at MPA, Garching"
   },
   {
     "objectID": "cv/cv.html",
@@ -216,11 +161,59 @@
     "text": "Worked with\n\nDr. Max Gronke\nMax Planck Institute for Astrophysics, Garching, Germany\nEmail: maxbg[AT]mpa-garching.mpg.de\nWebsite: max.lyman-alpha.com\n\n\nProf. Prateek Sharma\nPhysical Sciences\nIndian Institute of Science, Bangalore, India\nEmail: prateek[AT]iisc.ac.in\nWebsite: www.physics.iisc.ernet.in/~prateek\n\n\nDr. Rainer Weinberger\nLeibniz Instiute for Astrophyiscs (AIP), Potsdam, Germany\nEmail: rweinberger[AT]aip.de\nWebsite: rainerweinberger.com\n\n\nAssoc. Prof. Massimo Pica Ciamarra\nNanyang Associate Professor\nSchool of Physical & Mathematical Sciences\nNanyang Technological University, Singapore\nEmail: massimo[AT]ntu.edu.sg\nWebsite: sites.google.com/site/ciamarragroup"
   },
   {
-    "objectID": "other_stuff/music.html",
-    "href": "other_stuff/music.html",
-    "title": "Music",
+    "objectID": "blogs/fields_length.html",
+    "href": "blogs/fields_length.html",
+    "title": "Field’s length",
     "section": "",
-    "text": "Snippets from my exploration of the musical landscape. Coming soon! :)"
+    "text": "The shaded blue regions show the areas where the instantaneous cooling flux is higher than the conductive heating flux.\n#| standalone: true\n#| viewerHeight: 1080\n\nfrom shiny import App, render, ui\nimport numpy as np\nimport matplotlib.pyplot as plt\nimport matplotlib.ticker as ticker\n\ncool_t = np.array([0] * 40)\ncool_coef = np.array([0] * 40)\ncool_index = np.array([0] * 40)\n\n# Temperatures in [K]\ncool_t[0] = 10000.0\ncool_t[1] = 12600.0\ncool_t[2] = 15890.0\ncool_t[3] = 20020.0\ncool_t[4] = 25240.0\ncool_t[5] = 31810.0\ncool_t[6] = 40090.0\ncool_t[7] = 50530.0\ncool_t[8] = 63680.0\ncool_t[9] = 80260.0\ncool_t[10] = 101200.0\ncool_t[11] = 127500.0\ncool_t[12] = 160700.0\ncool_t[13] = 202600.0\ncool_t[14] = 255300.0\ncool_t[15] = 321800.0\ncool_t[16] = 405600.0\ncool_t[17] = 511100.0\ncool_t[18] = 644200.0\ncool_t[19] = 812000.0\ncool_t[20] = 1000000.0\ncool_t[21] = 1259000.0\ncool_t[22] = 1585000.0\ncool_t[23] = 1995000.0\ncool_t[24] = 2512000.0\ncool_t[25] = 3162000.0\ncool_t[26] = 3981000.0\ncool_t[27] = 5012000.0\ncool_t[28] = 6310000.0\ncool_t[29] = 7943000.0\ncool_t[30] = 10000000.0\ncool_t[31] = 12590000.0\ncool_t[32] = 15850000.0\ncool_t[33] = 19950000.0\ncool_t[34] = 25120000.0\ncool_t[35] = 31620000.0\ncool_t[36] = 39810000.0\ncool_t[37] = 50120000.0\ncool_t[38] = 63100000.0\ncool_t[39] = 79430000.0\n\n# Cooling Coefficient [1e-23 ergs*cm3/s]\ncool_coef[0] = 1.6408984689285624\ncool_coef[1] = 5.789646575948292\ncool_coef[2] = 18.797203755396648\ncool_coef[3] = 16.7384754689852\ncool_coef[4] = 11.274384717759935\ncool_coef[5] = 9.95038422958871\ncool_coef[6] = 11.302144847043829\ncool_coef[7] = 15.819149070534786\ncool_coef[8] = 25.224636283348048\ncool_coef[9] = 38.02107089248533\ncool_coef[10] = 43.98219098299675\ncool_coef[11] = 41.277704007796586\ncool_coef[12] = 41.95311185975414\ncool_coef[13] = 45.260670345801\ncool_coef[14] = 47.275626188961176\ncool_coef[15] = 32.21420131907784\ncool_coef[16] = 24.350976818250636\ncool_coef[17] = 23.383616480583676\ncool_coef[18] = 18.333394532081098\ncool_coef[19] = 14.89691888284402\ncool_coef[20] = 14.392505898454834\ncool_coef[21] = 13.027915287005817\ncool_coef[22] = 11.671262753284271\ncool_coef[23] = 9.070904785425046\ncool_coef[24] = 6.489695397654223\ncool_coef[25] = 4.766239129792971\ncool_coef[26] = 3.7811870710765074\ncool_coef[27] = 3.313622783657129\ncool_coef[28] = 3.0600313080475674\ncool_coef[29] = 2.9993768457216112\ncool_coef[30] = 2.9491332141250552\ncool_coef[31] = 2.744653611808266\ncool_coef[32] = 2.3449511265716\ncool_coef[33] = 2.0169621177549892\ncool_coef[34] = 1.8907205849384978\ncool_coef[35] = 1.91584885606706\ncool_coef[36] = 2.056870288868004\ncool_coef[37] = 2.233680315878366\ncool_coef[38] = 2.4097186710383474\ncool_coef[39] = 2.5502102007949023\n\n# Cooling power index\ncool_index[0] = 5.455488390256632\ncool_index[1] = 5.076170519863754\ncool_index[2] = -0.5020655826640291\ncool_index[3] = -1.7055659800651979\ncool_index[4] = -0.5399688186820728\ncool_index[5] = 0.550609170202909\ncool_index[6] = 1.4527662908446985\ncool_index[7] = 2.0172644735605223\ncool_index[8] = 1.773197476674277\ncool_index[9] = 0.6282445620956022\ncool_index[10] = -0.2747076405016009\ncool_index[11] = 0.07013182420220869\ncool_index[12] = 0.32752568568776125\ncool_index[13] = 0.1883881016798681\ncool_index[14] = -1.6570303755459093\ncool_index[15] = -1.209120245966656\ncool_index[16] = -0.17533183860418153\ncool_index[17] = -1.0512755674245657\ncool_index[18] = -0.896664392554265\ncool_index[19] = -0.16540667885641686\ncool_index[20] = -0.43250361812273735\ncool_index[21] = -0.4775539072045259\ncool_index[22] = -1.0956186284443203\ncool_index[23] = -1.453147878451421\ncool_index[24] = -1.3412596915753237\ncool_index[25] = -1.0051719479026813\ncool_index[26] = -0.573142729390977\ncool_index[27] = -0.3457087236213044\ncool_index[28] = -0.08698732111048613\ncool_index[29] = -0.07335511773234596\ncool_index[30] = -0.3119882060952377\ncool_index[31] = -0.6835132944311395\ncool_index[32] = -0.6549261784681947\ncool_index[33] = -0.2804886559029823\ncool_index[34] = 0.05737205818565948\ncool_index[35] = 0.30836313806582183\ncool_index[36] = 0.3580735000106496\ncool_index[37] = 0.3293929876114671\ncool_index[38] = 0.24620665148692336\ncool_index[39] = 0.10953503955831644\n\n\ndef Lam_fn_power(T, Zsol=1.0, Lambda_fac=1.0):\n    T_min = np.min(cool_t)\n    T_max = np.max(cool_t)\n\n    N = len(cool_t)\n\n    if T &lt; T_min or T &gt; T_max:\n        return 0.0\n\n    else:\n        i_a = 0\n        i_b = N - 1\n\n        while i_a != i_b - 1:\n            mid = int((i_a + i_b) / 2)\n\n            if T &gt; cool_t[mid]:\n                i_a = mid\n            else:\n                i_b = mid\n\n        # T_a = cool_t[i_a]\n        # T_b = cool_t[i_b]\n\n        Lam = (cool_coef[i_a] * 1e-23) * (T / cool_t[i_a]) ** cool_index[i_a]\n\n        return Lam * Lambda_fac\n\n\ndef gaussian(x, input):\n    T_cold = 10 ** input.T_cold_exp()\n    T_hot = 10 ** input.T_hot_exp()\n\n    s = input.amplitude() * np.exp(-(x**2) / (2 * input.std_dev() ** 2))\n    s = 10 ** (s)\n\n    T_dist = T_hot / s\n    T_dist[T_dist &lt; T_cold] = T_cold\n\n    return T_dist\n\n\ndef sigmoid(x, input):\n    T_cold = 10 ** input.T_cold_exp()\n    T_hot = 10 ** input.T_hot_exp()\n\n    # Sigmoid in log y space between T_cold and T_hot\n    s = 1 / (1 + np.exp(-input.std_dev() * 100 * x))\n    T_dist = T_cold + (T_hot - T_cold) * s\n    # T_dist = 10**(snp.log10(T_hot / T_cold) - 1)\n    # T_dist *= 10 ** (np.log10(T_hot / T_cold) - 1)\n    # T_dist *= T_cold\n    T_dist[T_dist &lt; T_cold] = T_cold\n\n    return T_dist\n\n\ndef T_dist_fn(x, input, type=\"sigmoid\"):\n    if type == \"sigmoid\":\n        return sigmoid(x, input)\n    elif type == \"gaussian\":\n        return gaussian(x, input)\n    else:\n        raise ValueError(\"Invalid type\")\n\n\napp_ui = ui.page_fluid(\n    ui.layout_sidebar(\n        ui.sidebar(\n            ui.input_select(\n                \"T_dist_type\",\n                \"Select Temperature Distribution\",\n                {\n                    \"sigmoid\": \"Sigmoid\",\n                    \"gaussian\": \"Gaussian\",\n                },\n            ),\n            ui.input_slider(\n                \"T_cold_exp\", \"Cold temperature 10^\", 3, 3.9, 3.9, step=0.1\n            ),\n            ui.input_slider(\"T_hot_exp\", \"Hot temperature 10^\", 4, 6, 6, step=0.1),\n            ui.input_slider(\"rho_hot\", \"Hot Density\", 0.1, 1, 0.2, step=0.1),\n            ui.input_slider(\"amplitude\", \"Amplitude (for gaussian)\", 0, 4, 1, step=0.1),\n            ui.input_slider(\"std_dev\", \"Standard deviation\", 0, 1, 0.1, step=0.1),\n        ),\n        # ui.panel_main(\n        ui.output_plot(\"plot\", height=\"800px\"),\n        # ),\n    ),\n)\n\n\ndef server(input, output, session):\n    @output\n    @render.plot(alt=\"Temperature distribution\")\n    def plot():\n\n        # T_cold = 10 ** input.T_cold_exp()\n        T_hot = 10 ** input.T_hot_exp()\n\n        unit_length = 3.08567758128e18\n\n        xlim = 4\n        x = np.arange(-xlim, xlim, 0.01)\n\n        T_dist = T_dist_fn(x, input, type=input.T_dist_type())\n        # T_dist = input.T_dist_type()(x, input)\n\n        grad_T = np.gradient(T_dist, x * unit_length)\n\n        fact = 5.6e-7\n        fact *= 1.0\n        kappa = fact * T_dist**2.5\n\n        cond = -np.gradient(kappa * grad_T, x * unit_length)\n\n        # grad_T = grad_T * unit_length  # in K/pc\n        # cond = cond * (unit_length**3)  # in erg/pc^3/s\n\n        rho_dist = input.rho_hot() * T_hot / T_dist\n        cool = np.vectorize(Lam_fn_power)(T_dist) * rho_dist**2\n        # cool = cool * (unit_length**3)  # in erg/pc^3/s\n\n        heat = cond - cool\n\n        field_len = kappa * T_dist / cool\n        field_len = np.sqrt(field_len)\n        field_len = field_len / unit_length\n\n        fig, ax = plt.subplots(ncols=1, nrows=6, figsize=(10, 25))\n        # ax.set_ylim([1e-1, None])\n        ax[0].plot(x, T_dist)\n        ax[1].plot(x, grad_T)\n        ax[2].plot(x, cond, label=r\"$\\Theta$ \")\n        ax[3].plot(x, cool, label=r\"$\\Lambda$\")\n        ax[4].plot(x, heat)\n        ax[5].plot(x, field_len, label=r\"$\\lambda_F$\")\n\n        ax[2].axhline(0, color=\"black\", linestyle=\"--\")\n        ax[4].axhline(0, color=\"black\", linestyle=\"--\")\n\n        ax[0].set_yscale(\"log\")\n        ax[2].set_yscale(\"symlog\")\n        ax[4].set_yscale(\"symlog\")\n        ax[5].set_yscale(\"log\")\n\n        ax[0].set_ylabel(\"Temperature \\n [K]\")\n        ax[1].set_ylabel(r\"$\\nabla T$\" + \"\\n[K/pc]\")\n        ax[2].set_ylabel(\"Conduction \\n[erg/cm^3/s]\")\n        ax[3].set_ylabel(\"Cooling \\n[erg/cm^3/s]\")\n        ax[4].set_ylabel(r\"$ \\Theta - \\Lambda$\" + f\"\\n[erg/cm^3/s]\")\n        ax[5].set_ylabel(f\"Field Length \\n[pc]\")\n\n        ax[5].set_xlabel(\"x (pc)\")\n\n        # ax[0].grid()\n        # ax[1].grid()\n\n        ax[0].set_xticklabels([])\n        ax[1].set_xticklabels([])\n        ax[2].set_xticklabels([])\n        ax[3].set_xticklabels([])\n\n        for a in ax:\n            a.set_xlim([-xlim, xlim])\n\n        # Set the ScalarFormatter for scientific notation with rounded mantissa\n        formatter = ticker.ScalarFormatter(useMathText=True)\n        formatter.set_powerlimits((-2, 2))\n        formatter.set_scientific(True)\n\n        for axis in ax[2:-1]:\n            axis.yaxis.set_major_formatter(formatter)\n\n        ax[2].legend()\n        ax[3].legend()\n        ax[5].legend()\n\n        tol = np.max(np.abs(heat)) * 1e-2\n\n        x_cool = np.where(heat &lt; -tol)[0]\n        x_heat = np.where(heat &gt; tol)[0]\n\n        # Shade the x-areas where cooling is dominant using axvspan\n        for i in range(len(x_cool) - 1):\n            for a in ax:\n                a.axvspan(\n                    x[x_cool[i]],\n                    x[x_cool[i + 1]],\n                    color=\"blue\",\n                    alpha=0.075,\n                    zorder=-3,\n                )\n\n\napp = App(app_ui, server)"
+  },
+  {
+    "objectID": "research/mhd_multiphase.html",
+    "href": "research/mhd_multiphase.html",
+    "title": "Magnetic Fields in Multiphase Turbulence",
+    "section": "",
+    "text": "Hi there!\nIn this page we show some interesting visualisations from our paper “Magnetic Fields in Multiphase Turbulence: Impacts on Dynamics and Structure” (2307.06411).\nThe components, namely, Turbulence, Multiphase gas and Magnetic fields are ubiquitous in astrophysical media. But, there has been only limited work on the intersection of all three parts. This work was an attempt to broaden the understanding at this intersection. In particular, to look at how magnetic fields affect the growth and survival of multiphase gas in a turbulent medium.\nFor this study, we use two sets of simulations: Turbulent Radiative Mixing Layers (TRMLs) and turbulent boxes.\nBelow we show the different visualisations from these two simulations.",
+    "crumbs": [
+      "Home",
+      "Research",
+      "Magnetic Fields in Multiphase Turbulence"
+    ]
+  },
+  {
+    "objectID": "research/mhd_multiphase.html#turbulent-radiative-mixing-layers-trmls",
+    "href": "research/mhd_multiphase.html#turbulent-radiative-mixing-layers-trmls",
+    "title": "Magnetic Fields in Multiphase Turbulence",
+    "section": "Turbulent Radiative Mixing Layers (TRMLs)",
+    "text": "Turbulent Radiative Mixing Layers (TRMLs)\nHere’s a evolution in temperature showing a sliced view of different TRML simulations, along with the magnetic field lines: \nIt shows how the two phases are getting mixed and how the magnetic field topology evolves with time.\nAnd here’s a evolution in scalar quantity showing a sliced view of different TRML simulations, along with the magnetic field lines. This gives some hints towards the origin of gases in the different phases.",
+    "crumbs": [
+      "Home",
+      "Research",
+      "Magnetic Fields in Multiphase Turbulence"
+    ]
+  },
+  {
+    "objectID": "research/mhd_multiphase.html#magneto-hydrodynamic-turbulent-boxes",
+    "href": "research/mhd_multiphase.html#magneto-hydrodynamic-turbulent-boxes",
+    "title": "Magnetic Fields in Multiphase Turbulence",
+    "section": "(Magneto-)Hydrodynamic turbulent boxes",
+    "text": "(Magneto-)Hydrodynamic turbulent boxes\nHere are 3-dimensional views of the evolution of the cold gas after the introduction of a cold gas cloud in driven-turbulence.\nWithout magnetic fields: \nWith magnetic fields: \nThese clearly show the morphological difference between the cold phase in Hydrodynamic and Magnetohydrodynamic turbulence. The cold gas phase is much more filamentary in presence of magnetic fields.\nFor a more stable view, here’s a similar set of videos but as density projection.\n\nThis is for a case where the cloud get’s destroyed \nThe cases where the cloud survives and cold gas grows",
+    "crumbs": [
+      "Home",
+      "Research",
+      "Magnetic Fields in Multiphase Turbulence"
+    ]
+  },
+  {
+    "objectID": "research/thermal_instability.html",
+    "href": "research/thermal_instability.html",
+    "title": "Thermal Instability in 1D",
+    "section": "",
+    "text": "This project was part of my Bachelors thesis at Indian Institute of Science, Bangalore, and was published on MNRAS (here).\nUnfortunately, the figures are not available in dark-mode. So, apologies to dark-mode users. ☹️\nThermal instability has been long proposed as one of the sources for cold gas in different astrophysical media. There have been numerous studies on its evolution and behaviour, including effects of factors like magnetic fields, gravity, rotation, etc. Similarly, in this study we aimed to study the effects of metallicity variations on thermal instability, including the difference in non-linear evolution of thermal instability at different temperatures, in 1D.\nWe found that the growth rates of thermal instability does not explicitly depend on the metallicity. We compared the simulations with theoretical expectations from linear analysis and found a very good agreement in the limits where the theory holds.\n\n\n\nComparison between theoretical and simlated growth rates\n\n\nWhat we did find, was the existence of different temperature regimes, where isobaric (small-scale) perturbations and isochoric (large-scale) perturbations had different behaviour at a given temperture. There were three regimes: * I : Both isobaric (small-scale) and isochoric (large-scale) perturbations are stable * II : Both isobaric (small-scale) and isochoric (large-scale) perturbations are unstable * III : Isobaric (small-scale) perturbations are unstable and isochoric (large-scale) ones are stable\n\n\n\nThe different regimes in temperature\n\n\nRegion I of course does not lead to anything, but interesting behaviour occurs in region II and III.\nIn region II, isochoric perturbations take the lead, and the overall evolution seems isochoric and large-scale in nature. In region III, isobaric perturbations take the lead, and the evolution of small-scale perturbations is dominant.\nThis gives rise to a two different kinds of behaviour in presence of both large-scale and small-scale perturbations, depending on the regime that the temperature falls in.\nIn region III, the behaviour is akin to the shattering of a large-scale perturbations, while in region II the large-scale perturbations contracts monolithically.\n\n\n\nThe overview of what happens in different regimes",
+    "crumbs": [
+      "Home",
+      "Research",
+      "Thermal Instability in 1D"
+    ]
   },
   {
     "objectID": "about.html",
@@ -267,116 +260,11 @@
     ]
   },
   {
-    "objectID": "blog_list.html",
-    "href": "blog_list.html",
-    "title": "Blog",
+    "objectID": "other_stuff_v2.html",
+    "href": "other_stuff_v2.html",
+    "title": "Other Stuff",
     "section": "",
-    "text": "Blog 1\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBlog 2\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBlog 3\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nField’s length\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSine function\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "other_stuff/outdoors.html",
-    "href": "other_stuff/outdoors.html",
-    "title": "Outdoors",
-    "section": "",
-    "text": "Pictures from outdoor activities like bouldering, hiking, skiing, etc. Coming soon! :)"
-  },
-  {
-    "objectID": "other_stuff/science.html",
-    "href": "other_stuff/science.html",
-    "title": "Science",
-    "section": "",
-    "text": "This is N-body simulation using Particle-Mesh Method aka NOISE, following the tradition of great astrophysical abbreviations.\nAs the name suggests, this is N-body simulation code, written in Python, that uses the Particle-Mesh method for calculating the gravitational forces.\nThis was part of course project for a Computational Physics course at IISc, during my Bachelors.\nYou can find the documentation here."
-  },
-  {
-    "objectID": "other_stuff/science.html#noise",
-    "href": "other_stuff/science.html#noise",
-    "title": "Science",
-    "section": "",
-    "text": "This is N-body simulation using Particle-Mesh Method aka NOISE, following the tradition of great astrophysical abbreviations.\nAs the name suggests, this is N-body simulation code, written in Python, that uses the Particle-Mesh method for calculating the gravitational forces.\nThis was part of course project for a Computational Physics course at IISc, during my Bachelors.\nYou can find the documentation here."
-  },
-  {
-    "objectID": "other_stuff/science.html#deprojection",
-    "href": "other_stuff/science.html#deprojection",
-    "title": "Science",
-    "section": "Deprojection",
-    "text": "Deprojection\nThis was a super short dive-in into deprojection. On the sky we can only see a 2D projection of something 3D. In absence of any extra information, one has to retrieve the 3D distribution from this 2D projections, and that is called Deprojecting.\nHere’s I have tried my hands at doing a very simple deprojection from a projection of a known 3D distribution.\nYou can get to the light-themed version of the page here."
-  },
-  {
-    "objectID": "research.html",
-    "href": "research.html",
-    "title": "Research",
-    "section": "",
-    "text": "A list of my publications can be found here."
-  },
-  {
-    "objectID": "research.html#mogli-model-for-multiphase-gas-using-multifluid-hydrodynamics",
-    "href": "research.html#mogli-model-for-multiphase-gas-using-multifluid-hydrodynamics",
-    "title": "Research",
-    "section": "MOGLI: Model for Multiphase Gas using Multifluid hydrodynamics",
-    "text": "MOGLI: Model for Multiphase Gas using Multifluid hydrodynamics\nThere is a requirement of subgrid models for the Multiphase gas for converged large-scale simulations. And in this study we do the same using a multifluid scheme in AREPO. We test and verify our subgrid model MOGLI with resolved benchmark simulations. The preprint version can be found at (2412.03751).\n\n\n\n\n\n\n \n\n\n\n\n\nComponents of MOGLI"
-  },
-  {
-    "objectID": "research.html#multiphase-gas-in-magnetised-turbulent-medium",
-    "href": "research.html#multiphase-gas-in-magnetised-turbulent-medium",
-    "title": "Research",
-    "section": "Multiphase gas in Magnetised, Turbulent medium",
-    "text": "Multiphase gas in Magnetised, Turbulent medium\nMagnetic fields and turbulence are ubiquitous, with many observational evidences towards there presence in multiple systems. This poses a dilemma for multiphase gas, which is also observed across wide scales, from solar to cluster environemnts. It has been shown that with radiative cooling, turbulence helps mixing of the different phases which can help in the survival of multiphase gas.\nBut, that is evidence from Radiative Turbulent Mixing Layer (TRMLs) simulations that mixing is suppressed in presence of magnetic fields. This can pose issue for the survival of multiphase gas. A concise summary of this dilemma is shown in meme below 😄. In this project, we attempt to solve this dilemma using a series of (magneto-)hydrodynamic simulations.\nThis project is part of my PhD thesis at Max Planck Institute of Astrophysics, Garching. The results from this project have been submitted for publication. The preprint version can be found at (2307.06411).\n\n\n\n\n\n\n \n\n\n\n\n\nThe Multiphase gas dilemma"
-  },
-  {
-    "objectID": "research.html#thermal-instability-in-1d",
-    "href": "research.html#thermal-instability-in-1d",
-    "title": "Research",
-    "section": "Thermal Instability in 1D",
-    "text": "Thermal Instability in 1D\nThermal instability (TI) is a process that can lead to multiphasa gas in Astrophysical mediums. In this project, that was part of my Bachelors thesis, we studied the linear and non-linear evolution of TI in 1D.\nWe looked at the dependence of this evolution on metallicity variation and the temperature, with some very interesting results.\nThis project lead to a paper which has been published on MNRAS, Volume 502, Issue 4, April 2021. The online version is available here. It is also available on arXiv at 2009.11317."
-  },
-  {
-    "objectID": "blogs/shinylive_test.html",
-    "href": "blogs/shinylive_test.html",
-    "title": "Sine function",
-    "section": "",
-    "text": "The plot below allows you to control parameters used in the sine function. Experiment with the period, amplitude, and phase shift to see how they affect the graph.\n#| standalone: true\n#| viewerHeight: 1080\n\nfrom shiny import App, render, ui\nimport numpy as np\nimport matplotlib.pyplot as plt\n\napp_ui = ui.page_fluid(\n    ui.layout_sidebar(\n        ui.sidebar(\n            ui.input_slider(\"period1\", \"Period\", 0.5, 2, 1, step=0.5),\n            ui.input_slider(\"period2\", \"Period\", 0.5, 2, 1, step=0.5),\n            ui.input_slider(\"amplitude1\", \"Amplitude\", 0, 2, 1, step=0.25),\n            ui.input_slider(\"amplitude2\", \"Amplitude\", 0, 2, 1, step=0.25),\n            ui.input_slider(\"shift1\", \"Phase shift\", 0, 2*np.pi, 0, step=0.1),\n            ui.input_slider(\"shift2\", \"Phase shift\", 0, 2*np.pi, 0, step=0.1),\n        ),\n        # ui.panel_main(\n            ui.output_plot(\"plot\"),\n        # ),\n    ),\n)\n\n\ndef server(input, output, session):\n    @output\n    @render.plot(alt=\"Sine function\")\n    def plot():\n        t = np.arange(0.0, 4.0, 0.01)\n        s = input.amplitude1() * np.sin(\n            (2 * np.pi / input.period1()) * (t - input.shift1() / 2)\n        )\n        s += input.amplitude2() * np.sin(\n            (2 * np.pi / input.period2()) * (t - input.shift2() / 2)\n        )\n        fig, ax = plt.subplots()\n        ax.set_ylim([-2, 2])\n        ax.plot(t, s)\n        ax.grid()\n\n\napp = App(app_ui, server)"
-  },
-  {
-    "objectID": "blogs/fields_length.html",
-    "href": "blogs/fields_length.html",
-    "title": "Field’s length",
-    "section": "",
-    "text": "The shaded blue regions show the areas where the instantaneous cooling flux is higher than the conductive heating flux.\n#| standalone: true\n#| viewerHeight: 1080\n\nfrom shiny import App, render, ui\nimport numpy as np\nimport matplotlib.pyplot as plt\nimport matplotlib.ticker as ticker\n\ncool_t = np.array([0] * 40)\ncool_coef = np.array([0] * 40)\ncool_index = np.array([0] * 40)\n\n# Temperatures in [K]\ncool_t[0] = 10000.0\ncool_t[1] = 12600.0\ncool_t[2] = 15890.0\ncool_t[3] = 20020.0\ncool_t[4] = 25240.0\ncool_t[5] = 31810.0\ncool_t[6] = 40090.0\ncool_t[7] = 50530.0\ncool_t[8] = 63680.0\ncool_t[9] = 80260.0\ncool_t[10] = 101200.0\ncool_t[11] = 127500.0\ncool_t[12] = 160700.0\ncool_t[13] = 202600.0\ncool_t[14] = 255300.0\ncool_t[15] = 321800.0\ncool_t[16] = 405600.0\ncool_t[17] = 511100.0\ncool_t[18] = 644200.0\ncool_t[19] = 812000.0\ncool_t[20] = 1000000.0\ncool_t[21] = 1259000.0\ncool_t[22] = 1585000.0\ncool_t[23] = 1995000.0\ncool_t[24] = 2512000.0\ncool_t[25] = 3162000.0\ncool_t[26] = 3981000.0\ncool_t[27] = 5012000.0\ncool_t[28] = 6310000.0\ncool_t[29] = 7943000.0\ncool_t[30] = 10000000.0\ncool_t[31] = 12590000.0\ncool_t[32] = 15850000.0\ncool_t[33] = 19950000.0\ncool_t[34] = 25120000.0\ncool_t[35] = 31620000.0\ncool_t[36] = 39810000.0\ncool_t[37] = 50120000.0\ncool_t[38] = 63100000.0\ncool_t[39] = 79430000.0\n\n# Cooling Coefficient [1e-23 ergs*cm3/s]\ncool_coef[0] = 1.6408984689285624\ncool_coef[1] = 5.789646575948292\ncool_coef[2] = 18.797203755396648\ncool_coef[3] = 16.7384754689852\ncool_coef[4] = 11.274384717759935\ncool_coef[5] = 9.95038422958871\ncool_coef[6] = 11.302144847043829\ncool_coef[7] = 15.819149070534786\ncool_coef[8] = 25.224636283348048\ncool_coef[9] = 38.02107089248533\ncool_coef[10] = 43.98219098299675\ncool_coef[11] = 41.277704007796586\ncool_coef[12] = 41.95311185975414\ncool_coef[13] = 45.260670345801\ncool_coef[14] = 47.275626188961176\ncool_coef[15] = 32.21420131907784\ncool_coef[16] = 24.350976818250636\ncool_coef[17] = 23.383616480583676\ncool_coef[18] = 18.333394532081098\ncool_coef[19] = 14.89691888284402\ncool_coef[20] = 14.392505898454834\ncool_coef[21] = 13.027915287005817\ncool_coef[22] = 11.671262753284271\ncool_coef[23] = 9.070904785425046\ncool_coef[24] = 6.489695397654223\ncool_coef[25] = 4.766239129792971\ncool_coef[26] = 3.7811870710765074\ncool_coef[27] = 3.313622783657129\ncool_coef[28] = 3.0600313080475674\ncool_coef[29] = 2.9993768457216112\ncool_coef[30] = 2.9491332141250552\ncool_coef[31] = 2.744653611808266\ncool_coef[32] = 2.3449511265716\ncool_coef[33] = 2.0169621177549892\ncool_coef[34] = 1.8907205849384978\ncool_coef[35] = 1.91584885606706\ncool_coef[36] = 2.056870288868004\ncool_coef[37] = 2.233680315878366\ncool_coef[38] = 2.4097186710383474\ncool_coef[39] = 2.5502102007949023\n\n# Cooling power index\ncool_index[0] = 5.455488390256632\ncool_index[1] = 5.076170519863754\ncool_index[2] = -0.5020655826640291\ncool_index[3] = -1.7055659800651979\ncool_index[4] = -0.5399688186820728\ncool_index[5] = 0.550609170202909\ncool_index[6] = 1.4527662908446985\ncool_index[7] = 2.0172644735605223\ncool_index[8] = 1.773197476674277\ncool_index[9] = 0.6282445620956022\ncool_index[10] = -0.2747076405016009\ncool_index[11] = 0.07013182420220869\ncool_index[12] = 0.32752568568776125\ncool_index[13] = 0.1883881016798681\ncool_index[14] = -1.6570303755459093\ncool_index[15] = -1.209120245966656\ncool_index[16] = -0.17533183860418153\ncool_index[17] = -1.0512755674245657\ncool_index[18] = -0.896664392554265\ncool_index[19] = -0.16540667885641686\ncool_index[20] = -0.43250361812273735\ncool_index[21] = -0.4775539072045259\ncool_index[22] = -1.0956186284443203\ncool_index[23] = -1.453147878451421\ncool_index[24] = -1.3412596915753237\ncool_index[25] = -1.0051719479026813\ncool_index[26] = -0.573142729390977\ncool_index[27] = -0.3457087236213044\ncool_index[28] = -0.08698732111048613\ncool_index[29] = -0.07335511773234596\ncool_index[30] = -0.3119882060952377\ncool_index[31] = -0.6835132944311395\ncool_index[32] = -0.6549261784681947\ncool_index[33] = -0.2804886559029823\ncool_index[34] = 0.05737205818565948\ncool_index[35] = 0.30836313806582183\ncool_index[36] = 0.3580735000106496\ncool_index[37] = 0.3293929876114671\ncool_index[38] = 0.24620665148692336\ncool_index[39] = 0.10953503955831644\n\n\ndef Lam_fn_power(T, Zsol=1.0, Lambda_fac=1.0):\n    T_min = np.min(cool_t)\n    T_max = np.max(cool_t)\n\n    N = len(cool_t)\n\n    if T &lt; T_min or T &gt; T_max:\n        return 0.0\n\n    else:\n        i_a = 0\n        i_b = N - 1\n\n        while i_a != i_b - 1:\n            mid = int((i_a + i_b) / 2)\n\n            if T &gt; cool_t[mid]:\n                i_a = mid\n            else:\n                i_b = mid\n\n        # T_a = cool_t[i_a]\n        # T_b = cool_t[i_b]\n\n        Lam = (cool_coef[i_a] * 1e-23) * (T / cool_t[i_a]) ** cool_index[i_a]\n\n        return Lam * Lambda_fac\n\n\ndef gaussian(x, input):\n    T_cold = 10 ** input.T_cold_exp()\n    T_hot = 10 ** input.T_hot_exp()\n\n    s = input.amplitude() * np.exp(-(x**2) / (2 * input.std_dev() ** 2))\n    s = 10 ** (s)\n\n    T_dist = T_hot / s\n    T_dist[T_dist &lt; T_cold] = T_cold\n\n    return T_dist\n\n\ndef sigmoid(x, input):\n    T_cold = 10 ** input.T_cold_exp()\n    T_hot = 10 ** input.T_hot_exp()\n\n    # Sigmoid in log y space between T_cold and T_hot\n    s = 1 / (1 + np.exp(-input.std_dev() * 100 * x))\n    T_dist = T_cold + (T_hot - T_cold) * s\n    # T_dist = 10**(snp.log10(T_hot / T_cold) - 1)\n    # T_dist *= 10 ** (np.log10(T_hot / T_cold) - 1)\n    # T_dist *= T_cold\n    T_dist[T_dist &lt; T_cold] = T_cold\n\n    return T_dist\n\n\ndef T_dist_fn(x, input, type=\"sigmoid\"):\n    if type == \"sigmoid\":\n        return sigmoid(x, input)\n    elif type == \"gaussian\":\n        return gaussian(x, input)\n    else:\n        raise ValueError(\"Invalid type\")\n\n\napp_ui = ui.page_fluid(\n    ui.layout_sidebar(\n        ui.sidebar(\n            ui.input_select(\n                \"T_dist_type\",\n                \"Select Temperature Distribution\",\n                {\n                    \"sigmoid\": \"Sigmoid\",\n                    \"gaussian\": \"Gaussian\",\n                },\n            ),\n            ui.input_slider(\n                \"T_cold_exp\", \"Cold temperature 10^\", 3, 3.9, 3.9, step=0.1\n            ),\n            ui.input_slider(\"T_hot_exp\", \"Hot temperature 10^\", 4, 6, 6, step=0.1),\n            ui.input_slider(\"rho_hot\", \"Hot Density\", 0.1, 1, 0.2, step=0.1),\n            ui.input_slider(\"amplitude\", \"Amplitude (for gaussian)\", 0, 4, 1, step=0.1),\n            ui.input_slider(\"std_dev\", \"Standard deviation\", 0, 1, 0.1, step=0.1),\n        ),\n        # ui.panel_main(\n        ui.output_plot(\"plot\", height=\"800px\"),\n        # ),\n    ),\n)\n\n\ndef server(input, output, session):\n    @output\n    @render.plot(alt=\"Temperature distribution\")\n    def plot():\n\n        # T_cold = 10 ** input.T_cold_exp()\n        T_hot = 10 ** input.T_hot_exp()\n\n        unit_length = 3.08567758128e18\n\n        xlim = 4\n        x = np.arange(-xlim, xlim, 0.01)\n\n        T_dist = T_dist_fn(x, input, type=input.T_dist_type())\n        # T_dist = input.T_dist_type()(x, input)\n\n        grad_T = np.gradient(T_dist, x * unit_length)\n\n        fact = 5.6e-7\n        fact *= 1.0\n        kappa = fact * T_dist**2.5\n\n        cond = -np.gradient(kappa * grad_T, x * unit_length)\n\n        # grad_T = grad_T * unit_length  # in K/pc\n        # cond = cond * (unit_length**3)  # in erg/pc^3/s\n\n        rho_dist = input.rho_hot() * T_hot / T_dist\n        cool = np.vectorize(Lam_fn_power)(T_dist) * rho_dist**2\n        # cool = cool * (unit_length**3)  # in erg/pc^3/s\n\n        heat = cond - cool\n\n        field_len = kappa * T_dist / cool\n        field_len = np.sqrt(field_len)\n        field_len = field_len / unit_length\n\n        fig, ax = plt.subplots(ncols=1, nrows=6, figsize=(10, 25))\n        # ax.set_ylim([1e-1, None])\n        ax[0].plot(x, T_dist)\n        ax[1].plot(x, grad_T)\n        ax[2].plot(x, cond, label=r\"$\\Theta$ \")\n        ax[3].plot(x, cool, label=r\"$\\Lambda$\")\n        ax[4].plot(x, heat)\n        ax[5].plot(x, field_len, label=r\"$\\lambda_F$\")\n\n        ax[2].axhline(0, color=\"black\", linestyle=\"--\")\n        ax[4].axhline(0, color=\"black\", linestyle=\"--\")\n\n        ax[0].set_yscale(\"log\")\n        ax[2].set_yscale(\"symlog\")\n        ax[4].set_yscale(\"symlog\")\n        ax[5].set_yscale(\"log\")\n\n        ax[0].set_ylabel(\"Temperature \\n [K]\")\n        ax[1].set_ylabel(r\"$\\nabla T$\" + \"\\n[K/pc]\")\n        ax[2].set_ylabel(\"Conduction \\n[erg/cm^3/s]\")\n        ax[3].set_ylabel(\"Cooling \\n[erg/cm^3/s]\")\n        ax[4].set_ylabel(r\"$ \\Theta - \\Lambda$\" + f\"\\n[erg/cm^3/s]\")\n        ax[5].set_ylabel(f\"Field Length \\n[pc]\")\n\n        ax[5].set_xlabel(\"x (pc)\")\n\n        # ax[0].grid()\n        # ax[1].grid()\n\n        ax[0].set_xticklabels([])\n        ax[1].set_xticklabels([])\n        ax[2].set_xticklabels([])\n        ax[3].set_xticklabels([])\n\n        for a in ax:\n            a.set_xlim([-xlim, xlim])\n\n        # Set the ScalarFormatter for scientific notation with rounded mantissa\n        formatter = ticker.ScalarFormatter(useMathText=True)\n        formatter.set_powerlimits((-2, 2))\n        formatter.set_scientific(True)\n\n        for axis in ax[2:-1]:\n            axis.yaxis.set_major_formatter(formatter)\n\n        ax[2].legend()\n        ax[3].legend()\n        ax[5].legend()\n\n        tol = np.max(np.abs(heat)) * 1e-2\n\n        x_cool = np.where(heat &lt; -tol)[0]\n        x_heat = np.where(heat &gt; tol)[0]\n\n        # Shade the x-areas where cooling is dominant using axvspan\n        for i in range(len(x_cool) - 1):\n            for a in ax:\n                a.axvspan(\n                    x[x_cool[i]],\n                    x[x_cool[i + 1]],\n                    color=\"blue\",\n                    alpha=0.075,\n                    zorder=-3,\n                )\n\n\napp = App(app_ui, server)"
-  },
-  {
-    "objectID": "cv/cv_short.html",
-    "href": "cv/cv_short.html",
-    "title": "Hitesh Kishore Das",
-    "section": "",
-    "text": "Link to the PDF version of my CV, short version"
-  },
-  {
-    "objectID": "cv/cv_short.html#education",
-    "href": "cv/cv_short.html#education",
-    "title": "Hitesh Kishore Das",
-    "section": "Education",
-    "text": "Education\nPhD in Astrophysics (Ongoing)\nInternational Max Planck Research School on Astrophysics (IMPRS)\nMax Planck Institute for Astrophysics (MPA), Garching, Germany\nLudwig Maximilians University (LMU), Munich, Germany\nDuration: 2021-Present\nMaster of Science\nIndian Institute of Science (IISc), Bengaluru, India\nMajor: Physics\nDuration: 2020-2021\nBachelor of Science (Research) Indian Institute of Science (IISc), Bengaluru, India\nMajor: Physics\nDuration: 2016-2020"
-  },
-  {
-    "objectID": "cv/cv_short.html#research-experience",
-    "href": "cv/cv_short.html#research-experience",
-    "title": "Hitesh Kishore Das",
-    "section": "Research Experience",
-    "text": "Research Experience\n\nPhD Thesis: The dynamics of magnetized, multiphase gas in a turbulent environment\n[ 8 SEP 2021 - PRESENT ]\nWe are studying the different aspects of multiphase gas, like survival, morphology and growth, in a turbulent medium in presence of magnetic fields. We use idealised MHD simulations run using Athena ++ for this study.\nDoctoral Advisor: Dr. Max Gronke\nFormal supervisor: Prof. Volker Springel\nCollaborators: Dr. Rainer Weinberger\nMax Planck Institute for Astrophysics, Garching\n\n\nRole of temperature and metallicity in the evolution of thermal instability\n[ 1 AUG 2019 - PRESENT ]\nThis project contributed towards my Bachelors thesis and led to a research paper in collaboration with Dr. Prakriti Pal Choudhury and Prof. Prateek Sharma.\nUnder supervision of: Assoc. Prof. Prateek Sharma\nCollaborator: Dr. Prakriti Pal Choudhury Physical Sciences, Indian Institute of Science, Bangalore\n\n\nComputational Studies of Systems of Self-driven Particles\n[ 8 MAY 2019 – 12 JUL 2019 ]\nThis project aimed at investigating the underlying physical origin of this “phase transition” via the development of appropriate computational models.\nUnder supervision of: Assoc. Prof. Massimo Pica Ciamarra\nSchool of Physical & Mathematical Sciences, Nanyang Technological University, Singapore –&gt;"
-  },
-  {
-    "objectID": "cv/cv_short.html#publications",
-    "href": "cv/cv_short.html#publications",
-    "title": "Hitesh Kishore Das",
-    "section": "Publications",
-    "text": "Publications\n\n- Magnetic Fields in Multiphase Turbulence: Impacts on Dynamics and Structure\nHitesh Kishore Das, Max Gronke Monthly Notices of the Royal Astronomical Society, Volume 527, Issue 1, January 2024, Pages 991–1013, doi.org/10.1093/mnras/stad3125\narXiv: 2307.06411\n\n\n- Shatter or not: role of temperature and metallicity in the evolution of thermal instability\nHitesh Kishore Das, Prakriti Pal Choudhury, Prateek Sharma\nJournal: Monthly Notices of the Royal Astronomical Society, Volume 502, Issue 4, April 2021, Pages 4935–4952, doi.org/10.1093/mnras/stab382\narXiv: 2009.11317"
-  },
-  {
-    "objectID": "cv/cv_short.html#conferences-and-seminars",
-    "href": "cv/cv_short.html#conferences-and-seminars",
-    "title": "Hitesh Kishore Das",
-    "section": "Conferences and Seminars",
-    "text": "Conferences and Seminars\n\nAnnual Astronomical Society of India (ASI) meeting 2024 (Jan 30-Feb 4, 2024). Presented a at IISc, Bangalore, India.\n2023 IAP colloquium: New simulations for new problems in galaxy formation (December 11-15, 2023). Gave a in-person at IAP, Paris, France.\nMIST2023 : Cosmic turbulence and Magnetic fields (September 24 - October 1, 2023) Gave a in-person at Cargese, Corsica, France.\nModelling of Multiphase Astrophysical Media (May 30-June 2, 2023)\nPresented a ~15 min talk about my work. In-person at Aspenstein Castle, near Lake Kochel, Germany\nMPA weekly Institute Seminar (May 15, 2023)\nPresented a ~45 min talk about my work. In-person at MPA, Garching, Germany\n52nd Saas-Fee winter School on “The Circum-Galactic Medium across cosmic time: an observational and modelling challenge”\n(March 19-24, 2023)\nPresented a poster about my work. In-person at Les Diablerets, Switzerland\nTeam meeting for “Observe Local Think Global: What Solar Observations can teach us about Multiphase Plasmas across Astrophysical Scales”\n(March 13-17, 2023)\nPresented an introduction for simulations in ICM/CGM, and my work. In-person at ISSI, Bern, Switzerland\nThe Multiphase Circumgalactic Medium (February 26- March 3, 2023)\nPresented a ~15 min talk about my work. In-person at Ringberg Castle, Germany\nLyman-X Day: ORIGINS workshop (October 5, 2022)\nAttended in-person at European Southern Observatory (ESO), Garching\nThe National Astronomy Meeting (NAM) 2022 (July 11-15, 2022)\nAttended virtually and submitted a poster for the parallel session “Non-equilibrium thermodynamics across scales: from the solar corona to the intracluster medium”.\nGas Flows around Galaxies: ORIGINS workshop (May 24, 2022)\nPresented my work in-person at MPA, Garching"
+    "text": "Categories\nWhat would you like to explore first?\n\n\n\n  \n    \n      \n        Science \n      \n       \n    \n    \n      \n    \n    \n    \n    \n  \n\n  \n    \n      \n        Outdoors \n      \n       \n    \n    \n      \n    \n    \n    \n    \n  \n\n  \n    \n      \n        Music \n      \n       \n    \n    \n      \n    \n    \n    \n    \n  \n\n\n\nNo matching items"
   },
   {
     "objectID": "index.html",
@@ -393,40 +281,124 @@
     "text": "All the contents are arranged into different tabs on the top navigation bar.\nYou can find the details of my academic research in the Research section.\nThe Other Stuff section contains my other short and quick projects, my other hobbies or anything I find interesting and would like to share.\n Finally, the About page is all about (you guessed it!) me. 😄"
   },
   {
-    "objectID": "research/mhd_multiphase.html",
-    "href": "research/mhd_multiphase.html",
-    "title": "Magnetic Fields in Multiphase Turbulence",
+    "objectID": "research/mogli_subgrid.html",
+    "href": "research/mogli_subgrid.html",
+    "title": "MOGLI: Model for Multiphase Gas using Multifluid hydrodynamics",
     "section": "",
-    "text": "Hi there!\nIn this page we show some interesting visualisations from our paper “Magnetic Fields in Multiphase Turbulence: Impacts on Dynamics and Structure” (2307.06411).\nThe components, namely, Turbulence, Multiphase gas and Magnetic fields are ubiquitous in astrophysical media. But, there has been only limited work on the intersection of all three parts. This work was an attempt to broaden the understanding at this intersection. In particular, to look at how magnetic fields affect the growth and survival of multiphase gas in a turbulent medium.\nFor this study, we use two sets of simulations: Turbulent Radiative Mixing Layers (TRMLs) and turbulent boxes.\nBelow we show the different visualisations from these two simulations.",
+    "text": "Hello there! 👋\nWe would like to introduce our recently published, MOGLI subgrid model for capturing multiphase gas dynamics!\nFollowing the age-old tradition of contrived Astrophysical abbreviation, MOGLI stands for MOdel for Multiphase Gas using MulLIfluid hydrodynamics.\nMultiphase gas, with hot (∼\\(10^6\\)K) and cold (∼\\(10^4\\)K) gas, is ubiquitous in astrophysical media across a wide range of scales. However, simulating multiphase gas has been a long-standing challenge, due to the large separation between the size of cold gas structures and the scales at which such gas impacts the evolution of associated systems.\nThis is where MOGLI comes into the picture. Implemented with multifluid AREPO, the model is based on first principles and theoretical results from previous studies with resolved small-scale simulations, leading to a minimal number of free parameters in the formulation.\nMultifluid methods have long been used for engineering applications for water-air interactions, combustions, and meteorolgy.\nIn this scheme, fluid properties like density, momenta and energy of multiple fluid are tracked on the same grid and the different fluids are tracked via their volume fractions in each cell. We build upon the implementation of multifluid methods in AREPO, showcased in this paper by Weinberger & Hernquist (2023).\nWe use the theoretical understanding from previous studies which use small-scale resolved simluations as the foundation of MOGLI. We divide the interactions between the hot and cold gas fluid in the model into three sources: drag, turbulent mixing and cold gas growth.\nWe verify the different components of the framework through extensive comparison with benchmark single-fluid simulations across different simulation parameters, such as how resolved the cold gas is initially, the turbulent Mach number, spatial resolution, and random initialisation of turbulence.\nWe find that MOGLI can reproduce behaviour like the cold gas survival criteria as an emergent property, without it being explicitly included in the model.\nAdditionally, we demonstrate its capability by running a simulation which would be computationally prohibitive to run as a resolved single-fluid simulation, and following are two such simulations.\nFor more about the details and verification of the model check our paper, now on arXiv at 2412.03751.",
     "crumbs": [
       "Home",
       "Research",
-      "Magnetic Fields in Multiphase Turbulence"
+      "MOGLI: Model for Multiphase Gas using Multifluid hydrodynamics"
     ]
   },
   {
-    "objectID": "research/mhd_multiphase.html#turbulent-radiative-mixing-layers-trmls",
-    "href": "research/mhd_multiphase.html#turbulent-radiative-mixing-layers-trmls",
-    "title": "Magnetic Fields in Multiphase Turbulence",
-    "section": "Turbulent Radiative Mixing Layers (TRMLs)",
-    "text": "Turbulent Radiative Mixing Layers (TRMLs)\nHere’s a evolution in temperature showing a sliced view of different TRML simulations, along with the magnetic field lines:\n\nIt shows how the two phases are getting mixed and how the magnetic field topology evolves with time.\nAnd here’s a evolution in scalar quantity showing a sliced view of different TRML simulations, along with the magnetic field lines. This gives some hints towards the origin of gases in the different phases.",
+    "objectID": "research/mogli_subgrid.html#mogli-with-100-unresolved-clouds",
+    "href": "research/mogli_subgrid.html#mogli-with-100-unresolved-clouds",
+    "title": "MOGLI: Model for Multiphase Gas using Multifluid hydrodynamics",
+    "section": "MOGLI with 100 unresolved clouds",
+    "text": "MOGLI with 100 unresolved clouds\nHere’s showcase an simulation which would required a resolution upwards of \\(3000^3\\) cells, if done with the tranditional resolved single-fluid method.\nBut, with MOGLI, we can get an equivalent simulation with just \\(64^3\\) cells.\nWe are simulating a turbulent box with \\(64^3\\) cells and 100 unresolved clouds of radius \\(L_\\mathrm{box}/256\\):",
     "crumbs": [
       "Home",
       "Research",
-      "Magnetic Fields in Multiphase Turbulence"
+      "MOGLI: Model for Multiphase Gas using Multifluid hydrodynamics"
     ]
   },
   {
-    "objectID": "research/mhd_multiphase.html#magneto-hydrodynamic-turbulent-boxes",
-    "href": "research/mhd_multiphase.html#magneto-hydrodynamic-turbulent-boxes",
-    "title": "Magnetic Fields in Multiphase Turbulence",
-    "section": "(Magneto-)Hydrodynamic turbulent boxes",
-    "text": "(Magneto-)Hydrodynamic turbulent boxes\nHere are 3-dimensional views of the evolution of the cold gas after the introduction of a cold gas cloud in driven-turbulence.\nWithout magnetic fields:\n\nWith magnetic fields:\n\nThese clearly show the morphological difference between the cold phase in Hydrodynamic and Magnetohydrodynamic turbulence. The cold gas phase is much more filamentary in presence of magnetic fields.\nFor a more stable view, here’s a similar set of videos but as density projection.\n\nThis is for a case where the cloud get’s destroyed\n\n\n\nThe cases where the cloud survives and cold gas grows",
+    "objectID": "research/mogli_subgrid.html#reduced-mogli-and-1000-unresolved-clouds",
+    "href": "research/mogli_subgrid.html#reduced-mogli-and-1000-unresolved-clouds",
+    "title": "MOGLI: Model for Multiphase Gas using Multifluid hydrodynamics",
+    "section": "Reduced MOGLI, and 1000 unresolved clouds",
+    "text": "Reduced MOGLI, and 1000 unresolved clouds\nIn this simulation, we are showing the evolution of a similar simulation setup as the previous section. But this time with a reduced MOGLI mode, i.e. cold gas growth is turned off. The cold gas is just destroyed via turbulent mixing and there are drag forces.\nWe are simulating a turbulent box with \\(64^3\\) cells and 1000 unresolved clouds of radius \\(L_\\mathrm{box}/256\\):",
     "crumbs": [
       "Home",
       "Research",
-      "Magnetic Fields in Multiphase Turbulence"
+      "MOGLI: Model for Multiphase Gas using Multifluid hydrodynamics"
     ]
+  },
+  {
+    "objectID": "blogs/shinylive_test.html",
+    "href": "blogs/shinylive_test.html",
+    "title": "Sine function",
+    "section": "",
+    "text": "The plot below allows you to control parameters used in the sine function. Experiment with the period, amplitude, and phase shift to see how they affect the graph.\n#| standalone: true\n#| viewerHeight: 1080\n\nfrom shiny import App, render, ui\nimport numpy as np\nimport matplotlib.pyplot as plt\n\napp_ui = ui.page_fluid(\n    ui.layout_sidebar(\n        ui.sidebar(\n            ui.input_slider(\"period1\", \"Period\", 0.5, 2, 1, step=0.5),\n            ui.input_slider(\"period2\", \"Period\", 0.5, 2, 1, step=0.5),\n            ui.input_slider(\"amplitude1\", \"Amplitude\", 0, 2, 1, step=0.25),\n            ui.input_slider(\"amplitude2\", \"Amplitude\", 0, 2, 1, step=0.25),\n            ui.input_slider(\"shift1\", \"Phase shift\", 0, 2*np.pi, 0, step=0.1),\n            ui.input_slider(\"shift2\", \"Phase shift\", 0, 2*np.pi, 0, step=0.1),\n        ),\n        # ui.panel_main(\n            ui.output_plot(\"plot\"),\n        # ),\n    ),\n)\n\n\ndef server(input, output, session):\n    @output\n    @render.plot(alt=\"Sine function\")\n    def plot():\n        t = np.arange(0.0, 4.0, 0.01)\n        s = input.amplitude1() * np.sin(\n            (2 * np.pi / input.period1()) * (t - input.shift1() / 2)\n        )\n        s += input.amplitude2() * np.sin(\n            (2 * np.pi / input.period2()) * (t - input.shift2() / 2)\n        )\n        fig, ax = plt.subplots()\n        ax.set_ylim([-2, 2])\n        ax.plot(t, s)\n        ax.grid()\n\n\napp = App(app_ui, server)"
+  },
+  {
+    "objectID": "cv/cv_old.html",
+    "href": "cv/cv_old.html",
+    "title": "Hitesh Kishore Das",
+    "section": "",
+    "text": "Link to the PDF version of my CV."
+  },
+  {
+    "objectID": "cv/cv_old.html#education",
+    "href": "cv/cv_old.html#education",
+    "title": "Hitesh Kishore Das",
+    "section": "Education",
+    "text": "Education\n\nPhD in Astrophysics (Ongoing)\nPhD Thesis: The dynamics of multiphase gas in astrophysical media International Max Planck Research School on Astrophysics (IMPRS)\nMax Planck Institute for Astrophysics (MPA), Garching, Germany\nLudwig Maximilians University (LMU), Munich, Germany\nDuration: 2021-Present\nDoctoral Advisor: Dr. Max Gronke\nFormal supervisor: Prof. Volker Springel\nMaster of Science\nIndian Institute of Science (IISc), Bengaluru, India\nMajor: Physics\nDuration: 2020-2021\nBachelor of Science (Research) Indian Institute of Science (IISc), Bengaluru, India\nMajor: Physics\nDuration: 2016-2020\nSenior Secondary (CBSE), 2016 Kendriya Vidyalaya No-4, Bhubaneswar, India\nStream: Science\nDate: 21/05/2016"
+  },
+  {
+    "objectID": "cv/cv_old.html#research-experience",
+    "href": "cv/cv_old.html#research-experience",
+    "title": "Hitesh Kishore Das",
+    "section": "Research Experience",
+    "text": "Research Experience\n\n\nSubgrid model for multiphase gas interactions [ FEB 2024 - ]\nWe are developing a subgrid model for survival, destruction and other behaviours of multiphase gas, using the Multifluid AREPO framework.\nThe project is part of my PhD thesis, supervised by Dr. Max Gronke.\nCollaborators: Rainer Weinberger, Dr. Max Gronke\nMax Planck Institute for Astrophysics, Garching\n\n\nThree-phase gas in a turbulent medium [ MAY 2024 - ]\nIn this project we are investigating the cold molecular gas in a turbulent medium, where both “warm” and “hot” gas phases are also possible.\nThis project is led by Zewei “Jason” Wu from UChicago during his DAAD-RISE internship. I was involved as the advisor for his internship, which included writing the research proposal and supervision for the whole duration of internship.\nCollaborators: Zewei “Jason” Wu, Dr. Max Gronke\nMax Planck Institute for Astrophysics, Garching\n\n\nSurvival, destruction and formation of cold molecular gas [ MAY 2023 - AUG 2023 ]\nIn this project we are investigating the in-situ formation of cold molecular gas from “warm” gas and its subsequent survival or destruction, in presence turbulence.\nPart of the work was done by Atal Agarwal from IIT Roorkee during his DAAD-WISE internship. I was involved in the intership as a co-supervisor.\nThe project is also part of my PhD thesis, supervised by Dr. Max Gronke.\nCollaborators: Atal Agarwal, Dr. Max Gronke\nMax Planck Institute for Astrophysics, Garching\n\n\nEvolution of thermal instability in 2D and 3D [ MAR 2021 - ]\nIn this project we extend our previous work on thermal instability to 2D and 3D systems. We investigate both linear and non-linear evolution of multiphase gas due to radiative cooling.\nThis project contributed towards my Masters thesis, supervised by Prof. Prateek Sharma.\nCollaborator: Dr. Prakriti Pal Choudhury, Prof. Prateek Sharma\nPhysical Sciences, Indian Institute of Science, Bangalore\n\n\nMultiphase gas dynamics in Magnetised, turbulent medium [ SEP 2021 - JAN 2024 ]\nWe studied the different aspects of multiphase gas, like survival, morphology and growth, in a turbulent medium in presence of magnetic fields. We use idealised MHD simulations run using Athena ++ for this study.\nThis led to a publication on MNRAS Jan 2024 issue. The project is part of my thesis project, supervised by Dr. Max Gronke.\nCollaborators: Dr. Max Gronke\nMax Planck Institute for Astrophysics, Garching\n\n\nRole of temperature and metallicity in the evolution of thermal instability [ AUG 2019 - APR 2021 ]\nIn this project we investigate the role of different parameters like metallicity and temperature in the growth of thermal instability. The project includes setting up and running simulation for study of thermal instabilities using PLUTO.\nThis work led to some important insights into evolution of large-scale isochoric clouds.\nThis project contributed towards my Bachelors thesis, supervised by Prof. Prateek Sharma and led to a research paper in collaboration with Dr. Prakriti Pal Choudhury and Prof. Prateek Sharma.\nCollaborator: Dr. Prakriti Pal Choudhury, Prof. Prateek Sharma\nPhysical Sciences, Indian Institute of Science, Bangalore\n\n\nComputational Studies of Systems of Self-driven Particles [ 8 MAY 2019 – 12 JUL 2019 ]\nThis project aimed at investigating the underlying physical origin of this “phase transition” via the development of appropriate computational models. The project goals included:\n- Molecular dynamics code development (in LAMMPS), adapting existing code in the research group\n- Reproduction of literature data\nUnder supervision of: Assoc. Prof. Massimo Pica Ciamarra\nSchool of Physical & Mathematical Sciences, Nanyang Technological University, Singapore\n\n\nElectrostatics of Spherical Topological Insulators [ 1 MAY 2018 – 30 JUN 2018 ]\nTheoretical derivation of electric and magnetic scalar potentials for different cases of electric and magnetic fields near a spherical Topological insulator.\nUnder supervision of: Assoc. Prof. Subroto Mukerjee\nPhysical Sciences, Indian Institute of Science, Bangalore\n\n\nAnalysis of data from CERN 2010 open data and simulation of top pair production [ 1 MAY 2017 – 31 JUL 2017 ]\nIt consisted of accessing CERN 2010 open data using CernVM and analysing the data using C++ and Python code incorporating ROOT to plot Dimuon spectra, Trimuon spectra and other related plots.\nHigh-energy particle physics event simulations of top pair production were done using Pythia 8.2 and Madgraph 5.\nUnder supervision of: Asst. Prof. Jyothsna Rani Komaragiri\nCentre for High Energy Physics, Indian Institute of Science, Bangalore"
+  },
+  {
+    "objectID": "cv/cv_old.html#publications",
+    "href": "cv/cv_old.html#publications",
+    "title": "Hitesh Kishore Das",
+    "section": "Publications",
+    "text": "Publications\n\n\n- Magnetic Fields in Multiphase Turbulence: Impacts on Dynamics and Structure\nHitesh Kishore Das, Max Gronke Monthly Notices of the Royal Astronomical Society, Volume 527, Issue 1, January 2024, Pages 991–1013, doi.org/10.1093/mnras/stad3125\narXiv: 2307.06411\n\n\n- Shatter or not: role of temperature and metallicity in the evolution of thermal instability\nHitesh Kishore Das, Prakriti Pal Choudhury, Prateek Sharma\nJournal: Monthly Notices of the Royal Astronomical Society, Volume 502, Issue 4, April 2021, Pages 4935–4952, doi.org/10.1093/mnras/stab382\narXiv: 2009.11317"
+  },
+  {
+    "objectID": "cv/cv_old.html#conferences-and-seminars",
+    "href": "cv/cv_old.html#conferences-and-seminars",
+    "title": "Hitesh Kishore Das",
+    "section": "Conferences and Seminars",
+    "text": "Conferences and Seminars\n\n\nTalk at Lars Hernquist group meeting at Center for Astrophyiscs, Harvard University on August 23, 2024.\nMultiphase Madness: Resolving the CGM in Theory and Observations (August 21-23, 2023). Gave a talk in-person at Center for Astrophysics, Harvard University, Cambridge.\nTalk at Computational Structure and Galaxy formation group meeting at MIT Kavli Institute for Astrophyiscs on August 19, 2024.\nTalk in GalRead at Peyton Hall, Princeton University, on August 16, 2024.\nTeam meeting for “Observe Local Think Global: What Solar Observations can teach us about Multiphase Plasmas across Astrophysical Scales”\n(May 13-17, 2024)\nPresented my work. In-person at ISSI, Bern, Switzerland\nTalk in Cosmology section meeting at AIP, Potsdam, on May 8, 2024.\nAnnual Astronomical Society of India (ASI) meeting 2024 (Jan 30-Feb 4, 2024).\nPresented a at IISc, Bangalore, India.\n2023 IAP colloquium: New simulations for new problems in galaxy formation (December 11-15, 2023). Gave a in-person at IAP, Paris, France.\nMIST2023 : Cosmic turbulence and Magnetic fields (September 24 - October 1, 2023) Gave a in-person at Cargese, Corsica, France.\nModelling of Multiphase Astrophysical Media (May 30-June 2, 2023)\nPresented a ~15 min talk about my work. In-person at Aspenstein Castle, near Lake Kochel, Germany\nMPA weekly Institute Seminar (May 15, 2023)\nPresented a ~45 min talk about my work. In-person at MPA, Garching, Germany\n52nd Saas-Fee winter School on “The Circum-Galactic Medium across cosmic time: an observational and modelling challenge”\n(March 19-24, 2023)\nPresented a poster about my work. In-person at Les Diablerets, Switzerland\nTeam meeting for “Observe Local Think Global: What Solar Observations can teach us about Multiphase Plasmas across Astrophysical Scales”\n(March 13-17, 2023)\nPresented an introduction for simulations in ICM/CGM, and my work. In-person at ISSI, Bern, Switzerland\nThe Multiphase Circumgalactic Medium (February 26- March 3, 2023)\nPresented a ~15 min talk about my work. In-person at Ringberg Castle, Germany\nLyman-X Day: ORIGINS workshop (October 5, 2022)\nAttended in-person at European Southern Observatory (ESO), Garching\nThe National Astronomy Meeting (NAM) 2022 (July 11-15, 2022)\nAttended virtually and submitted a poster for the parallel session “Non-equilibrium thermodynamics across scales: from the solar corona to the intracluster medium”.\nGas Flows around Galaxies: ORIGINS workshop (May 24, 2022)\nPresented my work in-person at MPA, Garching\nPresision Presidency Physics Summit (September 11-13, 2020)\nOrganized by Presidency University, Kolkata\nPresented work done on Thermal Instability as a talk in the Undergraduate Symposium.\nOn the Origin, Nature, and Mixing of Multiphase Gas in Astrophysics KITP online conference (October 15-16, 2020)\nAttended the conference virtually\nIAP online Colloquium on Intracluster Medium/Circumgalactic medium (June 22-26, 2020)\nAttended the conference virtually"
+  },
+  {
+    "objectID": "cv/cv_old.html#mentoring",
+    "href": "cv/cv_old.html#mentoring",
+    "title": "Hitesh Kishore Das",
+    "section": "Mentoring",
+    "text": "Mentoring\n\n\nFully Supervised the DAAD-RISE intership of Zewei “Jason” Wu (UChicago) at MPA, Garching between May - August 2024\nCo-supervised the DAAD-WISE intership of Atal Agarwal (IIT Roorkee) at MPA, Garching between May-August 2023"
+  },
+  {
+    "objectID": "cv/cv_old.html#extra-curricular-experience",
+    "href": "cv/cv_old.html#extra-curricular-experience",
+    "title": "Hitesh Kishore Das",
+    "section": "Extra-curricular Experience",
+    "text": "Extra-curricular Experience\n\n\nExternal PhD representative at MPA\n13th IMPRS Symposium\nWas involved in organising the 13th IMPRS Symposium as the Chair of the Local Organising Committee.\nUndergraduate Physics Club\nDelivered a talk on “Special Relativity and Minkowski Diagrams”.\nIndian Instiute of Science Open Day\nConstructed and demonstrated an experiment about Bernard cells, convection and convection cells in Sun. Also, demonstrated an experiment about Polarization of light.\nInstitute Fest - “Pravega”\nInvolved in planning and conducting events by Physics club for Pravega - 2016 and Pravega - 2017."
+  },
+  {
+    "objectID": "cv/cv_old.html#awards-and-fellowships",
+    "href": "cv/cv_old.html#awards-and-fellowships",
+    "title": "Hitesh Kishore Das",
+    "section": "Awards and Fellowships",
+    "text": "Awards and Fellowships\n\n\nKishore Vaigyanik Protsahan Yojana (KVPY) Fellowship}\nFunded by: Department of Science and Technology, Government of India\nStream: SX\nDuration: 2016-2021\nNational Cyber Olympiad 2014-15\nNational Rank: 1 (in 11th grade)\nOrganised by: Science Olympiad Foundation\nNational Standard Examination in Astronomy , 2015\nGot certificate for being in top 10% of the examination centre.\nOrganised by: Indian Association of Physics Teachers (IAPT)"
+  },
+  {
+    "objectID": "cv/cv_old.html#skills",
+    "href": "cv/cv_old.html#skills",
+    "title": "Hitesh Kishore Das",
+    "section": "Skills",
+    "text": "Skills\n\n\nC, C++\nAthena++\nLAMMPS\nMadgraph 5\nMathematica\nHigh Performance Computing\nLaTeX\n\nPython\nPLUTO\nROOT\nPythia 8.2\nSQL\nMatlab\nBash scripting"
+  },
+  {
+    "objectID": "cv/cv_old.html#language-proficiency",
+    "href": "cv/cv_old.html#language-proficiency",
+    "title": "Hitesh Kishore Das",
+    "section": "Language proficiency",
+    "text": "Language proficiency\n\nEnglish (Proficient)\nHindi (Proficient)\nOdia (Native)\nGerman (Beginner A1)"
+  },
+  {
+    "objectID": "cv/cv_old.html#worked-with",
+    "href": "cv/cv_old.html#worked-with",
+    "title": "Hitesh Kishore Das",
+    "section": "Worked with:",
+    "text": "Worked with:\n\nDr. Max Gronke\nMax Planck Institute for Astrophysics, Garching, Germany\nEmail: maxbg[AT]mpa-garching.mpg.de\nWebsite: max.lyman-alpha.com\n\n\nProf. Prateek Sharma\nPhysical Sciences\nIndian Institute of Science, Bangalore, India\nEmail: prateek[AT]iisc.ac.in\nWebsite: www.physics.iisc.ernet.in/~prateek\n\n\nDr. Rainer Weinberger\nLeibniz Instiute for Astrophyiscs (AIP), Potsdam, Germany Email: rweinberger[AT]aip.de\nWebsite: rainerweinberger.com\n\n\nAssoc. Prof. Massimo Pica Ciamarra\nNanyang Associate Professor\nSchool of Physical & Mathematical Sciences\nNanyang Technological University, Singapore\nEmail: massimo[AT]ntu.edu.sg\nWebsite: sites.google.com/site/ciamarragroup\n\n\nAssoc. Prof. Subroto Mukerjee\nPhysical Sciences\nIndian Institute of Science, Bangalore, India\nEmail: smukerjee[AT]iisc.ac.in\nWebsite: physics.iisc.ernet.in/~smukerjee\n\n\nAsst. Prof. Jyothsna Rani Komaragiri\nCentre for High Energy Physics\nIndian Institute of Science, Bangalore, India\nEmail: jyothsna.komaragiri[AT]gmail.com\nWebsite: chep.iisc.ac.in/Personnel/pages/jyothsna"
   },
   {
     "objectID": "other_stuff.html",
@@ -460,5 +432,33 @@
       "Home",
       "Other stuff"
     ]
+  },
+  {
+    "objectID": "other_stuff/science.html",
+    "href": "other_stuff/science.html",
+    "title": "Science",
+    "section": "",
+    "text": "This is N-body simulation using Particle-Mesh Method aka NOISE, following the tradition of great astrophysical abbreviations.\nAs the name suggests, this is N-body simulation code, written in Python, that uses the Particle-Mesh method for calculating the gravitational forces.\nThis was part of course project for a Computational Physics course at IISc, during my Bachelors.\nYou can find the documentation here."
+  },
+  {
+    "objectID": "other_stuff/science.html#noise",
+    "href": "other_stuff/science.html#noise",
+    "title": "Science",
+    "section": "",
+    "text": "This is N-body simulation using Particle-Mesh Method aka NOISE, following the tradition of great astrophysical abbreviations.\nAs the name suggests, this is N-body simulation code, written in Python, that uses the Particle-Mesh method for calculating the gravitational forces.\nThis was part of course project for a Computational Physics course at IISc, during my Bachelors.\nYou can find the documentation here."
+  },
+  {
+    "objectID": "other_stuff/science.html#deprojection",
+    "href": "other_stuff/science.html#deprojection",
+    "title": "Science",
+    "section": "Deprojection",
+    "text": "Deprojection\nThis was a super short dive-in into deprojection. On the sky we can only see a 2D projection of something 3D. In absence of any extra information, one has to retrieve the 3D distribution from this 2D projections, and that is called Deprojecting.\nHere’s I have tried my hands at doing a very simple deprojection from a projection of a known 3D distribution.\nYou can get to the light-themed version of the page here."
+  },
+  {
+    "objectID": "blog_list.html",
+    "href": "blog_list.html",
+    "title": "Blog",
+    "section": "",
+    "text": "Blog 1\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBlog 2\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBlog 3\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nField’s length\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSine function\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
   }
 ]
