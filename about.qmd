@@ -26,12 +26,13 @@ sidebar: false
 
 :::{#hero-heading}
 
+I'm an Astrophysicist with broad research interest in **Computational Astrophysics**. To be more specific, I work with **(Magneto-)Hydrodynamic simulations** to study the behaviour of Astrophysical mediums, especially the Circumgalactic medium.     
+This includes looking into processes like **thermal instability**, **turbulence**, **magnetic fields**, etc.
 
-I am a fourth year PhD student at [Max Planck Institute for Astrophysics](https://www.mpa-garching.mpg.de) (MPA), Garching, which I joined under the [International Max Planck School (IMPRS) on Astrophysics](https://www.imprs-astro.mpg.de/) at [Ludwig Maximilians University](https://www.lmu.de/en/) (LMU), Munich.
+I will soon join [Drummond Fielding](https://dfielding14.github.io/)'s group at New York University as a Postdoctoral Associate. 
+I recently defended my PhD thesis in [Max Gronke](http://max.lyman-alpha.com/)'s [Multiphase Gas Group](https://www.mpa-garching.mpg.de/1020167/multiphase-gas) at [Max Planck Institute for Astrophysics](https://www.mpa-garching.mpg.de) (MPA), Garching.
 
-I am part of [Dr. Max Gronke](http://max.lyman-alpha.com/)'s [Multiphase Gas Group](https://www.mpa-garching.mpg.de/1020167/multiphase-gas) at MPA.
-
-My broad research interest is Computational Astrophysics. To be more specific, I work with (Magneto-)Hydrodynamic simulations to study the behaviour of Astrophysical mediums.
+As a doctoral student, I was part of the [International Max Planck School (IMPRS) on Astrophysics](https://www.imprs-astro.mpg.de/) at [Ludwig Maximilians University](https://www.lmu.de/en/) (LMU), Munich.
 
 For more about my academic history, check out my [Curriculum Vitae](cv/cv.qmd).
 
@@ -43,7 +44,7 @@ If you want to reach me, feel free to write me at [hitesh[AT]mpa-garching.mpg.de
 
 **Max Planck Institute for Astrophysics** | Garching, Germany
 
-PhD in Astrophysics| Sept 2021 - Present
+PhD in Astrophysics| Sept 2021 - Aug 2025
 
 ___________________________________________
 
@@ -56,7 +57,7 @@ ___________________________________________
 
 ## Background
 
-I am natively from the state of [Odisha](https://en.wikipedia.org/wiki/Odisha) (ଓଡିଶା) in India. During my early years, I travelled around a bit inside India with my parents as they got posted at different places. But soon, we settled at Odisha's capital city, [Bhubaneswar](https://en.wikipedia.org/wiki/Bhubaneswar), where I spent most of my schooling days till my 12th grade.
+I am native to the state of [Odisha](https://en.wikipedia.org/wiki/Odisha) (ଓଡିଶା) in India. During my early years, I travelled around a bit inside India with my parents as they got posted at different places. But soon, we settled at Odisha's capital city, [Bhubaneswar](https://en.wikipedia.org/wiki/Bhubaneswar), where I spent most of my schooling days till my 12th grade.
 
 I spent the next 5 years, 2016-2021, in another Indian state, [Karnataka's](https://en.wikipedia.org/wiki/Karnataka) capital, [Bengaluru](https://en.wikipedia.org/wiki/Bangalore) for my Bachelors and Masters of Science degrees in Physics, at [Indian Institute of Science](https://iisc.ac.in/). 
 

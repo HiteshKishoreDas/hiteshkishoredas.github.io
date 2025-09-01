@@ -33,12 +33,11 @@ format:
 <!-- :::{.column-body-outset-right} -->
 
 
-I'm an Astrophysicist in the fourth year of my PhD at [Max Planck Institute for Astrophysics](https://www.mpa-garching.mpg.de) (MPA), Garching. 
-
-My broad research interest is **Computational Astrophysics**. To be more specific, I work with **(Magneto-)Hydrodynamic simulations** to study the behaviour of Astrophysical mediums, especially the Circumgalactic medium.     
+I'm an Astrophysicist with broad research interest in **Computational Astrophysics**. To be more specific, I work with **(Magneto-)Hydrodynamic simulations** to study the behaviour of Astrophysical mediums, especially the Circumgalactic medium.     
 This includes looking into processes like **thermal instability**, **turbulence**, **magnetic fields**, etc.
 
-Currently, I am part of [Dr. Max Gronke](http://max.lyman-alpha.com/)'s [Multiphase Gas Group](https://www.mpa-garching.mpg.de/1020167/multiphase-gas) at MPA, 
+I will soon join [Drummond Fielding](https://dfielding14.github.io/)'s group at New York University as a Postdoctoral Associate. 
+I recently defended my PhD thesis in [Max Gronke](http://max.lyman-alpha.com/)'s [Multiphase Gas Group](https://www.mpa-garching.mpg.de/1020167/multiphase-gas) at [Max Planck Institute for Astrophysics](https://www.mpa-garching.mpg.de) (MPA), Garching.
 
 <!-- I'm part of the [International Max Planck School (IMPRS) on Astrophysics](https://www.imprs-astro.mpg.de/) on Astrophysics at [Ludwig Maximilians University (LMU)](https://www.lmu.de/en/) (LMU), Munich. -->
 ___________________________________________________________
