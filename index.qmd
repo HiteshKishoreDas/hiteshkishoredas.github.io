@@ -6,6 +6,7 @@ about:
   image: images/profile_small.jpg
   image-shape: round
   image-width: 50%
+  image-height: 50%
   links:
     - icon: envelope-fill
       text: Email
