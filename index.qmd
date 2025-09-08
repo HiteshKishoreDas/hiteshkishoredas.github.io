@@ -36,9 +36,9 @@ I'm an Astrophysicist with broad research interest in **Computational Astrophysi
 This includes looking into processes like **thermal instability**, **turbulence**, **magnetic fields**, etc.
 
 Currently, I am part of [Drummond Fielding](https://dfielding14.github.io/)'s group at New York University as a **Postdoctoral Associate**. 
-I recently defended my PhD thesis in [Max Gronke](http://max.lyman-alpha.com/)'s [Multiphase Gas Group](https://www.mpa-garching.mpg.de/1020167/multiphase-gas) at [Max Planck Institute for Astrophysics](https://www.mpa-garching.mpg.de) (MPA), Garching.<sup>*<\sup>
+I recently defended my PhD thesis in [Max Gronke](http://max.lyman-alpha.com/)'s [Multiphase Gas Group](https://www.mpa-garching.mpg.de/1020167/multiphase-gas) at [Max Planck Institute for Astrophysics](https://www.mpa-garching.mpg.de) (MPA), Garching.<sup>*</sup>
 
-(<sup>*<\sup>Note: Max's Multiphase Gas Group has now [moved to ARI at Heidelberg university](https://zah.uni-heidelberg.de/de/aktuelles/news-detail-de/max-gronke-new-erc-research-group-leader-at-zah)).
+(<sup>*</sup>Note: Max's Multiphase Gas Group has now [moved to ARI at Heidelberg university](https://zah.uni-heidelberg.de/de/aktuelles/news-detail-de/max-gronke-new-erc-research-group-leader-at-zah)).
 
 <!-- I'm part of the [International Max Planck School (IMPRS) on Astrophysics](https://www.imprs-astro.mpg.de/) on Astrophysics at [Ludwig Maximilians University (LMU)](https://www.lmu.de/en/) (LMU), Munich. -->
 ___________________________________________________________
