@@ -38,7 +38,7 @@ For more about my academic history, check out my [Curriculum Vitae](cv/cv.qmd).
 
 If you want to reach me, feel free to write me at [hitesh[AT]mpa-garching.mpg.de](mailto:hitesh@mpa-garching.mpg.de)
 
-(<sup>*</sup>Note: Max's Multiphase Gas Group has now [moved to ARI at Heidelberg university](https://zah.uni-heidelberg.de/de/aktuelles/news-detail-de/max-gronke-new-erc-research-group-leader-at-zah)).
+(<sup>*</sup>Max's Multiphase Gas Group has now [moved to ARI at Heidelberg university](https://zah.uni-heidelberg.de/de/aktuelles/news-detail-de/max-gronke-new-erc-research-group-leader-at-zah)).
 
 :::
 
