@@ -6,7 +6,7 @@ about:
   template: solana
   image: images/profile_small.jpg
   image-shape: round
-  image-width: 10em
+  image-width: 25em
   links:
     - icon: envelope-fill
       text: Email
