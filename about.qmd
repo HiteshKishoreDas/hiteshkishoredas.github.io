@@ -1,7 +1,6 @@
 ---
 title: "Hitesh Kishore Das"
 subtitle: "ହିତେଶ କିଶୋର ଦାସ / हितेश किशोर दास" 
-title-block-banner: images/banner.jpg
 about:
   id: hero-heading
   template: broadside
