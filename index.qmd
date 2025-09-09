@@ -30,6 +30,12 @@ format:
     css: styles.css
 ---
 
+<style>
+#title-block-header {
+  height: 30vh; /* Adjust as needed */
+}
+</style>
+
 :::{#home-about}
 <!-- :::{.column-body-outset-right} -->
 
