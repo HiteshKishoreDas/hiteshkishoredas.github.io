@@ -1,0 +1,33 @@
+---
+title: "My Timeline"
+format:
+  revealjs:
+    theme: simple
+    slide-number: true
+    auto-animate: true   # enable Reveal.js auto-animate
+---
+
+## Timeline (part 1)
+{data-auto-animate}
+
+- [2019 — Start @ MPA]{data-id=yr-2019}
+- [2021 — Paper I]{data-id=yr-2021}
+
+---
+
+## Timeline (part 2)
+{data-auto-animate}
+
+- [2019 — Start @ MPA]{data-id=yr-2019}
+- [2021 — Paper I]{data-id=yr-2021}
+- [2023 — MOGLI kickoff]{data-id=yr-2023}
+
+---
+
+## Timeline (part 3)
+{data-auto-animate}
+
+- [2019 — Start @ MPA]{data-id=yr-2019}
+- [2021 — Paper I]{data-id=yr-2021}
+- [2023 — MOGLI kickoff]{data-id=yr-2023}
+- **[2025 — Defense & NYC]{data-id=yr-2025}**

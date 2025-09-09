@@ -1,0 +1,18 @@
+---
+title: "" 
+sidebar: false
+
+format:
+    html:
+        toc: true
+        toc-depth: 2
+        toc-location: left
+        html-math-method: katex
+    pdf:
+        author: Hitesh Kishore Das
+        pdf-engine: weasyprint
+css: cv.css
+format-links: [pdf]
+---
+
+{{embed education_slides.qmd}}
