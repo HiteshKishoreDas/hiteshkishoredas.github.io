@@ -32,7 +32,7 @@ format:
 
 <style>
 #title-block-header {
-  height: 30vh; /* Adjust as needed */
+  height: 40vh; /* Adjust as needed */
 }
 </style>
 
