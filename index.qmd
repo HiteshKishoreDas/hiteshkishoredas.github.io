@@ -1,5 +1,6 @@
 ---
 title: "Hi!"
+title-block-banner: images/banner.jpg
 about:
   id: home-about
   template: solana
