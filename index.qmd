@@ -1,5 +1,5 @@
 ---
-title: "Hi!"
+title: ""
 title-block-banner: images/banner.jpg
 about:
   id: home-about
@@ -32,6 +32,7 @@ format:
 :::{#home-about}
 <!-- :::{.column-body-outset-right} -->
 
+# Hi!
 
 I'm an Astrophysicist with broad research interest in **Computational Astrophysics**. To be more specific, I work with **(Magneto-)Hydrodynamic simulations** to study the behaviour of Astrophysical mediums, especially the Circumgalactic medium.     
 This includes looking into processes like **thermal instability**, **turbulence**, **magnetic fields**, etc.
