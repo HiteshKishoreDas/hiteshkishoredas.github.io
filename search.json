@@ -35,6 +35,13 @@
     "text": "Conferences and Seminars\n\nAnnual Astronomical Society of India (ASI) meeting 2024 (Jan 30-Feb 4, 2024). Presented a at IISc, Bangalore, India.\n2023 IAP colloquium: New simulations for new problems in galaxy formation (December 11-15, 2023). Gave a in-person at IAP, Paris, France.\nMIST2023 : Cosmic turbulence and Magnetic fields (September 24 - October 1, 2023) Gave a in-person at Cargese, Corsica, France.\nModelling of Multiphase Astrophysical Media (May 30-June 2, 2023)\nPresented a ~15 min talk about my work. In-person at Aspenstein Castle, near Lake Kochel, Germany\nMPA weekly Institute Seminar (May 15, 2023)\nPresented a ~45 min talk about my work. In-person at MPA, Garching, Germany\n52nd Saas-Fee winter School on “The Circum-Galactic Medium across cosmic time: an observational and modelling challenge”\n(March 19-24, 2023)\nPresented a poster about my work. In-person at Les Diablerets, Switzerland\nTeam meeting for “Observe Local Think Global: What Solar Observations can teach us about Multiphase Plasmas across Astrophysical Scales”\n(March 13-17, 2023)\nPresented an introduction for simulations in ICM/CGM, and my work. In-person at ISSI, Bern, Switzerland\nThe Multiphase Circumgalactic Medium (February 26- March 3, 2023)\nPresented a ~15 min talk about my work. In-person at Ringberg Castle, Germany\nLyman-X Day: ORIGINS workshop (October 5, 2022)\nAttended in-person at European Southern Observatory (ESO), Garching\nThe National Astronomy Meeting (NAM) 2022 (July 11-15, 2022)\nAttended virtually and submitted a poster for the parallel session “Non-equilibrium thermodynamics across scales: from the solar corona to the intracluster medium”.\nGas Flows around Galaxies: ORIGINS workshop (May 24, 2022)\nPresented my work in-person at MPA, Garching"
   },
   {
+    "objectID": "cv/cv_revealjs.html",
+    "href": "cv/cv_revealjs.html",
+    "title": "Hitesh Kishore Das",
+    "section": "",
+    "text": "{{embed education_slides.qmd}}"
+  },
+  {
     "objectID": "about.html",
     "href": "about.html",
     "title": "Hitesh Kishore Das",
@@ -285,6 +292,27 @@
     "title": "Sine function",
     "section": "",
     "text": "The plot below allows you to control parameters used in the sine function. Experiment with the period, amplitude, and phase shift to see how they affect the graph.\n#| standalone: true\n#| viewerHeight: 1080\n\nfrom shiny import App, render, ui\nimport numpy as np\nimport matplotlib.pyplot as plt\n\napp_ui = ui.page_fluid(\n    ui.layout_sidebar(\n        ui.sidebar(\n            ui.input_slider(\"period1\", \"Period\", 0.5, 2, 1, step=0.5),\n            ui.input_slider(\"period2\", \"Period\", 0.5, 2, 1, step=0.5),\n            ui.input_slider(\"amplitude1\", \"Amplitude\", 0, 2, 1, step=0.25),\n            ui.input_slider(\"amplitude2\", \"Amplitude\", 0, 2, 1, step=0.25),\n            ui.input_slider(\"shift1\", \"Phase shift\", 0, 2*np.pi, 0, step=0.1),\n            ui.input_slider(\"shift2\", \"Phase shift\", 0, 2*np.pi, 0, step=0.1),\n        ),\n        # ui.panel_main(\n            ui.output_plot(\"plot\"),\n        # ),\n    ),\n)\n\n\ndef server(input, output, session):\n    @output\n    @render.plot(alt=\"Sine function\")\n    def plot():\n        t = np.arange(0.0, 4.0, 0.01)\n        s = input.amplitude1() * np.sin(\n            (2 * np.pi / input.period1()) * (t - input.shift1() / 2)\n        )\n        s += input.amplitude2() * np.sin(\n            (2 * np.pi / input.period2()) * (t - input.shift2() / 2)\n        )\n        fig, ax = plt.subplots()\n        ax.set_ylim([-2, 2])\n        ax.plot(t, s)\n        ax.grid()\n\n\napp = App(app_ui, server)"
+  },
+  {
+    "objectID": "cv/education_slides.html#timeline-part-1",
+    "href": "cv/education_slides.html#timeline-part-1",
+    "title": "My Timeline",
+    "section": "Timeline (part 1)",
+    "text": "Timeline (part 1)\n{data-auto-animate}\n\n2019 — Start @ MPA\n2021 — Paper I"
+  },
+  {
+    "objectID": "cv/education_slides.html#timeline-part-2",
+    "href": "cv/education_slides.html#timeline-part-2",
+    "title": "My Timeline",
+    "section": "Timeline (part 2)",
+    "text": "Timeline (part 2)\n{data-auto-animate}\n\n2019 — Start @ MPA\n2021 — Paper I\n2023 — MOGLI kickoff"
+  },
+  {
+    "objectID": "cv/education_slides.html#timeline-part-3",
+    "href": "cv/education_slides.html#timeline-part-3",
+    "title": "My Timeline",
+    "section": "Timeline (part 3)",
+    "text": "Timeline (part 3)\n{data-auto-animate}\n\n2019 — Start @ MPA\n2021 — Paper I\n2023 — MOGLI kickoff\n2025 — Defense & NYC"
   },
   {
     "objectID": "cv/cv_old.html",
