@@ -2,7 +2,7 @@
 title: "My Timeline"
 format:
   revealjs:
-    theme: [scss/theme-dark, scss/theme-light]
+    theme: [../scss/theme-dark, ../scss/theme-light]
     slide-number: true
     auto-animate: true   # enable Reveal.js auto-animate
 ---
