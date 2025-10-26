@@ -10,7 +10,7 @@ about:
   links:
     - icon: envelope-fill
       text: Email
-      href: mailto:hitesh@mpa-garching.mpg.de
+      href: mailto:hiteshdasastro@gmail.com
     - icon: twitter
       text: Twitter
       href: https://twitter.com/hitesh_k_das

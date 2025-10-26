@@ -15,7 +15,7 @@ about:
       href: https://github.com/hiteshkishoredas
     - icon: envelope-fill
       text: Mail
-      href: mailto:hitesh@mpa-garching.mpg.de
+      href: mailto:hiteshdasastro@gmail.com
     - icon: paperclip
       text: Publications
       href: https://ui.adsabs.harvard.edu/public-libraries/rSxyW3mIQvK8ArHKfTxYcQ
