@@ -8,6 +8,8 @@ Hi there!
 In this page we show some interesting visualisations from our paper "Magnetic Fields in Multiphase Turbulence: 
 Impacts on Dynamics and Structure" ([2307.06411](https://arxiv.org/abs/2307.06411)).
 
+You can also find a monthly highlight article on MPA website [here](https://www.mpa-garching.mpg.de/1087631/hl202311?c=1096623), about this research.
+
 The components, namely, Turbulence, Multiphase gas and Magnetic fields 
 are ubiquitous in astrophysical media. But, there has been only limited work on the intersection of all
 three parts. This work was an attempt to broaden the understanding at this intersection.
