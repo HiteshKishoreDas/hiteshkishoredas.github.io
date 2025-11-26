@@ -32,7 +32,25 @@ format:
 
 <style>
 #title-block-header {
-  height: 40vh; /* Adjust as needed */
+  height: 40vh; /* Trim banner height */
+  margin: 0 !important;
+  padding: 0 !important;
+}
+#title-block-header .quarto-title-banner {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+main#quarto-document-content.content.quarto-banner-title-block {
+  margin-top: 0 !important;
+  padding-top: 0 !important;
+}
+.quarto-about-solana {
+  margin-top: 0 !important;
+  padding-top: 0 !important;
+}
+.quarto-about-solana .about-contents {
+  margin-top: 0 !important;
+  padding-top: 0 !important;
 }
 </style>
 
