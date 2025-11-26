@@ -29,7 +29,7 @@ main.content.quarto-banner-title-block {
 body.quarto-dark #quarto-document-content .quarto-about-solana,
 body.quarto-light #quarto-document-content .quarto-about-solana,
 #quarto-document-content .quarto-about-solana {
-    margin-top: -1.5rem !important;
+    margin-top: 0 !important;
     padding-top: 0 !important;
 }
 
