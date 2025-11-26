@@ -35,11 +35,80 @@
     "text": "Conferences and Seminars\n\nAnnual Astronomical Society of India (ASI) meeting 2024 (Jan 30-Feb 4, 2024). Presented a at IISc, Bangalore, India.\n2023 IAP colloquium: New simulations for new problems in galaxy formation (December 11-15, 2023). Gave a in-person at IAP, Paris, France.\nMIST2023 : Cosmic turbulence and Magnetic fields (September 24 - October 1, 2023) Gave a in-person at Cargese, Corsica, France.\nModelling of Multiphase Astrophysical Media (May 30-June 2, 2023)\nPresented a ~15 min talk about my work. In-person at Aspenstein Castle, near Lake Kochel, Germany\nMPA weekly Institute Seminar (May 15, 2023)\nPresented a ~45 min talk about my work. In-person at MPA, Garching, Germany\n52nd Saas-Fee winter School on “The Circum-Galactic Medium across cosmic time: an observational and modelling challenge”\n(March 19-24, 2023)\nPresented a poster about my work. In-person at Les Diablerets, Switzerland\nTeam meeting for “Observe Local Think Global: What Solar Observations can teach us about Multiphase Plasmas across Astrophysical Scales”\n(March 13-17, 2023)\nPresented an introduction for simulations in ICM/CGM, and my work. In-person at ISSI, Bern, Switzerland\nThe Multiphase Circumgalactic Medium (February 26- March 3, 2023)\nPresented a ~15 min talk about my work. In-person at Ringberg Castle, Germany\nLyman-X Day: ORIGINS workshop (October 5, 2022)\nAttended in-person at European Southern Observatory (ESO), Garching\nThe National Astronomy Meeting (NAM) 2022 (July 11-15, 2022)\nAttended virtually and submitted a poster for the parallel session “Non-equilibrium thermodynamics across scales: from the solar corona to the intracluster medium”.\nGas Flows around Galaxies: ORIGINS workshop (May 24, 2022)\nPresented my work in-person at MPA, Garching"
   },
   {
-    "objectID": "cv/cv_revealjs.html",
-    "href": "cv/cv_revealjs.html",
-    "title": "Hitesh Kishore Das",
+    "objectID": "cv/education_slides.html#timeline-part-1",
+    "href": "cv/education_slides.html#timeline-part-1",
+    "title": "My Timeline",
+    "section": "Timeline (part 1)",
+    "text": "Timeline (part 1)\n{data-auto-animate}\n\n2019 — Start @ MPA\n2021 — Paper I"
+  },
+  {
+    "objectID": "cv/education_slides.html#timeline-part-2",
+    "href": "cv/education_slides.html#timeline-part-2",
+    "title": "My Timeline",
+    "section": "Timeline (part 2)",
+    "text": "Timeline (part 2)\n{data-auto-animate}\n\n2019 — Start @ MPA\n2021 — Paper I\n2023 — MOGLI kickoff"
+  },
+  {
+    "objectID": "cv/education_slides.html#timeline-part-3",
+    "href": "cv/education_slides.html#timeline-part-3",
+    "title": "My Timeline",
+    "section": "Timeline (part 3)",
+    "text": "Timeline (part 3)\n{data-auto-animate}\n\n2019 — Start @ MPA\n2021 — Paper I\n2023 — MOGLI kickoff\n2025 — Defense & NYC"
+  },
+  {
+    "objectID": "blog_list.html",
+    "href": "blog_list.html",
+    "title": "Blog",
     "section": "",
-    "text": "{{embed education_slides.qmd}}"
+    "text": "Blog 1\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBlog 2\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBlog 3\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nField’s length\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSine function\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "research/mhd_multiphase.html",
+    "href": "research/mhd_multiphase.html",
+    "title": "Magnetic Fields in Multiphase Turbulence",
+    "section": "",
+    "text": "Hi there!\nIn this page we show some interesting visualisations from our paper “Magnetic Fields in Multiphase Turbulence: Impacts on Dynamics and Structure” (2307.06411).\nYou can also find a monthly highlight article on MPA website here, about this research.\nThe components, namely, Turbulence, Multiphase gas and Magnetic fields are ubiquitous in astrophysical media. But, there has been only limited work on the intersection of all three parts. This work was an attempt to broaden the understanding at this intersection. In particular, to look at how magnetic fields affect the growth and survival of multiphase gas in a turbulent medium.\nFor this study, we use two sets of simulations: Turbulent Radiative Mixing Layers (TRMLs) and turbulent boxes.\nBelow we show the different visualisations from these two simulations.",
+    "crumbs": [
+      "Home",
+      "Research",
+      "Magnetic Fields in Multiphase Turbulence"
+    ]
+  },
+  {
+    "objectID": "research/mhd_multiphase.html#turbulent-radiative-mixing-layers-trmls",
+    "href": "research/mhd_multiphase.html#turbulent-radiative-mixing-layers-trmls",
+    "title": "Magnetic Fields in Multiphase Turbulence",
+    "section": "Turbulent Radiative Mixing Layers (TRMLs)",
+    "text": "Turbulent Radiative Mixing Layers (TRMLs)\nHere’s a evolution in temperature showing a sliced view of different TRML simulations, along with the magnetic field lines: \nIt shows how the two phases are getting mixed and how the magnetic field topology evolves with time.\nAnd here’s a evolution in scalar quantity showing a sliced view of different TRML simulations, along with the magnetic field lines. This gives some hints towards the origin of gases in the different phases.",
+    "crumbs": [
+      "Home",
+      "Research",
+      "Magnetic Fields in Multiphase Turbulence"
+    ]
+  },
+  {
+    "objectID": "research/mhd_multiphase.html#magneto-hydrodynamic-turbulent-boxes",
+    "href": "research/mhd_multiphase.html#magneto-hydrodynamic-turbulent-boxes",
+    "title": "Magnetic Fields in Multiphase Turbulence",
+    "section": "(Magneto-)Hydrodynamic turbulent boxes",
+    "text": "(Magneto-)Hydrodynamic turbulent boxes\nHere are 3-dimensional views of the evolution of the cold gas after the introduction of a cold gas cloud in driven-turbulence.\nWithout magnetic fields: \nWith magnetic fields: \nThese clearly show the morphological difference between the cold phase in Hydrodynamic and Magnetohydrodynamic turbulence. The cold gas phase is much more filamentary in presence of magnetic fields.\nFor a more stable view, here’s a similar set of videos but as density projection.\n\nThis is for a case where the cloud get’s destroyed \nThe cases where the cloud survives and cold gas grows",
+    "crumbs": [
+      "Home",
+      "Research",
+      "Magnetic Fields in Multiphase Turbulence"
+    ]
+  },
+  {
+    "objectID": "research/thermal_instability.html",
+    "href": "research/thermal_instability.html",
+    "title": "Thermal Instability in 1D",
+    "section": "",
+    "text": "This project was part of my Bachelors thesis at Indian Institute of Science, Bangalore, and was published on MNRAS (here).\nUnfortunately, the figures are not available in dark-mode. So, apologies to dark-mode users. ☹️\nThermal instability has been long proposed as one of the sources for cold gas in different astrophysical media. There have been numerous studies on its evolution and behaviour, including effects of factors like magnetic fields, gravity, rotation, etc. Similarly, in this study we aimed to study the effects of metallicity variations on thermal instability, including the difference in non-linear evolution of thermal instability at different temperatures, in 1D.\nWe found that the growth rates of thermal instability does not explicitly depend on the metallicity. We compared the simulations with theoretical expectations from linear analysis and found a very good agreement in the limits where the theory holds.\n\n\n\nComparison between theoretical and simlated growth rates\n\n\nWhat we did find, was the existence of different temperature regimes, where isobaric (small-scale) perturbations and isochoric (large-scale) perturbations had different behaviour at a given temperture. There were three regimes: * I : Both isobaric (small-scale) and isochoric (large-scale) perturbations are stable * II : Both isobaric (small-scale) and isochoric (large-scale) perturbations are unstable * III : Isobaric (small-scale) perturbations are unstable and isochoric (large-scale) ones are stable\n\n\n\nThe different regimes in temperature\n\n\nRegion I of course does not lead to anything, but interesting behaviour occurs in region II and III.\nIn region II, isochoric perturbations take the lead, and the overall evolution seems isochoric and large-scale in nature. In region III, isobaric perturbations take the lead, and the evolution of small-scale perturbations is dominant.\nThis gives rise to a two different kinds of behaviour in presence of both large-scale and small-scale perturbations, depending on the regime that the temperature falls in.\nIn region III, the behaviour is akin to the shattering of a large-scale perturbations, while in region II the large-scale perturbations contracts monolithically.\n\n\n\nThe overview of what happens in different regimes",
+    "crumbs": [
+      "Home",
+      "Research",
+      "Thermal Instability in 1D"
+    ]
   },
   {
     "objectID": "about.html",
@@ -86,6 +155,95 @@
     ]
   },
   {
+    "objectID": "blogs/shinylive_test.html",
+    "href": "blogs/shinylive_test.html",
+    "title": "Sine function",
+    "section": "",
+    "text": "The plot below allows you to control parameters used in the sine function. Experiment with the period, amplitude, and phase shift to see how they affect the graph.\n#| standalone: true\n#| viewerHeight: 1080\n\nfrom shiny import App, render, ui\nimport numpy as np\nimport matplotlib.pyplot as plt\n\napp_ui = ui.page_fluid(\n    ui.layout_sidebar(\n        ui.sidebar(\n            ui.input_slider(\"period1\", \"Period\", 0.5, 2, 1, step=0.5),\n            ui.input_slider(\"period2\", \"Period\", 0.5, 2, 1, step=0.5),\n            ui.input_slider(\"amplitude1\", \"Amplitude\", 0, 2, 1, step=0.25),\n            ui.input_slider(\"amplitude2\", \"Amplitude\", 0, 2, 1, step=0.25),\n            ui.input_slider(\"shift1\", \"Phase shift\", 0, 2*np.pi, 0, step=0.1),\n            ui.input_slider(\"shift2\", \"Phase shift\", 0, 2*np.pi, 0, step=0.1),\n        ),\n        # ui.panel_main(\n            ui.output_plot(\"plot\"),\n        # ),\n    ),\n)\n\n\ndef server(input, output, session):\n    @output\n    @render.plot(alt=\"Sine function\")\n    def plot():\n        t = np.arange(0.0, 4.0, 0.01)\n        s = input.amplitude1() * np.sin(\n            (2 * np.pi / input.period1()) * (t - input.shift1() / 2)\n        )\n        s += input.amplitude2() * np.sin(\n            (2 * np.pi / input.period2()) * (t - input.shift2() / 2)\n        )\n        fig, ax = plt.subplots()\n        ax.set_ylim([-2, 2])\n        ax.plot(t, s)\n        ax.grid()\n\n\napp = App(app_ui, server)"
+  },
+  {
+    "objectID": "other_stuff/outdoors.html",
+    "href": "other_stuff/outdoors.html",
+    "title": "Outdoors",
+    "section": "",
+    "text": "Pictures from outdoor activities like bouldering, hiking, skiing, etc. Coming soon! :)"
+  },
+  {
+    "objectID": "other_stuff/science.html",
+    "href": "other_stuff/science.html",
+    "title": "Science",
+    "section": "",
+    "text": "This is N-body simulation using Particle-Mesh Method aka NOISE, following the tradition of great astrophysical abbreviations.\nAs the name suggests, this is N-body simulation code, written in Python, that uses the Particle-Mesh method for calculating the gravitational forces.\nThis was part of course project for a Computational Physics course at IISc, during my Bachelors.\nYou can find the documentation here."
+  },
+  {
+    "objectID": "other_stuff/science.html#noise",
+    "href": "other_stuff/science.html#noise",
+    "title": "Science",
+    "section": "",
+    "text": "This is N-body simulation using Particle-Mesh Method aka NOISE, following the tradition of great astrophysical abbreviations.\nAs the name suggests, this is N-body simulation code, written in Python, that uses the Particle-Mesh method for calculating the gravitational forces.\nThis was part of course project for a Computational Physics course at IISc, during my Bachelors.\nYou can find the documentation here."
+  },
+  {
+    "objectID": "other_stuff/science.html#deprojection",
+    "href": "other_stuff/science.html#deprojection",
+    "title": "Science",
+    "section": "Deprojection",
+    "text": "Deprojection\nThis was a super short dive-in into deprojection. On the sky we can only see a 2D projection of something 3D. In absence of any extra information, one has to retrieve the 3D distribution from this 2D projections, and that is called Deprojecting.\nHere’s I have tried my hands at doing a very simple deprojection from a projection of a known 3D distribution.\nYou can get to the light-themed version of the page here."
+  },
+  {
+    "objectID": "other_stuff.html",
+    "href": "other_stuff.html",
+    "title": "Other Stuff",
+    "section": "",
+    "text": "This is N-body simulation using Particle-Mesh Method aka NOISE, following the tradition of great astrophysical abbreviations.\nAs the name suggests, this is N-body simulation code, written in Python, that uses the Particle-Mesh method for calculating the gravitational forces.\nThis was part of course project for a Computational Physics course at IISc, during my Bachelors.\nYou can find the documentation here.",
+    "crumbs": [
+      "Home",
+      "Other stuff"
+    ]
+  },
+  {
+    "objectID": "other_stuff.html#noise",
+    "href": "other_stuff.html#noise",
+    "title": "Other Stuff",
+    "section": "",
+    "text": "This is N-body simulation using Particle-Mesh Method aka NOISE, following the tradition of great astrophysical abbreviations.\nAs the name suggests, this is N-body simulation code, written in Python, that uses the Particle-Mesh method for calculating the gravitational forces.\nThis was part of course project for a Computational Physics course at IISc, during my Bachelors.\nYou can find the documentation here.",
+    "crumbs": [
+      "Home",
+      "Other stuff"
+    ]
+  },
+  {
+    "objectID": "other_stuff.html#deprojection",
+    "href": "other_stuff.html#deprojection",
+    "title": "Other Stuff",
+    "section": "Deprojection",
+    "text": "Deprojection\nThis was a super short dive-in into deprojection. On the sky we can only see a 2D projection of something 3D. In absence of any extra information, one has to retrieve the 3D distribution from this 2D projections, and that is called Deprojecting.\nHere’s I have tried my hands at doing a very simple deprojection from a projection of a known 3D distribution.\nYou can get to the light-themed version of the page here.",
+    "crumbs": [
+      "Home",
+      "Other stuff"
+    ]
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "​",
+    "section": "",
+    "text": "Email\n  \n  \n    \n     Twitter\n  \n  \n    \n     Github\n  \n  \n    \n     Publications\n  \n  \n    \n     CV\n  \n\n      \n\nHi!\nI’m an Astrophysicist with broad research interest in Computational Astrophysics. To be more specific, I work with (Magneto-)Hydrodynamic simulations to study the behaviour of Astrophysical mediums, especially the Circumgalactic medium.\nThis includes looking into processes like thermal instability, turbulence, magnetic fields, etc.\nCurrently, I am part of Drummond Fielding’s group at New York University as a Postdoctoral Associate. I recently defended my PhD thesis in Max Gronke’s Multiphase Gas Group at Max Planck Institute for Astrophysics (MPA), Garching.*\n(*Max’s Multiphase Gas Group has now moved to ARI at Heidelberg university).\n\n\n\n  \n    \n    \n    \n      \n      \n        \n        \n          \n             —  Postdoctoral Associate,  New York University, NYC  with Drummond Fielding\n          \n          \n        \n      \n      \n      \n        \n        \n          \n             —  PhD in Astronomy,  Max Planck Institute for Astrophysics, Garching, Germany  Thesis Advisor: Max Gronke\n          \n          \n        \n      \n      \n      \n        \n        \n          \n            — Masters of Science,  Indian Institute of Science, Bangalore, India  Thesis Advisor: Prateek Sharma\n          \n          \n        \n      \n      \n      \n        \n        \n          \n             — Bachelors of Science (Research),  Indian Institute of Science, Bangalore, India\n          \n          \n        \n      \n      \n      \n        \n        \n          \n             — School education  Mostly in Kendriya Vidyalaya No. 4, Bhubaneswar, India  Advisors: Some great teachers & parents :P\n          \n          \n        \n      \n    \n  \nFor more about my academic history, check out my Curriculum Vitae.\n\n\n\nAll the contents are arranged into different tabs on the top navigation bar.\nYou can find the details of my academic research in the Research section.\nThe Other Stuff section contains my other short and quick projects, my other hobbies or anything I find interesting and would like to share.\n Finally, the About page is all about (you guessed it!) me. 😄"
+  },
+  {
+    "objectID": "index.html#whats-on-this-website",
+    "href": "index.html#whats-on-this-website",
+    "title": "​",
+    "section": "",
+    "text": "All the contents are arranged into different tabs on the top navigation bar.\nYou can find the details of my academic research in the Research section.\nThe Other Stuff section contains my other short and quick projects, my other hobbies or anything I find interesting and would like to share.\n Finally, the About page is all about (you guessed it!) me. 😄"
+  },
+  {
+    "objectID": "other_stuff/music.html",
+    "href": "other_stuff/music.html",
+    "title": "Music",
+    "section": "",
+    "text": "Snippets from my exploration of the musical landscape. Coming soon! :)"
+  },
+  {
     "objectID": "blogs/fields_length.html",
     "href": "blogs/fields_length.html",
     "title": "Field’s length",
@@ -119,75 +277,6 @@
     "title": "Research",
     "section": "Thermal Instability in 1D",
     "text": "Thermal Instability in 1D\nThermal instability (TI) is a process that can lead to multiphasa gas in Astrophysical mediums. In this project, that was part of my Bachelors thesis, we studied the linear and non-linear evolution of TI in 1D.\nWe looked at the dependence of this evolution on metallicity variation and the temperature, with some very interesting results.\nThis project lead to a paper which has been published on MNRAS, Volume 502, Issue 4, April 2021. The online version is available here. It is also available on arXiv at 2009.11317."
-  },
-  {
-    "objectID": "other_stuff/outdoors.html",
-    "href": "other_stuff/outdoors.html",
-    "title": "Outdoors",
-    "section": "",
-    "text": "Pictures from outdoor activities like bouldering, hiking, skiing, etc. Coming soon! :)"
-  },
-  {
-    "objectID": "other_stuff/music.html",
-    "href": "other_stuff/music.html",
-    "title": "Music",
-    "section": "",
-    "text": "Snippets from my exploration of the musical landscape. Coming soon! :)"
-  },
-  {
-    "objectID": "research/thermal_instability.html",
-    "href": "research/thermal_instability.html",
-    "title": "Thermal Instability in 1D",
-    "section": "",
-    "text": "This project was part of my Bachelors thesis at Indian Institute of Science, Bangalore, and was published on MNRAS (here).\nUnfortunately, the figures are not available in dark-mode. So, apologies to dark-mode users. ☹️\nThermal instability has been long proposed as one of the sources for cold gas in different astrophysical media. There have been numerous studies on its evolution and behaviour, including effects of factors like magnetic fields, gravity, rotation, etc. Similarly, in this study we aimed to study the effects of metallicity variations on thermal instability, including the difference in non-linear evolution of thermal instability at different temperatures, in 1D.\nWe found that the growth rates of thermal instability does not explicitly depend on the metallicity. We compared the simulations with theoretical expectations from linear analysis and found a very good agreement in the limits where the theory holds.\n\n\n\nComparison between theoretical and simlated growth rates\n\n\nWhat we did find, was the existence of different temperature regimes, where isobaric (small-scale) perturbations and isochoric (large-scale) perturbations had different behaviour at a given temperture. There were three regimes: * I : Both isobaric (small-scale) and isochoric (large-scale) perturbations are stable * II : Both isobaric (small-scale) and isochoric (large-scale) perturbations are unstable * III : Isobaric (small-scale) perturbations are unstable and isochoric (large-scale) ones are stable\n\n\n\nThe different regimes in temperature\n\n\nRegion I of course does not lead to anything, but interesting behaviour occurs in region II and III.\nIn region II, isochoric perturbations take the lead, and the overall evolution seems isochoric and large-scale in nature. In region III, isobaric perturbations take the lead, and the evolution of small-scale perturbations is dominant.\nThis gives rise to a two different kinds of behaviour in presence of both large-scale and small-scale perturbations, depending on the regime that the temperature falls in.\nIn region III, the behaviour is akin to the shattering of a large-scale perturbations, while in region II the large-scale perturbations contracts monolithically.\n\n\n\nThe overview of what happens in different regimes",
-    "crumbs": [
-      "Home",
-      "Research",
-      "Thermal Instability in 1D"
-    ]
-  },
-  {
-    "objectID": "research/mhd_multiphase.html",
-    "href": "research/mhd_multiphase.html",
-    "title": "Magnetic Fields in Multiphase Turbulence",
-    "section": "",
-    "text": "Hi there!\nIn this page we show some interesting visualisations from our paper “Magnetic Fields in Multiphase Turbulence: Impacts on Dynamics and Structure” (2307.06411).\nThe components, namely, Turbulence, Multiphase gas and Magnetic fields are ubiquitous in astrophysical media. But, there has been only limited work on the intersection of all three parts. This work was an attempt to broaden the understanding at this intersection. In particular, to look at how magnetic fields affect the growth and survival of multiphase gas in a turbulent medium.\nFor this study, we use two sets of simulations: Turbulent Radiative Mixing Layers (TRMLs) and turbulent boxes.\nBelow we show the different visualisations from these two simulations.",
-    "crumbs": [
-      "Home",
-      "Research",
-      "Magnetic Fields in Multiphase Turbulence"
-    ]
-  },
-  {
-    "objectID": "research/mhd_multiphase.html#turbulent-radiative-mixing-layers-trmls",
-    "href": "research/mhd_multiphase.html#turbulent-radiative-mixing-layers-trmls",
-    "title": "Magnetic Fields in Multiphase Turbulence",
-    "section": "Turbulent Radiative Mixing Layers (TRMLs)",
-    "text": "Turbulent Radiative Mixing Layers (TRMLs)\nHere’s a evolution in temperature showing a sliced view of different TRML simulations, along with the magnetic field lines: \nIt shows how the two phases are getting mixed and how the magnetic field topology evolves with time.\nAnd here’s a evolution in scalar quantity showing a sliced view of different TRML simulations, along with the magnetic field lines. This gives some hints towards the origin of gases in the different phases.",
-    "crumbs": [
-      "Home",
-      "Research",
-      "Magnetic Fields in Multiphase Turbulence"
-    ]
-  },
-  {
-    "objectID": "research/mhd_multiphase.html#magneto-hydrodynamic-turbulent-boxes",
-    "href": "research/mhd_multiphase.html#magneto-hydrodynamic-turbulent-boxes",
-    "title": "Magnetic Fields in Multiphase Turbulence",
-    "section": "(Magneto-)Hydrodynamic turbulent boxes",
-    "text": "(Magneto-)Hydrodynamic turbulent boxes\nHere are 3-dimensional views of the evolution of the cold gas after the introduction of a cold gas cloud in driven-turbulence.\nWithout magnetic fields: \nWith magnetic fields: \nThese clearly show the morphological difference between the cold phase in Hydrodynamic and Magnetohydrodynamic turbulence. The cold gas phase is much more filamentary in presence of magnetic fields.\nFor a more stable view, here’s a similar set of videos but as density projection.\n\nThis is for a case where the cloud get’s destroyed \nThe cases where the cloud survives and cold gas grows",
-    "crumbs": [
-      "Home",
-      "Research",
-      "Magnetic Fields in Multiphase Turbulence"
-    ]
-  },
-  {
-    "objectID": "other_stuff_v2.html",
-    "href": "other_stuff_v2.html",
-    "title": "Other Stuff",
-    "section": "",
-    "text": "Categories\nWhat would you like to explore first?\n\n\n\n  \n    \n      \n        Science \n      \n       \n    \n    \n      \n    \n    \n    \n    \n  \n\n  \n    \n      \n        Outdoors \n      \n       \n    \n    \n      \n    \n    \n    \n    \n  \n\n  \n    \n      \n        Music \n      \n       \n    \n    \n      \n    \n    \n    \n    \n  \n\n\n\nNo matching items"
   },
   {
     "objectID": "research/mogli_subgrid.html",
@@ -226,93 +315,11 @@
     ]
   },
   {
-    "objectID": "other_stuff.html",
-    "href": "other_stuff.html",
+    "objectID": "other_stuff_v2.html",
+    "href": "other_stuff_v2.html",
     "title": "Other Stuff",
     "section": "",
-    "text": "This is N-body simulation using Particle-Mesh Method aka NOISE, following the tradition of great astrophysical abbreviations.\nAs the name suggests, this is N-body simulation code, written in Python, that uses the Particle-Mesh method for calculating the gravitational forces.\nThis was part of course project for a Computational Physics course at IISc, during my Bachelors.\nYou can find the documentation here.",
-    "crumbs": [
-      "Home",
-      "Other stuff"
-    ]
-  },
-  {
-    "objectID": "other_stuff.html#noise",
-    "href": "other_stuff.html#noise",
-    "title": "Other Stuff",
-    "section": "",
-    "text": "This is N-body simulation using Particle-Mesh Method aka NOISE, following the tradition of great astrophysical abbreviations.\nAs the name suggests, this is N-body simulation code, written in Python, that uses the Particle-Mesh method for calculating the gravitational forces.\nThis was part of course project for a Computational Physics course at IISc, during my Bachelors.\nYou can find the documentation here.",
-    "crumbs": [
-      "Home",
-      "Other stuff"
-    ]
-  },
-  {
-    "objectID": "other_stuff.html#deprojection",
-    "href": "other_stuff.html#deprojection",
-    "title": "Other Stuff",
-    "section": "Deprojection",
-    "text": "Deprojection\nThis was a super short dive-in into deprojection. On the sky we can only see a 2D projection of something 3D. In absence of any extra information, one has to retrieve the 3D distribution from this 2D projections, and that is called Deprojecting.\nHere’s I have tried my hands at doing a very simple deprojection from a projection of a known 3D distribution.\nYou can get to the light-themed version of the page here.",
-    "crumbs": [
-      "Home",
-      "Other stuff"
-    ]
-  },
-  {
-    "objectID": "other_stuff/science.html",
-    "href": "other_stuff/science.html",
-    "title": "Science",
-    "section": "",
-    "text": "This is N-body simulation using Particle-Mesh Method aka NOISE, following the tradition of great astrophysical abbreviations.\nAs the name suggests, this is N-body simulation code, written in Python, that uses the Particle-Mesh method for calculating the gravitational forces.\nThis was part of course project for a Computational Physics course at IISc, during my Bachelors.\nYou can find the documentation here."
-  },
-  {
-    "objectID": "other_stuff/science.html#noise",
-    "href": "other_stuff/science.html#noise",
-    "title": "Science",
-    "section": "",
-    "text": "This is N-body simulation using Particle-Mesh Method aka NOISE, following the tradition of great astrophysical abbreviations.\nAs the name suggests, this is N-body simulation code, written in Python, that uses the Particle-Mesh method for calculating the gravitational forces.\nThis was part of course project for a Computational Physics course at IISc, during my Bachelors.\nYou can find the documentation here."
-  },
-  {
-    "objectID": "other_stuff/science.html#deprojection",
-    "href": "other_stuff/science.html#deprojection",
-    "title": "Science",
-    "section": "Deprojection",
-    "text": "Deprojection\nThis was a super short dive-in into deprojection. On the sky we can only see a 2D projection of something 3D. In absence of any extra information, one has to retrieve the 3D distribution from this 2D projections, and that is called Deprojecting.\nHere’s I have tried my hands at doing a very simple deprojection from a projection of a known 3D distribution.\nYou can get to the light-themed version of the page here."
-  },
-  {
-    "objectID": "blog_list.html",
-    "href": "blog_list.html",
-    "title": "Blog",
-    "section": "",
-    "text": "Blog 1\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBlog 2\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBlog 3\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nField’s length\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSine function\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "blogs/shinylive_test.html",
-    "href": "blogs/shinylive_test.html",
-    "title": "Sine function",
-    "section": "",
-    "text": "The plot below allows you to control parameters used in the sine function. Experiment with the period, amplitude, and phase shift to see how they affect the graph.\n#| standalone: true\n#| viewerHeight: 1080\n\nfrom shiny import App, render, ui\nimport numpy as np\nimport matplotlib.pyplot as plt\n\napp_ui = ui.page_fluid(\n    ui.layout_sidebar(\n        ui.sidebar(\n            ui.input_slider(\"period1\", \"Period\", 0.5, 2, 1, step=0.5),\n            ui.input_slider(\"period2\", \"Period\", 0.5, 2, 1, step=0.5),\n            ui.input_slider(\"amplitude1\", \"Amplitude\", 0, 2, 1, step=0.25),\n            ui.input_slider(\"amplitude2\", \"Amplitude\", 0, 2, 1, step=0.25),\n            ui.input_slider(\"shift1\", \"Phase shift\", 0, 2*np.pi, 0, step=0.1),\n            ui.input_slider(\"shift2\", \"Phase shift\", 0, 2*np.pi, 0, step=0.1),\n        ),\n        # ui.panel_main(\n            ui.output_plot(\"plot\"),\n        # ),\n    ),\n)\n\n\ndef server(input, output, session):\n    @output\n    @render.plot(alt=\"Sine function\")\n    def plot():\n        t = np.arange(0.0, 4.0, 0.01)\n        s = input.amplitude1() * np.sin(\n            (2 * np.pi / input.period1()) * (t - input.shift1() / 2)\n        )\n        s += input.amplitude2() * np.sin(\n            (2 * np.pi / input.period2()) * (t - input.shift2() / 2)\n        )\n        fig, ax = plt.subplots()\n        ax.set_ylim([-2, 2])\n        ax.plot(t, s)\n        ax.grid()\n\n\napp = App(app_ui, server)"
-  },
-  {
-    "objectID": "cv/education_slides.html#timeline-part-1",
-    "href": "cv/education_slides.html#timeline-part-1",
-    "title": "My Timeline",
-    "section": "Timeline (part 1)",
-    "text": "Timeline (part 1)\n{data-auto-animate}\n\n2019 — Start @ MPA\n2021 — Paper I"
-  },
-  {
-    "objectID": "cv/education_slides.html#timeline-part-2",
-    "href": "cv/education_slides.html#timeline-part-2",
-    "title": "My Timeline",
-    "section": "Timeline (part 2)",
-    "text": "Timeline (part 2)\n{data-auto-animate}\n\n2019 — Start @ MPA\n2021 — Paper I\n2023 — MOGLI kickoff"
-  },
-  {
-    "objectID": "cv/education_slides.html#timeline-part-3",
-    "href": "cv/education_slides.html#timeline-part-3",
-    "title": "My Timeline",
-    "section": "Timeline (part 3)",
-    "text": "Timeline (part 3)\n{data-auto-animate}\n\n2019 — Start @ MPA\n2021 — Paper I\n2023 — MOGLI kickoff\n2025 — Defense & NYC"
+    "text": "Categories\nWhat would you like to explore first?\n\n\n\n  \n    \n      \n        Science \n      \n       \n    \n    \n      \n    \n    \n    \n    \n  \n\n  \n    \n      \n        Outdoors \n      \n       \n    \n    \n      \n    \n    \n    \n    \n  \n\n  \n    \n      \n        Music \n      \n       \n    \n    \n      \n    \n    \n    \n    \n  \n\n\n\nNo matching items"
   },
   {
     "objectID": "cv/cv_old.html",
@@ -390,6 +397,13 @@
     "title": "Hitesh Kishore Das",
     "section": "Worked with:",
     "text": "Worked with:\n\nDr. Max Gronke\nMax Planck Institute for Astrophysics, Garching, Germany\nEmail: maxbg[AT]mpa-garching.mpg.de\nWebsite: max.lyman-alpha.com\n\n\nProf. Prateek Sharma\nPhysical Sciences\nIndian Institute of Science, Bangalore, India\nEmail: prateek[AT]iisc.ac.in\nWebsite: www.physics.iisc.ernet.in/~prateek\n\n\nDr. Rainer Weinberger\nLeibniz Instiute for Astrophyiscs (AIP), Potsdam, Germany Email: rweinberger[AT]aip.de\nWebsite: rainerweinberger.com\n\n\nAssoc. Prof. Massimo Pica Ciamarra\nNanyang Associate Professor\nSchool of Physical & Mathematical Sciences\nNanyang Technological University, Singapore\nEmail: massimo[AT]ntu.edu.sg\nWebsite: sites.google.com/site/ciamarragroup\n\n\nAssoc. Prof. Subroto Mukerjee\nPhysical Sciences\nIndian Institute of Science, Bangalore, India\nEmail: smukerjee[AT]iisc.ac.in\nWebsite: physics.iisc.ernet.in/~smukerjee\n\n\nAsst. Prof. Jyothsna Rani Komaragiri\nCentre for High Energy Physics\nIndian Institute of Science, Bangalore, India\nEmail: jyothsna.komaragiri[AT]gmail.com\nWebsite: chep.iisc.ac.in/Personnel/pages/jyothsna"
+  },
+  {
+    "objectID": "cv/cv_revealjs.html",
+    "href": "cv/cv_revealjs.html",
+    "title": "Hitesh Kishore Das",
+    "section": "",
+    "text": "{{embed education_slides.qmd}}"
   },
   {
     "objectID": "cv/cv.html",
@@ -474,19 +488,5 @@
     "title": "Hitesh Kishore Das",
     "section": "Worked with",
     "text": "Worked with\n\nDr. Max Gronke\nMax Planck Institute for Astrophysics, Garching, Germany\nEmail: maxbg[AT]mpa-garching.mpg.de\nWebsite: max.lyman-alpha.com\n\n\nProf. Prateek Sharma\nPhysical Sciences\nIndian Institute of Science, Bangalore, India\nEmail: prateek[AT]iisc.ac.in\nWebsite: www.physics.iisc.ernet.in/~prateek\n\n\nDr. Rainer Weinberger\nLeibniz Instiute for Astrophyiscs (AIP), Potsdam, Germany\nEmail: rweinberger[AT]aip.de\nWebsite: rainerweinberger.com\n\n\nAssoc. Prof. Massimo Pica Ciamarra\nNanyang Associate Professor\nSchool of Physical & Mathematical Sciences\nNanyang Technological University, Singapore\nEmail: massimo[AT]ntu.edu.sg\nWebsite: sites.google.com/site/ciamarragroup"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "​",
-    "section": "",
-    "text": "Email\n  \n  \n    \n     Twitter\n  \n  \n    \n     Github\n  \n  \n    \n     Publications\n  \n  \n    \n     CV\n  \n\n      \n\nHi!\nI’m an Astrophysicist with broad research interest in Computational Astrophysics. To be more specific, I work with (Magneto-)Hydrodynamic simulations to study the behaviour of Astrophysical mediums, especially the Circumgalactic medium.\nThis includes looking into processes like thermal instability, turbulence, magnetic fields, etc.\nCurrently, I am part of Drummond Fielding’s group at New York University as a Postdoctoral Associate. I recently defended my PhD thesis in Max Gronke’s Multiphase Gas Group at Max Planck Institute for Astrophysics (MPA), Garching.*\n(*Max’s Multiphase Gas Group has now moved to ARI at Heidelberg university).\n\n\n\n  \n    \n    \n    \n      \n      \n        \n        \n          \n             —  Postdoctoral Associate,  New York University, NYC  with Drummond Fielding\n          \n          \n        \n      \n      \n      \n        \n        \n          \n             —  PhD in Astronomy,  Max Planck Institute for Astrophysics, Garching, Germany  Thesis Advisor: Max Gronke\n          \n          \n        \n      \n      \n      \n        \n        \n          \n            — Masters of Science,  Indian Institute of Science, Bangalore, India  Thesis Advisor: Prateek Sharma\n          \n          \n        \n      \n      \n      \n        \n        \n          \n             — Bachelors of Science (Research),  Indian Institute of Science, Bangalore, India\n          \n          \n        \n      \n      \n      \n        \n        \n          \n             — School education  Mostly in Kendriya Vidyalaya No. 4, Bhubaneswar, India  Advisors: Some great teachers & parents :P\n          \n          \n        \n      \n    \n  \nFor more about my academic history, check out my Curriculum Vitae.\n\n\n\nAll the contents are arranged into different tabs on the top navigation bar.\nYou can find the details of my academic research in the Research section.\nThe Other Stuff section contains my other short and quick projects, my other hobbies or anything I find interesting and would like to share.\n Finally, the About page is all about (you guessed it!) me. 😄"
-  },
-  {
-    "objectID": "index.html#whats-on-this-website",
-    "href": "index.html#whats-on-this-website",
-    "title": "​",
-    "section": "",
-    "text": "All the contents are arranged into different tabs on the top navigation bar.\nYou can find the details of my academic research in the Research section.\nThe Other Stuff section contains my other short and quick projects, my other hobbies or anything I find interesting and would like to share.\n Finally, the About page is all about (you guessed it!) me. 😄"
   }
 ]
