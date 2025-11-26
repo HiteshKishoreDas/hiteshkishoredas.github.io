@@ -7,3 +7,33 @@
     height: 25vh;
     object-fit: cover;
 }
+
+/* Tighten spacing between the banner and page content */
+#title-block-header {
+    margin-block-end: 0 !important;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+#title-block-header .quarto-title-banner {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+main.content.quarto-banner-title-block {
+    margin-top: 0 !important;
+    padding-top: 0 !important;
+}
+
+/* Override Solana about template padding and pull content upward */
+body.quarto-dark #quarto-document-content .quarto-about-solana,
+body.quarto-light #quarto-document-content .quarto-about-solana,
+#quarto-document-content .quarto-about-solana {
+    margin-top: -1.5rem !important;
+    padding-top: 0 !important;
+}
+
+#quarto-document-content .quarto-about-solana .about-contents {
+    margin-top: 0 !important;
+    padding-top: 0 !important;
+}
