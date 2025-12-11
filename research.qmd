@@ -7,7 +7,7 @@ toc: true
 A list of my publications can be found [here](https://ui.adsabs.harvard.edu/public-libraries/rSxyW3mIQvK8ArHKfTxYcQ).
 
 ::: {.column-margin}
-![](../images/MOGLI_logo.png) 
+![](../images/MOGLI_logo.svg) 
 :::
 ## [MOGLI: Model for Multiphase Gas using Multifluid hydrodynamics](research/mogli_subgrid.qmd)
 
