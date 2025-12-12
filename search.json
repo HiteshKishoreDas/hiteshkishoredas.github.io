@@ -295,7 +295,7 @@
     "href": "research/mogli_subgrid.html#mogli-with-100-unresolved-clouds",
     "title": "MOGLI: Model for Multiphase Gas using Multifluid hydrodynamics",
     "section": "MOGLI with 100 unresolved clouds",
-    "text": "MOGLI with 100 unresolved clouds\nHere’s showcase an simulation which would required a resolution upwards of \\(3000^3\\) cells, if done with the tranditional resolved single-fluid method.\nBut, with MOGLI, we can get an equivalent simulation with just \\(64^3\\) cells.\nWe are simulating a turbulent box with \\(64^3\\) cells and 100 unresolved clouds of radius \\(L_\\mathrm{box}/256\\):",
+    "text": "MOGLI with 100 unresolved clouds\nHere’s showcase an simulation which would required a resolution upwards of \\(3000^3\\) cells, if done with the tranditional resolved single-fluid method.\nBut, with MOGLI, we can get an equivalent simulation with just \\(64^3\\) cells.\nWe are simulating a turbulent box with \\(64^3\\) cells and 100 unresolved clouds of radius \\(L_\\mathrm{box}/256\\):\n\nAnd here’s a volume rendering of the same simulation:",
     "crumbs": [
       "Home",
       "Research",
