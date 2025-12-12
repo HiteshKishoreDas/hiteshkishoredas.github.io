@@ -52,6 +52,10 @@ We are simulating a turbulent box with $64^3$ cells and 100 unresolved clouds of
 
 {{< video https://www.youtube.com/embed/o0lmaBVV9zI >}}
 
+And here's a volume rendering of the same simulation:
+
+{{< video https://www.youtube.com/embed/J37JgT7YHcM >}}
+
 ## Reduced **MOGLI**, and 1000 unresolved clouds
 
 In this simulation, we are showing the evolution of a similar simulation setup as the previous section. **But** this time with a reduced **MOGLI** mode, i.e. cold gas growth is turned off. The cold gas is just destroyed via turbulent mixing and there are drag forces. 
